@@ -8,8 +8,8 @@
   "scope": "/american-english-90-days-interactive/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f5f6ff",
-  "theme_color": "#4f46e5",
+  "background_color": "#0A2459",
+  "theme_color": "#0A2459",
   "icons": [
     {
       "src": "icons/icon-192.png",

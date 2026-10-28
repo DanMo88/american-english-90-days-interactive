@@ -1,0 +1,24 @@
+/* Launch splash — reusable: change the --sp-* variables + logo/title files per app */
+#splash{--sp-bg1:#1C3F91;--sp-bg2:#0A2459;--sp-bg3:#06163a;--sp-accent:#C8102E;--sp-ink:#fff;--sp-stripe:rgba(255,255,255,.05);--sp-star:rgba(255,255,255,.55);
+ position:fixed;inset:0;z-index:9999;direction:ltr;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;
+ padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+ background:radial-gradient(circle at 50% 45%,rgba(255,255,255,.13) 0,rgba(255,255,255,0) min(60vw,34vh)),radial-gradient(120% 80% at 50% 42%,var(--sp-bg1) 0%,var(--sp-bg2) 55%,var(--sp-bg3) 100%);color:var(--sp-ink);
+ font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;transition:opacity .6s ease,visibility .6s;-webkit-user-select:none;user-select:none}
+#splash.sp-out{opacity:0;visibility:hidden;pointer-events:none}
+#splash .sp-stripes{position:absolute;inset:auto 0 0 0;height:38%;background:repeating-linear-gradient(180deg,var(--sp-stripe) 0 14px,transparent 14px 28px);
+ -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%);mask-image:linear-gradient(to top,#000 0%,transparent 100%)}
+#splash .sp-stars{position:absolute;inset:0;pointer-events:none}
+#splash .sp-stars i{position:absolute;width:var(--s,6px);height:var(--s,6px);background:var(--sp-star);
+ clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);animation:sp-tw 2.4s ease-in-out infinite alternate}
+#splash .sp-main{position:relative;display:flex;flex-direction:column;align-items:center;gap:min(3.2vh,5vw)}
+#splash .sp-logo{width:min(52vw,30vh,260px);height:auto;aspect-ratio:1;border-radius:22.5%;box-shadow:0 18px 50px rgba(0,0,0,.45),0 0 0 1px rgba(255,255,255,.12);
+ animation:sp-in .9s cubic-bezier(.2,.8,.2,1) both}
+#splash .sp-title{width:min(48vw,28vh,250px);height:auto;animation:sp-up .8s .35s cubic-bezier(.2,.8,.2,1) both}
+#splash .sp-bar{width:min(14vw,48px);height:4px;border-radius:2px;background:var(--sp-accent);margin-top:calc(-1 * min(1.2vh,2vw));animation:sp-up .8s .5s both}
+#splash .sp-credit{position:absolute;left:0;right:0;bottom:calc(env(safe-area-inset-bottom) + max(4.5vh,22px));text-align:center;
+ font-size:clamp(12px,1.9vh,15px);letter-spacing:.06em;opacity:.78;animation:sp-up .8s .7s both}
+#splash .sp-credit b{font-weight:700;opacity:1}
+@keyframes sp-in{from{opacity:0;transform:scale(.82)}to{opacity:1;transform:none}}
+@keyframes sp-up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes sp-tw{from{opacity:.25}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){#splash,#splash *{animation:none!important;transition:none!important}}
