@@ -1,6 +1,6 @@
 // HTML: network-first · JSON data: network-first · css/js/manifest: stale-while-revalidate
 // media (audio/img/fonts/icons): cache-on-demand · cross-origin: never touched
-const V = 'ae90i-v5';
+const V = 'ae90i-v6';
 const SHELL = ['./', 'index.html', 'style.css?v=5', 'app.js?v=5', 'install.js?v=1', 'manifest.webmanifest', 'data/index.json',
   'fonts/Vazirmatn-Regular.woff2', 'fonts/Vazirmatn-Bold.woff2', 'fonts/Vazirmatn-Black.woff2',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-192.png', 'icons/maskable-512.png', 'icons/apple-touch-icon.png', 'audio/sfx-correct.mp3', 'audio/sfx-wrong.mp3'];
