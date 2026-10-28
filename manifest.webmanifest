@@ -1,0 +1,44 @@
+{
+  "id": "/american-english-90-days-interactive/",
+  "name": "انگلیسی آمریکایی در ۹۰ روز",
+  "short_name": "انگلیسی ۹۰ روزه",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "/american-english-90-days-interactive/?source=pwa",
+  "scope": "/american-english-90-days-interactive/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f6ff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
