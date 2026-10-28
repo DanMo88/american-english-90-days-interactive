@@ -1,0 +1,399 @@
+{
+"day": 81,
+"level": "B1",
+"title": "Black Friday",
+"fa_title": "بلک فرایدی",
+"audio": "audio/day81.mp3",
+"img": "img/day81.webp",
+"sents": [
+{
+"p": 0,
+"t": "The day after Thanksgiving is called Black Friday.",
+"s": 1.99
+},
+{
+"p": 0,
+"t": "It’s the day when holiday shopping begins, and stores offer huge sales.",
+"s": 6.72
+},
+{
+"p": 1,
+"t": "Carlos, who loves a good deal, wanted a new TV.",
+"s": 12.0
+},
+{
+"p": 1,
+"t": "“The store that has the best price opens at five in the morning,” he said.",
+"s": 15.89
+},
+{
+"p": 1,
+"t": "“If we get there early, we’ll get one.”",
+"s": 20.45
+},
+{
+"p": 2,
+"t": "At four thirty, it was freezing, and there were already two hundred people in line.",
+"s": 23.18
+},
+{
+"p": 2,
+"t": "A man who had brought a camping chair told us he had been there since midnight.",
+"s": 28.58
+},
+{
+"p": 3,
+"t": "When the doors opened, people ran in as if it were a race.",
+"s": 33.34
+},
+{
+"p": 3,
+"t": "Carlos found the TV that he wanted, but there were only three left.",
+"s": 37.16
+},
+{
+"p": 3,
+"t": "He grabbed one just before another man did.",
+"s": 41.45
+},
+{
+"p": 3,
+"t": "“Sorry!” Carlos said, and the man laughed.",
+"s": 44.47
+},
+{
+"p": 3,
+"t": "“Merry Christmas!”",
+"s": 47.78
+},
+{
+"p": 4,
+"t": "On Saturday, I worked at the bookstore.",
+"s": 49.58
+},
+{
+"p": 4,
+"t": "It was Small Business Saturday, a day when people are encouraged to shop at stores that are owned by their neighbors.",
+"s": 52.4
+},
+{
+"p": 4,
+"t": "We had more customers than ever, and many of them were people who had heard our podcast.",
+"s": 59.58
+},
+{
+"p": 5,
+"t": "Tina, who has worked here for six years, said it was the busiest day she could remember.",
+"s": 64.77
+},
+{
+"p": 6,
+"t": "That evening, I counted the money.",
+"s": 70.68
+},
+{
+"p": 6,
+"t": "We had sold more books than on any other day this year.",
+"s": 72.94
+},
+{
+"p": 6,
+"t": "Mr. Lee called to say thank you, and I went to bed at eight.",
+"s": 76.24
+}
+],
+"comp": [
+{
+"q": "When is Black Friday?",
+"o": [
+"the day after Thanksgiving",
+"the day before Thanksgiving",
+"on Christmas Day",
+"in January"
+],
+"a": 0,
+"fa": "بلک فرایدی کی است؟"
+},
+{
+"q": "What did Carlos want to buy?",
+"o": [
+"a camping chair",
+"some books",
+"a new phone",
+"a new TV"
+],
+"a": 3,
+"fa": "کارلوس می‌خواست چه چیزی بخرد؟"
+},
+{
+"q": "How long had the man with the camping chair been waiting?",
+"o": [
+"since midnight",
+"since four thirty",
+"for two days",
+"for one hour"
+],
+"a": 0,
+"fa": "مردی که صندلی کمپینگ آورده بود چه مدت منتظر بود؟"
+},
+{
+"q": "What does “a good deal” mean?",
+"o": [
+"a card game",
+"a long line",
+"a good price",
+"a big store"
+],
+"a": 2,
+"fa": "«a good deal» یعنی چه؟"
+},
+{
+"q": "What is Small Business Saturday?",
+"o": [
+"a day when all stores are closed",
+"a day to shop at local stores",
+"a day for online shopping",
+"a holiday for workers"
+],
+"a": 1,
+"fa": "«Small Business Saturday» چیست؟"
+},
+{
+"q": "Why did many customers come to the bookstore?",
+"o": [
+"It was the only store open.",
+"The books were free.",
+"They had heard the podcast.",
+"Mr. Lee was there."
+],
+"a": 2,
+"fa": "چرا مشتری‌های زیادی به کتاب‌فروشی آمدند؟"
+}
+],
+"words": [
+{
+"w": "Black Friday",
+"ipa": "/ˌblæk ˈfraɪdeɪ/",
+"fa": "بلک فرایدی (روز حراج بزرگ)",
+"ex": "The day after Thanksgiving is called Black Friday.",
+"book": 1,
+"id": "black-friday",
+"m": [
+37,
+49
+]
+},
+{
+"w": "huge",
+"ipa": "/hjudʒ/",
+"fa": "بسیار بزرگ",
+"ex": "It’s the day when holiday shopping begins, and stores offer huge sales.",
+"book": 1,
+"id": "huge",
+"m": [
+60,
+64
+]
+},
+{
+"w": "deal",
+"ipa": "/dil/",
+"fa": "معامله‌ی خوب، خرید به‌صرفه",
+"ex": "Carlos, who loves a good deal, wanted a new TV.",
+"book": 1,
+"id": "deal",
+"m": [
+25,
+29
+]
+},
+{
+"w": "grab",
+"ipa": "/ɡræb/",
+"fa": "قاپیدن",
+"ex": "He grabbed one just before another man did.",
+"book": 1,
+"id": "grab",
+"m": [
+3,
+10
+]
+},
+{
+"w": "race",
+"ipa": "/reɪs/",
+"fa": "مسابقه",
+"ex": "When the doors opened, people ran in as if it were a race.",
+"book": 1,
+"id": "race",
+"m": [
+53,
+57
+]
+},
+{
+"w": "Christmas",
+"ipa": "/ˈkrɪsməs/",
+"fa": "کریسمس",
+"ex": "We visit my grandparents every Christmas.",
+"book": 1,
+"id": "christmas",
+"m": [
+31,
+40
+]
+},
+{
+"w": "encourage",
+"ipa": "/ɪnˈkɝɪdʒ/",
+"fa": "تشویق کردن",
+"ex": "My teacher encouraged me to keep writing.",
+"book": 1,
+"id": "encourage",
+"m": [
+11,
+21
+]
+},
+{
+"w": "small business",
+"ipa": "/ˌsmɔl ˈbɪznəs/",
+"fa": "کسب‌وکار کوچک",
+"ex": "She runs a small business from home.",
+"book": 1,
+"id": "small-business",
+"m": [
+11,
+25
+]
+},
+{
+"w": "ever",
+"ipa": "/ˈɛvɚ/",
+"fa": "تا حالا، هرگز",
+"ex": "Have you ever been to Japan?",
+"book": 1,
+"id": "ever",
+"m": [
+9,
+13
+]
+},
+{
+"w": "count",
+"ipa": "/kaʊnt/",
+"fa": "شمردن",
+"ex": "That evening, I counted the money.",
+"book": 1,
+"id": "count",
+"m": [
+16,
+23
+]
+},
+{
+"w": "Thanksgiving",
+"ipa": "/ˌθæŋksˈɡɪvɪŋ/",
+"fa": "روز شکرگزاری",
+"ex": "The day after Thanksgiving is called Black Friday.",
+"id": "thanksgiving",
+"m": [
+14,
+26
+]
+},
+{
+"w": "sale",
+"ipa": "/seɪl/",
+"fa": "حراج",
+"ex": "It’s the day when holiday shopping begins, and stores offer huge sales.",
+"id": "sale",
+"m": [
+65,
+70
+]
+},
+{
+"w": "freezing",
+"ipa": "/ˈfrizɪŋ/",
+"fa": "یخبندان، خیلی سرد",
+"ex": "At four thirty, it was freezing, and there were already two hundred people in line.",
+"id": "freezing",
+"m": [
+23,
+31
+]
+},
+{
+"w": "in line",
+"ipa": "/ɪn laɪn/",
+"fa": "در صف",
+"ex": "At four thirty, it was freezing, and there were already two hundred people in line.",
+"id": "in-line",
+"m": [
+75,
+82
+]
+},
+{
+"w": "camping chair",
+"ipa": "/ˈkæmpɪŋ tʃɛr/",
+"fa": "صندلی کمپینگ",
+"ex": "A man who had brought a camping chair told us he had been there since midnight.",
+"id": "camping-chair",
+"m": [
+24,
+37
+]
+},
+{
+"w": "midnight",
+"ipa": "/ˈmɪdˌnaɪt/",
+"fa": "نیمه‌شب",
+"ex": "A man who had brought a camping chair told us he had been there since midnight.",
+"id": "midnight",
+"m": [
+70,
+78
+]
+},
+{
+"w": "own",
+"ipa": "/oʊn/",
+"fa": "مالک بودن",
+"ex": "It was Small Business Saturday, a day when people are encouraged to shop at stores that are owned by their neighbors.",
+"id": "own",
+"m": [
+92,
+97
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Stores offer huge sales.",
+"fa": "فروشگاه‌ها حراج‌های بزرگی می‌گذارند."
+},
+{
+"id": "s2",
+"en": "If we get there early, we’ll get one.",
+"fa": "اگر زود برسیم، یکی گیرمان می‌آید."
+},
+{
+"id": "s3",
+"en": "There were only three left.",
+"fa": "فقط سه تا مانده بود."
+},
+{
+"id": "s4",
+"en": "We had more customers than ever.",
+"fa": "بیشتر از همیشه مشتری داشتیم."
+},
+{
+"id": "s5",
+"en": "I went to bed at eight.",
+"fa": "ساعت هشت خوابیدم."
+}
+]
+}

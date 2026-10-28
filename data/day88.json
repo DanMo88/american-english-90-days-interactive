@@ -1,0 +1,388 @@
+{
+"day": 88,
+"level": "B1",
+"title": "Getting Ready",
+"fa_title": "آماده شدن",
+"audio": "audio/day88.mp3",
+"img": "img/day88.webp",
+"sents": [
+{
+"p": 0,
+"t": "In January, Lily’s bakery took over our lives.",
+"s": 1.89
+},
+{
+"p": 0,
+"t": "Every evening after work, I went over to Oak Street to help her fix up the old flower shop.",
+"s": 7.04
+},
+{
+"p": 1,
+"t": "First, we cleared out the boxes that the last owner had left behind.",
+"s": 13.12
+},
+{
+"p": 1,
+"t": "Then Carlos and Danny came over to put up shelves, and Ana and Emma helped us paint the walls a soft yellow.",
+"s": 17.9
+},
+{
+"p": 2,
+"t": "The biggest problem was the oven.",
+"s": 25.46
+},
+{
+"p": 2,
+"t": "It broke down twice in one week.",
+"s": 27.57
+},
+{
+"p": 2,
+"t": "Lily almost gave up.",
+"s": 29.87
+},
+{
+"p": 2,
+"t": "“Maybe this was a bad idea,” she said, sitting on the floor covered in flour.",
+"s": 31.72
+},
+{
+"p": 3,
+"t": "“You can’t give up now,” I told her.",
+"s": 37.22
+},
+{
+"p": 3,
+"t": "“You’ve been dreaming about this for years.”",
+"s": 39.7
+},
+{
+"p": 4,
+"t": "Gus, who can fix anything, came over and found the problem in ten minutes.",
+"s": 42.45
+},
+{
+"p": 4,
+"t": "“Just a loose wire,” he said.",
+"s": 47.38
+},
+{
+"p": 5,
+"t": "We also had to fill out a lot of forms for the city.",
+"s": 49.99
+},
+{
+"p": 5,
+"t": "An inspector came to check out the kitchen.",
+"s": 53.33
+},
+{
+"p": 5,
+"t": "He looked around for an hour, wrote some notes, and finally said, “Everything looks good.”",
+"s": 56.26
+},
+{
+"p": 6,
+"t": "Lily came up with the name: Sunrise Bakery.",
+"s": 62.33
+},
+{
+"p": 6,
+"t": "“Because bakers get up before the sun,” she laughed.",
+"s": 65.61
+},
+{
+"p": 7,
+"t": "Late on Friday night, we turned off the lights and looked around at the shelves, the tables, and the big new sign.",
+"s": 69.15
+},
+{
+"p": 7,
+"t": "Tomorrow was opening day.",
+"s": 76.21
+}
+],
+"comp": [
+{
+"q": "What does “took over our lives” mean?",
+"o": [
+"It closed.",
+"It was sold.",
+"It became the most important thing in their lives.",
+"It moved to another city."
+],
+"a": 2,
+"fa": "«took over our lives» یعنی چه؟"
+},
+{
+"q": "What color did they paint the walls?",
+"o": [
+"blue",
+"white",
+"green",
+"soft yellow"
+],
+"a": 3,
+"fa": "دیوارها را چه رنگی کردند؟"
+},
+{
+"q": "Why did Lily almost give up?",
+"o": [
+"The oven broke down twice.",
+"She ran out of money.",
+"The inspector was angry.",
+"Sam was too busy."
+],
+"a": 0,
+"fa": "چرا لیلی نزدیک بود دست بکشد؟"
+},
+{
+"q": "Who fixed the oven?",
+"o": [
+"Carlos",
+"Danny",
+"Gus",
+"the inspector"
+],
+"a": 2,
+"fa": "چه کسی فر را تعمیر کرد؟"
+},
+{
+"q": "What did the inspector say?",
+"o": [
+"The kitchen is too small.",
+"Everything looks good.",
+"Come back next week.",
+"You need a new oven."
+],
+"a": 1,
+"fa": "بازرس چه گفت؟"
+},
+{
+"q": "Why did Lily choose the name “Sunrise Bakery”?",
+"o": [
+"Bakers get up before the sun.",
+"It was the flower shop’s old name.",
+"She likes the color yellow.",
+"Sam came up with it."
+],
+"a": 0,
+"fa": "چرا لیلی اسم «Sunrise Bakery» را انتخاب کرد؟"
+}
+],
+"words": [
+{
+"w": "take over",
+"ipa": "/ˌteɪk ˈoʊvɚ/",
+"fa": "همه‌ی وقت را گرفتن، تسخیر کردن",
+"ex": "In January, Lily’s bakery took over our lives.",
+"book": 1,
+"id": "take-over",
+"m": [
+26,
+35
+]
+},
+{
+"w": "fix up",
+"ipa": "/ˌfɪks ˈʌp/",
+"fa": "سر و سامان دادن، نوسازی کردن",
+"ex": "They fixed up an old house by the lake.",
+"book": 1,
+"id": "fix-up",
+"m": [
+5,
+13
+]
+},
+{
+"w": "clear out",
+"ipa": "/ˌklɪr ˈaʊt/",
+"fa": "خالی کردن",
+"ex": "First, we cleared out the boxes that the last owner had left behind.",
+"book": 1,
+"id": "clear-out",
+"m": [
+10,
+21
+]
+},
+{
+"w": "leave behind",
+"ipa": "/ˌliv bɪˈhaɪnd/",
+"fa": "جا گذاشتن",
+"ex": "First, we cleared out the boxes that the last owner had left behind.",
+"book": 1,
+"id": "leave-behind",
+"m": [
+56,
+67
+]
+},
+{
+"w": "put up",
+"ipa": "/ˌpʊt ˈʌp/",
+"fa": "نصب کردن",
+"ex": "Let’s put up some pictures in the hall.",
+"book": 1,
+"id": "put-up",
+"m": [
+6,
+12
+]
+},
+{
+"w": "break down",
+"ipa": "/ˌbreɪk ˈdaʊn/",
+"fa": "خراب شدن (دستگاه)",
+"ex": "It broke down twice in one week.",
+"book": 1,
+"id": "break-down",
+"m": [
+3,
+13
+]
+},
+{
+"w": "give up",
+"ipa": "/ˌɡɪv ˈʌp/",
+"fa": "دست کشیدن، تسلیم شدن",
+"ex": "You can’t give up now.",
+"book": 1,
+"id": "give-up",
+"m": [
+10,
+17
+]
+},
+{
+"w": "inspector",
+"ipa": "/ɪnˈspɛktɚ/",
+"fa": "بازرس",
+"ex": "An inspector came to check out the kitchen.",
+"book": 1,
+"id": "inspector",
+"m": [
+3,
+12
+]
+},
+{
+"w": "check out",
+"ipa": "/ˌtʃɛk ˈaʊt/",
+"fa": "بررسی کردن",
+"ex": "An inspector came to check out the kitchen.",
+"book": 1,
+"id": "check-out",
+"m": [
+21,
+30
+]
+},
+{
+"w": "come up with",
+"ipa": "/ˌkʌm ˈʌp wɪð/",
+"fa": "(فکری) به ذهن رسیدن",
+"ex": "Lily came up with the name: Sunrise Bakery.",
+"book": 1,
+"id": "come-up-with",
+"m": [
+5,
+17
+]
+},
+{
+"w": "shelf",
+"ipa": "/ʃɛlf/",
+"fa": "قفسه",
+"ex": "Then Carlos and Danny came over to put up shelves.",
+"id": "shelf",
+"m": [
+42,
+49
+]
+},
+{
+"w": "loose",
+"ipa": "/lus/",
+"fa": "شل",
+"ex": "Just a loose wire.",
+"id": "loose",
+"m": [
+7,
+12
+]
+},
+{
+"w": "wire",
+"ipa": "/ˈwaɪɚ/",
+"fa": "سیم",
+"ex": "Just a loose wire.",
+"id": "wire",
+"m": [
+13,
+17
+]
+},
+{
+"w": "sign",
+"ipa": "/saɪn/",
+"fa": "تابلو",
+"ex": "The big new sign.",
+"id": "sign",
+"m": [
+12,
+16
+]
+},
+{
+"w": "opening day",
+"ipa": "/ˈoʊpənɪŋ deɪ/",
+"fa": "روز افتتاح",
+"ex": "Tomorrow was opening day.",
+"id": "opening-day",
+"m": [
+13,
+24
+]
+},
+{
+"w": "sunrise",
+"ipa": "/ˈsʌnˌraɪz/",
+"fa": "طلوع آفتاب",
+"ex": "Lily came up with the name: Sunrise Bakery.",
+"id": "sunrise",
+"m": [
+28,
+35
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "You can’t give up now.",
+"fa": "حالا نمی‌توانی دست بکشی."
+},
+{
+"id": "s2",
+"en": "It broke down twice in one week.",
+"fa": "در یک هفته دو بار خراب شد."
+},
+{
+"id": "s3",
+"en": "Everything looks good.",
+"fa": "همه‌چیز خوب به نظر می‌رسد."
+},
+{
+"id": "s4",
+"en": "Bakers get up before the sun.",
+"fa": "نانواها قبل از خورشید بیدار می‌شوند."
+},
+{
+"id": "s5",
+"en": "Tomorrow was opening day.",
+"fa": "فردا روز افتتاح بود."
+}
+]
+}

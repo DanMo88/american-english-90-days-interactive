@@ -1,0 +1,368 @@
+{
+"day": 80,
+"level": "B1",
+"title": "The Citizenship Class",
+"fa_title": "کلاس شهروندی",
+"audio": "audio/day80.mp3",
+"img": "img/day80.webp",
+"sents": [
+{
+"p": 0,
+"t": "In November, I started volunteering on Tuesday evenings at the Oakville Library, which offers a free citizenship class.",
+"s": 3.68
+},
+{
+"p": 0,
+"t": "The students are immigrants who have had green cards for at least five years and are preparing for the citizenship test.",
+"s": 12.03
+},
+{
+"p": 1,
+"t": "The teacher, Mr. Okafor, came from Nigeria thirty years ago.",
+"s": 19.36
+},
+{
+"p": 1,
+"t": "He’s the kind of teacher who makes everyone feel welcome.",
+"s": 24.0
+},
+{
+"p": 1,
+"t": "I help students who need extra practice.",
+"s": 27.68
+},
+{
+"p": 2,
+"t": "My favorite student is Doña Carmen, Ana’s grandmother, the woman who taught me to dance at the wedding.",
+"s": 30.83
+},
+{
+"p": 2,
+"t": "She’s seventy-eight, and she has lived in America for forty years.",
+"s": 37.6
+},
+{
+"p": 3,
+"t": "“I always wanted to become a citizen,” she told me, “but I was afraid of the test.”",
+"s": 42.32
+},
+{
+"p": 4,
+"t": "The test has two parts.",
+"s": 47.93
+},
+{
+"p": 4,
+"t": "In the civics part, students answer questions about American history and government, like “Who was the first president?” Students also have to read and write in English.",
+"s": 49.92
+},
+{
+"p": 5,
+"t": "We practiced with flashcards every week, and she learned the hundred questions faster than anyone.",
+"s": 61.34
+},
+{
+"p": 6,
+"t": "On test day, her family waited outside.",
+"s": 68.0
+},
+{
+"p": 6,
+"t": "When she came out, she was holding a paper and smiling.",
+"s": 70.82
+},
+{
+"p": 6,
+"t": "“I passed!”",
+"s": 74.09
+},
+{
+"p": 7,
+"t": "Next month, she will take the oath at a ceremony where hundreds of new citizens are welcomed.",
+"s": 75.71
+}
+],
+"comp": [
+{
+"q": "Who are the students in the class?",
+"o": [
+"children",
+"immigrants preparing for the citizenship test",
+"college students",
+"teachers"
+],
+"a": 1,
+"fa": "شاگردان این کلاس چه کسانی هستند؟"
+},
+{
+"q": "Where is Mr. Okafor from?",
+"o": [
+"Nigeria",
+"Chicago",
+"Mexico",
+"Oakville"
+],
+"a": 0,
+"fa": "آقای اوکافور اهل کجاست؟"
+},
+{
+"q": "Who is Doña Carmen?",
+"o": [
+"a librarian",
+"Rosa’s mother",
+"Mr. Okafor’s wife",
+"Ana’s grandmother"
+],
+"a": 3,
+"fa": "دونیا کارمن کیست؟"
+},
+{
+"q": "Why didn’t Doña Carmen become a citizen earlier?",
+"o": [
+"She was afraid of the test.",
+"She didn’t want to.",
+"It was too expensive.",
+"She was too busy."
+],
+"a": 0,
+"fa": "چرا دونیا کارمن زودتر شهروند نشد؟"
+},
+{
+"q": "What is in the civics part of the test?",
+"o": [
+"reading and writing",
+"a cooking test",
+"math problems",
+"questions about American history and government"
+],
+"a": 3,
+"fa": "در بخش تعلیمات مدنی آزمون چه چیزی هست؟"
+},
+{
+"q": "What will happen next month?",
+"o": [
+"She will take the test again.",
+"She will move to Mexico.",
+"She will take the oath at a ceremony.",
+"She will teach the class."
+],
+"a": 2,
+"fa": "ماه آینده چه اتفاقی خواهد افتاد؟"
+}
+],
+"words": [
+{
+"w": "citizenship",
+"ipa": "/ˈsɪtəzənˌʃɪp/",
+"fa": "شهروندی",
+"ex": "He applied for citizenship last year.",
+"book": 1,
+"id": "citizenship",
+"m": [
+15,
+26
+]
+},
+{
+"w": "immigrant",
+"ipa": "/ˈɪməɡrənt/",
+"fa": "مهاجر",
+"ex": "My grandparents were immigrants from Italy.",
+"book": 1,
+"id": "immigrant",
+"m": [
+21,
+31
+]
+},
+{
+"w": "at least",
+"ipa": "/æt ˈlist/",
+"fa": "دست‌کم، حداقل",
+"ex": "Drink at least eight glasses of water a day.",
+"book": 1,
+"id": "at-least",
+"m": [
+6,
+14
+]
+},
+{
+"w": "extra",
+"ipa": "/ˈɛkstrə/",
+"fa": "اضافی، بیشتر",
+"ex": "I help students who need extra practice.",
+"book": 1,
+"id": "extra",
+"m": [
+25,
+30
+]
+},
+{
+"w": "civics",
+"ipa": "/ˈsɪvɪks/",
+"fa": "تعلیمات مدنی",
+"ex": "We learn about voting in civics class.",
+"book": 1,
+"id": "civics",
+"m": [
+25,
+31
+]
+},
+{
+"w": "history",
+"ipa": "/ˈhɪstəri/",
+"fa": "تاریخ",
+"ex": "I love reading about American history.",
+"book": 1,
+"id": "history",
+"m": [
+30,
+37
+]
+},
+{
+"w": "government",
+"ipa": "/ˈɡʌvɚnmənt/",
+"fa": "دولت، حکومت",
+"ex": "The government built a new bridge.",
+"book": 1,
+"id": "government",
+"m": [
+4,
+14
+]
+},
+{
+"w": "flashcard",
+"ipa": "/ˈflæʃˌkɑrd/",
+"fa": "کارت آموزشی (فلش‌کارت)",
+"ex": "We practiced with flashcards every week, and she learned the hundred questions faster than anyone.",
+"book": 1,
+"id": "flashcard",
+"m": [
+18,
+28
+]
+},
+{
+"w": "oath",
+"ipa": "/oʊθ/",
+"fa": "سوگند",
+"ex": "The new president took the oath of office.",
+"book": 1,
+"id": "oath",
+"m": [
+27,
+31
+]
+},
+{
+"w": "kind of",
+"ipa": "/ˈkaɪnd əv/",
+"fa": "از آن (نوع) ... که",
+"ex": "He’s the kind of teacher who makes everyone feel welcome.",
+"book": 1,
+"id": "kind-of",
+"m": [
+9,
+16
+]
+},
+{
+"w": "welcome",
+"ipa": "/ˈwɛlkəm/",
+"fa": "خوش‌آمد، راحت",
+"ex": "He’s the kind of teacher who makes everyone feel welcome.",
+"id": "welcome",
+"m": [
+49,
+56
+]
+},
+{
+"w": "test",
+"ipa": "/tɛst/",
+"fa": "آزمون",
+"ex": "On test day, her family waited outside.",
+"id": "test",
+"m": [
+3,
+7
+]
+},
+{
+"w": "president",
+"ipa": "/ˈprɛzəˌdɛnt/",
+"fa": "رئیس‌جمهور",
+"ex": "In the civics part, students answer questions about American history and government, like “Who was the first president?”",
+"id": "president",
+"m": [
+109,
+118
+]
+},
+{
+"w": "pass",
+"ipa": "/pæs/",
+"fa": "قبول شدن (در آزمون)",
+"ex": "I passed!",
+"id": "pass",
+"m": [
+2,
+8
+]
+},
+{
+"w": "ceremony",
+"ipa": "/ˈsɛrəˌmoʊni/",
+"fa": "مراسم",
+"ex": "Next month, she will take the oath at a ceremony where hundreds of new citizens are welcomed.",
+"id": "ceremony",
+"m": [
+40,
+48
+]
+},
+{
+"w": "prepare",
+"ipa": "/priˈpɛr/",
+"fa": "آماده شدن",
+"ex": "The students are immigrants who have had green cards for at least five years and are preparing for the citizenship test.",
+"id": "prepare",
+"m": [
+85,
+94
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "The library offers a free citizenship class.",
+"fa": "کتابخانه یک کلاس رایگان شهروندی برگزار می‌کند."
+},
+{
+"id": "s2",
+"en": "I always wanted to become a citizen.",
+"fa": "همیشه می‌خواستم شهروند شوم."
+},
+{
+"id": "s3",
+"en": "The test has two parts.",
+"fa": "آزمون دو بخش دارد."
+},
+{
+"id": "s4",
+"en": "Who was the first president?",
+"fa": "اولین رئیس‌جمهور چه کسی بود؟"
+},
+{
+"id": "s5",
+"en": "She learned the questions faster than anyone.",
+"fa": "او سؤال‌ها را از همه سریع‌تر یاد گرفت."
+}
+]
+}

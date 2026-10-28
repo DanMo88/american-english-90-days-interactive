@@ -1,0 +1,403 @@
+{
+"day": 76,
+"level": "B1",
+"title": "A Letter from the IRS",
+"fa_title": "نامه‌ای از اداره‌ی مالیات",
+"audio": "audio/day76.mp3",
+"img": "img/day76.webp",
+"sents": [
+{
+"p": 0,
+"t": "In October, I found a scary envelope in my mailbox.",
+"s": 4.3
+},
+{
+"p": 0,
+"t": "It was from the IRS, the government office that collects taxes.",
+"s": 8.08
+},
+{
+"p": 0,
+"t": "My hands were shaking when I opened it.",
+"s": 12.75
+},
+{
+"p": 1,
+"t": "The letter said that there was a problem with my tax return from last year.",
+"s": 15.61
+},
+{
+"p": 1,
+"t": "It said that I hadn’t reported all of my income and that I owed four hundred dollars.",
+"s": 20.33
+},
+{
+"p": 2,
+"t": "I called Danny immediately.",
+"s": 26.18
+},
+{
+"p": 2,
+"t": "He told me not to panic.",
+"s": 28.34
+},
+{
+"p": 2,
+"t": "He said that letters like this were common and that we would figure it out together.",
+"s": 30.16
+},
+{
+"p": 3,
+"t": "That evening, he came over with his laptop.",
+"s": 35.12
+},
+{
+"p": 3,
+"t": "We looked at my forms, and Danny asked me if I had worked anywhere else last year.",
+"s": 38.14
+},
+{
+"p": 3,
+"t": "Then I remembered: last summer, I had done some translation work online for a small company.",
+"s": 43.48
+},
+{
+"p": 3,
+"t": "They had sent me a tax form, but I hadn’t thought it was important.",
+"s": 50.13
+},
+{
+"p": 4,
+"t": "“That’s it,” Danny said.",
+"s": 54.3
+},
+{
+"p": 4,
+"t": "“The IRS knows about every payment.”",
+"s": 55.85
+},
+{
+"p": 5,
+"t": "He explained that I needed to file a corrected return and pay the difference.",
+"s": 58.97
+},
+{
+"p": 5,
+"t": "He said that if I paid quickly, the penalty would be small.",
+"s": 64.01
+},
+{
+"p": 6,
+"t": "I paid the next day.",
+"s": 68.3
+},
+{
+"p": 6,
+"t": "A month later, another letter arrived.",
+"s": 69.97
+},
+{
+"p": 6,
+"t": "It said that everything was now correct.",
+"s": 72.67
+},
+{
+"p": 7,
+"t": "Danny told me to keep all my tax papers in one folder.",
+"s": 75.66
+},
+{
+"p": 7,
+"t": "I’ve already bought one.",
+"s": 79.46
+},
+{
+"p": 7,
+"t": "It’s bright red, so I can’t lose it.",
+"s": 81.04
+}
+],
+"comp": [
+{
+"q": "What is the IRS?",
+"o": [
+"a bank",
+"a post office",
+"the government office that collects taxes",
+"an insurance company"
+],
+"a": 2,
+"fa": "IRS چیست؟"
+},
+{
+"q": "What did the letter say?",
+"o": [
+"Sam would get a refund.",
+"Sam owed four hundred dollars.",
+"Sam had to leave the country.",
+"Sam’s bank account was closed."
+],
+"a": 1,
+"fa": "نامه چه می‌گفت؟"
+},
+{
+"q": "What did Danny tell Sam first?",
+"o": [
+"to pay a thousand dollars",
+"to call a lawyer",
+"to ignore the letter",
+"not to panic"
+],
+"a": 3,
+"fa": "دنی اول به سام چه گفت؟"
+},
+{
+"q": "What caused the problem?",
+"o": [
+"Sam didn’t report his translation work.",
+"Danny made a mistake.",
+"The bookstore didn’t pay Sam.",
+"The IRS lost his form."
+],
+"a": 0,
+"fa": "چه چیزی باعث این مشکل شد؟"
+},
+{
+"q": "What does “figure it out” mean?",
+"o": [
+"forget about it",
+"draw a picture",
+"pay for it",
+"find the answer"
+],
+"a": 3,
+"fa": "«figure it out» یعنی چه؟"
+},
+{
+"q": "Why did Sam buy a bright red folder?",
+"o": [
+"So he won’t lose his tax papers.",
+"Danny gave it to him.",
+"It was on sale.",
+"Red is his favorite color."
+],
+"a": 0,
+"fa": "چرا سام یک پوشه‌ی قرمز روشن خرید؟"
+}
+],
+"words": [
+{
+"w": "IRS",
+"ipa": "/ˌaɪ ɑr ˈɛs/",
+"fa": "اداره‌ی مالیات آمریکا",
+"ex": "The IRS knows about every payment.",
+"book": 1,
+"id": "irs",
+"m": [
+4,
+7
+]
+},
+{
+"w": "tax return",
+"ipa": "/ˈtæks rɪˌtɝn/",
+"fa": "اظهارنامه‌ی مالیاتی",
+"ex": "The letter said that there was a problem with my tax return from last year.",
+"book": 1,
+"id": "tax-return",
+"m": [
+49,
+59
+]
+},
+{
+"w": "income",
+"ipa": "/ˈɪnˌkʌm/",
+"fa": "درآمد",
+"ex": "Her income went up after her promotion.",
+"book": 1,
+"id": "income",
+"m": [
+4,
+10
+]
+},
+{
+"w": "owe",
+"ipa": "/oʊ/",
+"fa": "بدهکار بودن",
+"ex": "I owe my brother fifty dollars.",
+"book": 1,
+"id": "owe",
+"m": [
+2,
+5
+]
+},
+{
+"w": "panic",
+"ipa": "/ˈpænɪk/",
+"fa": "وحشت کردن",
+"ex": "Don’t panic. We still have time.",
+"book": 1,
+"id": "panic",
+"m": [
+6,
+11
+]
+},
+{
+"w": "figure out",
+"ipa": "/ˌfɪɡjɚ ˈaʊt/",
+"fa": "فهمیدن، حل کردن",
+"ex": "I can’t figure out how this machine works.",
+"book": 1,
+"id": "figure-out",
+"m": [
+8,
+18
+]
+},
+{
+"w": "payment",
+"ipa": "/ˈpeɪmənt/",
+"fa": "پرداخت",
+"ex": "The IRS knows about every payment.",
+"book": 1,
+"id": "payment",
+"m": [
+26,
+33
+]
+},
+{
+"w": "file",
+"ipa": "/faɪl/",
+"fa": "تسلیم کردن (فرم یا اظهارنامه)",
+"ex": "He explained that I needed to file a corrected return and pay the difference.",
+"book": 1,
+"id": "file",
+"m": [
+30,
+34
+]
+},
+{
+"w": "penalty",
+"ipa": "/ˈpɛnəlti/",
+"fa": "جریمه",
+"ex": "He said that if I paid quickly, the penalty would be small.",
+"book": 1,
+"id": "penalty",
+"m": [
+36,
+43
+]
+},
+{
+"w": "folder",
+"ipa": "/ˈfoʊldɚ/",
+"fa": "پوشه",
+"ex": "Danny told me to keep all my tax papers in one folder.",
+"book": 1,
+"id": "folder",
+"m": [
+47,
+53
+]
+},
+{
+"w": "tax",
+"ipa": "/tæks/",
+"fa": "مالیات",
+"ex": "It was from the IRS, the government office that collects taxes.",
+"id": "tax",
+"m": [
+57,
+62
+]
+},
+{
+"w": "common",
+"ipa": "/ˈkɑmən/",
+"fa": "رایج، معمول",
+"ex": "He said that letters like this were common and that we would figure it out together.",
+"id": "common",
+"m": [
+36,
+42
+]
+},
+{
+"w": "translation",
+"ipa": "/trænzˈleɪʃən/",
+"fa": "ترجمه",
+"ex": "Then I remembered: last summer, I had done some translation work online for a small company.",
+"id": "translation",
+"m": [
+48,
+59
+]
+},
+{
+"w": "correct",
+"ipa": "/kɚˈɛkt/",
+"fa": "درست کردن، اصلاح کردن",
+"ex": "He explained that I needed to file a corrected return and pay the difference.",
+"id": "correct",
+"m": [
+37,
+46
+]
+},
+{
+"w": "government office",
+"ipa": "/ˈɡʌvɚmənt ˈɔfɪs/",
+"fa": "اداره‌ی دولتی",
+"ex": "It was from the IRS, the government office that collects taxes.",
+"id": "government-office",
+"m": [
+25,
+42
+]
+},
+{
+"w": "corrected return",
+"ipa": "/kɚˈɛktəd rɪˈtɝn/",
+"fa": "اظهارنامه‌ی اصلاح‌شده",
+"ex": "He explained that I needed to file a corrected return and pay the difference.",
+"id": "corrected-return",
+"m": [
+37,
+53
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "My hands were shaking.",
+"fa": "دست‌هایم می‌لرزید."
+},
+{
+"id": "s2",
+"en": "He told me not to panic.",
+"fa": "به من گفت وحشت نکنم."
+},
+{
+"id": "s3",
+"en": "We would figure it out together.",
+"fa": "با هم حلش می‌کردیم."
+},
+{
+"id": "s4",
+"en": "The IRS knows about every payment.",
+"fa": "اداره‌ی مالیات از هر پرداختی خبر دارد."
+},
+{
+"id": "s5",
+"en": "Everything was now correct.",
+"fa": "حالا همه‌چیز درست بود."
+}
+]
+}

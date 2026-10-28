@@ -1,0 +1,387 @@
+{
+"day": 83,
+"level": "B1",
+"title": "A Hard Decision",
+"fa_title": "تصمیمی سخت",
+"audio": "audio/day83.mp3",
+"img": "img/day83.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Sunday, Rosa invited me for dinner.",
+"s": 3.52
+},
+{
+"p": 0,
+"t": "“You’ve been quiet all week,” she said.",
+"s": 6.35
+},
+{
+"p": 0,
+"t": "“Tell me.”",
+"s": 8.72
+},
+{
+"p": 1,
+"t": "I told her everything: the job, the salary, the dream, and my fear of leaving.",
+"s": 10.06
+},
+{
+"p": 2,
+"t": "Rosa poured two cups of tea.",
+"s": 15.65
+},
+{
+"p": 2,
+"t": "“When I was young, I used to live in Texas,” she said.",
+"s": 18.1
+},
+{
+"p": 2,
+"t": "“I had a good job. But my mother got sick, so I came back to Oakville. For years, I used to wonder about that life.”",
+"s": 21.79
+},
+{
+"p": 3,
+"t": "“Do you regret it?”",
+"s": 29.62
+},
+{
+"p": 4,
+"t": "“Not for one day,” she said.",
+"s": 31.48
+},
+{
+"p": 4,
+"t": "“But that was my choice, Sam. Not yours. What matters most to you?”",
+"s": 33.48
+},
+{
+"p": 5,
+"t": "That night, I made two lists.",
+"s": 38.12
+},
+{
+"p": 5,
+"t": "Chicago: my dream job, more money, Emma, a big city.",
+"s": 40.15
+},
+{
+"p": 5,
+"t": "Oakville: Lily, Rosa, Max, my team, the podcast, the people who became my family.",
+"s": 44.44
+},
+{
+"p": 5,
+"t": "When I looked at the lists, my decision was easy.",
+"s": 50.36
+},
+{
+"p": 5,
+"t": "I finally knew what home meant.",
+"s": 53.38
+},
+{
+"p": 6,
+"t": "On Monday, I called Harbor Books and explained that I couldn’t move.",
+"s": 55.77
+},
+{
+"p": 6,
+"t": "There was a long pause.",
+"s": 59.9
+},
+{
+"p": 6,
+"t": "Then the editor surprised me.",
+"s": 61.67
+},
+{
+"p": 6,
+"t": "“What if you worked for us part-time, from Oakville? You could translate two books a year and visit Chicago once a month.”",
+"s": 64.03
+},
+{
+"p": 7,
+"t": "I said yes immediately and ran to Maple Café to tell Lily.",
+"s": 71.4
+},
+{
+"p": 7,
+"t": "She hugged me so hard that we both fell into a chair, laughing.",
+"s": 75.92
+}
+],
+"comp": [
+{
+"q": "Why did Rosa invite Sam for dinner?",
+"o": [
+"He had been quiet all week.",
+"It was her birthday.",
+"She needed help in the kitchen.",
+"Lily asked her to."
+],
+"a": 0,
+"fa": "چرا رزا سام را برای شام دعوت کرد؟"
+},
+{
+"q": "Where did Rosa use to live?",
+"o": [
+"in Chicago",
+"in New Orleans",
+"in Mexico",
+"in Texas"
+],
+"a": 3,
+"fa": "رزا قبلاً کجا زندگی می‌کرد؟"
+},
+{
+"q": "Why did Rosa come back to Oakville?",
+"o": [
+"She missed the snow.",
+"She lost her job.",
+"Her mother got sick.",
+"She got married."
+],
+"a": 2,
+"fa": "چرا رزا به اوکویل برگشت؟"
+},
+{
+"q": "Does Rosa regret her decision?",
+"o": [
+"Yes, every day.",
+"No, not for one day.",
+"She doesn’t remember.",
+"Sometimes."
+],
+"a": 1,
+"fa": "آیا رزا از تصمیمش پشیمان است؟"
+},
+{
+"q": "What did the editor offer?",
+"o": [
+"part-time work from Oakville",
+"a job at a bookstore in Chicago",
+"more money to move",
+"a free trip to Chicago"
+],
+"a": 0,
+"fa": "ویراستار چه پیشنهادی داد؟"
+},
+{
+"q": "Why did Lily hug Sam so hard?",
+"o": [
+"She was cold.",
+"She was happy that he was staying.",
+"She was saying goodbye.",
+"She was tired."
+],
+"a": 1,
+"fa": "چرا لیلی سام را آن‌قدر محکم بغل کرد؟"
+}
+],
+"words": [
+{
+"w": "decision",
+"ipa": "/dɪˈsɪʒən/",
+"fa": "تصمیم",
+"ex": "When I looked at the lists, my decision was easy.",
+"book": 1,
+"id": "decision",
+"m": [
+31,
+39
+]
+},
+{
+"w": "fear",
+"ipa": "/fɪr/",
+"fa": "ترس",
+"ex": "I told her everything: the job, the salary, the dream, and my fear of leaving.",
+"book": 1,
+"id": "fear",
+"m": [
+62,
+66
+]
+},
+{
+"w": "pour",
+"ipa": "/pɔr/",
+"fa": "ریختن (مایعات)",
+"ex": "Rosa poured two cups of tea.",
+"book": 1,
+"id": "pour",
+"m": [
+5,
+11
+]
+},
+{
+"w": "regret",
+"ipa": "/rɪˈɡrɛt/",
+"fa": "پشیمان بودن",
+"ex": "Do you regret it?",
+"book": 1,
+"id": "regret",
+"m": [
+7,
+13
+]
+},
+{
+"w": "choice",
+"ipa": "/tʃɔɪs/",
+"fa": "انتخاب",
+"ex": "That was my choice, Sam.",
+"book": 1,
+"id": "choice",
+"m": [
+12,
+18
+]
+},
+{
+"w": "matter",
+"ipa": "/ˈmætɚ/",
+"fa": "مهم بودن",
+"ex": "What matters most to you?",
+"book": 1,
+"id": "matter",
+"m": [
+5,
+12
+]
+},
+{
+"w": "list",
+"ipa": "/lɪst/",
+"fa": "فهرست",
+"ex": "That night, I made two lists.",
+"book": 1,
+"id": "list",
+"m": [
+23,
+28
+]
+},
+{
+"w": "realize",
+"ipa": "/ˈriəˌlaɪz/",
+"fa": "فهمیدن، پی بردن",
+"ex": "I didn’t realize it was so late.",
+"book": 1,
+"id": "realize",
+"m": [
+9,
+16
+]
+},
+{
+"w": "pause",
+"ipa": "/pɔz/",
+"fa": "مکث",
+"ex": "There was a long pause.",
+"book": 1,
+"id": "pause",
+"m": [
+17,
+22
+]
+},
+{
+"w": "part-time",
+"ipa": "/ˌpɑrtˈtaɪm/",
+"fa": "پاره‌وقت",
+"ex": "What if you worked for us part-time, from Oakville?",
+"book": 1,
+"id": "part-time",
+"m": [
+26,
+35
+]
+},
+{
+"w": "mean",
+"ipa": "/min/",
+"fa": "معنی دادن",
+"ex": "I finally knew what home meant.",
+"id": "mean",
+"m": [
+25,
+30
+]
+},
+{
+"w": "translate",
+"ipa": "/trænzˈleɪt/",
+"fa": "ترجمه کردن",
+"ex": "You could translate two books a year and visit Chicago once a month.",
+"id": "translate",
+"m": [
+10,
+19
+]
+},
+{
+"w": "once a month",
+"ipa": "/wʌns ə mʌnθ/",
+"fa": "ماهی یک بار",
+"ex": "You could translate two books a year and visit Chicago once a month.",
+"id": "once-a-month",
+"m": [
+55,
+67
+]
+},
+{
+"w": "fall",
+"ipa": "/fɔl/",
+"fa": "افتادن",
+"ex": "She hugged me so hard that we both fell into a chair, laughing.",
+"id": "fall",
+"m": [
+35,
+39
+]
+},
+{
+"w": "most",
+"ipa": "/moʊst/",
+"fa": "بیشتر از همه",
+"ex": "What matters most to you?",
+"id": "most",
+"m": [
+13,
+17
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "You’ve been quiet all week.",
+"fa": "تمام هفته ساکت بوده‌ای."
+},
+{
+"id": "s2",
+"en": "Do you regret it?",
+"fa": "پشیمانی؟"
+},
+{
+"id": "s3",
+"en": "What matters most to you?",
+"fa": "چه چیزی برایت از همه مهم‌تر است؟"
+},
+{
+"id": "s4",
+"en": "My decision was easy.",
+"fa": "تصمیمم آسان بود."
+},
+{
+"id": "s5",
+"en": "I said yes immediately.",
+"fa": "بلافاصله گفتم بله."
+}
+]
+}

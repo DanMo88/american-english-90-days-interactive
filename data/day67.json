@@ -1,0 +1,395 @@
+{
+"day": 67,
+"level": "B1",
+"title": "The First-Aid Class",
+"fa_title": "کلاس کمک‌های اولیه",
+"audio": "audio/day67.mp3",
+"img": "img/day67.webp",
+"sents": [
+{
+"p": 0,
+"t": "In August, Ana taught a free first-aid class at the community center, and I signed up with Lily and Carlos.",
+"s": 4.02
+},
+{
+"p": 0,
+"t": "As a manager, I’m responsible for my team, so I wanted to know what to do in an emergency.",
+"s": 11.29
+},
+{
+"p": 1,
+"t": "“Most emergencies happen at home or at work,” Ana began.",
+"s": 17.92
+},
+{
+"p": 1,
+"t": "“If you know a few simple steps, you might save a life.”",
+"s": 22.39
+},
+{
+"p": 2,
+"t": "First, we learned what to do if someone is choking.",
+"s": 25.99
+},
+{
+"p": 2,
+"t": "“If the person can cough, let them cough,” Ana said.",
+"s": 29.36
+},
+{
+"p": 2,
+"t": "“If they can’t breathe or speak, stand behind them and push hard above their stomach.” We practiced on each other, very gently.",
+"s": 33.06
+},
+{
+"p": 3,
+"t": "Then we learned CPR on plastic dummies.",
+"s": 41.74
+},
+{
+"p": 3,
+"t": "“If someone collapses and isn’t breathing, call 911 first. Then push hard and fast in the middle of the chest.” We had to push to the rhythm of an old disco song.",
+"s": 44.93
+},
+{
+"p": 3,
+"t": "Carlos started singing, and everyone laughed.",
+"s": 56.31
+},
+{
+"p": 4,
+"t": "We also learned how to treat burns.",
+"s": 59.88
+},
+{
+"p": 4,
+"t": "“If you burn your hand, hold it under cool water for twenty minutes. Don’t put ice or butter on it!”",
+"s": 62.35
+},
+{
+"p": 5,
+"t": "At the end, we each received a certificate.",
+"s": 68.74
+},
+{
+"p": 5,
+"t": "On Monday, I hung mine next to the first-aid kit at the bookstore.",
+"s": 71.74
+},
+{
+"p": 6,
+"t": "“If anything happens, I’ll know what to do,” I told my team.",
+"s": 76.32
+},
+{
+"p": 6,
+"t": "I hope I’ll never need it.",
+"s": 80.25
+}
+],
+"comp": [
+{
+"q": "Who taught the first-aid class?",
+"o": [
+"Lily",
+"a doctor",
+"Ana",
+"Jasmine"
+],
+"a": 2,
+"fa": "چه کسی کلاس کمک‌های اولیه را درس داد؟"
+},
+{
+"q": "Why did Sam want to take the class?",
+"o": [
+"Ana asked him to.",
+"He is responsible for his team.",
+"He needed it for his visa.",
+"He wants to become a nurse."
+],
+"a": 1,
+"fa": "چرا سام می‌خواست در این کلاس شرکت کند؟"
+},
+{
+"q": "What should you do if a choking person can cough?",
+"o": [
+"push above their stomach",
+"call 911",
+"let them cough",
+"give them water"
+],
+"a": 2,
+"fa": "اگر کسی که چیزی در گلویش گیر کرده بتواند سرفه کند، چه باید کرد؟"
+},
+{
+"q": "What should you do first if someone collapses and isn’t breathing?",
+"o": [
+"call 911",
+"push on their chest",
+"give them water",
+"wait"
+],
+"a": 0,
+"fa": "اگر کسی از حال برود و نفس نکشد، اول چه باید کرد؟"
+},
+{
+"q": "What should you NOT put on a burn?",
+"o": [
+"cool water",
+"nothing",
+"a clean cloth",
+"ice or butter"
+],
+"a": 3,
+"fa": "روی سوختگی چه چیزی نباید گذاشت؟"
+},
+{
+"q": "Where did Sam put his certificate?",
+"o": [
+"next to the first-aid kit at the bookstore",
+"in his car",
+"on his fridge",
+"in his wallet"
+],
+"a": 0,
+"fa": "سام گواهی‌اش را کجا گذاشت؟"
+}
+],
+"words": [
+{
+"w": "first aid",
+"ipa": "/ˌfɝst ˈeɪd/",
+"fa": "کمک‌های اولیه",
+"ex": "Every teacher should know basic first aid.",
+"book": 1,
+"id": "first-aid",
+"m": [
+32,
+41
+]
+},
+{
+"w": "responsible",
+"ipa": "/rɪˈspɑnsəbəl/",
+"fa": "مسئول",
+"ex": "Parents are responsible for their children.",
+"book": 1,
+"id": "responsible",
+"m": [
+12,
+23
+]
+},
+{
+"w": "choke",
+"ipa": "/tʃoʊk/",
+"fa": "خفه شدن (گیر کردن چیزی در گلو)",
+"ex": "First, we learned what to do if someone is choking.",
+"book": 1,
+"id": "choke",
+"m": [
+43,
+50
+]
+},
+{
+"w": "cough",
+"ipa": "/kɔf/",
+"fa": "سرفه کردن",
+"ex": "If the person can cough, let them cough.",
+"book": 1,
+"id": "cough",
+"m": [
+18,
+23
+]
+},
+{
+"w": "CPR",
+"ipa": "/ˌsi pi ˈɑr/",
+"fa": "احیای قلبی‌ریوی",
+"ex": "Then we learned CPR on plastic dummies.",
+"book": 1,
+"id": "cpr",
+"m": [
+16,
+19
+]
+},
+{
+"w": "collapse",
+"ipa": "/kəˈlæps/",
+"fa": "از حال رفتن، فرو افتادن",
+"ex": "If someone collapses and isn’t breathing, call 911 first.",
+"book": 1,
+"id": "collapse",
+"m": [
+11,
+20
+]
+},
+{
+"w": "chest",
+"ipa": "/tʃɛst/",
+"fa": "قفسه‌ی سینه",
+"ex": "Then push hard and fast in the middle of the chest.",
+"book": 1,
+"id": "chest",
+"m": [
+45,
+50
+]
+},
+{
+"w": "rhythm",
+"ipa": "/ˈrɪðəm/",
+"fa": "ریتم، ضرباهنگ",
+"ex": "We had to push to the rhythm of an old disco song.",
+"book": 1,
+"id": "rhythm",
+"m": [
+22,
+28
+]
+},
+{
+"w": "burn",
+"ipa": "/bɝn/",
+"fa": "سوختن؛ سوختگی",
+"ex": "We also learned how to treat burns.",
+"book": 1,
+"id": "burn",
+"m": [
+29,
+34
+]
+},
+{
+"w": "certificate",
+"ipa": "/sɚˈtɪfɪkət/",
+"fa": "گواهی، مدرک",
+"ex": "At the end, we each received a certificate.",
+"book": 1,
+"id": "certificate",
+"m": [
+31,
+42
+]
+},
+{
+"w": "step",
+"ipa": "/stɛp/",
+"fa": "مرحله، قدم",
+"ex": "If you know a few simple steps, you might save a life.",
+"id": "step",
+"m": [
+25,
+30
+]
+},
+{
+"w": "breathe",
+"ipa": "/brið/",
+"fa": "نفس کشیدن",
+"ex": "If someone collapses and isn’t breathing, call 911 first.",
+"id": "breathe",
+"m": [
+31,
+40
+]
+},
+{
+"w": "stomach",
+"ipa": "/ˈstʌmək/",
+"fa": "شکم، معده",
+"ex": "If they can’t breathe or speak, stand behind them and push hard above their stomach.",
+"id": "stomach",
+"m": [
+76,
+83
+]
+},
+{
+"w": "gently",
+"ipa": "/ˈdʒɛntli/",
+"fa": "آرام، با ملایمت",
+"ex": "We practiced on each other, very gently.",
+"id": "gently",
+"m": [
+33,
+39
+]
+},
+{
+"w": "dummy",
+"ipa": "/ˈdʌmi/",
+"fa": "مانکن آموزشی",
+"ex": "Then we learned CPR on plastic dummies.",
+"id": "dummy",
+"m": [
+31,
+38
+]
+},
+{
+"w": "treat",
+"ipa": "/trit/",
+"fa": "درمان کردن",
+"ex": "We also learned how to treat burns.",
+"id": "treat",
+"m": [
+23,
+28
+]
+},
+{
+"w": "butter",
+"ipa": "/ˈbʌtɚ/",
+"fa": "کره",
+"ex": "Don’t put ice or butter on it!",
+"id": "butter",
+"m": [
+17,
+23
+]
+},
+{
+"w": "hang",
+"ipa": "/hæŋ/",
+"fa": "آویزان کردن",
+"ex": "On Monday, I hung mine next to the first-aid kit at the bookstore.",
+"id": "hang",
+"m": [
+13,
+17
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Call 911 first.",
+"fa": "اول با ۹۱۱ تماس بگیر."
+},
+{
+"id": "s2",
+"en": "Push hard and fast.",
+"fa": "محکم و سریع فشار بده."
+},
+{
+"id": "s3",
+"en": "Hold it under cool water.",
+"fa": "آن را زیر آب خنک بگیر."
+},
+{
+"id": "s4",
+"en": "Don’t put ice on it!",
+"fa": "رویش یخ نگذار!"
+},
+{
+"id": "s5",
+"en": "I hope I’ll never need it.",
+"fa": "امیدوارم هیچ‌وقت لازمش نداشته باشم."
+}
+]
+}

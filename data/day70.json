@@ -1,0 +1,377 @@
+{
+"day": 70,
+"level": "B1",
+"title": "Labor Day",
+"fa_title": "روز کارگر",
+"audio": "audio/day70.mp3",
+"img": "img/day70.webp",
+"sents": [
+{
+"p": 0,
+"t": "Labor Day is on the first Monday in September.",
+"s": 2.05
+},
+{
+"p": 0,
+"t": "It celebrates American workers, and for many people it’s the last day of summer.",
+"s": 6.77
+},
+{
+"p": 0,
+"t": "Kids go back to school the next day.",
+"s": 12.19
+},
+{
+"p": 1,
+"t": "We spent the day at Lake Oakville.",
+"s": 15.12
+},
+{
+"p": 1,
+"t": "Danny grilled burgers, Sarah brought potato salad, and Mia and Leo swam until their lips turned blue.",
+"s": 17.26
+},
+{
+"p": 2,
+"t": "In the afternoon, we lay on blankets and played a game called “What would you do if...?”",
+"s": 24.49
+},
+{
+"p": 3,
+"t": "“If you won a million dollars, what would you do?” Mia asked her dad.",
+"s": 30.13
+},
+{
+"p": 4,
+"t": "“I’d buy a house with a big yard,” Danny said.",
+"s": 34.71
+},
+{
+"p": 4,
+"t": "“And I’d never wash dishes again.”",
+"s": 37.88
+},
+{
+"p": 5,
+"t": "“If I could have any job in the world, I’d be a chef in Paris,” Lily said.",
+"s": 40.46
+},
+{
+"p": 6,
+"t": "“If I were rich, I’d open an animal shelter,” Ana said.",
+"s": 45.63
+},
+{
+"p": 6,
+"t": "“With fifty dogs like Max.”",
+"s": 49.57
+},
+{
+"p": 7,
+"t": "Then Leo looked at me.",
+"s": 52.08
+},
+{
+"p": 7,
+"t": "“Sam, if you could live anywhere, where would you live?”",
+"s": 53.7
+},
+{
+"p": 8,
+"t": "Everyone waited.",
+"s": 57.26
+},
+{
+"p": 8,
+"t": "I thought about my family far away, and about my friends around me.",
+"s": 58.76
+},
+{
+"p": 9,
+"t": "“If I could live anywhere,” I said slowly, “I would live right here.”",
+"s": 63.21
+},
+{
+"p": 10,
+"t": "Rosa smiled and squeezed my hand.",
+"s": 67.9
+},
+{
+"p": 10,
+"t": "But as the sun went down over the lake, I wondered if that answer would always be true.",
+"s": 70.91
+}
+],
+"comp": [
+{
+"q": "What does Labor Day celebrate?",
+"o": [
+"the end of school",
+"the start of winter",
+"American workers",
+"the president"
+],
+"a": 2,
+"fa": "روز کارگر چه چیزی را جشن می‌گیرد؟"
+},
+{
+"q": "What would Danny do if he won a million dollars?",
+"o": [
+"open a shelter",
+"travel to Paris",
+"quit his job",
+"buy a house with a big yard"
+],
+"a": 3,
+"fa": "اگر دنی یک میلیون دلار می‌برد، چه کار می‌کرد؟"
+},
+{
+"q": "What is Lily’s dream job?",
+"o": [
+"a chef in Paris",
+"a teacher",
+"a nurse",
+"a bank manager"
+],
+"a": 0,
+"fa": "شغل رؤیایی لیلی چیست؟"
+},
+{
+"q": "What would Ana open if she were rich?",
+"o": [
+"a restaurant",
+"an animal shelter",
+"a bookstore",
+"a bakery"
+],
+"a": 1,
+"fa": "اگر آنا پولدار بود، چه چیزی راه می‌انداخت؟"
+},
+{
+"q": "Where would Sam live if he could live anywhere?",
+"o": [
+"in his home country",
+"in Chicago",
+"right here in Oakville",
+"in Paris"
+],
+"a": 2,
+"fa": "اگر سام می‌توانست هر جایی زندگی کند، کجا زندگی می‌کرد؟"
+},
+{
+"q": "What does the last sentence suggest?",
+"o": [
+"Sam may face a difficult choice later.",
+"Sam is very sure about his answer.",
+"Sam wants to leave tomorrow.",
+"Rosa is angry with Sam."
+],
+"a": 0,
+"fa": "جمله‌ی آخر چه چیزی را نشان می‌دهد؟"
+}
+],
+"words": [
+{
+"w": "labor",
+"ipa": "/ˈleɪbɚ/",
+"fa": "کار، کارگری",
+"ex": "Labor Day is on the first Monday in September.",
+"book": 1,
+"id": "labor",
+"m": [
+0,
+5
+]
+},
+{
+"w": "worker",
+"ipa": "/ˈwɝkɚ/",
+"fa": "کارگر",
+"ex": "It celebrates American workers, and for many people it’s the last day of summer.",
+"book": 1,
+"id": "worker",
+"m": [
+23,
+30
+]
+},
+{
+"w": "lip",
+"ipa": "/lɪp/",
+"fa": "لب",
+"ex": "My lips get dry in winter.",
+"book": 1,
+"id": "lip",
+"m": [
+3,
+7
+]
+},
+{
+"w": "million",
+"ipa": "/ˈmɪljən/",
+"fa": "میلیون",
+"ex": "If you won a million dollars, what would you do?",
+"book": 1,
+"id": "million",
+"m": [
+13,
+20
+]
+},
+{
+"w": "dish",
+"ipa": "/dɪʃ/",
+"fa": "ظرف",
+"ex": "I’d never wash dishes again.",
+"book": 1,
+"id": "dish",
+"m": [
+15,
+21
+]
+},
+{
+"w": "chef",
+"ipa": "/ʃɛf/",
+"fa": "سرآشپز",
+"ex": "If I could have any job in the world, I’d be a chef in Paris.",
+"book": 1,
+"id": "chef",
+"m": [
+47,
+51
+]
+},
+{
+"w": "rich",
+"ipa": "/rɪtʃ/",
+"fa": "پولدار، ثروتمند",
+"ex": "If I were rich, I’d open an animal shelter.",
+"book": 1,
+"id": "rich",
+"m": [
+10,
+14
+]
+},
+{
+"w": "shelter",
+"ipa": "/ˈʃɛltɚ/",
+"fa": "پناهگاه حیوانات",
+"ex": "If I were rich, I’d open an animal shelter.",
+"book": 1,
+"id": "shelter",
+"m": [
+35,
+42
+]
+},
+{
+"w": "squeeze",
+"ipa": "/skwiz/",
+"fa": "فشردن (به‌آرامی)",
+"ex": "Rosa smiled and squeezed my hand.",
+"book": 1,
+"id": "squeeze",
+"m": [
+16,
+24
+]
+},
+{
+"w": "wonder",
+"ipa": "/ˈwʌndɚ/",
+"fa": "از خود پرسیدن، در فکر فرو رفتن",
+"ex": "I wonder what time it is in Tokyo.",
+"book": 1,
+"id": "wonder",
+"m": [
+2,
+8
+]
+},
+{
+"w": "until",
+"ipa": "/ənˈtɪl/",
+"fa": "تا (وقتی که)",
+"ex": "Mia and Leo swam until their lips turned blue.",
+"id": "until",
+"m": [
+17,
+22
+]
+},
+{
+"w": "lie",
+"ipa": "/laɪ/",
+"fa": "دراز کشیدن",
+"ex": "In the afternoon, we lay on blankets and played a game called “What would you do if...?”",
+"id": "lie",
+"m": [
+21,
+24
+]
+},
+{
+"w": "anywhere",
+"ipa": "/ˈɛniˌwɛr/",
+"fa": "هر جا",
+"ex": "Sam, if you could live anywhere, where would you live?",
+"id": "anywhere",
+"m": [
+23,
+31
+]
+},
+{
+"w": "go down",
+"ipa": "/ɡoʊ daʊn/",
+"fa": "غروب کردن (خورشید)",
+"ex": "As the sun went down over the lake, I wondered if that answer would always be true.",
+"id": "go-down",
+"m": [
+11,
+20
+]
+},
+{
+"w": "true",
+"ipa": "/tru/",
+"fa": "درست، واقعی",
+"ex": "As the sun went down over the lake, I wondered if that answer would always be true.",
+"id": "true",
+"m": [
+78,
+82
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "If you won a million dollars, what would you do?",
+"fa": "اگر یک میلیون دلار می‌بردی، چه کار می‌کردی؟"
+},
+{
+"id": "s2",
+"en": "I’d buy a house with a big yard.",
+"fa": "یک خانه با حیاط بزرگ می‌خریدم."
+},
+{
+"id": "s3",
+"en": "If I were rich, I’d open an animal shelter.",
+"fa": "اگر پولدار بودم، یک پناهگاه حیوانات راه می‌انداختم."
+},
+{
+"id": "s4",
+"en": "Where would you live?",
+"fa": "کجا زندگی می‌کردی؟"
+},
+{
+"id": "s5",
+"en": "I would live right here.",
+"fa": "همین‌جا زندگی می‌کردم."
+}
+]
+}

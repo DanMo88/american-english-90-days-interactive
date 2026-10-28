@@ -1,0 +1,381 @@
+{
+"day": 84,
+"level": "B1",
+"title": "Lily's Secret",
+"fa_title": "راز لیلی",
+"audio": "audio/day84.mp3",
+"img": "img/day84.webp",
+"sents": [
+{
+"p": 0,
+"t": "After my decision, Lily started acting strangely.",
+"s": 3.54
+},
+{
+"p": 0,
+"t": "She canceled our movie night twice.",
+"s": 7.11
+},
+{
+"p": 0,
+"t": "When I came into the café, she quickly closed her laptop.",
+"s": 9.56
+},
+{
+"p": 1,
+"t": "“She must be planning something,” Carlos said.",
+"s": 13.55
+},
+{
+"p": 1,
+"t": "“Or she might be upset with me,” I worried.",
+"s": 16.56
+},
+{
+"p": 2,
+"t": "“She can’t be upset,” Ana said.",
+"s": 19.6
+},
+{
+"p": 2,
+"t": "“She smiled all night at my party.”",
+"s": 21.86
+},
+{
+"p": 3,
+"t": "On Thursday, I saw her coming out of a bank downtown with a man in a suit.",
+"s": 24.47
+},
+{
+"p": 3,
+"t": "She looked excited.",
+"s": 29.23
+},
+{
+"p": 3,
+"t": "“He must work at the bank,” I thought.",
+"s": 30.81
+},
+{
+"p": 3,
+"t": "“But why does she need a bank?”",
+"s": 33.11
+},
+{
+"p": 4,
+"t": "On Saturday, Priya called me.",
+"s": 35.24
+},
+{
+"p": 4,
+"t": "“Can you come to the old flower shop on Oak Street at ten? Don’t tell Lily I called.”",
+"s": 37.56
+},
+{
+"p": 5,
+"t": "When I arrived, the door was open.",
+"s": 42.93
+},
+{
+"p": 5,
+"t": "Inside, Lily was standing in the middle of the room with paint on her hands and a huge smile.",
+"s": 45.48
+},
+{
+"p": 6,
+"t": "“Surprise!” she said.",
+"s": 51.79
+},
+{
+"p": 6,
+"t": "“I’ve been working on this for months. I got a small business loan. This is going to be my bakery!”",
+"s": 53.87
+},
+{
+"p": 7,
+"t": "Suddenly, everything made sense: the laptop, the bank, the paint.",
+"s": 59.99
+},
+{
+"p": 8,
+"t": "“I wanted to wait until you decided about Chicago,” she said.",
+"s": 64.53
+},
+{
+"p": 8,
+"t": "“Now we both get to stay.”",
+"s": 68.49
+},
+{
+"p": 9,
+"t": "I hugged her, paint and all.",
+"s": 70.79
+},
+{
+"p": 9,
+"t": "I was so proud.",
+"s": 72.33
+}
+],
+"comp": [
+{
+"q": "How did Lily start acting after Sam’s decision?",
+"o": [
+"sadly",
+"angrily",
+"strangely",
+"normally"
+],
+"a": 2,
+"fa": "لیلی بعد از تصمیم سام چطور رفتار می‌کرد؟"
+},
+{
+"q": "Why did Ana think Lily couldn’t be upset?",
+"o": [
+"Lily called her every day.",
+"Lily smiled all night at the party.",
+"Lily bought her a gift.",
+"Lily said so."
+],
+"a": 1,
+"fa": "چرا آنا فکر می‌کرد لیلی نمی‌تواند ناراحت باشد؟"
+},
+{
+"q": "Where did Sam see Lily on Thursday?",
+"o": [
+"at the gym",
+"at the flower shop",
+"at the café",
+"coming out of a bank"
+],
+"a": 3,
+"fa": "سام پنجشنبه لیلی را کجا دید؟"
+},
+{
+"q": "Who asked Sam to come to the old flower shop?",
+"o": [
+"Priya",
+"Carlos",
+"Ana",
+"Lily"
+],
+"a": 0,
+"fa": "چه کسی از سام خواست به گل‌فروشی قدیمی بیاید؟"
+},
+{
+"q": "What was Lily’s secret?",
+"o": [
+"She was moving to Chicago.",
+"She was getting married.",
+"She was opening her own bakery.",
+"She had a new job at a bank."
+],
+"a": 2,
+"fa": "راز لیلی چه بود؟"
+},
+{
+"q": "What does “everything made sense” mean?",
+"o": [
+"Sam was confused.",
+"Sam understood the reasons for her behavior.",
+"Sam was angry.",
+"Everything was expensive."
+],
+"a": 1,
+"fa": "«everything made sense» یعنی چه؟"
+}
+],
+"words": [
+{
+"w": "strangely",
+"ipa": "/ˈstreɪndʒli/",
+"fa": "به‌طور عجیب",
+"ex": "After my decision, Lily started acting strangely.",
+"book": 1,
+"id": "strangely",
+"m": [
+39,
+48
+]
+},
+{
+"w": "cancel",
+"ipa": "/ˈkænsəl/",
+"fa": "لغو کردن",
+"ex": "She canceled our movie night twice.",
+"book": 1,
+"id": "cancel",
+"m": [
+4,
+12
+]
+},
+{
+"w": "laptop",
+"ipa": "/ˈlæpˌtɑp/",
+"fa": "لپ‌تاپ",
+"ex": "Suddenly, everything made sense: the laptop, the bank, the paint.",
+"book": 1,
+"id": "laptop",
+"m": [
+37,
+43
+]
+},
+{
+"w": "must",
+"ipa": "/mʌst/",
+"fa": "حتماً (باید)",
+"ex": "He must work at the bank.",
+"book": 1,
+"id": "must",
+"m": [
+3,
+7
+]
+},
+{
+"w": "might",
+"ipa": "/maɪt/",
+"fa": "شاید",
+"ex": "Or she might be upset with me.",
+"book": 1,
+"id": "might",
+"m": [
+7,
+12
+]
+},
+{
+"w": "upset",
+"ipa": "/ʌpˈsɛt/",
+"fa": "ناراحت، دلخور",
+"ex": "Or she might be upset with me.",
+"book": 1,
+"id": "upset",
+"m": [
+16,
+21
+]
+},
+{
+"w": "can't",
+"ipa": "/kænt/",
+"fa": "امکان ندارد",
+"ex": "She can’t be upset.",
+"book": 1,
+"id": "can-t",
+"m": [
+4,
+9
+]
+},
+{
+"w": "excited",
+"ipa": "/ɪkˈsaɪtɪd/",
+"fa": "هیجان‌زده",
+"ex": "She looked excited.",
+"book": 1,
+"id": "excited",
+"m": [
+11,
+18
+]
+},
+{
+"w": "flower shop",
+"ipa": "/ˈflaʊɚ ˌʃɑp/",
+"fa": "گل‌فروشی",
+"ex": "Can you come to the old flower shop on Oak Street at ten?",
+"book": 1,
+"id": "flower-shop",
+"m": [
+24,
+35
+]
+},
+{
+"w": "make sense",
+"ipa": "/ˌmeɪk ˈsɛns/",
+"fa": "معنی پیدا کردن، جور درآمدن",
+"ex": "Suddenly, everything made sense: the laptop, the bank, the paint.",
+"book": 1,
+"id": "make-sense",
+"m": [
+21,
+31
+]
+},
+{
+"w": "movie night",
+"ipa": "/ˈmuvi naɪt/",
+"fa": "شب فیلم",
+"ex": "She canceled our movie night twice.",
+"id": "movie-night",
+"m": [
+17,
+28
+]
+},
+{
+"w": "suit",
+"ipa": "/sut/",
+"fa": "کت‌وشلوار",
+"ex": "On Thursday, I saw her coming out of a bank downtown with a man in a suit.",
+"id": "suit",
+"m": [
+69,
+73
+]
+},
+{
+"w": "paint",
+"ipa": "/peɪnt/",
+"fa": "رنگ",
+"ex": "Suddenly, everything made sense: the laptop, the bank, the paint.",
+"id": "paint",
+"m": [
+59,
+64
+]
+},
+{
+"w": "act",
+"ipa": "/ækt/",
+"fa": "رفتار کردن",
+"ex": "After my decision, Lily started acting strangely.",
+"id": "act",
+"m": [
+32,
+38
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "She must be planning something.",
+"fa": "حتماً دارد نقشه‌ای می‌کشد."
+},
+{
+"id": "s2",
+"en": "She might be upset with me.",
+"fa": "شاید از من دلخور باشد."
+},
+{
+"id": "s3",
+"en": "She can’t be upset.",
+"fa": "امکان ندارد ناراحت باشد."
+},
+{
+"id": "s4",
+"en": "He must work at the bank.",
+"fa": "حتماً در بانک کار می‌کند."
+},
+{
+"id": "s5",
+"en": "This is going to be my bakery!",
+"fa": "این‌جا قرار است نانوایی من بشود!"
+}
+]
+}

@@ -1,0 +1,393 @@
+{
+"day": 77,
+"level": "B1",
+"title": "Race Day",
+"fa_title": "روز مسابقه",
+"audio": "audio/day77.mp3",
+"img": "img/day77.webp",
+"sents": [
+{
+"p": 0,
+"t": "On October 10th, I woke up at five.",
+"s": 3.47
+},
+{
+"p": 0,
+"t": "I was so nervous that I could only eat half a banana.",
+"s": 6.25
+},
+{
+"p": 1,
+"t": "At the starting line, there were two thousand runners.",
+"s": 9.89
+},
+{
+"p": 1,
+"t": "Jasmine found me and gave me some last advice.",
+"s": 13.24
+},
+{
+"p": 1,
+"t": "She told me to start slowly and to drink water at every station.",
+"s": 16.67
+},
+{
+"p": 1,
+"t": "She said that the hardest part would be mile ten.",
+"s": 21.12
+},
+{
+"p": 2,
+"t": "For the first five miles, I felt amazing.",
+"s": 24.47
+},
+{
+"p": 2,
+"t": "Rosa, Max, and Lily were cheering at mile three, and Mia and Leo were giving high fives to every runner.",
+"s": 27.67
+},
+{
+"p": 3,
+"t": "But Jasmine was right.",
+"s": 35.04
+},
+{
+"p": 3,
+"t": "At mile ten, my legs felt like stone.",
+"s": 36.81
+},
+{
+"p": 3,
+"t": "A woman next to me asked me if I was OK.",
+"s": 39.83
+},
+{
+"p": 3,
+"t": "I told her that I didn’t think I could finish.",
+"s": 42.93
+},
+{
+"p": 3,
+"t": "She said she had felt the same way in her first race, and that I should only focus on the next lamp post.",
+"s": 45.64
+},
+{
+"p": 3,
+"t": "So I did.",
+"s": 51.61
+},
+{
+"p": 3,
+"t": "One lamp post, then another, then another.",
+"s": 52.82
+},
+{
+"p": 4,
+"t": "When I turned the last corner, I heard people shouting my name.",
+"s": 56.14
+},
+{
+"p": 4,
+"t": "Carlos was standing on a bench, and Emma had come from Chicago to surprise me!",
+"s": 60.37
+},
+{
+"p": 5,
+"t": "I crossed the finish line in two hours and seven minutes, and a volunteer put a medal around my neck.",
+"s": 65.9
+},
+{
+"p": 6,
+"t": "Later, Rosa told me that she had cried when she saw me finish.",
+"s": 72.6
+},
+{
+"p": 6,
+"t": "I told her that I had cried too.",
+"s": 76.63
+}
+],
+"comp": [
+{
+"q": "Why could Sam only eat half a banana?",
+"o": [
+"He wasn’t hungry.",
+"He was late.",
+"He was very nervous.",
+"Jasmine told him to."
+],
+"a": 2,
+"fa": "چرا سام فقط توانست نصف یک موز بخورد؟"
+},
+{
+"q": "What did Jasmine tell Sam?",
+"o": [
+"to start slowly and drink water",
+"to run fast at the start",
+"to stop at mile ten",
+"to go home early"
+],
+"a": 0,
+"fa": "جاسمین به سام چه گفت؟"
+},
+{
+"q": "What does “my legs felt like stone” mean?",
+"o": [
+"His legs were cold.",
+"He fell on a stone.",
+"His legs were very heavy and tired.",
+"His legs were strong."
+],
+"a": 2,
+"fa": "«my legs felt like stone» یعنی چه؟"
+},
+{
+"q": "What did the woman tell Sam to do?",
+"o": [
+"stop and rest",
+"focus on the next lamp post",
+"run faster",
+"drink more water"
+],
+"a": 1,
+"fa": "آن زن به سام گفت چه کار کند؟"
+},
+{
+"q": "Who came from Chicago to surprise Sam?",
+"o": [
+"his mom",
+"Carlos",
+"Jasmine",
+"Emma"
+],
+"a": 3,
+"fa": "چه کسی از شیکاگو آمد تا سام را غافلگیر کند؟"
+},
+{
+"q": "What was Sam’s time?",
+"o": [
+"one hour and fifty minutes",
+"two hours and seven minutes",
+"three hours",
+"two hours and seventy minutes"
+],
+"a": 1,
+"fa": "زمان سام چقدر بود؟"
+}
+],
+"words": [
+{
+"w": "banana",
+"ipa": "/bəˈnænə/",
+"fa": "موز",
+"ex": "I was so nervous that I could only eat half a banana.",
+"book": 1,
+"id": "banana",
+"m": [
+46,
+52
+]
+},
+{
+"w": "runner",
+"ipa": "/ˈrʌnɚ/",
+"fa": "دونده",
+"ex": "At the starting line, there were two thousand runners.",
+"book": 1,
+"id": "runner",
+"m": [
+46,
+53
+]
+},
+{
+"w": "station",
+"ipa": "/ˈsteɪʃən/",
+"fa": "ایستگاه",
+"ex": "She told me to start slowly and to drink water at every station.",
+"book": 1,
+"id": "station",
+"m": [
+56,
+63
+]
+},
+{
+"w": "high five",
+"ipa": "/ˌhaɪ ˈfaɪv/",
+"fa": "بزن قدش (کف دست به هم زدن)",
+"ex": "The coach gave every player a high five.",
+"book": 1,
+"id": "high-five",
+"m": [
+30,
+39
+]
+},
+{
+"w": "stone",
+"ipa": "/stoʊn/",
+"fa": "سنگ",
+"ex": "At mile ten, my legs felt like stone.",
+"book": 1,
+"id": "stone",
+"m": [
+31,
+36
+]
+},
+{
+"w": "focus",
+"ipa": "/ˈfoʊkəs/",
+"fa": "تمرکز کردن",
+"ex": "I can’t focus when the TV is on.",
+"book": 1,
+"id": "focus",
+"m": [
+8,
+13
+]
+},
+{
+"w": "cross",
+"ipa": "/krɔs/",
+"fa": "رد شدن، عبور کردن",
+"ex": "Look both ways before you cross the street.",
+"book": 1,
+"id": "cross",
+"m": [
+26,
+31
+]
+},
+{
+"w": "finish line",
+"ipa": "/ˈfɪnɪʃ ˌlaɪn/",
+"fa": "خط پایان",
+"ex": "She was the first to reach the finish line.",
+"book": 1,
+"id": "finish-line",
+"m": [
+31,
+42
+]
+},
+{
+"w": "medal",
+"ipa": "/ˈmɛdəl/",
+"fa": "مدال",
+"ex": "He won a gold medal in swimming.",
+"book": 1,
+"id": "medal",
+"m": [
+14,
+19
+]
+},
+{
+"w": "neck",
+"ipa": "/nɛk/",
+"fa": "گردن",
+"ex": "She wore a scarf around her neck.",
+"book": 1,
+"id": "neck",
+"m": [
+28,
+32
+]
+},
+{
+"w": "starting line",
+"ipa": "/ˈstɑrtɪŋ laɪn/",
+"fa": "خط شروع",
+"ex": "At the starting line, there were two thousand runners.",
+"id": "starting-line",
+"m": [
+7,
+20
+]
+},
+{
+"w": "advice",
+"ipa": "/ædˈvaɪs/",
+"fa": "نصیحت، توصیه",
+"ex": "Jasmine found me and gave me some last advice.",
+"id": "advice",
+"m": [
+39,
+45
+]
+},
+{
+"w": "part",
+"ipa": "/pɑrt/",
+"fa": "بخش، قسمت",
+"ex": "She said that the hardest part would be mile ten.",
+"id": "part",
+"m": [
+26,
+30
+]
+},
+{
+"w": "lamp post",
+"ipa": "/læmp poʊst/",
+"fa": "تیر چراغ برق",
+"ex": "One lamp post, then another, then another.",
+"id": "lamp-post",
+"m": [
+4,
+13
+]
+},
+{
+"w": "bench",
+"ipa": "/bɛntʃ/",
+"fa": "نیمکت",
+"ex": "Carlos was standing on a bench, and Emma had come from Chicago to surprise me!",
+"id": "bench",
+"m": [
+25,
+30
+]
+},
+{
+"w": "volunteer",
+"ipa": "/ˌvɑlənˈtɪr/",
+"fa": "داوطلب",
+"ex": "A volunteer put a medal around my neck.",
+"id": "volunteer",
+"m": [
+2,
+11
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I was so nervous.",
+"fa": "خیلی استرس داشتم."
+},
+{
+"id": "s2",
+"en": "Start slowly.",
+"fa": "آرام شروع کن."
+},
+{
+"id": "s3",
+"en": "I didn’t think I could finish.",
+"fa": "فکر نمی‌کردم بتوانم تمام کنم."
+},
+{
+"id": "s4",
+"en": "I heard people shouting my name.",
+"fa": "شنیدم مردم اسمم را فریاد می‌زنند."
+},
+{
+"id": "s5",
+"en": "I had cried too.",
+"fa": "من هم گریه کرده بودم."
+}
+]
+}

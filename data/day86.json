@@ -1,0 +1,377 @@
+{
+"day": 86,
+"level": "B1",
+"title": "The Proposal",
+"fa_title": "خواستگاری",
+"audio": "audio/day86.mp3",
+"img": "img/day86.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Christmas Eve, snow was falling softly, and Main Street was full of lights.",
+"s": 3.47
+},
+{
+"p": 0,
+"t": "I had asked Lily to meet me at the gazebo in Maple Park at seven.",
+"s": 9.16
+},
+{
+"p": 1,
+"t": "I had spent weeks planning this moment.",
+"s": 13.51
+},
+{
+"p": 1,
+"t": "I wanted to do it in the park that the neighbors had saved in the summer, where we had taken our first walk together.",
+"s": 16.14
+},
+{
+"p": 2,
+"t": "Carlos and Ana helped me hang lights in the branches of the old oak tree.",
+"s": 22.85
+},
+{
+"p": 2,
+"t": "Emma came from Chicago and promised to hide behind a bush with a camera.",
+"s": 27.57
+},
+{
+"p": 2,
+"t": "Rosa insisted on bringing hot chocolate.",
+"s": 32.71
+},
+{
+"p": 3,
+"t": "When Lily arrived, she stopped walking.",
+"s": 36.08
+},
+{
+"p": 3,
+"t": "“Sam, what is all this?”",
+"s": 38.53
+},
+{
+"p": 4,
+"t": "My heart was beating so fast that I forgot my speech.",
+"s": 40.7
+},
+{
+"p": 4,
+"t": "I had practiced saying it a hundred times, but now I couldn’t remember a single word.",
+"s": 44.61
+},
+{
+"p": 4,
+"t": "So I decided to say what I felt.",
+"s": 50.28
+},
+{
+"p": 5,
+"t": "“Lily, I came to this country to find a job. I didn’t expect to find you. I love waking up in the same town as you, and I want to keep doing it for the rest of my life.”",
+"s": 52.98
+},
+{
+"p": 6,
+"t": "I knelt in the snow and opened the little box.",
+"s": 63.96
+},
+{
+"p": 6,
+"t": "“Will you marry me?”",
+"s": 66.76
+},
+{
+"p": 7,
+"t": "Lily started crying and laughing at the same time.",
+"s": 68.42
+},
+{
+"p": 7,
+"t": "“Yes! Of course, yes!”",
+"s": 71.45
+},
+{
+"p": 8,
+"t": "Behind the bush, Emma screamed.",
+"s": 74.11
+},
+{
+"p": 8,
+"t": "Then everyone, even Max, ran out, and we were all hugging in the snow.",
+"s": 76.49
+}
+],
+"comp": [
+{
+"q": "Where did Sam ask Lily to meet him?",
+"o": [
+"at Maple Café",
+"at Rosa’s house",
+"at the gazebo in Maple Park",
+"at the bookstore"
+],
+"a": 2,
+"fa": "سام از لیلی خواست کجا او را ببیند؟"
+},
+{
+"q": "Why did Sam choose Maple Park?",
+"o": [
+"It was near his apartment.",
+"It had the most lights.",
+"Lily chose it.",
+"They had taken their first walk together there."
+],
+"a": 3,
+"fa": "چرا سام پارک میپل را انتخاب کرد؟"
+},
+{
+"q": "Who insisted on bringing hot chocolate?",
+"o": [
+"Rosa",
+"Emma",
+"Ana",
+"Carlos"
+],
+"a": 0,
+"fa": "چه کسی اصرار داشت شکلات داغ بیاورد؟"
+},
+{
+"q": "What happened to Sam’s speech?",
+"o": [
+"He read it from a paper.",
+"He forgot it and said what he felt.",
+"Lily interrupted him.",
+"Emma said it for him."
+],
+"a": 1,
+"fa": "چه بر سر سخنرانی سام آمد؟"
+},
+{
+"q": "What does “knelt” mean?",
+"o": [
+"fell asleep",
+"jumped",
+"ran away",
+"went down on one knee"
+],
+"a": 3,
+"fa": "«knelt» یعنی چه؟"
+},
+{
+"q": "How did Lily react?",
+"o": [
+"She said she needed time.",
+"She ran away.",
+"She cried, laughed, and said yes.",
+"She was angry."
+],
+"a": 2,
+"fa": "لیلی چه واکنشی نشان داد؟"
+}
+],
+"words": [
+{
+"w": "softly",
+"ipa": "/ˈsɔftli/",
+"fa": "آرام، به‌نرمی",
+"ex": "On Christmas Eve, snow was falling softly, and Main Street was full of lights.",
+"book": 1,
+"id": "softly",
+"m": [
+35,
+41
+]
+},
+{
+"w": "gazebo",
+"ipa": "/ɡəˈziboʊ/",
+"fa": "آلاچیق",
+"ex": "I had asked Lily to meet me at the gazebo in Maple Park at seven.",
+"book": 1,
+"id": "gazebo",
+"m": [
+35,
+41
+]
+},
+{
+"w": "branch",
+"ipa": "/bræntʃ/",
+"fa": "شاخه",
+"ex": "Carlos and Ana helped me hang lights in the branches of the old oak tree.",
+"book": 1,
+"id": "branch",
+"m": [
+44,
+52
+]
+},
+{
+"w": "insist",
+"ipa": "/ɪnˈsɪst/",
+"fa": "اصرار کردن",
+"ex": "Rosa insisted on bringing hot chocolate.",
+"book": 1,
+"id": "insist",
+"m": [
+5,
+13
+]
+},
+{
+"w": "beat",
+"ipa": "/bit/",
+"fa": "زدن (قلب)، تپیدن",
+"ex": "My heart was beating so fast that I forgot my speech.",
+"book": 1,
+"id": "beat",
+"m": [
+13,
+20
+]
+},
+{
+"w": "single",
+"ipa": "/ˈsɪŋɡəl/",
+"fa": "حتی یک، تک",
+"ex": "I had practiced saying it a hundred times, but now I couldn’t remember a single word.",
+"book": 1,
+"id": "single",
+"m": [
+73,
+79
+]
+},
+{
+"w": "kneel",
+"ipa": "/nil/",
+"fa": "زانو زدن",
+"ex": "I knelt in the snow and opened the little box.",
+"book": 1,
+"id": "kneel",
+"m": [
+2,
+7
+]
+},
+{
+"w": "marry",
+"ipa": "/ˈmɛri/",
+"fa": "ازدواج کردن",
+"ex": "Will you marry me?",
+"book": 1,
+"id": "marry",
+"m": [
+9,
+14
+]
+},
+{
+"w": "of course",
+"ipa": "/əv ˈkɔrs/",
+"fa": "البته",
+"ex": "Of course, yes!",
+"book": 1,
+"id": "of-course",
+"m": [
+0,
+9
+]
+},
+{
+"w": "scream",
+"ipa": "/skrim/",
+"fa": "جیغ زدن",
+"ex": "Behind the bush, Emma screamed.",
+"book": 1,
+"id": "scream",
+"m": [
+22,
+30
+]
+},
+{
+"w": "Christmas Eve",
+"ipa": "/ˈkrɪsməs iv/",
+"fa": "شب کریسمس",
+"ex": "On Christmas Eve, snow was falling softly, and Main Street was full of lights.",
+"id": "christmas-eve",
+"m": [
+3,
+16
+]
+},
+{
+"w": "bush",
+"ipa": "/bʊʃ/",
+"fa": "بوته",
+"ex": "Behind the bush, Emma screamed.",
+"id": "bush",
+"m": [
+11,
+15
+]
+},
+{
+"w": "hot chocolate",
+"ipa": "/hɑt ˈtʃɔklət/",
+"fa": "شکلات داغ",
+"ex": "Rosa insisted on bringing hot chocolate.",
+"id": "hot-chocolate",
+"m": [
+26,
+39
+]
+},
+{
+"w": "speech",
+"ipa": "/spitʃ/",
+"fa": "سخنرانی، متن آماده",
+"ex": "My heart was beating so fast that I forgot my speech.",
+"id": "speech",
+"m": [
+46,
+52
+]
+},
+{
+"w": "rest",
+"ipa": "/rɛst/",
+"fa": "بقیه",
+"ex": "I want to keep doing it for the rest of my life.",
+"id": "rest",
+"m": [
+32,
+36
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Snow was falling softly.",
+"fa": "برف آرام می‌بارید."
+},
+{
+"id": "s2",
+"en": "My heart was beating so fast.",
+"fa": "قلبم خیلی تند می‌زد."
+},
+{
+"id": "s3",
+"en": "I didn’t expect to find you.",
+"fa": "انتظار نداشتم تو را پیدا کنم."
+},
+{
+"id": "s4",
+"en": "Will you marry me?",
+"fa": "با من ازدواج می‌کنی؟"
+},
+{
+"id": "s5",
+"en": "Of course, yes!",
+"fa": "البته که بله!"
+}
+]
+}

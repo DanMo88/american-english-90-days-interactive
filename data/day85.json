@@ -1,0 +1,413 @@
+{
+"day": 85,
+"level": "B1",
+"title": "The Missing Ring",
+"fa_title": "انگشتر گم‌شده",
+"audio": "audio/day85.mp3",
+"img": "img/day85.webp",
+"sents": [
+{
+"p": 0,
+"t": "With Lily’s bakery opening in January, I knew it was the right time.",
+"s": 3.44
+},
+{
+"p": 0,
+"t": "I bought an engagement ring.",
+"s": 8.19
+},
+{
+"p": 0,
+"t": "It’s small and simple, but I saved for months to buy it.",
+"s": 10.28
+},
+{
+"p": 1,
+"t": "I hid the little box in my sock drawer and planned to propose on Christmas Eve.",
+"s": 14.49
+},
+{
+"p": 2,
+"t": "But on December 20th, the ring was gone.",
+"s": 19.97
+},
+{
+"p": 2,
+"t": "I searched everywhere: under the bed, in my pockets, in the car.",
+"s": 22.94
+},
+{
+"p": 3,
+"t": "“Someone must have taken it!” I said to Rosa.",
+"s": 27.39
+},
+{
+"p": 4,
+"t": "“Nobody has a key to your apartment except me,” she said.",
+"s": 30.87
+},
+{
+"p": 4,
+"t": "“It can’t have been stolen. You might have moved it.”",
+"s": 34.62
+},
+{
+"p": 5,
+"t": "Then I remembered.",
+"s": 37.9
+},
+{
+"p": 5,
+"t": "I had taken the ring out to look at it on the sofa.",
+"s": 39.48
+},
+{
+"p": 5,
+"t": "Max had been sitting next to me.",
+"s": 42.43
+},
+{
+"p": 6,
+"t": "We looked at Max.",
+"s": 44.94
+},
+{
+"p": 6,
+"t": "Max looked at us.",
+"s": 46.17
+},
+{
+"p": 6,
+"t": "He wagged his tail and looked away.",
+"s": 47.43
+},
+{
+"p": 7,
+"t": "“He couldn’t have eaten it,” Rosa said.",
+"s": 50.05
+},
+{
+"p": 7,
+"t": "“The box is too big. But he loves to hide things.”",
+"s": 52.39
+},
+{
+"p": 8,
+"t": "We searched Max’s bed, and there, between a sock, a tennis ball, and one of Rosa’s gloves, was the little velvet box.",
+"s": 56.33
+},
+{
+"p": 8,
+"t": "The ring was inside, perfectly safe.",
+"s": 64.2
+},
+{
+"p": 9,
+"t": "“Max must have thought it was a toy,” Rosa laughed.",
+"s": 67.47
+},
+{
+"p": 9,
+"t": "Then her eyes went wide.",
+"s": 70.3
+},
+{
+"p": 9,
+"t": "“Wait. A ring? Sam!”",
+"s": 71.99
+},
+{
+"p": 10,
+"t": "I put my finger to my lips.",
+"s": 74.35
+},
+{
+"p": 10,
+"t": "“Shh. It’s a secret until Christmas Eve.”",
+"s": 76.15
+}
+],
+"comp": [
+{
+"q": "When did Sam plan to propose?",
+"o": [
+"on Christmas Eve",
+"on New Year’s Eve",
+"on Lily’s birthday",
+"in January"
+],
+"a": 0,
+"fa": "سام برنامه داشت کی خواستگاری کند؟"
+},
+{
+"q": "Where did Sam hide the ring?",
+"o": [
+"in his car",
+"in his sock drawer",
+"in his coat pocket",
+"under the bed"
+],
+"a": 1,
+"fa": "سام انگشتر را کجا قایم کرد؟"
+},
+{
+"q": "Why did Rosa think the ring couldn’t have been stolen?",
+"o": [
+"The door was locked.",
+"Max was guarding it.",
+"Nobody else had a key to the apartment.",
+"It wasn’t expensive."
+],
+"a": 2,
+"fa": "چرا رزا فکر می‌کرد انگشتر نمی‌تواند دزدیده شده باشد؟"
+},
+{
+"q": "What does “He couldn’t have eaten it” mean?",
+"o": [
+"Max wasn’t hungry.",
+"Max ate it.",
+"Max doesn’t eat food.",
+"It’s impossible that Max ate it."
+],
+"a": 3,
+"fa": "«He couldn’t have eaten it» یعنی چه؟"
+},
+{
+"q": "Where did they find the ring?",
+"o": [
+"in the sofa",
+"in Max’s bed",
+"in Rosa’s glove",
+"in the car"
+],
+"a": 1,
+"fa": "انگشتر را کجا پیدا کردند؟"
+},
+{
+"q": "What did Rosa understand at the end?",
+"o": [
+"Sam had bought a toy.",
+"Max was sick.",
+"She had lost her glove.",
+"Sam was going to propose."
+],
+"a": 3,
+"fa": "رزا در پایان چه چیزی را فهمید؟"
+}
+],
+"words": [
+{
+"w": "engagement ring",
+"ipa": "/ɪnˈɡeɪdʒmənt ˌrɪŋ/",
+"fa": "انگشتر نامزدی",
+"ex": "I bought an engagement ring.",
+"book": 1,
+"id": "engagement-ring",
+"m": [
+12,
+27
+]
+},
+{
+"w": "propose",
+"ipa": "/prəˈpoʊz/",
+"fa": "خواستگاری کردن",
+"ex": "I hid the little box in my sock drawer and planned to propose on Christmas Eve.",
+"book": 1,
+"id": "propose",
+"m": [
+54,
+61
+]
+},
+{
+"w": "sock",
+"ipa": "/sɑk/",
+"fa": "جوراب",
+"ex": "I hid the little box in my sock drawer and planned to propose on Christmas Eve.",
+"book": 1,
+"id": "sock",
+"m": [
+27,
+31
+]
+},
+{
+"w": "drawer",
+"ipa": "/drɔr/",
+"fa": "کشو",
+"ex": "I hid the little box in my sock drawer and planned to propose on Christmas Eve.",
+"book": 1,
+"id": "drawer",
+"m": [
+32,
+38
+]
+},
+{
+"w": "search",
+"ipa": "/sɝtʃ/",
+"fa": "گشتن، جست‌وجو کردن",
+"ex": "I searched everywhere: under the bed, in my pockets, in the car.",
+"book": 1,
+"id": "search",
+"m": [
+2,
+10
+]
+},
+{
+"w": "pocket",
+"ipa": "/ˈpɑkɪt/",
+"fa": "جیب",
+"ex": "I searched everywhere: under the bed, in my pockets, in the car.",
+"book": 1,
+"id": "pocket",
+"m": [
+44,
+51
+]
+},
+{
+"w": "except",
+"ipa": "/ɪkˈsɛpt/",
+"fa": "به‌جز",
+"ex": "Nobody has a key to your apartment except me.",
+"book": 1,
+"id": "except",
+"m": [
+35,
+41
+]
+},
+{
+"w": "wag",
+"ipa": "/wæɡ/",
+"fa": "تکان دادن (دم)",
+"ex": "He wagged his tail and looked away.",
+"book": 1,
+"id": "wag",
+"m": [
+3,
+9
+]
+},
+{
+"w": "tail",
+"ipa": "/teɪl/",
+"fa": "دم",
+"ex": "He wagged his tail and looked away.",
+"book": 1,
+"id": "tail",
+"m": [
+14,
+18
+]
+},
+{
+"w": "velvet",
+"ipa": "/ˈvɛlvɪt/",
+"fa": "مخمل",
+"ex": "She wore a red velvet dress.",
+"book": 1,
+"id": "velvet",
+"m": [
+15,
+21
+]
+},
+{
+"w": "hide",
+"ipa": "/haɪd/",
+"fa": "قایم کردن",
+"ex": "He loves to hide things.",
+"id": "hide",
+"m": [
+12,
+16
+]
+},
+{
+"w": "sofa",
+"ipa": "/ˈsoʊfə/",
+"fa": "مبل",
+"ex": "I had taken the ring out to look at it on the sofa.",
+"id": "sofa",
+"m": [
+46,
+50
+]
+},
+{
+"w": "tennis ball",
+"ipa": "/ˈtɛnəs bɔl/",
+"fa": "توپ تنیس",
+"ex": "There, between a sock, a tennis ball.",
+"id": "tennis-ball",
+"m": [
+25,
+36
+]
+},
+{
+"w": "finger",
+"ipa": "/ˈfɪŋɡɚ/",
+"fa": "انگشت",
+"ex": "I put my finger to my lips.",
+"id": "finger",
+"m": [
+9,
+15
+]
+},
+{
+"w": "glove",
+"ipa": "/ɡlʌv/",
+"fa": "دستکش",
+"ex": "One of Rosa’s gloves, was the little velvet box.",
+"id": "glove",
+"m": [
+14,
+20
+]
+},
+{
+"w": "look away",
+"ipa": "/lʊk əˈweɪ/",
+"fa": "رو برگرداندن",
+"ex": "He wagged his tail and looked away.",
+"id": "look-away",
+"m": [
+23,
+34
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "The ring was gone.",
+"fa": "انگشتر نبود."
+},
+{
+"id": "s2",
+"en": "Someone must have taken it!",
+"fa": "حتماً کسی برداشته!"
+},
+{
+"id": "s3",
+"en": "You might have moved it.",
+"fa": "شاید جابه‌جایش کرده‌ای."
+},
+{
+"id": "s4",
+"en": "He couldn’t have eaten it.",
+"fa": "امکان ندارد آن را خورده باشد."
+},
+{
+"id": "s5",
+"en": "It’s a secret until Christmas Eve.",
+"fa": "تا شب کریسمس راز است."
+}
+]
+}

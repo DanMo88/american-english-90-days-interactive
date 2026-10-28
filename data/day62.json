@@ -1,0 +1,381 @@
+{
+"day": 62,
+"level": "B1",
+"title": "A Problem at Work",
+"fa_title": "یک مشکل در محل کار",
+"audio": "audio/day62.mp3",
+"img": "img/day62.webp",
+"sents": [
+{
+"p": 0,
+"t": "Last week, I had my first real problem as a manager.",
+"s": 3.93
+},
+{
+"p": 0,
+"t": "Tina and Jake both asked for the same Saturday off.",
+"s": 7.55
+},
+{
+"p": 0,
+"t": "Tina’s daughter has a dance recital that day, and Jake has bought tickets to a concert in Riverside.",
+"s": 11.43
+},
+{
+"p": 1,
+"t": "“I asked first,” Tina said.",
+"s": 18.35
+},
+{
+"p": 1,
+"t": "“I’ve worked every Saturday this month.”",
+"s": 20.59
+},
+{
+"p": 2,
+"t": "“But I bought my ticket in May,” Jake answered.",
+"s": 23.22
+},
+{
+"p": 2,
+"t": "“I haven’t had a Saturday off since spring!”",
+"s": 26.37
+},
+{
+"p": 3,
+"t": "After that, they stopped talking to each other, and the store felt tense.",
+"s": 29.18
+},
+{
+"p": 3,
+"t": "Even customers noticed it.",
+"s": 33.38
+},
+{
+"p": 4,
+"t": "I didn’t know what to do, so I called Mr. Lee.",
+"s": 35.72
+},
+{
+"p": 4,
+"t": "“You can’t make everyone happy,” he said.",
+"s": 38.82
+},
+{
+"p": 4,
+"t": "“But you can be fair. Listen to both sides, and look at the facts.”",
+"s": 41.59
+},
+{
+"p": 5,
+"t": "So I checked the schedule.",
+"s": 46.27
+},
+{
+"p": 5,
+"t": "Tina was right: she had worked four Saturdays in a row.",
+"s": 48.14
+},
+{
+"p": 5,
+"t": "But Jake was right too.",
+"s": 51.93
+},
+{
+"p": 5,
+"t": "He hadn’t had a free weekend since April.",
+"s": 53.72
+},
+{
+"p": 6,
+"t": "Then I had an idea.",
+"s": 56.58
+},
+{
+"p": 6,
+"t": "I asked Ben if he could work that Saturday, and he agreed.",
+"s": 58.19
+},
+{
+"p": 6,
+"t": "In return, I gave him a Friday off.",
+"s": 62.06
+},
+{
+"p": 6,
+"t": "Tina could go to the recital, and Jake could go to his concert.",
+"s": 64.77
+},
+{
+"p": 7,
+"t": "The next morning, Tina brought donuts for everyone, and Jake made the coffee.",
+"s": 69.0
+},
+{
+"p": 7,
+"t": "The store felt like a team again.",
+"s": 73.91
+}
+],
+"comp": [
+{
+"q": "Why did Tina want the Saturday off?",
+"o": [
+"to go to a concert",
+"for her daughter’s dance recital",
+"to visit Riverside",
+"to rest"
+],
+"a": 1,
+"fa": "چرا تینا آن شنبه را مرخصی می‌خواست؟"
+},
+{
+"q": "When did Jake buy his ticket?",
+"o": [
+"yesterday",
+"last week",
+"in April",
+"in May"
+],
+"a": 3,
+"fa": "جیک بلیتش را کی خرید؟"
+},
+{
+"q": "What does “tense” mean in “the store felt tense”?",
+"o": [
+"relaxed and quiet",
+"full of customers",
+"nervous and uncomfortable",
+"very cold"
+],
+"a": 2,
+"fa": "«tense» در جمله‌ی «the store felt tense» یعنی چه؟"
+},
+{
+"q": "What was Mr. Lee’s advice?",
+"o": [
+"Listen to both sides and be fair.",
+"Choose the older employee.",
+"Close the store that day.",
+"Say no to both of them."
+],
+"a": 0,
+"fa": "توصیه‌ی آقای لی چه بود؟"
+},
+{
+"q": "How did Sam solve the problem?",
+"o": [
+"Jake sold his ticket.",
+"Ben worked that Saturday.",
+"Tina stayed home.",
+"Sam worked that Saturday."
+],
+"a": 1,
+"fa": "سام مشکل را چطور حل کرد؟"
+},
+{
+"q": "Why did Tina probably bring donuts?",
+"o": [
+"It was her birthday.",
+"Jake asked her to.",
+"She wanted to make peace and say thank you.",
+"It was a store rule."
+],
+"a": 2,
+"fa": "چرا تینا احتمالاً دونات آورد؟"
+}
+],
+"words": [
+{
+"w": "recital",
+"ipa": "/rɪˈsaɪtəl/",
+"fa": "اجرای شاگردان (رقص یا موسیقی)",
+"ex": "Tina could go to the recital, and Jake could go to his concert.",
+"book": 1,
+"id": "recital",
+"m": [
+21,
+28
+]
+},
+{
+"w": "concert",
+"ipa": "/ˈkɑnsɚt/",
+"fa": "کنسرت",
+"ex": "Tina could go to the recital, and Jake could go to his concert.",
+"book": 1,
+"id": "concert",
+"m": [
+55,
+62
+]
+},
+{
+"w": "tense",
+"ipa": "/tɛns/",
+"fa": "پرتنش",
+"ex": "After that, they stopped talking to each other, and the store felt tense.",
+"book": 1,
+"id": "tense",
+"m": [
+67,
+72
+]
+},
+{
+"w": "notice",
+"ipa": "/ˈnoʊtɪs/",
+"fa": "متوجه شدن",
+"ex": "Even customers noticed it.",
+"book": 1,
+"id": "notice",
+"m": [
+15,
+22
+]
+},
+{
+"w": "fair",
+"ipa": "/fɛr/",
+"fa": "منصف، عادلانه",
+"ex": "You can be fair.",
+"book": 1,
+"id": "fair",
+"m": [
+11,
+15
+]
+},
+{
+"w": "fact",
+"ipa": "/fækt/",
+"fa": "واقعیت",
+"ex": "Listen to both sides, and look at the facts.",
+"book": 1,
+"id": "fact",
+"m": [
+38,
+43
+]
+},
+{
+"w": "in a row",
+"ipa": "/ɪn ə ˈroʊ/",
+"fa": "پشت سر هم",
+"ex": "Tina was right: she had worked four Saturdays in a row.",
+"book": 1,
+"id": "in-a-row",
+"m": [
+46,
+54
+]
+},
+{
+"w": "agree",
+"ipa": "/əˈɡri/",
+"fa": "موافقت کردن",
+"ex": "I asked Ben if he could work that Saturday, and he agreed.",
+"book": 1,
+"id": "agree",
+"m": [
+51,
+57
+]
+},
+{
+"w": "in return",
+"ipa": "/ɪn rɪˈtɝn/",
+"fa": "در عوض",
+"ex": "In return, I gave him a Friday off.",
+"book": 1,
+"id": "in-return",
+"m": [
+0,
+9
+]
+},
+{
+"w": "donut",
+"ipa": "/ˈdoʊnʌt/",
+"fa": "دونات",
+"ex": "The next morning, Tina brought donuts for everyone, and Jake made the coffee.",
+"book": 1,
+"id": "donut",
+"m": [
+31,
+37
+]
+},
+{
+"w": "listen",
+"ipa": "/ˈlɪsən/",
+"fa": "گوش دادن",
+"ex": "Listen to both sides, and look at the facts.",
+"id": "listen",
+"m": [
+0,
+6
+]
+},
+{
+"w": "both",
+"ipa": "/boʊθ/",
+"fa": "هر دو",
+"ex": "Listen to both sides, and look at the facts.",
+"id": "both",
+"m": [
+10,
+14
+]
+},
+{
+"w": "feel",
+"ipa": "/fil/",
+"fa": "حس و حال داشتن",
+"ex": "After that, they stopped talking to each other, and the store felt tense.",
+"id": "feel",
+"m": [
+62,
+66
+]
+},
+{
+"w": "bring",
+"ipa": "/brɪŋ/",
+"fa": "آوردن",
+"ex": "The next morning, Tina brought donuts for everyone, and Jake made the coffee.",
+"id": "bring",
+"m": [
+23,
+30
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I asked first.",
+"fa": "اول من درخواست دادم."
+},
+{
+"id": "s2",
+"en": "You can’t make everyone happy.",
+"fa": "نمی‌توانی همه را راضی نگه داری."
+},
+{
+"id": "s3",
+"en": "Listen to both sides.",
+"fa": "حرف هر دو طرف را گوش کن."
+},
+{
+"id": "s4",
+"en": "Tina was right.",
+"fa": "حق با تینا بود."
+},
+{
+"id": "s5",
+"en": "The store felt like a team again.",
+"fa": "فروشگاه دوباره حس یک تیم را داشت."
+}
+]
+}

@@ -1,0 +1,399 @@
+{
+"day": 75,
+"level": "B1",
+"title": "In the News",
+"fa_title": "در روزنامه",
+"audio": "audio/day75.mp3",
+"img": "img/day75.webp",
+"sents": [
+{
+"p": 0,
+"t": "When we got back to Oakville, Lily and I organized a donation drive for the families who were affected by the hurricane.",
+"s": 2.11
+},
+{
+"p": 0,
+"t": "Collection boxes were placed at Oakville Books, Maple Café, and Danny’s bank.",
+"s": 10.99
+},
+{
+"p": 1,
+"t": "The response was amazing.",
+"s": 17.12
+},
+{
+"p": 1,
+"t": "In just two weeks, more than three thousand pounds of food, water, and clothes were collected.",
+"s": 19.13
+},
+{
+"p": 1,
+"t": "Mrs. Johnson let us use the food bank warehouse, and everything was sorted by volunteers in the evenings.",
+"s": 25.41
+},
+{
+"p": 1,
+"t": "A trucking company offered to drive the boxes to Louisiana for free.",
+"s": 32.37
+},
+{
+"p": 2,
+"t": "Then something unexpected happened.",
+"s": 37.34
+},
+{
+"p": 2,
+"t": "A reporter from the Oakville Times called me.",
+"s": 39.59
+},
+{
+"p": 2,
+"t": "“We’ve heard about your donation drive. Can we interview you?”",
+"s": 42.55
+},
+{
+"p": 3,
+"t": "The next day, a photographer took a picture of Lily and me in front of the truck.",
+"s": 46.57
+},
+{
+"p": 3,
+"t": "I was asked how the idea had started, and I told her about the waiter who said, “You learn to respect the storm.”",
+"s": 51.51
+},
+{
+"p": 4,
+"t": "On Sunday morning, Rosa knocked on my door, waving the newspaper.",
+"s": 59.05
+},
+{
+"p": 4,
+"t": "“You’re famous!” she shouted.",
+"s": 63.81
+},
+{
+"p": 4,
+"t": "Our photo was printed on the front page under the headline “Oakville Helps the Gulf Coast.”",
+"s": 66.06
+},
+{
+"p": 5,
+"t": "Lily bought ten copies.",
+"s": 71.44
+},
+{
+"p": 5,
+"t": "One was framed and hung on the wall of Maple Café.",
+"s": 73.31
+},
+{
+"p": 5,
+"t": "Another was mailed to my mom.",
+"s": 76.72
+},
+{
+"p": 6,
+"t": "“You see?” Rosa said.",
+"s": 78.19
+},
+{
+"p": 6,
+"t": "“One small idea can be heard very far away.”",
+"s": 81.09
+}
+],
+"comp": [
+{
+"q": "Who was the donation drive for?",
+"o": [
+"the food bank in Oakville",
+"the bookstore",
+"Lily’s family",
+"families affected by the hurricane"
+],
+"a": 3,
+"fa": "این کمپین جمع‌آوری کمک برای چه کسانی بود؟"
+},
+{
+"q": "How much was collected in two weeks?",
+"o": [
+"three hundred dollars",
+"ten boxes",
+"over three thousand pounds of things",
+"one truck of books"
+],
+"a": 2,
+"fa": "در دو هفته چه مقدار جمع‌آوری شد؟"
+},
+{
+"q": "Who drove the donations to Louisiana?",
+"o": [
+"Sam and Lily",
+"Danny",
+"Mrs. Johnson",
+"a trucking company, for free"
+],
+"a": 3,
+"fa": "چه کسی کمک‌ها را به لوئیزیانا برد؟"
+},
+{
+"q": "Where was the photo printed?",
+"o": [
+"on page ten",
+"on the front page",
+"only online",
+"on a poster"
+],
+"a": 1,
+"fa": "عکس کجا چاپ شد؟"
+},
+{
+"q": "What happened to one of the copies?",
+"o": [
+"It was framed and hung in Maple Café.",
+"It was thrown away.",
+"It was sold.",
+"It was given to the reporter."
+],
+"a": 0,
+"fa": "چه بر سر یکی از نسخه‌ها آمد؟"
+},
+{
+"q": "What does Rosa mean by her last sentence?",
+"o": [
+"Sam talks too loudly.",
+"A small action can have a big effect.",
+"Newspapers are expensive.",
+"Sam should move away."
+],
+"a": 1,
+"fa": "منظور رزا از جمله‌ی آخرش چیست؟"
+}
+],
+"words": [
+{
+"w": "donation",
+"ipa": "/doʊˈneɪʃən/",
+"fa": "اهدا، کمک اهدایی",
+"ex": "We’ve heard about your donation drive.",
+"book": 1,
+"id": "donation",
+"m": [
+23,
+31
+]
+},
+{
+"w": "affect",
+"ipa": "/əˈfɛkt/",
+"fa": "تحت تأثیر قرار دادن، آسیب زدن",
+"ex": "The storm affected thousands of people.",
+"book": 1,
+"id": "affect",
+"m": [
+10,
+18
+]
+},
+{
+"w": "collection",
+"ipa": "/kəˈlɛkʃən/",
+"fa": "جمع‌آوری",
+"ex": "Collection boxes were placed at Oakville Books, Maple Café, and Danny’s bank.",
+"book": 1,
+"id": "collection",
+"m": [
+0,
+10
+]
+},
+{
+"w": "response",
+"ipa": "/rɪˈspɑns/",
+"fa": "واکنش، استقبال",
+"ex": "The response was amazing.",
+"book": 1,
+"id": "response",
+"m": [
+4,
+12
+]
+},
+{
+"w": "unexpected",
+"ipa": "/ˌʌnɪkˈspɛktɪd/",
+"fa": "غیرمنتظره",
+"ex": "Then something unexpected happened.",
+"book": 1,
+"id": "unexpected",
+"m": [
+15,
+25
+]
+},
+{
+"w": "reporter",
+"ipa": "/rɪˈpɔrtɚ/",
+"fa": "گزارشگر",
+"ex": "A reporter from the Oakville Times called me.",
+"book": 1,
+"id": "reporter",
+"m": [
+2,
+10
+]
+},
+{
+"w": "photographer",
+"ipa": "/fəˈtɑɡrəfɚ/",
+"fa": "عکاس",
+"ex": "The photographer took pictures at the wedding.",
+"book": 1,
+"id": "photographer",
+"m": [
+4,
+16
+]
+},
+{
+"w": "front page",
+"ipa": "/ˌfrʌnt ˈpeɪdʒ/",
+"fa": "صفحه‌ی اول (روزنامه)",
+"ex": "Our photo was printed on the front page under the headline “Oakville Helps the Gulf Coast.”",
+"book": 1,
+"id": "front-page",
+"m": [
+29,
+39
+]
+},
+{
+"w": "headline",
+"ipa": "/ˈhɛdˌlaɪn/",
+"fa": "تیتر",
+"ex": "Our photo was printed on the front page under the headline “Oakville Helps the Gulf Coast.”",
+"book": 1,
+"id": "headline",
+"m": [
+50,
+58
+]
+},
+{
+"w": "frame",
+"ipa": "/freɪm/",
+"fa": "قاب گرفتن",
+"ex": "One was framed and hung on the wall of Maple Café.",
+"book": 1,
+"id": "frame",
+"m": [
+8,
+14
+]
+},
+{
+"w": "warehouse",
+"ipa": "/ˈwɛrˌhaʊs/",
+"fa": "انبار",
+"ex": "Mrs. Johnson let us use the food bank warehouse.",
+"id": "warehouse",
+"m": [
+38,
+47
+]
+},
+{
+"w": "sort",
+"ipa": "/sɔrt/",
+"fa": "دسته‌بندی کردن، مرتب کردن",
+"ex": "Everything was sorted by volunteers in the evenings.",
+"id": "sort",
+"m": [
+15,
+21
+]
+},
+{
+"w": "for free",
+"ipa": "/fɔr fri/",
+"fa": "رایگان، مجانی",
+"ex": "A trucking company offered to drive the boxes to Louisiana for free.",
+"id": "for-free",
+"m": [
+59,
+67
+]
+},
+{
+"w": "interview",
+"ipa": "/ˈɪntɚvˌju/",
+"fa": "مصاحبه کردن",
+"ex": "Can we interview you?",
+"id": "interview",
+"m": [
+7,
+16
+]
+},
+{
+"w": "famous",
+"ipa": "/ˈfeɪməs/",
+"fa": "مشهور",
+"ex": "You’re famous!",
+"id": "famous",
+"m": [
+7,
+13
+]
+},
+{
+"w": "print",
+"ipa": "/prɪnt/",
+"fa": "چاپ کردن",
+"ex": "Our photo was printed on the front page under the headline “Oakville Helps the Gulf Coast.”",
+"id": "print",
+"m": [
+14,
+21
+]
+},
+{
+"w": "mail",
+"ipa": "/meɪl/",
+"fa": "با پست فرستادن",
+"ex": "Another was mailed to my mom.",
+"id": "mail",
+"m": [
+12,
+18
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "The response was amazing.",
+"fa": "استقبال فوق‌العاده بود."
+},
+{
+"id": "s2",
+"en": "Everything was sorted by volunteers.",
+"fa": "همه‌چیز را داوطلب‌ها دسته‌بندی کردند."
+},
+{
+"id": "s3",
+"en": "Can we interview you?",
+"fa": "می‌توانیم با شما مصاحبه کنیم؟"
+},
+{
+"id": "s4",
+"en": "You’re famous!",
+"fa": "مشهور شده‌ای!"
+},
+{
+"id": "s5",
+"en": "Lily bought ten copies.",
+"fa": "لیلی ده نسخه خرید."
+}
+]
+}

@@ -1,0 +1,395 @@
+{
+"day": 73,
+"level": "B1",
+"title": "New Orleans",
+"fa_title": "نیواورلئان",
+"audio": "audio/day73.mp3",
+"img": "img/day73.webp",
+"sents": [
+{
+"p": 0,
+"t": "For Lily’s birthday in September, I surprised her with a trip to New Orleans.",
+"s": 2.09
+},
+{
+"p": 0,
+"t": "She has always dreamed of tasting the food there.",
+"s": 8.86
+},
+{
+"p": 1,
+"t": "New Orleans was founded by the French in 1718, and it feels different from any other American city.",
+"s": 12.1
+},
+{
+"p": 1,
+"t": "In the French Quarter, the old houses are painted in bright colors and decorated with iron balconies full of flowers.",
+"s": 19.85
+},
+{
+"p": 1,
+"t": "Music is played on almost every corner.",
+"s": 27.8
+},
+{
+"p": 2,
+"t": "On our first morning, we had beignets at a famous café.",
+"s": 31.04
+},
+{
+"p": 2,
+"t": "They are covered in so much powdered sugar that my black T-shirt turned white.",
+"s": 35.12
+},
+{
+"p": 2,
+"t": "Lily laughed so hard that she spilled her coffee.",
+"s": 40.04
+},
+{
+"p": 3,
+"t": "In the afternoon, we took a cooking class.",
+"s": 43.65
+},
+{
+"p": 3,
+"t": "We were taught how to make gumbo, a spicy stew that is made with sausage, shrimp, and vegetables.",
+"s": 46.5
+},
+{
+"p": 3,
+"t": "“Gumbo was created by many cultures together: African, French, Spanish, and Native American,” the chef explained.",
+"s": 52.92
+},
+{
+"p": 4,
+"t": "In the evening, we listened to a jazz band in a small club.",
+"s": 61.27
+},
+{
+"p": 4,
+"t": "An old trumpet player was given a standing ovation after his solo.",
+"s": 65.98
+},
+{
+"p": 5,
+"t": "Walking back to the hotel, Lily held my hand.",
+"s": 70.81
+},
+{
+"p": 5,
+"t": "“This is the best birthday I’ve ever had,” she said.",
+"s": 74.35
+},
+{
+"p": 6,
+"t": "But on the hotel TV, a reporter was talking about a big storm in the Gulf of Mexico.",
+"s": 77.31
+}
+],
+"comp": [
+{
+"q": "Why did Sam take Lily to New Orleans?",
+"o": [
+"for work",
+"to visit her family",
+"for a wedding",
+"for her birthday"
+],
+"a": 3,
+"fa": "چرا سام لیلی را به نیواورلئان برد؟"
+},
+{
+"q": "Who founded New Orleans?",
+"o": [
+"the Spanish",
+"the French",
+"the British",
+"Native Americans"
+],
+"a": 1,
+"fa": "چه کسانی نیواورلئان را بنا کردند؟"
+},
+{
+"q": "Why did Sam’s T-shirt turn white?",
+"o": [
+"Lily spilled milk on it.",
+"He washed it.",
+"It was covered in powdered sugar.",
+"It was very old."
+],
+"a": 2,
+"fa": "چرا تی‌شرت سام سفید شد؟"
+},
+{
+"q": "According to the chef, who created gumbo?",
+"o": [
+"one famous chef",
+"many cultures together",
+"a hotel in New Orleans",
+"the French only"
+],
+"a": 1,
+"fa": "به گفته‌ی سرآشپز، چه کسانی گامبو را به وجود آوردند؟"
+},
+{
+"q": "What does “a standing ovation” mean?",
+"o": [
+"People leave early.",
+"People sing.",
+"People dance.",
+"People stand up and clap."
+],
+"a": 3,
+"fa": "«a standing ovation» یعنی چه؟"
+},
+{
+"q": "What does the last sentence suggest?",
+"o": [
+"A storm might change their trip.",
+"The trip will be longer.",
+"They will go to Mexico.",
+"Lily is sick."
+],
+"a": 0,
+"fa": "جمله‌ی آخر چه چیزی را نشان می‌دهد؟"
+}
+],
+"words": [
+{
+"w": "found",
+"ipa": "/faʊnd/",
+"fa": "بنا نهادن، تأسیس کردن",
+"ex": "The company was founded in 1990.",
+"book": 1,
+"id": "found",
+"m": [
+16,
+23
+]
+},
+{
+"w": "iron",
+"ipa": "/ˈaɪɚn/",
+"fa": "آهنی",
+"ex": "The gate is made of iron.",
+"book": 1,
+"id": "iron",
+"m": [
+20,
+24
+]
+},
+{
+"w": "balcony",
+"ipa": "/ˈbælkəni/",
+"fa": "بالکن",
+"ex": "We had breakfast on the balcony.",
+"book": 1,
+"id": "balcony",
+"m": [
+24,
+31
+]
+},
+{
+"w": "powdered sugar",
+"ipa": "/ˈpaʊdɚd ˈʃʊɡɚ/",
+"fa": "پودر قند",
+"ex": "They are covered in so much powdered sugar that my black T-shirt turned white.",
+"book": 1,
+"id": "powdered-sugar",
+"m": [
+28,
+42
+]
+},
+{
+"w": "stew",
+"ipa": "/stu/",
+"fa": "خوراک، خورش",
+"ex": "My grandma makes beef stew in winter.",
+"book": 1,
+"id": "stew",
+"m": [
+22,
+26
+]
+},
+{
+"w": "shrimp",
+"ipa": "/ʃrɪmp/",
+"fa": "میگو",
+"ex": "I ordered shrimp with rice.",
+"book": 1,
+"id": "shrimp",
+"m": [
+10,
+16
+]
+},
+{
+"w": "culture",
+"ipa": "/ˈkʌltʃɚ/",
+"fa": "فرهنگ",
+"ex": "Gumbo was created by many cultures together: African, French, Spanish, and Native American.",
+"book": 1,
+"id": "culture",
+"m": [
+26,
+34
+]
+},
+{
+"w": "jazz",
+"ipa": "/dʒæz/",
+"fa": "جاز",
+"ex": "In the evening, we listened to a jazz band in a small club.",
+"book": 1,
+"id": "jazz",
+"m": [
+33,
+37
+]
+},
+{
+"w": "trumpet",
+"ipa": "/ˈtrʌmpɪt/",
+"fa": "ترومپت",
+"ex": "An old trumpet player was given a standing ovation after his solo.",
+"book": 1,
+"id": "trumpet",
+"m": [
+7,
+14
+]
+},
+{
+"w": "standing ovation",
+"ipa": "/ˈstændɪŋ oʊˈveɪʃən/",
+"fa": "تشویق ایستاده",
+"ex": "An old trumpet player was given a standing ovation after his solo.",
+"book": 1,
+"id": "standing-ovation",
+"m": [
+34,
+50
+]
+},
+{
+"w": "taste",
+"ipa": "/teɪst/",
+"fa": "چشیدن، مزه کردن",
+"ex": "She has always dreamed of tasting the food there.",
+"id": "taste",
+"m": [
+26,
+33
+]
+},
+{
+"w": "French",
+"ipa": "/frɛntʃ/",
+"fa": "فرانسوی",
+"ex": "Gumbo was created by many cultures together: African, French, Spanish, and Native American.",
+"id": "french",
+"m": [
+54,
+60
+]
+},
+{
+"w": "cooking class",
+"ipa": "/ˈkʊkɪŋ klæs/",
+"fa": "کلاس آشپزی",
+"ex": "In the afternoon, we took a cooking class.",
+"id": "cooking-class",
+"m": [
+28,
+41
+]
+},
+{
+"w": "sausage",
+"ipa": "/ˈsɔsədʒ/",
+"fa": "سوسیس",
+"ex": "We were taught how to make gumbo, a spicy stew that is made with sausage, shrimp.",
+"id": "sausage",
+"m": [
+65,
+72
+]
+},
+{
+"w": "create",
+"ipa": "/kriˈeɪt/",
+"fa": "به وجود آوردن، خلق کردن",
+"ex": "Gumbo was created by many cultures together: African, French, Spanish, and Native American.",
+"id": "create",
+"m": [
+10,
+17
+]
+},
+{
+"w": "club",
+"ipa": "/klʌb/",
+"fa": "کلوب، باشگاه شبانه",
+"ex": "In the evening, we listened to a jazz band in a small club.",
+"id": "club",
+"m": [
+54,
+58
+]
+},
+{
+"w": "reporter",
+"ipa": "/rɪˈpɔrtɚ/",
+"fa": "گزارشگر",
+"ex": "On the hotel TV, a reporter was talking about a big storm in the Gulf of Mexico.",
+"id": "reporter",
+"m": [
+19,
+27
+]
+},
+{
+"w": "solo",
+"ipa": "/ˈsoʊˌloʊ/",
+"fa": "تک‌نوازی",
+"ex": "An old trumpet player was given a standing ovation after his solo.",
+"id": "solo",
+"m": [
+61,
+65
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "She has always dreamed of tasting the food there.",
+"fa": "همیشه آرزو داشته غذاهای آنجا را بچشد."
+},
+{
+"id": "s2",
+"en": "Music is played on almost every corner.",
+"fa": "تقریباً سرِ هر کوچه‌ای موسیقی نواخته می‌شود."
+},
+{
+"id": "s3",
+"en": "We took a cooking class.",
+"fa": "در یک کلاس آشپزی شرکت کردیم."
+},
+{
+"id": "s4",
+"en": "Gumbo is a spicy stew.",
+"fa": "گامبو یک خوراک تند است."
+},
+{
+"id": "s5",
+"en": "This is the best birthday I’ve ever had.",
+"fa": "این بهترین تولدی است که تا حالا داشته‌ام."
+}
+]
+}

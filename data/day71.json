@@ -1,0 +1,404 @@
+{
+"day": 71,
+"level": "B1",
+"title": "The Bookstore Podcast",
+"fa_title": "پادکست کتاب‌فروشی",
+"audio": "audio/day71.mp3",
+"img": "img/day71.webp",
+"sents": [
+{
+"p": 0,
+"t": "In September, Mr. Lee had a new idea.",
+"s": 2.49
+},
+{
+"p": 0,
+"t": "“Everybody listens to podcasts these days,” he said.",
+"s": 7.31
+},
+{
+"p": 0,
+"t": "“What if Oakville Books had its own podcast? We could talk about books and interview local people.”",
+"s": 11.06
+},
+{
+"p": 1,
+"t": "He asked me to be the host.",
+"s": 17.44
+},
+{
+"p": 1,
+"t": "“Me? But my accent...” I said.",
+"s": 19.19
+},
+{
+"p": 2,
+"t": "“Your accent is part of your story,” he answered.",
+"s": 22.33
+},
+{
+"p": 2,
+"t": "“If I were you, I wouldn’t worry about it.”",
+"s": 25.53
+},
+{
+"p": 3,
+"t": "We set up two microphones in the back office.",
+"s": 28.47
+},
+{
+"p": 3,
+"t": "Jake, who studies media at college, agreed to edit the episodes.",
+"s": 31.5
+},
+{
+"p": 4,
+"t": "Our first guest was Rosa.",
+"s": 36.55
+},
+{
+"p": 4,
+"t": "She talked about her favorite novel and about her life on Maple Street.",
+"s": 38.58
+},
+{
+"p": 4,
+"t": "Then I asked her, “If you could meet any writer, alive or dead, who would it be?”",
+"s": 42.9
+},
+{
+"p": 5,
+"t": "“Maya Angelou,” she said immediately.",
+"s": 48.6
+},
+{
+"p": 5,
+"t": "“I would thank her for teaching me to be brave.”",
+"s": 51.32
+},
+{
+"p": 6,
+"t": "For the second episode, I interviewed Walter from the food bank, and for the third, Emma joined us online from Chicago.",
+"s": 54.15
+},
+{
+"p": 7,
+"t": "At first, only twelve people listened.",
+"s": 62.43
+},
+{
+"p": 7,
+"t": "But after Rosa’s episode was shared on the town’s community page, we had more than five hundred listeners.",
+"s": 65.45
+},
+{
+"p": 8,
+"t": "Last week, a woman stopped me in the store.",
+"s": 72.77
+},
+{
+"p": 8,
+"t": "“Are you Sam from the podcast? I love your show!”",
+"s": 75.45
+},
+{
+"p": 9,
+"t": "A year ago, I would never have believed it.",
+"s": 79.03
+}
+],
+"comp": [
+{
+"q": "Why did Mr. Lee want a podcast?",
+"o": [
+"to sell microphones",
+"because Sam asked for one",
+"because many people listen to podcasts",
+"to teach English"
+],
+"a": 2,
+"fa": "چرا آقای لی پادکست می‌خواست؟"
+},
+{
+"q": "What was Sam worried about?",
+"o": [
+"his accent",
+"the price",
+"his schedule",
+"his quiet voice"
+],
+"a": 0,
+"fa": "سام نگران چه بود؟"
+},
+{
+"q": "What does “If I were you, I wouldn’t worry” mean?",
+"o": [
+"Sam should worry more.",
+"Sam shouldn’t worry.",
+"Mr. Lee will do the podcast.",
+"Mr. Lee is worried too."
+],
+"a": 1,
+"fa": "جمله‌ی «If I were you, I wouldn’t worry» یعنی چه؟"
+},
+{
+"q": "Who edits the episodes?",
+"o": [
+"Emma",
+"Mr. Lee",
+"Rosa",
+"Jake"
+],
+"a": 3,
+"fa": "چه کسی قسمت‌ها را تدوین می‌کند؟"
+},
+{
+"q": "Which writer would Rosa like to meet?",
+"o": [
+"Emma",
+"Mark Twain",
+"Maya Angelou",
+"Walter"
+],
+"a": 2,
+"fa": "رزا دوست دارد کدام نویسنده را ببیند؟"
+},
+{
+"q": "Why did the number of listeners grow?",
+"o": [
+"The store gave away free books.",
+"Mr. Lee paid for ads.",
+"The podcast was on TV.",
+"Rosa’s episode was shared on a community page."
+],
+"a": 3,
+"fa": "چرا تعداد شنونده‌ها زیاد شد؟"
+}
+],
+"words": [
+{
+"w": "podcast",
+"ipa": "/ˈpɑdˌkæst/",
+"fa": "پادکست",
+"ex": "What if Oakville Books had its own podcast?",
+"book": 1,
+"id": "podcast",
+"m": [
+35,
+42
+]
+},
+{
+"w": "host",
+"ipa": "/hoʊst/",
+"fa": "مجری",
+"ex": "He asked me to be the host.",
+"book": 1,
+"id": "host",
+"m": [
+22,
+26
+]
+},
+{
+"w": "accent",
+"ipa": "/ˈækˌsɛnt/",
+"fa": "لهجه",
+"ex": "Your accent is part of your story.",
+"book": 1,
+"id": "accent",
+"m": [
+5,
+11
+]
+},
+{
+"w": "microphone",
+"ipa": "/ˈmaɪkrəˌfoʊn/",
+"fa": "میکروفون",
+"ex": "We set up two microphones in the back office.",
+"book": 1,
+"id": "microphone",
+"m": [
+14,
+25
+]
+},
+{
+"w": "edit",
+"ipa": "/ˈɛdɪt/",
+"fa": "تدوین کردن، ویرایش کردن",
+"ex": "Jake, who studies media at college, agreed to edit the episodes.",
+"book": 1,
+"id": "edit",
+"m": [
+46,
+50
+]
+},
+{
+"w": "episode",
+"ipa": "/ˈɛpəˌsoʊd/",
+"fa": "قسمت (برنامه)",
+"ex": "Jake, who studies media at college, agreed to edit the episodes.",
+"book": 1,
+"id": "episode",
+"m": [
+55,
+63
+]
+},
+{
+"w": "guest",
+"ipa": "/ɡɛst/",
+"fa": "مهمان",
+"ex": "Our first guest was Rosa.",
+"book": 1,
+"id": "guest",
+"m": [
+10,
+15
+]
+},
+{
+"w": "novel",
+"ipa": "/ˈnɑvəl/",
+"fa": "رمان",
+"ex": "She talked about her favorite novel and about her life on Maple Street.",
+"book": 1,
+"id": "novel",
+"m": [
+30,
+35
+]
+},
+{
+"w": "alive",
+"ipa": "/əˈlaɪv/",
+"fa": "زنده",
+"ex": "If you could meet any writer, alive or dead, who would it be?",
+"book": 1,
+"id": "alive",
+"m": [
+30,
+35
+]
+},
+{
+"w": "immediately",
+"ipa": "/ɪˈmidiətli/",
+"fa": "فوراً، بی‌درنگ",
+"ex": "Call me immediately if you need help.",
+"book": 1,
+"id": "immediately",
+"m": [
+8,
+19
+]
+},
+{
+"w": "these days",
+"ipa": "/ðiz deɪz/",
+"fa": "این روزها",
+"ex": "Everybody listens to podcasts these days.",
+"id": "these-days",
+"m": [
+30,
+40
+]
+},
+{
+"w": "office",
+"ipa": "/ˈɔfɪs/",
+"fa": "دفتر کار",
+"ex": "We set up two microphones in the back office.",
+"id": "office",
+"m": [
+38,
+44
+]
+},
+{
+"w": "media",
+"ipa": "/ˈmidiə/",
+"fa": "رسانه",
+"ex": "Jake, who studies media at college, agreed to edit the episodes.",
+"id": "media",
+"m": [
+18,
+23
+]
+},
+{
+"w": "writer",
+"ipa": "/ˈraɪtɚ/",
+"fa": "نویسنده",
+"ex": "If you could meet any writer, alive or dead, who would it be?",
+"id": "writer",
+"m": [
+22,
+28
+]
+},
+{
+"w": "dead",
+"ipa": "/dɛd/",
+"fa": "مرده",
+"ex": "If you could meet any writer, alive or dead, who would it be?",
+"id": "dead",
+"m": [
+39,
+43
+]
+},
+{
+"w": "brave",
+"ipa": "/breɪv/",
+"fa": "شجاع",
+"ex": "I would thank her for teaching me to be brave.",
+"id": "brave",
+"m": [
+40,
+45
+]
+},
+{
+"w": "listener",
+"ipa": "/ˈlɪsənɚ/",
+"fa": "شنونده",
+"ex": "After Rosa’s episode was shared on the town’s community page, we had more than five hundred listeners.",
+"id": "listener",
+"m": [
+92,
+101
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Everybody listens to podcasts these days.",
+"fa": "این روزها همه پادکست گوش می‌دهند."
+},
+{
+"id": "s2",
+"en": "Your accent is part of your story.",
+"fa": "لهجه‌ات بخشی از داستان توست."
+},
+{
+"id": "s3",
+"en": "If I were you, I wouldn’t worry about it.",
+"fa": "اگر جای تو بودم، نگرانش نمی‌شدم."
+},
+{
+"id": "s4",
+"en": "Our first guest was Rosa.",
+"fa": "اولین مهمان ما رزا بود."
+},
+{
+"id": "s5",
+"en": "I love your show!",
+"fa": "عاشق برنامه‌ات هستم!"
+}
+]
+}

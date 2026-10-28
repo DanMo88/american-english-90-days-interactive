@@ -1,0 +1,378 @@
+{
+"day": 79,
+"level": "B1",
+"title": "A House for Danny",
+"fa_title": "خانه‌ای برای دنی",
+"audio": "audio/day79.mp3",
+"img": "img/day79.webp",
+"sents": [
+{
+"p": 0,
+"t": "Danny and Sarah have been looking for a house since the spring.",
+"s": 3.75
+},
+{
+"p": 0,
+"t": "Their apartment, which has only two bedrooms, has become too small for a family of four.",
+"s": 7.43
+},
+{
+"p": 1,
+"t": "Last Saturday, I went with them to an open house.",
+"s": 13.8
+},
+{
+"p": 1,
+"t": "The house, which was built in 1950, is on a quiet street near Maple Park.",
+"s": 17.25
+},
+{
+"p": 1,
+"t": "It has a big backyard with an old apple tree that Mia immediately wanted to climb.",
+"s": 23.18
+},
+{
+"p": 2,
+"t": "The real estate agent, who wore a bright orange jacket, showed us every room.",
+"s": 28.97
+},
+{
+"p": 2,
+"t": "“This is the kitchen that the owners remodeled last year,” she said.",
+"s": 34.53
+},
+{
+"p": 2,
+"t": "Leo found a tiny room under the stairs and shouted, “This is the room where I want to sleep!”",
+"s": 39.0
+},
+{
+"p": 3,
+"t": "“Remember, the house that we love isn’t always the house that we can afford,” Danny said quietly.",
+"s": 45.19
+},
+{
+"p": 3,
+"t": "Even though he works at a bank, he was nervous about the mortgage, a loan that you pay back over fifteen or thirty years.",
+"s": 51.62
+},
+{
+"p": 4,
+"t": "That evening, Danny and Sarah did the math at Rosa’s kitchen table.",
+"s": 60.02
+},
+{
+"p": 4,
+"t": "With a down payment of twenty thousand dollars, which they had saved for five years, the monthly payment was possible.",
+"s": 64.65
+},
+{
+"p": 5,
+"t": "They made an offer on Monday.",
+"s": 72.46
+},
+{
+"p": 5,
+"t": "On Wednesday, the agent called.",
+"s": 74.5
+},
+{
+"p": 5,
+"t": "“Congratulations! The sellers have accepted your offer!”",
+"s": 76.79
+},
+{
+"p": 6,
+"t": "Rosa cried.",
+"s": 79.77
+},
+{
+"p": 6,
+"t": "“My son is a homeowner,” she said proudly.",
+"s": 82.11
+}
+],
+"comp": [
+{
+"q": "Why do Danny and Sarah need a new home?",
+"o": [
+"Their landlord sold it.",
+"They lost their jobs.",
+"Their apartment is too small.",
+"They want to move to Chicago."
+],
+"a": 2,
+"fa": "چرا دنی و سارا به خانه‌ی جدید نیاز دارند؟"
+},
+{
+"q": "When was the house built?",
+"o": [
+"in 1950",
+"last year",
+"in 1905",
+"fifty years ago"
+],
+"a": 0,
+"fa": "خانه کی ساخته شده بود؟"
+},
+{
+"q": "What did Leo want?",
+"o": [
+"to climb the apple tree",
+"a big kitchen",
+"to have a dog",
+"to sleep in the room under the stairs"
+],
+"a": 3,
+"fa": "لئو چه می‌خواست؟"
+},
+{
+"q": "What did Danny mean by “the house that we love isn’t always the house that we can afford”?",
+"o": [
+"They might not have enough money for it.",
+"They don’t like the house.",
+"The house is too small.",
+"The bank is closed."
+],
+"a": 0,
+"fa": "منظور دنی از «the house that we love isn’t always the house that we can afford» چه بود؟"
+},
+{
+"q": "What is a mortgage?",
+"o": [
+"a type of house",
+"a loan to buy a home that you pay back over many years",
+"a monthly rent",
+"a real estate agent"
+],
+"a": 1,
+"fa": "وام مسکن (mortgage) چیست؟"
+},
+{
+"q": "How long had they been saving for the down payment?",
+"o": [
+"one year",
+"two months",
+"ten years",
+"five years"
+],
+"a": 3,
+"fa": "چند سال برای پیش‌پرداخت پول جمع کرده بودند؟"
+}
+],
+"words": [
+{
+"w": "open house",
+"ipa": "/ˌoʊpən ˈhaʊs/",
+"fa": "بازدید آزاد از خانه",
+"ex": "Last Saturday, I went with them to an open house.",
+"book": 1,
+"id": "open-house",
+"m": [
+38,
+48
+]
+},
+{
+"w": "climb",
+"ipa": "/klaɪm/",
+"fa": "بالا رفتن (از درخت)",
+"ex": "It has a big backyard with an old apple tree that Mia immediately wanted to climb.",
+"book": 1,
+"id": "climb",
+"m": [
+76,
+81
+]
+},
+{
+"w": "real estate agent",
+"ipa": "/ˈriəl ɪˈsteɪt ˌeɪdʒənt/",
+"fa": "مشاور املاک، بنگاه‌دار",
+"ex": "The real estate agent, who wore a bright orange jacket, showed us every room.",
+"book": 1,
+"id": "real-estate-agent",
+"m": [
+4,
+21
+]
+},
+{
+"w": "remodel",
+"ipa": "/riˈmɑdəl/",
+"fa": "بازسازی کردن",
+"ex": "This is the kitchen that the owners remodeled last year.",
+"book": 1,
+"id": "remodel",
+"m": [
+36,
+45
+]
+},
+{
+"w": "stairs",
+"ipa": "/stɛrz/",
+"fa": "پله‌ها",
+"ex": "My bedroom is at the top of the stairs.",
+"book": 1,
+"id": "stairs",
+"m": [
+32,
+38
+]
+},
+{
+"w": "afford",
+"ipa": "/əˈfɔrd/",
+"fa": "از عهده‌ی خرید برآمدن",
+"ex": "Remember, the house that we love isn’t always the house that we can afford.",
+"book": 1,
+"id": "afford",
+"m": [
+68,
+74
+]
+},
+{
+"w": "mortgage",
+"ipa": "/ˈmɔrɡɪdʒ/",
+"fa": "وام مسکن",
+"ex": "They pay their mortgage every month.",
+"book": 1,
+"id": "mortgage",
+"m": [
+15,
+23
+]
+},
+{
+"w": "down payment",
+"ipa": "/ˈdaʊn ˌpeɪmənt/",
+"fa": "پیش‌پرداخت",
+"ex": "We saved for a down payment on a house.",
+"book": 1,
+"id": "down-payment",
+"m": [
+15,
+27
+]
+},
+{
+"w": "offer",
+"ipa": "/ˈɔfɚ/",
+"fa": "پیشنهاد خرید",
+"ex": "They made an offer on Monday.",
+"book": 1,
+"id": "offer",
+"m": [
+13,
+18
+]
+},
+{
+"w": "homeowner",
+"ipa": "/ˈhoʊmˌoʊnɚ/",
+"fa": "صاحب‌خانه",
+"ex": "My son is a homeowner.",
+"book": 1,
+"id": "homeowner",
+"m": [
+12,
+21
+]
+},
+{
+"w": "apple tree",
+"ipa": "/ˈæpəl tri/",
+"fa": "درخت سیب",
+"ex": "It has a big backyard with an old apple tree that Mia immediately wanted to climb.",
+"id": "apple-tree",
+"m": [
+34,
+44
+]
+},
+{
+"w": "loan",
+"ipa": "/loʊn/",
+"fa": "وام",
+"ex": "Even though he works at a bank, he was nervous about the mortgage, a loan that you pay back over fifteen or thirty years.",
+"id": "loan",
+"m": [
+69,
+73
+]
+},
+{
+"w": "pay back",
+"ipa": "/peɪ bæk/",
+"fa": "پس دادن (بدهی)",
+"ex": "Even though he works at a bank, he was nervous about the mortgage, a loan that you pay back over fifteen or thirty years.",
+"id": "pay-back",
+"m": [
+83,
+91
+]
+},
+{
+"w": "do the math",
+"ipa": "/du ðə mæθ/",
+"fa": "حساب کردن",
+"ex": "That evening, Danny and Sarah did the math at Rosa’s kitchen table.",
+"id": "do-the-math",
+"m": [
+30,
+42
+]
+},
+{
+"w": "seller",
+"ipa": "/ˈsɛlɚ/",
+"fa": "فروشنده",
+"ex": "The sellers have accepted your offer!",
+"id": "seller",
+"m": [
+4,
+11
+]
+},
+{
+"w": "congratulations",
+"ipa": "/kənˌɡrætʃəˈleɪʃənz/",
+"fa": "تبریک می‌گویم",
+"ex": "Congratulations!",
+"id": "congratulations",
+"m": [
+0,
+15
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Their apartment has become too small.",
+"fa": "آپارتمانشان خیلی کوچک شده است."
+},
+{
+"id": "s2",
+"en": "This is the room where I want to sleep!",
+"fa": "این اتاقی است که می‌خواهم تویش بخوابم!"
+},
+{
+"id": "s3",
+"en": "They made an offer on Monday.",
+"fa": "دوشنبه پیشنهاد خرید دادند."
+},
+{
+"id": "s4",
+"en": "The sellers have accepted your offer!",
+"fa": "فروشنده‌ها پیشنهادتان را پذیرفته‌اند!"
+},
+{
+"id": "s5",
+"en": "My son is a homeowner.",
+"fa": "پسرم صاحب‌خانه شده است."
+}
+]
+}

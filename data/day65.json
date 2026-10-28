@@ -1,0 +1,377 @@
+{
+"day": 65,
+"level": "B1",
+"title": "A Game at Wrigley Field",
+"fa_title": "یک بازی در ورزشگاه ریگلی فیلد",
+"audio": "audio/day65.mp3",
+"img": "img/day65.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Sunday, Emma took us to see the Chicago Cubs at Wrigley Field.",
+"s": 4.31
+},
+{
+"p": 0,
+"t": "The stadium opened in 1914, and fans have been cheering there for more than a hundred years.",
+"s": 9.41
+},
+{
+"p": 1,
+"t": "“I’ve been wanting to come here since I moved,” Emma said.",
+"s": 16.0
+},
+{
+"p": 1,
+"t": "“My dad has been a Cubs fan all his life.”",
+"s": 19.44
+},
+{
+"p": 2,
+"t": "The stadium was smaller than I expected, and the outfield walls were covered in green ivy.",
+"s": 22.55
+},
+{
+"p": 2,
+"t": "Some people were watching the game from the rooftops of buildings across the street.",
+"s": 28.9
+},
+{
+"p": 3,
+"t": "We bought hot dogs and peanuts, and Lily tried to explain the rules.",
+"s": 33.78
+},
+{
+"p": 3,
+"t": "“I’ve been watching baseball with Carlos all summer,” she said proudly.",
+"s": 38.43
+},
+{
+"p": 3,
+"t": "But when a player hit the ball high into the air, she asked, “Is that good?”",
+"s": 43.07
+},
+{
+"p": 4,
+"t": "During the seventh-inning stretch, the whole stadium stood up and sang “Take Me Out to the Ball Game” together.",
+"s": 48.23
+},
+{
+"p": 5,
+"t": "It was a close game.",
+"s": 55.03
+},
+{
+"p": 5,
+"t": "In the eighth inning, the Cubs were losing by one run.",
+"s": 56.57
+},
+{
+"p": 5,
+"t": "Then their best hitter came to bat.",
+"s": 59.8
+},
+{
+"p": 5,
+"t": "Crack!",
+"s": 62.11
+},
+{
+"p": 5,
+"t": "The ball flew over the ivy wall.",
+"s": 62.71
+},
+{
+"p": 5,
+"t": "Home run!",
+"s": 65.22
+},
+{
+"p": 5,
+"t": "Forty thousand people went crazy, and a stranger hugged me.",
+"s": 66.34
+},
+{
+"p": 6,
+"t": "After the game, we bought Emma a Cubs cap.",
+"s": 70.4
+},
+{
+"p": 6,
+"t": "“Now you’re a real Chicagoan,” Lily said.",
+"s": 73.22
+}
+],
+"comp": [
+{
+"q": "How long have fans been cheering at Wrigley Field?",
+"o": [
+"for more than a hundred years",
+"for twenty years",
+"since last summer",
+"for about fifty years"
+],
+"a": 0,
+"fa": "هواداران چه مدت است در ریگلی فیلد تشویق می‌کنند؟"
+},
+{
+"q": "What covers the outfield walls?",
+"o": [
+"posters",
+"snow",
+"flags",
+"green ivy"
+],
+"a": 3,
+"fa": "چه چیزی دیوارهای زمین بیرونی را پوشانده است؟"
+},
+{
+"q": "Where were some people watching the game from?",
+"o": [
+"from home",
+"from the rooftops across the street",
+"from the parking lot",
+"from a boat"
+],
+"a": 1,
+"fa": "بعضی‌ها از کجا بازی را تماشا می‌کردند؟"
+},
+{
+"q": "Why is Lily’s question “Is that good?” funny?",
+"o": [
+"She was eating.",
+"She was talking to a stranger.",
+"She had just said she knew baseball well.",
+"She was asleep."
+],
+"a": 2,
+"fa": "چرا سؤال لیلی «Is that good?» خنده‌دار است؟"
+},
+{
+"q": "What does “a close game” mean here?",
+"o": [
+"The game ended early.",
+"The scores are almost the same.",
+"The game was near their home.",
+"The stadium was small."
+],
+"a": 1,
+"fa": "«a close game» اینجا یعنی چه؟"
+},
+{
+"q": "What happened in the eighth inning?",
+"o": [
+"A Cubs player hit a home run.",
+"It started to rain.",
+"Emma lost her cap.",
+"The game stopped."
+],
+"a": 0,
+"fa": "در اینینگ هشتم چه اتفاقی افتاد؟"
+}
+],
+"words": [
+{
+"w": "ivy",
+"ipa": "/ˈaɪvi/",
+"fa": "پیچک",
+"ex": "The ball flew over the ivy wall.",
+"book": 1,
+"id": "ivy",
+"m": [
+23,
+26
+]
+},
+{
+"w": "rooftop",
+"ipa": "/ˈrufˌtɑp/",
+"fa": "پشت‌بام",
+"ex": "Some people were watching the game from the rooftops of buildings across the street.",
+"book": 1,
+"id": "rooftop",
+"m": [
+44,
+52
+]
+},
+{
+"w": "outfield",
+"ipa": "/ˈaʊtˌfild/",
+"fa": "زمین بیرونی (بیسبال)",
+"ex": "The stadium was smaller than I expected, and the outfield walls were covered in green ivy.",
+"book": 1,
+"id": "outfield",
+"m": [
+49,
+57
+]
+},
+{
+"w": "peanut",
+"ipa": "/ˈpinʌt/",
+"fa": "بادام‌زمینی",
+"ex": "We bought hot dogs and peanuts, and Lily tried to explain the rules.",
+"book": 1,
+"id": "peanut",
+"m": [
+23,
+30
+]
+},
+{
+"w": "stretch",
+"ipa": "/strɛtʃ/",
+"fa": "وقفه‌ی کش و قوس (بیسبال)",
+"ex": "Stretch your arms before you run.",
+"book": 1,
+"id": "stretch",
+"m": [
+0,
+7
+]
+},
+{
+"w": "close",
+"ipa": "/kloʊs/",
+"fa": "نزدیک، تنگاتنگ",
+"ex": "It was a close game.",
+"book": 1,
+"id": "close",
+"m": [
+9,
+14
+]
+},
+{
+"w": "inning",
+"ipa": "/ˈɪnɪŋ/",
+"fa": "دور بازی (اینینگ)",
+"ex": "In the eighth inning, the Cubs were losing by one run.",
+"book": 1,
+"id": "inning",
+"m": [
+14,
+20
+]
+},
+{
+"w": "hitter",
+"ipa": "/ˈhɪtɚ/",
+"fa": "ضربه‌زن",
+"ex": "Then their best hitter came to bat.",
+"book": 1,
+"id": "hitter",
+"m": [
+16,
+22
+]
+},
+{
+"w": "go crazy",
+"ipa": "/ɡoʊ ˈkreɪzi/",
+"fa": "از هیجان دیوانه شدن",
+"ex": "Forty thousand people went crazy, and a stranger hugged me.",
+"book": 1,
+"id": "go-crazy",
+"m": [
+22,
+32
+]
+},
+{
+"w": "stranger",
+"ipa": "/ˈstreɪndʒɚ/",
+"fa": "غریبه",
+"ex": "Forty thousand people went crazy, and a stranger hugged me.",
+"book": 1,
+"id": "stranger",
+"m": [
+40,
+48
+]
+},
+{
+"w": "more than",
+"ipa": "/mɔr ðæn/",
+"fa": "بیشتر از",
+"ex": "Fans have been cheering there for more than a hundred years.",
+"id": "more-than",
+"m": [
+34,
+43
+]
+},
+{
+"w": "cover",
+"ipa": "/ˈkʌvɚ/",
+"fa": "پوشاندن",
+"ex": "The stadium was smaller than I expected, and the outfield walls were covered in green ivy.",
+"id": "cover",
+"m": [
+69,
+76
+]
+},
+{
+"w": "proudly",
+"ipa": "/ˈpraʊdli/",
+"fa": "با افتخار",
+"ex": "“I’ve been watching baseball with Carlos all summer,” she said proudly.",
+"id": "proudly",
+"m": [
+63,
+70
+]
+},
+{
+"w": "high",
+"ipa": "/haɪ/",
+"fa": "بالا",
+"ex": "When a player hit the ball high into the air, she asked, “Is that good?”",
+"id": "high",
+"m": [
+27,
+31
+]
+},
+{
+"w": "fly",
+"ipa": "/flaɪ/",
+"fa": "پرواز کردن، پریدن",
+"ex": "The ball flew over the ivy wall.",
+"id": "fly",
+"m": [
+9,
+13
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "The stadium was smaller than I expected.",
+"fa": "ورزشگاه از آنچه انتظار داشتم کوچک‌تر بود."
+},
+{
+"id": "s2",
+"en": "It was a close game.",
+"fa": "بازی تنگاتنگی بود."
+},
+{
+"id": "s3",
+"en": "The Cubs were losing by one run.",
+"fa": "کابز با یک امتیاز عقب بود."
+},
+{
+"id": "s4",
+"en": "The ball flew over the ivy wall.",
+"fa": "توپ از روی دیوار پیچک‌پوش رد شد."
+},
+{
+"id": "s5",
+"en": "A stranger hugged me.",
+"fa": "یک غریبه بغلم کرد."
+}
+]
+}

@@ -1,0 +1,409 @@
+{
+"day": 61,
+"level": "B1",
+"title": "The Team Meeting",
+"fa_title": "جلسه‌ی تیم",
+"audio": "audio/day61.mp3",
+"img": "img/day61.webp",
+"sents": [
+{
+"p": 0,
+"t": "I have worked at Oakville Books for exactly one year, and on Monday I started my new job as assistant manager.",
+"s": 2.17
+},
+{
+"p": 0,
+"t": "Mr. Lee has moved to the new Riverside store, so now I’m in charge here four days a week.",
+"s": 11.17
+},
+{
+"p": 1,
+"t": "On Tuesday morning, I held my first team meeting.",
+"s": 17.77
+},
+{
+"p": 1,
+"t": "I had never led a meeting before, so I was nervous.",
+"s": 21.39
+},
+{
+"p": 1,
+"t": "The night before, I prepared an agenda and printed five copies.",
+"s": 24.92
+},
+{
+"p": 2,
+"t": "There are four people on my team.",
+"s": 29.57
+},
+{
+"p": 2,
+"t": "Tina has worked here for six years, and she knows every book in the store.",
+"s": 31.79
+},
+{
+"p": 2,
+"t": "Jake started in March.",
+"s": 36.27
+},
+{
+"p": 2,
+"t": "He’s a college student, and he loves comics.",
+"s": 37.88
+},
+{
+"p": 2,
+"t": "Maria and Ben joined last month.",
+"s": 40.84
+},
+{
+"p": 3,
+"t": "“Thank you for coming,” I began.",
+"s": 43.6
+},
+{
+"p": 3,
+"t": "“First, I want to hear your ideas.”",
+"s": 45.88
+},
+{
+"p": 4,
+"t": "At first, nobody said anything.",
+"s": 48.63
+},
+{
+"p": 4,
+"t": "Then Tina raised her hand.",
+"s": 50.77
+},
+{
+"p": 4,
+"t": "“We’ve had the same window display since April. Customers have stopped looking at it.”",
+"s": 52.87
+},
+{
+"p": 5,
+"t": "Jake suggested a monthly comic night for teenagers, and Maria offered to start a book club in Spanish.",
+"s": 58.59
+},
+{
+"p": 6,
+"t": "By the end of the meeting, we had a list of eight ideas and a deadline for each one.",
+"s": 65.58
+},
+{
+"p": 7,
+"t": "Later, I called Mr. Lee.",
+"s": 71.06
+},
+{
+"p": 7,
+"t": "“How did it go?” he asked.",
+"s": 72.9
+},
+{
+"p": 8,
+"t": "“Better than I expected,” I said.",
+"s": 75.32
+},
+{
+"p": 8,
+"t": "“I think I’ve found my team.”",
+"s": 77.79
+}
+],
+"comp": [
+{
+"q": "How long has Sam worked at Oakville Books?",
+"o": [
+"for six years",
+"for exactly one year",
+"since March",
+"for one month"
+],
+"a": 1,
+"fa": "سام چه مدت در کتاب‌فروشی اوک‌ویل کار کرده است؟"
+},
+{
+"q": "Why was Sam nervous?",
+"o": [
+"He had never led a meeting before.",
+"Mr. Lee was angry with him.",
+"He was late for work.",
+"He forgot the agenda."
+],
+"a": 0,
+"fa": "چرا سام مضطرب بود؟"
+},
+{
+"q": "What is an “agenda” in this story?",
+"o": [
+"a kind of comic book",
+"a store window",
+"a work schedule",
+"a list of topics for a meeting"
+],
+"a": 3,
+"fa": "در این داستان «agenda» چیست؟"
+},
+{
+"q": "What problem did Tina mention?",
+"o": [
+"Customers were rude.",
+"The store was too cold.",
+"The window display was old.",
+"Comics were too expensive."
+],
+"a": 2,
+"fa": "تینا به چه مشکلی اشاره کرد؟"
+},
+{
+"q": "Who offered to start a book club in Spanish?",
+"o": [
+"Jake",
+"Maria",
+"Ben",
+"Tina"
+],
+"a": 1,
+"fa": "چه کسی پیشنهاد داد یک باشگاه کتاب‌خوانی به زبان اسپانیایی راه بیندازد؟"
+},
+{
+"q": "How did Sam probably feel after the meeting?",
+"o": [
+"disappointed",
+"worried",
+"bored",
+"pleased"
+],
+"a": 3,
+"fa": "سام احتمالاً بعد از جلسه چه حسی داشت؟"
+}
+],
+"words": [
+{
+"w": "in charge",
+"ipa": "/ɪn ˈtʃɑrdʒ/",
+"fa": "مسئول، سرپرست",
+"ex": "Who is in charge of the store today?",
+"book": 1,
+"id": "in-charge",
+"m": [
+7,
+16
+]
+},
+{
+"w": "lead",
+"ipa": "/lid/",
+"fa": "رهبری کردن، اداره کردن",
+"ex": "I had never led a meeting before, so I was nervous.",
+"book": 1,
+"id": "lead",
+"m": [
+12,
+15
+]
+},
+{
+"w": "prepare",
+"ipa": "/prɪˈpɛr/",
+"fa": "آماده کردن",
+"ex": "The night before, I prepared an agenda and printed five copies.",
+"book": 1,
+"id": "prepare",
+"m": [
+20,
+28
+]
+},
+{
+"w": "agenda",
+"ipa": "/əˈdʒɛndə/",
+"fa": "دستور جلسه",
+"ex": "The night before, I prepared an agenda and printed five copies.",
+"book": 1,
+"id": "agenda",
+"m": [
+32,
+38
+]
+},
+{
+"w": "comic",
+"ipa": "/ˈkɑmɪk/",
+"fa": "کتاب کمیک",
+"ex": "He’s a college student, and he loves comics.",
+"book": 1,
+"id": "comic",
+"m": [
+37,
+43
+]
+},
+{
+"w": "raise",
+"ipa": "/reɪz/",
+"fa": "بالا بردن",
+"ex": "Then Tina raised her hand.",
+"book": 1,
+"id": "raise",
+"m": [
+10,
+16
+]
+},
+{
+"w": "display",
+"ipa": "/dɪˈspleɪ/",
+"fa": "ویترین، چیدمان نمایشی",
+"ex": "We’ve had the same window display since April.",
+"book": 1,
+"id": "display",
+"m": [
+26,
+33
+]
+},
+{
+"w": "suggest",
+"ipa": "/səɡˈdʒɛst/",
+"fa": "پیشنهاد دادن",
+"ex": "I suggest that we leave early.",
+"book": 1,
+"id": "suggest",
+"m": [
+2,
+9
+]
+},
+{
+"w": "deadline",
+"ipa": "/ˈdɛdˌlaɪn/",
+"fa": "مهلت",
+"ex": "The deadline for the report is Friday.",
+"book": 1,
+"id": "deadline",
+"m": [
+4,
+12
+]
+},
+{
+"w": "expect",
+"ipa": "/ɪkˈspɛkt/",
+"fa": "انتظار داشتن",
+"ex": "Better than I expected.",
+"book": 1,
+"id": "expect",
+"m": [
+14,
+22
+]
+},
+{
+"w": "meeting",
+"ipa": "/ˈmitɪŋ/",
+"fa": "جلسه",
+"ex": "On Tuesday morning, I held my first team meeting.",
+"id": "meeting",
+"m": [
+41,
+48
+]
+},
+{
+"w": "copy",
+"ipa": "/ˈkɑpi/",
+"fa": "نسخه",
+"ex": "The night before, I prepared an agenda and printed five copies.",
+"id": "copy",
+"m": [
+56,
+62
+]
+},
+{
+"w": "nobody",
+"ipa": "/ˈnoʊˌbɑˌdi/",
+"fa": "هیچ‌کس",
+"ex": "At first, nobody said anything.",
+"id": "nobody",
+"m": [
+10,
+16
+]
+},
+{
+"w": "teenager",
+"ipa": "/ˈtiˌneɪdʒɚ/",
+"fa": "نوجوان",
+"ex": "Jake suggested a monthly comic night for teenagers.",
+"id": "teenager",
+"m": [
+41,
+50
+]
+},
+{
+"w": "book club",
+"ipa": "/bʊk klʌb/",
+"fa": "باشگاه کتاب‌خوانی",
+"ex": "Maria offered to start a book club in Spanish.",
+"id": "book-club",
+"m": [
+25,
+34
+]
+},
+{
+"w": "monthly",
+"ipa": "/ˈmʌnθli/",
+"fa": "ماهانه",
+"ex": "Jake suggested a monthly comic night for teenagers.",
+"id": "monthly",
+"m": [
+17,
+24
+]
+},
+{
+"w": "at first",
+"ipa": "/æt fɝst/",
+"fa": "اول، در ابتدا",
+"ex": "At first, nobody said anything.",
+"id": "at-first",
+"m": [
+0,
+8
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I had never led a meeting before.",
+"fa": "قبلاً هیچ‌وقت جلسه‌ای را اداره نکرده بودم."
+},
+{
+"id": "s2",
+"en": "Thank you for coming.",
+"fa": "ممنون که آمدید."
+},
+{
+"id": "s3",
+"en": "First, I want to hear your ideas.",
+"fa": "اول می‌خواهم ایده‌هایتان را بشنوم."
+},
+{
+"id": "s4",
+"en": "At first, nobody said anything.",
+"fa": "اول هیچ‌کس چیزی نگفت."
+},
+{
+"id": "s5",
+"en": "How did it go?",
+"fa": "چطور پیش رفت؟"
+}
+]
+}

@@ -1,0 +1,429 @@
+{
+"day": 89,
+"level": "B1",
+"title": "Opening Day",
+"fa_title": "روز افتتاح",
+"audio": "audio/day89.mp3",
+"img": "img/day89.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Saturday morning, the line outside Sunrise Bakery started at six, even though it was snowing.",
+"s": 2.13
+},
+{
+"p": 1,
+"t": "Lily had been up since three, baking.",
+"s": 10.28
+},
+{
+"p": 1,
+"t": "“I’m so nervous,” she whispered.",
+"s": 12.89
+},
+{
+"p": 1,
+"t": "“What if nobody likes my croissants?”",
+"s": 15.25
+},
+{
+"p": 2,
+"t": "“Break a leg,” I said.",
+"s": 17.91
+},
+{
+"p": 2,
+"t": "“It means good luck.”",
+"s": 19.54
+},
+{
+"p": 3,
+"t": "“I know what it means,” she laughed.",
+"s": 21.4
+},
+{
+"p": 3,
+"t": "“But I’m a baker, not an actress!”",
+"s": 23.62
+},
+{
+"p": 4,
+"t": "At seven, she opened the doors.",
+"s": 26.12
+},
+{
+"p": 4,
+"t": "The first customer was Rosa, of course, with Max.",
+"s": 27.63
+},
+{
+"p": 4,
+"t": "Then came Mr. Brooks, Walter, Jasmine, Dr. Kim, and half of my podcast listeners.",
+"s": 31.97
+},
+{
+"p": 4,
+"t": "Even the reporter from the Oakville Times came to take photos.",
+"s": 38.44
+},
+{
+"p": 5,
+"t": "By ten o’clock, the croissants were selling like hotcakes.",
+"s": 42.65
+},
+{
+"p": 5,
+"t": "“That’s another idiom,” Mr. Lee told me.",
+"s": 46.5
+},
+{
+"p": 5,
+"t": "“It means they’re very popular.”",
+"s": 49.28
+},
+{
+"p": 6,
+"t": "I was serving coffee behind the counter, and at first I felt like a fish out of water.",
+"s": 51.71
+},
+{
+"p": 6,
+"t": "But after an hour, it was a piece of cake.",
+"s": 57.44
+},
+{
+"p": 7,
+"t": "At noon, a little boy looked at a cupcake for a long time, but his mom said they only had money for bread.",
+"s": 60.54
+},
+{
+"p": 7,
+"t": "Lily gave him the cupcake.",
+"s": 67.18
+},
+{
+"p": 7,
+"t": "“It’s on the house,” she smiled.",
+"s": 69.13
+},
+{
+"p": 8,
+"t": "By four, everything was sold out.",
+"s": 71.89
+},
+{
+"p": 8,
+"t": "Lily sat down and finally relaxed.",
+"s": 74.09
+},
+{
+"p": 8,
+"t": "“We did it,” she said.",
+"s": 76.78
+},
+{
+"p": 9,
+"t": "“You did it,” I said.",
+"s": 78.9
+},
+{
+"p": 9,
+"t": "“I just poured the coffee.”",
+"s": 80.42
+}
+],
+"comp": [
+{
+"q": "When did the line outside the bakery start?",
+"o": [
+"at three",
+"at seven",
+"at ten",
+"at six"
+],
+"a": 3,
+"fa": "صف بیرون نانوایی کی شروع شد؟"
+},
+{
+"q": "What does “break a leg” mean?",
+"o": [
+"good luck",
+"be careful",
+"hurry up",
+"go to the hospital"
+],
+"a": 0,
+"fa": "«break a leg» یعنی چه؟"
+},
+{
+"q": "Who was the first customer?",
+"o": [
+"the reporter",
+"Mr. Brooks",
+"Rosa with Max",
+"Dr. Kim"
+],
+"a": 2,
+"fa": "اولین مشتری چه کسی بود؟"
+},
+{
+"q": "What does “selling like hotcakes” mean?",
+"o": [
+"selling quickly because they’re popular",
+"very cheap",
+"very hot",
+"selling very slowly"
+],
+"a": 0,
+"fa": "«selling like hotcakes» یعنی چه؟"
+},
+{
+"q": "What does “on the house” mean?",
+"o": [
+"delivered to your home",
+"free, paid for by the business",
+"on the roof",
+"very expensive"
+],
+"a": 1,
+"fa": "«on the house» یعنی چه؟"
+},
+{
+"q": "How did Sam feel behind the counter at first?",
+"o": [
+"bored",
+"angry",
+"like an actor",
+"like a fish out of water"
+],
+"a": 3,
+"fa": "سام اول پشت پیشخوان چه احساسی داشت؟"
+}
+],
+"words": [
+{
+"w": "croissant",
+"ipa": "/krəˈsɑnt/",
+"fa": "کروسان",
+"ex": "By ten o’clock, the croissants were selling like hotcakes.",
+"book": 1,
+"id": "croissant",
+"m": [
+20,
+30
+]
+},
+{
+"w": "break a leg",
+"ipa": "/ˌbreɪk ə ˈlɛɡ/",
+"fa": "موفق باشی! (اصطلاح)",
+"ex": "Break a leg.",
+"book": 1,
+"id": "break-a-leg",
+"m": [
+0,
+11
+]
+},
+{
+"w": "actress",
+"ipa": "/ˈæktrəs/",
+"fa": "بازیگر زن",
+"ex": "I’m a baker, not an actress!",
+"book": 1,
+"id": "actress",
+"m": [
+20,
+27
+]
+},
+{
+"w": "sell like hotcakes",
+"ipa": "/ˈsɛl laɪk ˈhɑtˌkeɪks/",
+"fa": "مثل نقل و نبات فروش رفتن",
+"ex": "By ten o’clock, the croissants were selling like hotcakes.",
+"book": 1,
+"id": "sell-like-hotcakes",
+"m": [
+36,
+57
+]
+},
+{
+"w": "counter",
+"ipa": "/ˈkaʊntɚ/",
+"fa": "پیشخوان",
+"ex": "Please pay at the counter.",
+"book": 1,
+"id": "counter",
+"m": [
+18,
+25
+]
+},
+{
+"w": "fish out of water",
+"ipa": "/ˈfɪʃ aʊt əv ˈwɔtɚ/",
+"fa": "مثل ماهی بیرون از آب (غریب و ناآشنا)",
+"ex": "At my new school, I felt like a fish out of water.",
+"book": 1,
+"id": "fish-out-of-water",
+"m": [
+32,
+49
+]
+},
+{
+"w": "piece of cake",
+"ipa": "/ˌpis əv ˈkeɪk/",
+"fa": "خیلی آسان (اصطلاح)",
+"ex": "After an hour, it was a piece of cake.",
+"book": 1,
+"id": "piece-of-cake",
+"m": [
+24,
+37
+]
+},
+{
+"w": "on the house",
+"ipa": "/ˌɑn ðə ˈhaʊs/",
+"fa": "مهمان ما (مجانی)",
+"ex": "It’s on the house.",
+"book": 1,
+"id": "on-the-house",
+"m": [
+5,
+17
+]
+},
+{
+"w": "sold out",
+"ipa": "/ˌsoʊld ˈaʊt/",
+"fa": "تمام‌شده (فروش)",
+"ex": "By four, everything was sold out.",
+"book": 1,
+"id": "sold-out",
+"m": [
+24,
+32
+]
+},
+{
+"w": "relax",
+"ipa": "/rɪˈlæks/",
+"fa": "آرام گرفتن، استراحت کردن",
+"ex": "Lily sat down and finally relaxed.",
+"book": 1,
+"id": "relax",
+"m": [
+26,
+33
+]
+},
+{
+"w": "what if",
+"ipa": "/wʌt ɪf/",
+"fa": "اگر ... چه؟",
+"ex": "What if nobody likes my croissants?",
+"id": "what-if",
+"m": [
+0,
+7
+]
+},
+{
+"w": "baker",
+"ipa": "/ˈbeɪkɚ/",
+"fa": "نانوا",
+"ex": "I’m a baker, not an actress!",
+"id": "baker",
+"m": [
+6,
+11
+]
+},
+{
+"w": "luck",
+"ipa": "/lʌk/",
+"fa": "شانس",
+"ex": "It means good luck.",
+"id": "luck",
+"m": [
+14,
+18
+]
+},
+{
+"w": "idiom",
+"ipa": "/ˈɪdiəm/",
+"fa": "اصطلاح",
+"ex": "That’s another idiom.",
+"id": "idiom",
+"m": [
+15,
+20
+]
+},
+{
+"w": "popular",
+"ipa": "/ˈpɑpjəlɚ/",
+"fa": "محبوب، پرطرفدار",
+"ex": "It means they’re very popular.",
+"id": "popular",
+"m": [
+22,
+29
+]
+},
+{
+"w": "serve",
+"ipa": "/sɝv/",
+"fa": "سرو کردن، پذیرایی کردن",
+"ex": "I was serving coffee behind the counter.",
+"id": "serve",
+"m": [
+6,
+13
+]
+},
+{
+"w": "cupcake",
+"ipa": "/ˈkʌpˌkeɪk/",
+"fa": "کاپ‌کیک",
+"ex": "Lily gave him the cupcake.",
+"id": "cupcake",
+"m": [
+18,
+25
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "What if nobody likes my croissants?",
+"fa": "اگر هیچ‌کس کروسان‌هایم را دوست نداشته باشد چه؟"
+},
+{
+"id": "s2",
+"en": "It means good luck.",
+"fa": "یعنی موفق باشی."
+},
+{
+"id": "s3",
+"en": "It’s on the house.",
+"fa": "مهمان ما."
+},
+{
+"id": "s4",
+"en": "By four, everything was sold out.",
+"fa": "تا ساعت چهار همه‌چیز تمام شد."
+},
+{
+"id": "s5",
+"en": "I just poured the coffee.",
+"fa": "من فقط قهوه ریختم."
+}
+]
+}

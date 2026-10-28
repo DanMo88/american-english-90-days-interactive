@@ -1,0 +1,415 @@
+{
+"day": 74,
+"level": "B1",
+"title": "A Hurricane Warning",
+"fa_title": "هشدار توفان",
+"audio": "audio/day74.mp3",
+"img": "img/day74.webp",
+"sents": [
+{
+"p": 0,
+"t": "The next morning, a hurricane warning was issued for the whole coast.",
+"s": 3.89
+},
+{
+"p": 0,
+"t": "The storm was expected to reach New Orleans in two days.",
+"s": 8.46
+},
+{
+"p": 1,
+"t": "Our hotel lobby was full of worried people.",
+"s": 12.73
+},
+{
+"p": 1,
+"t": "All flights for the next day were canceled.",
+"s": 15.96
+},
+{
+"p": 1,
+"t": "“An evacuation hasn’t been ordered yet,” the hotel manager said, “but if I were you, I would leave today.”",
+"s": 18.7
+},
+{
+"p": 2,
+"t": "Outside, shop windows were being covered with wooden boards.",
+"s": 26.06
+},
+{
+"p": 2,
+"t": "The grocery stores were crowded, and the shelves of bottled water were already empty.",
+"s": 30.06
+},
+{
+"p": 2,
+"t": "People seemed calm, but serious.",
+"s": 35.32
+},
+{
+"p": 2,
+"t": "“We’ve done this many times,” a waiter told us.",
+"s": 38.23
+},
+{
+"p": 2,
+"t": "“You learn to respect the storm.”",
+"s": 41.57
+},
+{
+"p": 3,
+"t": "We rented a car and drove north with thousands of other people.",
+"s": 43.98
+},
+{
+"p": 3,
+"t": "A drive that usually takes five hours took eleven.",
+"s": 48.1
+},
+{
+"p": 3,
+"t": "Lily read the news aloud while I drove.",
+"s": 51.76
+},
+{
+"p": 3,
+"t": "“Schools have been closed. People are told to stay away from the coast.”",
+"s": 54.75
+},
+{
+"p": 4,
+"t": "That night, we stayed in a small motel in Mississippi.",
+"s": 59.82
+},
+{
+"p": 4,
+"t": "On TV, we watched the hurricane hit the coast.",
+"s": 63.63
+},
+{
+"p": 4,
+"t": "Trees were pulled out of the ground, and streets were flooded.",
+"s": 67.29
+},
+{
+"p": 5,
+"t": "Two days later, we got a message from the cooking school: “We are all safe. The building was damaged, but it will be repaired.”",
+"s": 70.91
+},
+{
+"p": 6,
+"t": "Lily cried with relief.",
+"s": 78.72
+},
+{
+"p": 6,
+"t": "“When we get home, let’s do something to help,” she said.",
+"s": 80.6
+}
+],
+"comp": [
+{
+"q": "When was the storm expected to reach New Orleans?",
+"o": [
+"that night",
+"in two days",
+"in a week",
+"the next morning"
+],
+"a": 1,
+"fa": "انتظار می‌رفت توفان کی به نیواورلئان برسد؟"
+},
+{
+"q": "What did the hotel manager advise?",
+"o": [
+"leave the city that day",
+"wait for an evacuation order",
+"stay in the hotel",
+"buy bottled water"
+],
+"a": 0,
+"fa": "مدیر هتل چه توصیه‌ای کرد؟"
+},
+{
+"q": "Why were shop windows covered with boards?",
+"o": [
+"because the shops were closing forever",
+"to protect them from the storm",
+"for a festival",
+"because of a robbery"
+],
+"a": 1,
+"fa": "چرا ویترین مغازه‌ها را با تخته پوشاندند؟"
+},
+{
+"q": "How long did the drive north take?",
+"o": [
+"five hours",
+"two days",
+"eleven hours",
+"eight hours"
+],
+"a": 2,
+"fa": "رانندگی به سمت شمال چقدر طول کشید؟"
+},
+{
+"q": "What happened to the cooking school?",
+"o": [
+"It closed forever.",
+"It moved to Oakville.",
+"Nothing happened to it.",
+"It was damaged, but it will be repaired."
+],
+"a": 3,
+"fa": "چه بر سر آموزشگاه آشپزی آمد؟"
+},
+{
+"q": "What does “relief” mean in “Lily cried with relief”?",
+"o": [
+"a happy feeling when a worry ends",
+"anger",
+"sadness",
+"fear"
+],
+"a": 0,
+"fa": "«relief» در جمله‌ی «Lily cried with relief» یعنی چه؟"
+}
+],
+"words": [
+{
+"w": "hurricane",
+"ipa": "/ˈhɝəˌkeɪn/",
+"fa": "توفان (هاریکن)",
+"ex": "On TV, we watched the hurricane hit the coast.",
+"book": 1,
+"id": "hurricane",
+"m": [
+22,
+31
+]
+},
+{
+"w": "warning",
+"ipa": "/ˈwɔrnɪŋ/",
+"fa": "هشدار",
+"ex": "The next morning, a hurricane warning was issued for the whole coast.",
+"book": 1,
+"id": "warning",
+"m": [
+30,
+37
+]
+},
+{
+"w": "issue",
+"ipa": "/ˈɪʃu/",
+"fa": "صادر کردن",
+"ex": "The next morning, a hurricane warning was issued for the whole coast.",
+"book": 1,
+"id": "issue",
+"m": [
+42,
+48
+]
+},
+{
+"w": "coast",
+"ipa": "/koʊst/",
+"fa": "ساحل",
+"ex": "People are told to stay away from the coast.",
+"book": 1,
+"id": "coast",
+"m": [
+38,
+43
+]
+},
+{
+"w": "evacuation",
+"ipa": "/ɪˌvækjuˈeɪʃən/",
+"fa": "تخلیه‌ی منطقه",
+"ex": "An evacuation hasn’t been ordered yet.",
+"book": 1,
+"id": "evacuation",
+"m": [
+3,
+13
+]
+},
+{
+"w": "board",
+"ipa": "/bɔrd/",
+"fa": "تخته",
+"ex": "Outside, shop windows were being covered with wooden boards.",
+"book": 1,
+"id": "board",
+"m": [
+53,
+59
+]
+},
+{
+"w": "calm",
+"ipa": "/kɑm/",
+"fa": "آرام",
+"ex": "People seemed calm, but serious.",
+"book": 1,
+"id": "calm",
+"m": [
+14,
+18
+]
+},
+{
+"w": "respect",
+"ipa": "/rɪˈspɛkt/",
+"fa": "احترام گذاشتن",
+"ex": "You learn to respect the storm.",
+"book": 1,
+"id": "respect",
+"m": [
+13,
+20
+]
+},
+{
+"w": "flood",
+"ipa": "/flʌd/",
+"fa": "سیل؛ زیر آب رفتن",
+"ex": "Trees were pulled out of the ground, and streets were flooded.",
+"book": 1,
+"id": "flood",
+"m": [
+54,
+61
+]
+},
+{
+"w": "relief",
+"ipa": "/rɪˈlif/",
+"fa": "آسودگی خاطر",
+"ex": "Lily cried with relief.",
+"book": 1,
+"id": "relief",
+"m": [
+16,
+22
+]
+},
+{
+"w": "lobby",
+"ipa": "/ˈlɑbi/",
+"fa": "لابی (هتل)",
+"ex": "Our hotel lobby was full of worried people.",
+"id": "lobby",
+"m": [
+10,
+15
+]
+},
+{
+"w": "flight",
+"ipa": "/flaɪt/",
+"fa": "پرواز",
+"ex": "All flights for the next day were canceled.",
+"id": "flight",
+"m": [
+4,
+11
+]
+},
+{
+"w": "cancel",
+"ipa": "/ˈkænsəl/",
+"fa": "لغو کردن",
+"ex": "All flights for the next day were canceled.",
+"id": "cancel",
+"m": [
+34,
+42
+]
+},
+{
+"w": "wooden",
+"ipa": "/ˈwʊdən/",
+"fa": "چوبی",
+"ex": "Outside, shop windows were being covered with wooden boards.",
+"id": "wooden",
+"m": [
+46,
+52
+]
+},
+{
+"w": "north",
+"ipa": "/nɔrθ/",
+"fa": "شمال",
+"ex": "We rented a car and drove north with thousands of other people.",
+"id": "north",
+"m": [
+26,
+31
+]
+},
+{
+"w": "aloud",
+"ipa": "/əˈlaʊd/",
+"fa": "با صدای بلند",
+"ex": "Lily read the news aloud while I drove.",
+"id": "aloud",
+"m": [
+19,
+24
+]
+},
+{
+"w": "damage",
+"ipa": "/ˈdæmədʒ/",
+"fa": "آسیب زدن، خسارت زدن",
+"ex": "The building was damaged, but it will be repaired.",
+"id": "damage",
+"m": [
+17,
+24
+]
+},
+{
+"w": "message",
+"ipa": "/ˈmɛsədʒ/",
+"fa": "پیام",
+"ex": "Two days later, we got a message from the cooking school.",
+"id": "message",
+"m": [
+25,
+32
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "All flights for the next day were canceled.",
+"fa": "همه‌ی پروازهای روز بعد لغو شدند."
+},
+{
+"id": "s2",
+"en": "If I were you, I would leave today.",
+"fa": "اگر جای شما بودم، امروز می‌رفتم."
+},
+{
+"id": "s3",
+"en": "You learn to respect the storm.",
+"fa": "یاد می‌گیری به توفان احترام بگذاری."
+},
+{
+"id": "s4",
+"en": "We are all safe.",
+"fa": "همه‌مان در امانیم."
+},
+{
+"id": "s5",
+"en": "Let’s do something to help.",
+"fa": "بیا کاری برای کمک بکنیم."
+}
+]
+}

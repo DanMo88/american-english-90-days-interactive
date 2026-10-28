@@ -1,0 +1,378 @@
+{
+"day": 90,
+"level": "B1",
+"title": "Ninety Days",
+"fa_title": "نود روز",
+"audio": "audio/day90.mp3",
+"img": "img/day90.webp",
+"sents": [
+{
+"p": 0,
+"t": "Tonight, I’m sitting in the window of Sunrise Bakery with a cup of coffee and an old notebook.",
+"s": 3.28
+},
+{
+"p": 0,
+"t": "It’s the notebook that I bought on my first day in Oakville.",
+"s": 9.0
+},
+{
+"p": 0,
+"t": "On the first page, in big, careful letters, I wrote: “Hello. My name is Sam. I am new here.”",
+"s": 12.58
+},
+{
+"p": 1,
+"t": "I’ve been writing in it ever since.",
+"s": 19.9
+},
+{
+"p": 1,
+"t": "The first pages are full of mistakes, and I used to be embarrassed by them.",
+"s": 22.21
+},
+{
+"p": 1,
+"t": "Now they make me smile.",
+"s": 26.87
+},
+{
+"p": 2,
+"t": "So much has happened.",
+"s": 29.13
+},
+{
+"p": 2,
+"t": "I have survived snowstorms, a flat tire, a hurricane, and a letter from the IRS.",
+"s": 30.73
+},
+{
+"p": 2,
+"t": "I’ve run a half marathon, hosted a podcast, and helped a seventy-eight-year-old woman become a citizen.",
+"s": 37.34
+},
+{
+"p": 2,
+"t": "I’ve learned that a piece of cake isn’t always cake, and that home isn’t always the place where you were born.",
+"s": 44.48
+},
+{
+"p": 3,
+"t": "The people here have taught me more than any textbook: Rosa, who opened her door; Mr. Lee, who gave me a chance; Carlos, who taught me to drive; Emma, who believed in my work; and Lily, who is going to be my wife.",
+"s": 50.98
+},
+{
+"p": 4,
+"t": "If someone asked me for advice, I would say: Don’t wait until your English is perfect.",
+"s": 65.54
+},
+{
+"p": 4,
+"t": "Talk to your neighbors.",
+"s": 70.91
+},
+{
+"p": 4,
+"t": "Make mistakes.",
+"s": 72.19
+},
+{
+"p": 4,
+"t": "Laugh at yourself.",
+"s": 73.46
+},
+{
+"p": 5,
+"t": "Lily is turning off the lights now, and Max is waiting at the door.",
+"s": 75.32
+},
+{
+"p": 5,
+"t": "Tomorrow, I’ll start a new notebook.",
+"s": 79.66
+}
+],
+"comp": [
+{
+"q": "Where is Sam sitting?",
+"o": [
+"in the window of Sunrise Bakery",
+"at Rosa’s kitchen table",
+"in the bookstore",
+"in his car"
+],
+"a": 0,
+"fa": "سام کجا نشسته است؟"
+},
+{
+"q": "When did Sam buy the notebook?",
+"o": [
+"last week",
+"in Chicago",
+"on his first day in Oakville",
+"at Christmas"
+],
+"a": 2,
+"fa": "سام کی آن دفترچه را خرید؟"
+},
+{
+"q": "How does Sam feel about his early mistakes now?",
+"o": [
+"He is still embarrassed.",
+"They make him smile.",
+"He wants to throw the notebook away.",
+"He doesn’t remember them."
+],
+"a": 1,
+"fa": "سام حالا درباره‌ی اشتباهات اولش چه احساسی دارد؟"
+},
+{
+"q": "Who “gave Sam a chance”?",
+"o": [
+"Mr. Lee",
+"Emma",
+"Carlos",
+"Rosa"
+],
+"a": 0,
+"fa": "چه کسی «به سام فرصت داد»؟"
+},
+{
+"q": "What is Sam’s advice for English learners?",
+"o": [
+"Wait until your English is perfect.",
+"Only study from textbooks.",
+"Don’t talk to strangers.",
+"Make mistakes and laugh at them."
+],
+"a": 3,
+"fa": "توصیه‌ی سام به زبان‌آموزان انگلیسی چیست؟"
+},
+{
+"q": "What does “Tomorrow, I’ll start a new notebook” suggest?",
+"o": [
+"Sam has finished learning.",
+"Sam is moving away.",
+"Sam will keep learning and writing.",
+"Sam lost his notebook."
+],
+"a": 2,
+"fa": "جمله‌ی «Tomorrow, I’ll start a new notebook» چه چیزی را نشان می‌دهد؟"
+}
+],
+"words": [
+{
+"w": "notebook",
+"ipa": "/ˈnoʊtˌbʊk/",
+"fa": "دفترچه",
+"ex": "Tomorrow, I’ll start a new notebook.",
+"book": 1,
+"id": "notebook",
+"m": [
+27,
+35
+]
+},
+{
+"w": "careful",
+"ipa": "/ˈkɛrfəl/",
+"fa": "با دقت، مرتب",
+"ex": "On the first page, in big, careful letters, I wrote.",
+"book": 1,
+"id": "careful",
+"m": [
+27,
+34
+]
+},
+{
+"w": "ever since",
+"ipa": "/ˌɛvɚ ˈsɪns/",
+"fa": "از آن موقع تا حالا",
+"ex": "I’ve been writing in it ever since.",
+"book": 1,
+"id": "ever-since",
+"m": [
+24,
+34
+]
+},
+{
+"w": "embarrassed",
+"ipa": "/ɪmˈbɛrəst/",
+"fa": "خجالت‌زده",
+"ex": "The first pages are full of mistakes, and I used to be embarrassed by them.",
+"book": 1,
+"id": "embarrassed",
+"m": [
+55,
+66
+]
+},
+{
+"w": "happen",
+"ipa": "/ˈhæpən/",
+"fa": "اتفاق افتادن",
+"ex": "Much has happened.",
+"book": 1,
+"id": "happen",
+"m": [
+9,
+17
+]
+},
+{
+"w": "textbook",
+"ipa": "/ˈtɛkstˌbʊk/",
+"fa": "کتاب درسی",
+"ex": "Open your textbook to page twenty.",
+"book": 1,
+"id": "textbook",
+"m": [
+10,
+18
+]
+},
+{
+"w": "chance",
+"ipa": "/tʃæns/",
+"fa": "فرصت",
+"ex": "Give me a chance to explain.",
+"book": 1,
+"id": "chance",
+"m": [
+10,
+16
+]
+},
+{
+"w": "believe",
+"ipa": "/bɪˈliv/",
+"fa": "باور داشتن",
+"ex": "I believe you can do it.",
+"book": 1,
+"id": "believe",
+"m": [
+2,
+9
+]
+},
+{
+"w": "wife",
+"ipa": "/waɪf/",
+"fa": "همسر (زن)",
+"ex": "His wife is a doctor.",
+"book": 1,
+"id": "wife",
+"m": [
+4,
+8
+]
+},
+{
+"w": "laugh",
+"ipa": "/læf/",
+"fa": "خندیدن",
+"ex": "Laugh at yourself.",
+"book": 1,
+"id": "laugh",
+"m": [
+0,
+5
+]
+},
+{
+"w": "page",
+"ipa": "/peɪdʒ/",
+"fa": "صفحه",
+"ex": "On the first page, in big, careful letters, I wrote.",
+"id": "page",
+"m": [
+13,
+17
+]
+},
+{
+"w": "survive",
+"ipa": "/sɚˈvaɪv/",
+"fa": "جان سالم به در بردن",
+"ex": "I have survived snowstorms, a flat tire, a hurricane, and a letter from the IRS.",
+"id": "survive",
+"m": [
+7,
+15
+]
+},
+{
+"w": "snowstorm",
+"ipa": "/ˈsnoʊˌstɔrm/",
+"fa": "کولاک",
+"ex": "I have survived snowstorms, a flat tire, a hurricane, and a letter from the IRS.",
+"id": "snowstorm",
+"m": [
+16,
+26
+]
+},
+{
+"w": "born",
+"ipa": "/bɔrn/",
+"fa": "به دنیا آمدن",
+"ex": "That home isn’t always the place where you were born.",
+"id": "born",
+"m": [
+48,
+52
+]
+},
+{
+"w": "perfect",
+"ipa": "/pɚˈfɛkt/",
+"fa": "کامل، بی‌نقص",
+"ex": "If someone asked me for advice, I would say: Don’t wait until your English is perfect.",
+"id": "perfect",
+"m": [
+78,
+85
+]
+},
+{
+"w": "yourself",
+"ipa": "/jɚˈsɛlf/",
+"fa": "خودت",
+"ex": "Laugh at yourself.",
+"id": "yourself",
+"m": [
+9,
+17
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I am new here.",
+"fa": "من این‌جا تازه‌واردم."
+},
+{
+"id": "s2",
+"en": "So much has happened.",
+"fa": "خیلی اتفاق‌ها افتاده است."
+},
+{
+"id": "s3",
+"en": "Don’t wait until your English is perfect.",
+"fa": "منتظر نمان تا انگلیسی‌ات بی‌نقص شود."
+},
+{
+"id": "s4",
+"en": "Talk to your neighbors.",
+"fa": "با همسایه‌هایت حرف بزن."
+},
+{
+"id": "s5",
+"en": "Tomorrow, I’ll start a new notebook.",
+"fa": "فردا یک دفترچه‌ی تازه شروع می‌کنم."
+}
+]
+}

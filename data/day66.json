@@ -1,0 +1,365 @@
+{
+"day": 66,
+"level": "B1",
+"title": "Training for a Half Marathon",
+"fa_title": "تمرین برای نیمه‌ماراتن",
+"audio": "audio/day66.mp3",
+"img": "img/day66.webp",
+"sents": [
+{
+"p": 0,
+"t": "For the last two months, I have been running three times a week.",
+"s": 4.4
+},
+{
+"p": 0,
+"t": "It all started at the gym in June, when Jasmine put up a poster: the Oakville Half Marathon, October 10th.",
+"s": 8.1
+},
+{
+"p": 0,
+"t": "Thirteen point one miles.",
+"s": 15.59
+},
+{
+"p": 1,
+"t": "“You should sign up,” she said.",
+"s": 18.05
+},
+{
+"p": 1,
+"t": "“You’ve been coming to the gym for six months, and you’re much stronger now.”",
+"s": 20.15
+},
+{
+"p": 2,
+"t": "I laughed.",
+"s": 24.39
+},
+{
+"p": 2,
+"t": "A year ago, I couldn’t run to the bus stop.",
+"s": 25.32
+},
+{
+"p": 2,
+"t": "But I signed up.",
+"s": 27.78
+},
+{
+"p": 3,
+"t": "Jasmine made me a training plan.",
+"s": 29.42
+},
+{
+"p": 3,
+"t": "Every Sunday, my long run gets one mile longer.",
+"s": 31.63
+},
+{
+"p": 3,
+"t": "On the other days, I do short, fast runs.",
+"s": 34.93
+},
+{
+"p": 4,
+"t": "It hasn’t been easy.",
+"s": 38.58
+},
+{
+"p": 4,
+"t": "In July, it was ninety-five degrees, so I had to run at six in the morning.",
+"s": 40.19
+},
+{
+"p": 4,
+"t": "Last week, I got a blister on my foot, and my knees have been hurting since Saturday.",
+"s": 45.45
+},
+{
+"p": 5,
+"t": "“Have you been drinking enough water?” Jasmine asked.",
+"s": 51.07
+},
+{
+"p": 5,
+"t": "“And how old are your shoes?”",
+"s": 54.23
+},
+{
+"p": 6,
+"t": "My running shoes were three years old.",
+"s": 56.52
+},
+{
+"p": 6,
+"t": "She sent me to a running store, where a man filmed me on a treadmill and found the right shoes for my feet.",
+"s": 59.18
+},
+{
+"p": 7,
+"t": "Now I’ve been running nine miles on Sundays without stopping.",
+"s": 66.17
+},
+{
+"p": 7,
+"t": "Rosa and Max wait for me at the end of the trail with a bottle of water.",
+"s": 70.49
+},
+{
+"p": 7,
+"t": "Four more weeks to go!",
+"s": 74.94
+}
+],
+"comp": [
+{
+"q": "How often has Sam been running?",
+"o": [
+"every day",
+"three times a week",
+"once a week",
+"twice a month"
+],
+"a": 1,
+"fa": "سام هر چند وقت یک بار دویده است؟"
+},
+{
+"q": "How long is a half marathon?",
+"o": [
+"nine miles",
+"26.2 miles",
+"13.1 miles",
+"five miles"
+],
+"a": 2,
+"fa": "نیمه‌ماراتن چقدر است؟"
+},
+{
+"q": "Why did Sam run at six in the morning in July?",
+"o": [
+"He worked all day.",
+"It was too hot later in the day.",
+"Jasmine told him to.",
+"The trail was closed."
+],
+"a": 1,
+"fa": "چرا سام در ژوئیه ساعت شش صبح می‌دوید؟"
+},
+{
+"q": "What was the problem with Sam’s shoes?",
+"o": [
+"They were too small.",
+"They were the wrong color.",
+"They were new.",
+"They were too old."
+],
+"a": 3,
+"fa": "کفش‌های سام چه مشکلی داشت؟"
+},
+{
+"q": "What does “four more weeks to go” mean?",
+"o": [
+"Four weeks have passed.",
+"He runs four weeks a year.",
+"There are four weeks left.",
+"Four people are going."
+],
+"a": 2,
+"fa": "«four more weeks to go» یعنی چه؟"
+},
+{
+"q": "How has Sam probably changed since last year?",
+"o": [
+"He is much fitter.",
+"He has stopped exercising.",
+"He doesn’t like running.",
+"He has moved to a new city."
+],
+"a": 0,
+"fa": "سام احتمالاً از پارسال تا حالا چطور تغییر کرده است؟"
+}
+],
+"words": [
+{
+"w": "half marathon",
+"ipa": "/ˌhæf ˈmɛrəˌθɑn/",
+"fa": "نیمه‌ماراتن",
+"ex": "She ran her first half marathon in two hours.",
+"book": 1,
+"id": "half-marathon",
+"m": [
+18,
+31
+]
+},
+{
+"w": "strong",
+"ipa": "/strɔŋ/",
+"fa": "قوی",
+"ex": "You’ve been coming to the gym for six months, and you’re much stronger now.",
+"book": 1,
+"id": "strong",
+"m": [
+62,
+70
+]
+},
+{
+"w": "training",
+"ipa": "/ˈtreɪnɪŋ/",
+"fa": "تمرین (ورزشی)",
+"ex": "Jasmine made me a training plan.",
+"book": 1,
+"id": "training",
+"m": [
+18,
+26
+]
+},
+{
+"w": "blister",
+"ipa": "/ˈblɪstɚ/",
+"fa": "تاول",
+"ex": "My new shoes gave me a blister.",
+"book": 1,
+"id": "blister",
+"m": [
+23,
+30
+]
+},
+{
+"w": "foot",
+"ipa": "/fʊt/",
+"fa": "پا (کف پا)",
+"ex": "I hurt my foot playing soccer.",
+"book": 1,
+"id": "foot",
+"m": [
+10,
+14
+]
+},
+{
+"w": "knee",
+"ipa": "/ni/",
+"fa": "زانو",
+"ex": "He fell and hurt his knee.",
+"book": 1,
+"id": "knee",
+"m": [
+21,
+25
+]
+},
+{
+"w": "hurt",
+"ipa": "/hɝt/",
+"fa": "درد کردن",
+"ex": "My back hurts when I sit too long.",
+"book": 1,
+"id": "hurt",
+"m": [
+8,
+13
+]
+},
+{
+"w": "film",
+"ipa": "/fɪlm/",
+"fa": "فیلم گرفتن",
+"ex": "Can you film the concert on your phone?",
+"book": 1,
+"id": "film",
+"m": [
+8,
+12
+]
+},
+{
+"w": "without",
+"ipa": "/wɪˈθaʊt/",
+"fa": "بدون",
+"ex": "Now I’ve been running nine miles on Sundays without stopping.",
+"book": 1,
+"id": "without",
+"m": [
+44,
+51
+]
+},
+{
+"w": "to go",
+"ipa": "/tə ˈɡoʊ/",
+"fa": "مانده (تا پایان)",
+"ex": "Four more weeks to go!",
+"book": 1,
+"id": "to-go",
+"m": [
+16,
+21
+]
+},
+{
+"w": "put up",
+"ipa": "/pʊt ʌp/",
+"fa": "نصب کردن (پوستر)",
+"ex": "It all started at the gym in June, when Jasmine put up a poster: the Oakville Half Marathon, October 10th.",
+"id": "put-up",
+"m": [
+48,
+54
+]
+},
+{
+"w": "long run",
+"ipa": "/lɔŋ rʌn/",
+"fa": "دوی طولانی",
+"ex": "Every Sunday, my long run gets one mile longer.",
+"id": "long-run",
+"m": [
+17,
+25
+]
+},
+{
+"w": "running shoes",
+"ipa": "/ˈrʌnɪŋ ʃuz/",
+"fa": "کفش دویدن",
+"ex": "My running shoes were three years old.",
+"id": "running-shoes",
+"m": [
+3,
+16
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "You should sign up.",
+"fa": "باید ثبت‌نام کنی."
+},
+{
+"id": "s2",
+"en": "It hasn’t been easy.",
+"fa": "آسان نبوده است."
+},
+{
+"id": "s3",
+"en": "My knees have been hurting since Saturday.",
+"fa": "از شنبه زانوهایم درد می‌کند."
+},
+{
+"id": "s4",
+"en": "Have you been drinking enough water?",
+"fa": "به اندازه‌ی کافی آب می‌خوری؟"
+},
+{
+"id": "s5",
+"en": "Four more weeks to go!",
+"fa": "چهار هفته‌ی دیگر مانده!"
+}
+]
+}

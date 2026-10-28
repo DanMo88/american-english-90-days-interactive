@@ -1,0 +1,361 @@
+{
+"day": 64,
+"level": "B1",
+"title": "Visiting Emma in Chicago",
+"fa_title": "دیدار با اِما در شیکاگو",
+"audio": "audio/day64.mp3",
+"img": "img/day64.webp",
+"sents": [
+{
+"p": 0,
+"t": "At the end of July, Lily and I drove to Chicago to visit Emma.",
+"s": 4.45
+},
+{
+"p": 0,
+"t": "She has been living there for only three weeks, but she already knows the city like a local.",
+"s": 9.01
+},
+{
+"p": 1,
+"t": "“I’ve been walking everywhere,” she said.",
+"s": 14.69
+},
+{
+"p": 1,
+"t": "“It’s the best way to learn a city.”",
+"s": 17.33
+},
+{
+"p": 2,
+"t": "Her apartment is tiny, but from the window you can see Lake Michigan.",
+"s": 19.79
+},
+{
+"p": 2,
+"t": "“It’s so big that it looks like the ocean,” Lily said.",
+"s": 24.44
+},
+{
+"p": 3,
+"t": "On Saturday, we took an architecture tour on a boat on the Chicago River.",
+"s": 28.31
+},
+{
+"p": 3,
+"t": "Our guide has been giving tours for twenty years, and he knew a story about every skyscraper.",
+"s": 33.31
+},
+{
+"p": 4,
+"t": "For lunch, Emma took us to try deep-dish pizza.",
+"s": 39.52
+},
+{
+"p": 4,
+"t": "It was so thick that I could only eat two slices.",
+"s": 42.89
+},
+{
+"p": 5,
+"t": "In the afternoon, we took photos at “the Bean,” a giant silver sculpture that reflects the sky and the city.",
+"s": 46.53
+},
+{
+"p": 6,
+"t": "“So, how has work been?” I asked.",
+"s": 54.23
+},
+{
+"p": 7,
+"t": "“Busy,” Emma said.",
+"s": 57.12
+},
+{
+"p": 7,
+"t": "“I’ve been drawing pictures for a children’s book about a dog. Guess who he looks like?”",
+"s": 58.95
+},
+{
+"p": 8,
+"t": "She showed us her sketches.",
+"s": 64.03
+},
+{
+"p": 8,
+"t": "It was Max!",
+"s": 65.59
+},
+{
+"p": 9,
+"t": "That night, we sat by the lake and watched the city lights.",
+"s": 67.19
+},
+{
+"p": 9,
+"t": "Emma looked so happy, and I was proud of her.",
+"s": 70.8
+}
+],
+"comp": [
+{
+"q": "How long has Emma been living in Chicago?",
+"o": [
+"for three weeks",
+"since May",
+"for three months",
+"for a year"
+],
+"a": 0,
+"fa": "اِما چه مدت است در شیکاگو زندگی می‌کند؟"
+},
+{
+"q": "Why has Emma been walking everywhere?",
+"o": [
+"She doesn’t have a car.",
+"Her doctor told her to.",
+"The buses are too expensive.",
+"It’s the best way to learn a city."
+],
+"a": 3,
+"fa": "چرا اِما همه‌جا پیاده می‌رود؟"
+},
+{
+"q": "Why did Lily say the lake looked like the ocean?",
+"o": [
+"It was salty.",
+"It was very big.",
+"It had big waves.",
+"It was very blue."
+],
+"a": 1,
+"fa": "چرا لیلی گفت دریاچه شبیه اقیانوس است؟"
+},
+{
+"q": "How long has the guide been giving tours?",
+"o": [
+"for twenty years",
+"for one year",
+"for a hundred years",
+"for three weeks"
+],
+"a": 0,
+"fa": "راهنما چند سال است تور برگزار می‌کند؟"
+},
+{
+"q": "What is “the Bean”?",
+"o": [
+"a famous pizza",
+"a tall building",
+"a silver sculpture",
+"a boat"
+],
+"a": 2,
+"fa": "«the Bean» چیست؟"
+},
+{
+"q": "Who does the dog in Emma’s book look like?",
+"o": [
+"Rosa’s cat",
+"Max",
+"Lily’s dog",
+"Emma’s dog"
+],
+"a": 1,
+"fa": "سگ کتاب اِما شبیه کیست؟"
+}
+],
+"words": [
+{
+"w": "ocean",
+"ipa": "/ˈoʊʃən/",
+"fa": "اقیانوس",
+"ex": "It’s so big that it looks like the ocean.",
+"book": 1,
+"id": "ocean",
+"m": [
+35,
+40
+]
+},
+{
+"w": "architecture",
+"ipa": "/ˈɑrkɪˌtɛktʃɚ/",
+"fa": "معماری",
+"ex": "On Saturday, we took an architecture tour on a boat on the Chicago River.",
+"book": 1,
+"id": "architecture",
+"m": [
+24,
+36
+]
+},
+{
+"w": "tour",
+"ipa": "/tʊr/",
+"fa": "تور، گشت",
+"ex": "On Saturday, we took an architecture tour on a boat on the Chicago River.",
+"book": 1,
+"id": "tour",
+"m": [
+37,
+41
+]
+},
+{
+"w": "guide",
+"ipa": "/ɡaɪd/",
+"fa": "راهنما",
+"ex": "Our guide spoke three languages.",
+"book": 1,
+"id": "guide",
+"m": [
+4,
+9
+]
+},
+{
+"w": "skyscraper",
+"ipa": "/ˈskaɪˌskreɪpɚ/",
+"fa": "آسمان‌خراش",
+"ex": "New York is full of skyscrapers.",
+"book": 1,
+"id": "skyscraper",
+"m": [
+20,
+31
+]
+},
+{
+"w": "thick",
+"ipa": "/θɪk/",
+"fa": "ضخیم، کلفت",
+"ex": "It was so thick that I could only eat two slices.",
+"book": 1,
+"id": "thick",
+"m": [
+10,
+15
+]
+},
+{
+"w": "slice",
+"ipa": "/slaɪs/",
+"fa": "برش، تکه",
+"ex": "It was so thick that I could only eat two slices.",
+"book": 1,
+"id": "slice",
+"m": [
+42,
+48
+]
+},
+{
+"w": "sculpture",
+"ipa": "/ˈskʌlptʃɚ/",
+"fa": "مجسمه",
+"ex": "There is a metal sculpture in the park.",
+"book": 1,
+"id": "sculpture",
+"m": [
+17,
+26
+]
+},
+{
+"w": "reflect",
+"ipa": "/rɪˈflɛkt/",
+"fa": "منعکس کردن",
+"ex": "The lake reflects the mountains.",
+"book": 1,
+"id": "reflect",
+"m": [
+9,
+17
+]
+},
+{
+"w": "sketch",
+"ipa": "/skɛtʃ/",
+"fa": "طرح اولیه (نقاشی)",
+"ex": "She showed us her sketches.",
+"book": 1,
+"id": "sketch",
+"m": [
+18,
+26
+]
+},
+{
+"w": "boat",
+"ipa": "/boʊt/",
+"fa": "قایق",
+"ex": "On Saturday, we took an architecture tour on a boat on the Chicago River.",
+"id": "boat",
+"m": [
+47,
+51
+]
+},
+{
+"w": "giant",
+"ipa": "/ˈdʒaɪənt/",
+"fa": "غول‌پیکر، عظیم",
+"ex": "In the afternoon, we took photos at “the Bean,” a giant silver sculpture that reflects the sky and the city.",
+"id": "giant",
+"m": [
+50,
+55
+]
+},
+{
+"w": "guess",
+"ipa": "/ɡɛs/",
+"fa": "حدس زدن",
+"ex": "Guess who he looks like?",
+"id": "guess",
+"m": [
+0,
+5
+]
+},
+{
+"w": "take photos",
+"ipa": "/teɪk ˈfoʊˌtoʊz/",
+"fa": "عکس گرفتن",
+"ex": "In the afternoon, we took photos at “the Bean,” a giant silver sculpture that reflects the sky and the city.",
+"id": "take-photos",
+"m": [
+21,
+32
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "It’s the best way to learn a city.",
+"fa": "این بهترین راه برای شناختن یک شهر است."
+},
+{
+"id": "s2",
+"en": "Her apartment is tiny.",
+"fa": "آپارتمانش خیلی کوچک است."
+},
+{
+"id": "s3",
+"en": "It looks like the ocean.",
+"fa": "شبیه اقیانوس است."
+},
+{
+"id": "s4",
+"en": "How has work been?",
+"fa": "کار چطور بوده؟"
+},
+{
+"id": "s5",
+"en": "I was proud of her.",
+"fa": "به او افتخار می‌کردم."
+}
+]
+}

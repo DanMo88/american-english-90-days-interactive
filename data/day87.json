@@ -1,0 +1,371 @@
+{
+"day": 87,
+"level": "B1",
+"title": "Sharing the News",
+"fa_title": "دادن خبر به خانواده",
+"audio": "audio/day87.mp3",
+"img": "img/day87.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Christmas morning, we decided to call our families.",
+"s": 3.61
+},
+{
+"p": 0,
+"t": "Lily’s parents live in Seattle, and they were thrilled.",
+"s": 7.17
+},
+{
+"p": 0,
+"t": "Her dad couldn’t stop asking about the date.",
+"s": 10.79
+},
+{
+"p": 1,
+"t": "Then I called my mom.",
+"s": 13.94
+},
+{
+"p": 1,
+"t": "The whole family was at her house.",
+"s": 15.61
+},
+{
+"p": 1,
+"t": "When I showed them Lily’s ring, my mom started crying, my sister started screaming, and my uncle began singing an old wedding song.",
+"s": 18.0
+},
+{
+"p": 1,
+"t": "Lily didn’t understand a word, but she started dancing in the kitchen.",
+"s": 26.92
+},
+{
+"p": 2,
+"t": "“When can we meet her?” my mom asked.",
+"s": 31.43
+},
+{
+"p": 2,
+"t": "“In the summer,” I promised.",
+"s": 34.04
+},
+{
+"p": 2,
+"t": "“We’re planning to visit together.”",
+"s": 35.97
+},
+{
+"p": 3,
+"t": "At noon, we went to Rosa’s house for Christmas lunch.",
+"s": 38.27
+},
+{
+"p": 3,
+"t": "Rosa had invited everyone: Danny’s family, Carlos and Ana, Emma, Mr. Lee, and even Mr. Brooks.",
+"s": 41.79
+},
+{
+"p": 3,
+"t": "Before eating, Danny stood up to make a toast.",
+"s": 49.61
+},
+{
+"p": 4,
+"t": "“To Sam and Lily,” he said.",
+"s": 52.94
+},
+{
+"p": 4,
+"t": "“Sam, when you arrived, you were afraid to answer the phone. Now look at you!”",
+"s": 55.0
+},
+{
+"p": 5,
+"t": "Everyone laughed.",
+"s": 60.0
+},
+{
+"p": 5,
+"t": "Then Mia asked, “Can I be the flower girl?” And Leo asked if Max could be the ring bearer.",
+"s": 61.27
+},
+{
+"p": 6,
+"t": "“Max is not allowed to hold rings anymore,” Rosa said seriously, and everyone laughed again.",
+"s": 67.34
+},
+{
+"p": 7,
+"t": "After lunch, Lily and I talked about having a small wedding in the spring, in Rosa’s backyard.",
+"s": 73.98
+},
+{
+"p": 7,
+"t": "I can’t wait to marry my best friend.",
+"s": 79.43
+}
+],
+"comp": [
+{
+"q": "Where do Lily’s parents live?",
+"o": [
+"in Chicago",
+"in Seattle",
+"in Oakville",
+"in Texas"
+],
+"a": 1,
+"fa": "پدر و مادر لیلی کجا زندگی می‌کنند؟"
+},
+{
+"q": "What did Sam’s uncle do?",
+"o": [
+"He cried.",
+"He screamed.",
+"He started singing an old wedding song.",
+"He asked about the date."
+],
+"a": 2,
+"fa": "عموی سام چه کار کرد؟"
+},
+{
+"q": "When are Sam and Lily planning to visit Sam’s family?",
+"o": [
+"in the summer",
+"in the spring",
+"at Christmas",
+"next week"
+],
+"a": 0,
+"fa": "سام و لیلی کی قصد دارند به دیدن خانواده‌ی سام بروند؟"
+},
+{
+"q": "What did Danny say in his toast?",
+"o": [
+"Max is the best dog.",
+"Sam should move to Chicago.",
+"Lily is a great chef.",
+"Sam used to be afraid to answer the phone."
+],
+"a": 3,
+"fa": "دنی هنگام نوشیدن به سلامتی چه گفت؟"
+},
+{
+"q": "Why did Rosa say Max can’t hold rings anymore?",
+"o": [
+"He is too old.",
+"He is too small.",
+"He hid the engagement ring before.",
+"He bit Leo."
+],
+"a": 2,
+"fa": "چرا رزا گفت مکس دیگر اجازه ندارد انگشتر نگه دارد؟"
+},
+{
+"q": "Where will the wedding probably be?",
+"o": [
+"in a church in Chicago",
+"in Seattle",
+"at Maple Café",
+"in Rosa’s backyard"
+],
+"a": 3,
+"fa": "عروسی احتمالاً کجا برگزار می‌شود؟"
+}
+],
+"words": [
+{
+"w": "thrilled",
+"ipa": "/θrɪld/",
+"fa": "بسیار هیجان‌زده و خوشحال",
+"ex": "Lily’s parents live in Seattle, and they were thrilled.",
+"book": 1,
+"id": "thrilled",
+"m": [
+46,
+54
+]
+},
+{
+"w": "uncle",
+"ipa": "/ˈʌŋkəl/",
+"fa": "عمو، دایی",
+"ex": "My uncle lives on a farm.",
+"book": 1,
+"id": "uncle",
+"m": [
+3,
+8
+]
+},
+{
+"w": "begin",
+"ipa": "/bɪˈɡɪn/",
+"fa": "شروع کردن",
+"ex": "The movie begins at eight.",
+"book": 1,
+"id": "begin",
+"m": [
+10,
+16
+]
+},
+{
+"w": "noon",
+"ipa": "/nun/",
+"fa": "ظهر",
+"ex": "At noon, we went to Rosa’s house for Christmas lunch.",
+"book": 1,
+"id": "noon",
+"m": [
+3,
+7
+]
+},
+{
+"w": "toast",
+"ipa": "/toʊst/",
+"fa": "نوشیدن به سلامتی",
+"ex": "Before eating, Danny stood up to make a toast.",
+"book": 1,
+"id": "toast",
+"m": [
+40,
+45
+]
+},
+{
+"w": "flower girl",
+"ipa": "/ˈflaʊɚ ˌɡɝl/",
+"fa": "دختر گل‌به‌دست (عروسی)",
+"ex": "Can I be the flower girl?",
+"book": 1,
+"id": "flower-girl",
+"m": [
+13,
+24
+]
+},
+{
+"w": "ring bearer",
+"ipa": "/ˈrɪŋ ˌbɛrɚ/",
+"fa": "حامل حلقه (عروسی)",
+"ex": "Leo asked if Max could be the ring bearer.",
+"book": 1,
+"id": "ring-bearer",
+"m": [
+30,
+41
+]
+},
+{
+"w": "seriously",
+"ipa": "/ˈsɪriəsli/",
+"fa": "با جدیت",
+"ex": "Rosa said seriously, and everyone laughed again.",
+"book": 1,
+"id": "seriously",
+"m": [
+10,
+19
+]
+},
+{
+"w": "decide",
+"ipa": "/dɪˈsaɪd/",
+"fa": "تصمیم گرفتن",
+"ex": "On Christmas morning, we decided to call our families.",
+"book": 1,
+"id": "decide",
+"m": [
+25,
+32
+]
+},
+{
+"w": "can't wait",
+"ipa": "/ˌkænt ˈweɪt/",
+"fa": "بی‌صبرانه منتظر بودن",
+"ex": "I can’t wait to marry my best friend.",
+"book": 1,
+"id": "can-t-wait",
+"m": [
+2,
+12
+]
+},
+{
+"w": "allowed",
+"ipa": "/əˈlaʊd/",
+"fa": "مجاز",
+"ex": "Max is not allowed to hold rings anymore.",
+"id": "allowed",
+"m": [
+11,
+18
+]
+},
+{
+"w": "anymore",
+"ipa": "/ˌɛniˈmɔr/",
+"fa": "دیگر (نه)",
+"ex": "Max is not allowed to hold rings anymore.",
+"id": "anymore",
+"m": [
+33,
+40
+]
+},
+{
+"w": "best friend",
+"ipa": "/bɛst frɛnd/",
+"fa": "بهترین دوست",
+"ex": "I can’t wait to marry my best friend.",
+"id": "best-friend",
+"m": [
+25,
+36
+]
+},
+{
+"w": "date",
+"ipa": "/deɪt/",
+"fa": "تاریخ",
+"ex": "Her dad couldn’t stop asking about the date.",
+"id": "date",
+"m": [
+39,
+43
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "The whole family was at her house.",
+"fa": "تمام خانواده خانه‌ی او بودند."
+},
+{
+"id": "s2",
+"en": "When can we meet her?",
+"fa": "کی می‌توانیم ببینیمش؟"
+},
+{
+"id": "s3",
+"en": "We’re planning to visit together.",
+"fa": "قصد داریم با هم به دیدنتان بیاییم."
+},
+{
+"id": "s4",
+"en": "Can I be the flower girl?",
+"fa": "می‌توانم دختر گل‌به‌دست باشم؟"
+},
+{
+"id": "s5",
+"en": "I can’t wait to marry my best friend.",
+"fa": "بی‌صبرانه منتظرم با بهترین دوستم ازدواج کنم."
+}
+]
+}

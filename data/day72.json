@@ -1,0 +1,410 @@
+{
+"day": 72,
+"level": "B1",
+"title": "Jury Duty",
+"fa_title": "خدمت در هیئت منصفه",
+"audio": "audio/day72.mp3",
+"img": "img/day72.webp",
+"sents": [
+{
+"p": 0,
+"t": "One morning, Rosa came to my door holding an official envelope.",
+"s": 3.51
+},
+{
+"p": 0,
+"t": "“I’ve been called for jury duty,” she said.",
+"s": 8.14
+},
+{
+"p": 0,
+"t": "“I have to go to the courthouse next Monday.”",
+"s": 11.03
+},
+{
+"p": 1,
+"t": "In America, citizens can be chosen to sit on a jury and decide if a person is guilty or not guilty.",
+"s": 14.03
+},
+{
+"p": 1,
+"t": "It’s an important duty, and employers have to give workers the day off.",
+"s": 21.58
+},
+{
+"p": 2,
+"t": "“Have you ever done it before?” I asked.",
+"s": 26.38
+},
+{
+"p": 3,
+"t": "“Once, twenty years ago. It was a case about a stolen car.”",
+"s": 29.43
+},
+{
+"p": 4,
+"t": "On Monday, Rosa spent the whole day at the courthouse.",
+"s": 33.81
+},
+{
+"p": 4,
+"t": "Lawyers asked many people questions, and in the end, Rosa was chosen for a three-day trial.",
+"s": 37.34
+},
+{
+"p": 5,
+"t": "She couldn’t tell me anything about the case until it was over.",
+"s": 44.06
+},
+{
+"p": 5,
+"t": "Every evening, she just said, “It’s hard to decide someone’s future.”",
+"s": 47.68
+},
+{
+"p": 6,
+"t": "When the trial ended, we talked over dinner.",
+"s": 52.36
+},
+{
+"p": 6,
+"t": "“If I were on a jury,” I said, “I would be too nervous to decide.”",
+"s": 55.4
+},
+{
+"p": 7,
+"t": "“You’d be good at it,” she said.",
+"s": 60.26
+},
+{
+"p": 7,
+"t": "“You listen carefully, and you’re fair.”",
+"s": 62.08
+},
+{
+"p": 8,
+"t": "But only American citizens can serve on a jury.",
+"s": 64.65
+},
+{
+"p": 8,
+"t": "“If I were a citizen, I could also vote,” I said.",
+"s": 68.38
+},
+{
+"p": 9,
+"t": "Rosa looked at me.",
+"s": 72.19
+},
+{
+"p": 9,
+"t": "“Then maybe one day you’ll become one.” For the first time, I seriously thought about it.",
+"s": 73.59
+}
+],
+"comp": [
+{
+"q": "Why did Rosa have to go to the courthouse?",
+"o": [
+"She had been called for jury duty.",
+"She works there as a lawyer.",
+"Her car was stolen.",
+"She had a parking ticket."
+],
+"a": 0,
+"fa": "چرا رزا باید به دادگاه می‌رفت؟"
+},
+{
+"q": "What does a jury decide?",
+"o": [
+"how much a lawyer earns",
+"where a trial happens",
+"who gets a job",
+"if a person is guilty or not guilty"
+],
+"a": 3,
+"fa": "هیئت منصفه درباره‌ی چه چیزی تصمیم می‌گیرد؟"
+},
+{
+"q": "How long was Rosa’s trial?",
+"o": [
+"two weeks",
+"one day",
+"three days",
+"eighty days"
+],
+"a": 2,
+"fa": "دادگاه رزا چند روز طول کشید؟"
+},
+{
+"q": "Why couldn’t Rosa talk about the case?",
+"o": [
+"She forgot it.",
+"She wasn’t allowed to until it was over.",
+"Sam wasn’t interested.",
+"It was boring."
+],
+"a": 1,
+"fa": "چرا رزا نمی‌توانست درباره‌ی پرونده حرف بزند؟"
+},
+{
+"q": "Why can’t Sam serve on a jury?",
+"o": [
+"He is too nervous.",
+"He works on Mondays.",
+"He is too young.",
+"He isn’t an American citizen."
+],
+"a": 3,
+"fa": "چرا سام نمی‌تواند عضو هیئت منصفه شود؟"
+},
+{
+"q": "What does the last sentence suggest?",
+"o": [
+"Sam wants to be a lawyer.",
+"Sam is thinking about becoming a citizen.",
+"Sam is angry with Rosa.",
+"Sam will move away."
+],
+"a": 1,
+"fa": "جمله‌ی آخر چه چیزی را نشان می‌دهد؟"
+}
+],
+"words": [
+{
+"w": "official",
+"ipa": "/əˈfɪʃəl/",
+"fa": "رسمی",
+"ex": "One morning, Rosa came to my door holding an official envelope.",
+"book": 1,
+"id": "official",
+"m": [
+45,
+53
+]
+},
+{
+"w": "envelope",
+"ipa": "/ˈɛnvəˌloʊp/",
+"fa": "پاکت نامه",
+"ex": "One morning, Rosa came to my door holding an official envelope.",
+"book": 1,
+"id": "envelope",
+"m": [
+54,
+62
+]
+},
+{
+"w": "jury duty",
+"ipa": "/ˈdʒʊri ˌduti/",
+"fa": "خدمت در هیئت منصفه",
+"ex": "I’ve been called for jury duty.",
+"book": 1,
+"id": "jury-duty",
+"m": [
+21,
+30
+]
+},
+{
+"w": "courthouse",
+"ipa": "/ˈkɔrtˌhaʊs/",
+"fa": "ساختمان دادگاه",
+"ex": "I have to go to the courthouse next Monday.",
+"book": 1,
+"id": "courthouse",
+"m": [
+20,
+30
+]
+},
+{
+"w": "citizen",
+"ipa": "/ˈsɪtəzən/",
+"fa": "شهروند",
+"ex": "Only American citizens can serve on a jury.",
+"book": 1,
+"id": "citizen",
+"m": [
+14,
+22
+]
+},
+{
+"w": "guilty",
+"ipa": "/ˈɡɪlti/",
+"fa": "مجرم، گناهکار",
+"ex": "The jury decided he was not guilty.",
+"book": 1,
+"id": "guilty",
+"m": [
+28,
+34
+]
+},
+{
+"w": "employer",
+"ipa": "/ɛmˈplɔɪɚ/",
+"fa": "کارفرما",
+"ex": "It’s an important duty, and employers have to give workers the day off.",
+"book": 1,
+"id": "employer",
+"m": [
+28,
+37
+]
+},
+{
+"w": "lawyer",
+"ipa": "/ˈlɔjɚ/",
+"fa": "وکیل",
+"ex": "Lawyers asked many people questions, and in the end, Rosa was chosen for a three-day trial.",
+"book": 1,
+"id": "lawyer",
+"m": [
+0,
+7
+]
+},
+{
+"w": "trial",
+"ipa": "/ˈtraɪəl/",
+"fa": "محاکمه، دادرسی",
+"ex": "When the trial ended, we talked over dinner.",
+"book": 1,
+"id": "trial",
+"m": [
+9,
+14
+]
+},
+{
+"w": "vote",
+"ipa": "/voʊt/",
+"fa": "رأی دادن",
+"ex": "If I were a citizen, I could also vote.",
+"book": 1,
+"id": "vote",
+"m": [
+34,
+38
+]
+},
+{
+"w": "jury",
+"ipa": "/ˈdʒʊri/",
+"fa": "هیئت منصفه",
+"ex": "Only American citizens can serve on a jury.",
+"id": "jury",
+"m": [
+38,
+42
+]
+},
+{
+"w": "duty",
+"ipa": "/ˈduti/",
+"fa": "وظیفه",
+"ex": "I’ve been called for jury duty.",
+"id": "duty",
+"m": [
+26,
+30
+]
+},
+{
+"w": "once",
+"ipa": "/wʌns/",
+"fa": "یک بار",
+"ex": "Once, twenty years ago.",
+"id": "once",
+"m": [
+0,
+4
+]
+},
+{
+"w": "case",
+"ipa": "/keɪs/",
+"fa": "پرونده",
+"ex": "It was a case about a stolen car.",
+"id": "case",
+"m": [
+9,
+13
+]
+},
+{
+"w": "stolen",
+"ipa": "/ˈstoʊlən/",
+"fa": "دزدیده‌شده",
+"ex": "It was a case about a stolen car.",
+"id": "stolen",
+"m": [
+22,
+28
+]
+},
+{
+"w": "good at",
+"ipa": "/ɡʊd æt/",
+"fa": "در کاری خوب بودن",
+"ex": "You’d be good at it.",
+"id": "good-at",
+"m": [
+9,
+16
+]
+},
+{
+"w": "become",
+"ipa": "/bɪˈkʌm/",
+"fa": "شدن",
+"ex": "Then maybe one day you’ll become one.",
+"id": "become",
+"m": [
+26,
+32
+]
+},
+{
+"w": "seriously",
+"ipa": "/ˈsɪriəsli/",
+"fa": "جدی، به‌طور جدی",
+"ex": "For the first time, I seriously thought about it.",
+"id": "seriously",
+"m": [
+22,
+31
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I’ve been called for jury duty.",
+"fa": "برای خدمت در هیئت منصفه احضار شده‌ام."
+},
+{
+"id": "s2",
+"en": "Have you ever done it before?",
+"fa": "تا حالا این کار را کرده‌ای؟"
+},
+{
+"id": "s3",
+"en": "It’s hard to decide someone’s future.",
+"fa": "تصمیم گرفتن درباره‌ی آینده‌ی یک نفر سخت است."
+},
+{
+"id": "s4",
+"en": "You listen carefully, and you’re fair.",
+"fa": "با دقت گوش می‌دهی و منصفی."
+},
+{
+"id": "s5",
+"en": "Maybe one day you’ll become one.",
+"fa": "شاید یک روز تو هم شهروند بشوی."
+}
+]
+}

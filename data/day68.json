@@ -1,0 +1,373 @@
+{
+"day": 68,
+"level": "B1",
+"title": "A Visit to the Doctor",
+"fa_title": "رفتن به دکتر",
+"audio": "audio/day68.mp3",
+"img": "img/day68.webp",
+"sents": [
+{
+"p": 0,
+"t": "As assistant manager, I now get better health insurance from work.",
+"s": 3.96
+},
+{
+"p": 0,
+"t": "But choosing a plan was confusing.",
+"s": 8.33
+},
+{
+"p": 0,
+"t": "One plan had a low monthly premium but a high deductible.",
+"s": 11.11
+},
+{
+"p": 0,
+"t": "The other had a higher premium and a lower deductible.",
+"s": 15.3
+},
+{
+"p": 1,
+"t": "Danny explained it to me over coffee.",
+"s": 19.19
+},
+{
+"p": 1,
+"t": "“The deductible is the amount you pay before your insurance starts paying. If you rarely go to the doctor, the cheaper plan will be fine. If you get sick often, the other plan will save you money.”",
+"s": 22.04
+},
+{
+"p": 2,
+"t": "I chose the cheaper plan and made an appointment for my first full checkup in America.",
+"s": 34.85
+},
+{
+"p": 3,
+"t": "Dr. Patel checked my blood pressure, listened to my heart, and asked a lot of questions.",
+"s": 40.58
+},
+{
+"p": 3,
+"t": "“Do you smoke? How much do you exercise? How many hours do you sleep?”",
+"s": 46.49
+},
+{
+"p": 4,
+"t": "“I’ve been training for a half marathon,” I said proudly.",
+"s": 51.47
+},
+{
+"p": 5,
+"t": "“Great. Your heart is very healthy,” she said.",
+"s": 55.43
+},
+{
+"p": 5,
+"t": "“But your blood test shows that your vitamin D is low. If you take a vitamin every day, you’ll feel more energetic, especially in winter.”",
+"s": 58.78
+},
+{
+"p": 6,
+"t": "At the front desk, I paid a twenty-dollar copay.",
+"s": 68.09
+},
+{
+"p": 6,
+"t": "The checkup was free with my plan, but the blood test wasn’t.",
+"s": 71.49
+},
+{
+"p": 7,
+"t": "“If you have any questions about your results, call us,” the receptionist said.",
+"s": 75.76
+},
+{
+"p": 7,
+"t": "I left with a smile.",
+"s": 80.36
+}
+],
+"comp": [
+{
+"q": "Why was choosing a plan confusing?",
+"o": [
+"Sam didn’t understand English.",
+"There was only one plan.",
+"The plans had many different costs.",
+"All the plans were free."
+],
+"a": 2,
+"fa": "چرا انتخاب طرح بیمه گیج‌کننده بود؟"
+},
+{
+"q": "What is a deductible?",
+"o": [
+"what you pay before insurance pays",
+"a monthly bill for your phone",
+"a type of doctor",
+"a free checkup"
+],
+"a": 0,
+"fa": "«deductible» چیست؟"
+},
+{
+"q": "According to Danny, who should choose the cheaper plan?",
+"o": [
+"people with children",
+"people who are often sick",
+"people who smoke",
+"people who rarely go to the doctor"
+],
+"a": 3,
+"fa": "به گفته‌ی دنی، چه کسی باید طرح ارزان‌تر را انتخاب کند؟"
+},
+{
+"q": "What did the blood test show?",
+"o": [
+"Sam’s heart was weak.",
+"His vitamin D was low.",
+"His blood pressure was high.",
+"He had a cold."
+],
+"a": 1,
+"fa": "آزمایش خون چه چیزی را نشان داد؟"
+},
+{
+"q": "What will happen if Sam takes a vitamin every day?",
+"o": [
+"He’ll sleep more.",
+"He’ll run faster.",
+"He’ll feel more energetic.",
+"He’ll pay less."
+],
+"a": 2,
+"fa": "اگر سام هر روز ویتامین بخورد چه اتفاقی می‌افتد؟"
+},
+{
+"q": "How much did Sam pay at the front desk?",
+"o": [
+"nothing",
+"twenty dollars",
+"two hundred dollars",
+"a hundred dollars"
+],
+"a": 1,
+"fa": "سام در پذیرش چقدر پرداخت کرد؟"
+}
+],
+"words": [
+{
+"w": "premium",
+"ipa": "/ˈprimiəm/",
+"fa": "حق بیمه",
+"ex": "The other had a higher premium and a lower deductible.",
+"book": 1,
+"id": "premium",
+"m": [
+23,
+30
+]
+},
+{
+"w": "deductible",
+"ipa": "/dɪˈdʌktəbəl/",
+"fa": "فرانشیز (سهم بیمه‌شده)",
+"ex": "The other had a higher premium and a lower deductible.",
+"book": 1,
+"id": "deductible",
+"m": [
+43,
+53
+]
+},
+{
+"w": "checkup",
+"ipa": "/ˈtʃɛkˌʌp/",
+"fa": "معاینه‌ی کامل",
+"ex": "The checkup was free with my plan, but the blood test wasn’t.",
+"book": 1,
+"id": "checkup",
+"m": [
+4,
+11
+]
+},
+{
+"w": "blood pressure",
+"ipa": "/ˈblʌd ˌprɛʃɚ/",
+"fa": "فشار خون",
+"ex": "Dr. Patel checked my blood pressure, listened to my heart, and asked a lot of questions.",
+"book": 1,
+"id": "blood-pressure",
+"m": [
+21,
+35
+]
+},
+{
+"w": "heart",
+"ipa": "/hɑrt/",
+"fa": "قلب",
+"ex": "Your heart is very healthy.",
+"book": 1,
+"id": "heart",
+"m": [
+5,
+10
+]
+},
+{
+"w": "smoke",
+"ipa": "/smoʊk/",
+"fa": "سیگار کشیدن",
+"ex": "Do you smoke?",
+"book": 1,
+"id": "smoke",
+"m": [
+7,
+12
+]
+},
+{
+"w": "vitamin",
+"ipa": "/ˈvaɪtəmɪn/",
+"fa": "ویتامین",
+"ex": "Your blood test shows that your vitamin D is low.",
+"book": 1,
+"id": "vitamin",
+"m": [
+32,
+39
+]
+},
+{
+"w": "energetic",
+"ipa": "/ˌɛnɚˈdʒɛtɪk/",
+"fa": "پرانرژی",
+"ex": "If you take a vitamin every day, you’ll feel more energetic, especially in winter.",
+"book": 1,
+"id": "energetic",
+"m": [
+50,
+59
+]
+},
+{
+"w": "copay",
+"ipa": "/ˈkoʊˌpeɪ/",
+"fa": "سهم پرداخت هر ویزیت",
+"ex": "At the front desk, I paid a twenty-dollar copay.",
+"book": 1,
+"id": "copay",
+"m": [
+42,
+47
+]
+},
+{
+"w": "receptionist",
+"ipa": "/rɪˈsɛpʃənɪst/",
+"fa": "منشی، مسئول پذیرش",
+"ex": "The receptionist answered the phone.",
+"book": 1,
+"id": "receptionist",
+"m": [
+4,
+16
+]
+},
+{
+"w": "confusing",
+"ipa": "/kənˈfjuzɪŋ/",
+"fa": "گیج‌کننده",
+"ex": "Choosing a plan was confusing.",
+"id": "confusing",
+"m": [
+20,
+29
+]
+},
+{
+"w": "amount",
+"ipa": "/əˈmaʊnt/",
+"fa": "مقدار، مبلغ",
+"ex": "The deductible is the amount you pay before your insurance starts paying.",
+"id": "amount",
+"m": [
+22,
+28
+]
+},
+{
+"w": "blood test",
+"ipa": "/blʌd tɛst/",
+"fa": "آزمایش خون",
+"ex": "Your blood test shows that your vitamin D is low.",
+"id": "blood-test",
+"m": [
+5,
+15
+]
+},
+{
+"w": "especially",
+"ipa": "/əˈspɛʃli/",
+"fa": "مخصوصاً، به‌ویژه",
+"ex": "If you take a vitamin every day, you’ll feel more energetic, especially in winter.",
+"id": "especially",
+"m": [
+61,
+71
+]
+},
+{
+"w": "result",
+"ipa": "/rɪˈzʌlt/",
+"fa": "نتیجه، جواب (آزمایش)",
+"ex": "If you have any questions about your results, call us.",
+"id": "result",
+"m": [
+37,
+44
+]
+},
+{
+"w": "fine",
+"ipa": "/faɪn/",
+"fa": "خوب، مناسب",
+"ex": "If you rarely go to the doctor, the cheaper plan will be fine.",
+"id": "fine",
+"m": [
+57,
+61
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Do you smoke?",
+"fa": "سیگار می‌کشی؟"
+},
+{
+"id": "s2",
+"en": "Your heart is very healthy.",
+"fa": "قلبت خیلی سالم است."
+},
+{
+"id": "s3",
+"en": "Your vitamin D is low.",
+"fa": "ویتامین دی بدنت پایین است."
+},
+{
+"id": "s4",
+"en": "You’ll feel more energetic.",
+"fa": "احساس انرژی بیشتری می‌کنی."
+},
+{
+"id": "s5",
+"en": "If you have any questions, call us.",
+"fa": "اگر سؤالی داشتید، با ما تماس بگیرید."
+}
+]
+}

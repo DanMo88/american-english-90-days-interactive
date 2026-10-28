@@ -1,0 +1,415 @@
+{
+"day": 69,
+"level": "B1",
+"title": "Camping Gone Wrong",
+"fa_title": "کمپینگی که خراب شد",
+"audio": "audio/day69.mp3",
+"img": "img/day69.webp",
+"sents": [
+{
+"p": 0,
+"t": "In August, Carlos invited Lily and me on a camping trip with Ana at Pine Lake.",
+"s": 3.92
+},
+{
+"p": 0,
+"t": "“If the weather is good, we’ll swim and fish,” he said.",
+"s": 9.24
+},
+{
+"p": 0,
+"t": "“If it rains, we’ll play cards in the tent.”",
+"s": 13.14
+},
+{
+"p": 1,
+"t": "The forecast said sunny, so I didn’t pack my rain jacket.",
+"s": 16.41
+},
+{
+"p": 1,
+"t": "Big mistake.",
+"s": 19.95
+},
+{
+"p": 2,
+"t": "The first night was perfect.",
+"s": 21.65
+},
+{
+"p": 2,
+"t": "We grilled corn, told ghost stories, and fell asleep to the sound of frogs.",
+"s": 23.65
+},
+{
+"p": 2,
+"t": "But at three in the morning, I woke up to a strange noise.",
+"s": 28.75
+},
+{
+"p": 2,
+"t": "Something was opening our cooler!",
+"s": 31.96
+},
+{
+"p": 2,
+"t": "I turned on my flashlight.",
+"s": 34.09
+},
+{
+"p": 2,
+"t": "Two raccoons looked at me, holding our hot dogs.",
+"s": 36.07
+},
+{
+"p": 3,
+"t": "“If you chase them, they’ll just come back,” Carlos whispered.",
+"s": 39.7
+},
+{
+"p": 3,
+"t": "“Make noise.” We banged pots until they ran away, but our breakfast was gone.",
+"s": 43.17
+},
+{
+"p": 4,
+"t": "The next afternoon, a storm came.",
+"s": 48.92
+},
+{
+"p": 4,
+"t": "The rain was so heavy that water came into our tent, and our sleeping bags got soaked.",
+"s": 51.52
+},
+{
+"p": 4,
+"t": "Carlos’s “waterproof” tent wasn’t waterproof at all.",
+"s": 57.17
+},
+{
+"p": 5,
+"t": "We threw everything into the car, wet and muddy, and drove to a diner.",
+"s": 61.53
+},
+{
+"p": 5,
+"t": "Over hot pancakes, we couldn’t stop laughing.",
+"s": 66.29
+},
+{
+"p": 6,
+"t": "“Next time, if we go camping, we’ll check the forecast twice,” Lily said.",
+"s": 69.61
+},
+{
+"p": 7,
+"t": "“And we’ll lock the cooler,” Ana added.",
+"s": 74.76
+}
+],
+"comp": [
+{
+"q": "What did Carlos plan to do if it rained?",
+"o": [
+"play cards in the tent",
+"go home",
+"go to a diner",
+"swim in the lake"
+],
+"a": 0,
+"fa": "اگر باران می‌بارید، کارلوس برنامه داشت چه کار کنند؟"
+},
+{
+"q": "Why didn’t Sam pack his rain jacket?",
+"o": [
+"He forgot it.",
+"The forecast said sunny.",
+"Lily had one.",
+"It was too big."
+],
+"a": 1,
+"fa": "چرا سام بارانی‌اش را برنداشت؟"
+},
+{
+"q": "What woke Sam up at three in the morning?",
+"o": [
+"the rain",
+"the frogs",
+"Carlos singing",
+"raccoons opening the cooler"
+],
+"a": 3,
+"fa": "ساعت سه صبح چه چیزی سام را بیدار کرد؟"
+},
+{
+"q": "What does “soaked” mean?",
+"o": [
+"very wet",
+"very cold",
+"very dirty",
+"very old"
+],
+"a": 0,
+"fa": "«soaked» یعنی چه؟"
+},
+{
+"q": "What was wrong with the tent?",
+"o": [
+"It was too small.",
+"The raccoons broke it.",
+"It wasn’t really waterproof.",
+"It blew away."
+],
+"a": 2,
+"fa": "چادر چه مشکلی داشت؟"
+},
+{
+"q": "What will they do next time?",
+"o": [
+"never go camping again",
+"stay at a hotel",
+"bring a dog",
+"check the forecast twice and lock the cooler"
+],
+"a": 3,
+"fa": "دفعه‌ی بعد چه کار خواهند کرد؟"
+}
+],
+"words": [
+{
+"w": "forecast",
+"ipa": "/ˈfɔrˌkæst/",
+"fa": "پیش‌بینی هوا",
+"ex": "The forecast said sunny, so I didn’t pack my rain jacket.",
+"book": 1,
+"id": "forecast",
+"m": [
+4,
+12
+]
+},
+{
+"w": "pack",
+"ipa": "/pæk/",
+"fa": "جمع کردن وسایل، بستن چمدان",
+"ex": "The forecast said sunny, so I didn’t pack my rain jacket.",
+"book": 1,
+"id": "pack",
+"m": [
+37,
+41
+]
+},
+{
+"w": "frog",
+"ipa": "/frɔɡ/",
+"fa": "قورباغه",
+"ex": "We grilled corn, told ghost stories, and fell asleep to the sound of frogs.",
+"book": 1,
+"id": "frog",
+"m": [
+69,
+74
+]
+},
+{
+"w": "cooler",
+"ipa": "/ˈkulɚ/",
+"fa": "یخدان",
+"ex": "Something was opening our cooler!",
+"book": 1,
+"id": "cooler",
+"m": [
+26,
+32
+]
+},
+{
+"w": "raccoon",
+"ipa": "/ræˈkun/",
+"fa": "راکون",
+"ex": "Two raccoons looked at me, holding our hot dogs.",
+"book": 1,
+"id": "raccoon",
+"m": [
+4,
+12
+]
+},
+{
+"w": "chase",
+"ipa": "/tʃeɪs/",
+"fa": "دنبال کردن",
+"ex": "If you chase them, they’ll just come back.",
+"book": 1,
+"id": "chase",
+"m": [
+7,
+12
+]
+},
+{
+"w": "whisper",
+"ipa": "/ˈwɪspɚ/",
+"fa": "پچ‌پچ کردن، آهسته گفتن",
+"ex": "She whispered a secret in my ear.",
+"book": 1,
+"id": "whisper",
+"m": [
+4,
+13
+]
+},
+{
+"w": "soaked",
+"ipa": "/soʊkt/",
+"fa": "خیسِ آب",
+"ex": "I forgot my umbrella and got soaked.",
+"book": 1,
+"id": "soaked",
+"m": [
+29,
+35
+]
+},
+{
+"w": "waterproof",
+"ipa": "/ˈwɔtɚˌpruf/",
+"fa": "ضدآب",
+"ex": "Carlos’s “waterproof” tent wasn’t waterproof at all.",
+"book": 1,
+"id": "waterproof",
+"m": [
+10,
+20
+]
+},
+{
+"w": "lock",
+"ipa": "/lɑk/",
+"fa": "قفل کردن",
+"ex": "We’ll lock the cooler.",
+"book": 1,
+"id": "lock",
+"m": [
+6,
+10
+]
+},
+{
+"w": "fish",
+"ipa": "/fɪʃ/",
+"fa": "ماهی گرفتن",
+"ex": "If the weather is good, we’ll swim and fish.",
+"id": "fish",
+"m": [
+39,
+43
+]
+},
+{
+"w": "rain jacket",
+"ipa": "/reɪn ˈdʒækət/",
+"fa": "بارانی",
+"ex": "The forecast said sunny, so I didn’t pack my rain jacket.",
+"id": "rain-jacket",
+"m": [
+45,
+56
+]
+},
+{
+"w": "strange",
+"ipa": "/streɪndʒ/",
+"fa": "عجیب",
+"ex": "At three in the morning, I woke up to a strange noise.",
+"id": "strange",
+"m": [
+40,
+47
+]
+},
+{
+"w": "bang",
+"ipa": "/bæŋ/",
+"fa": "کوبیدن",
+"ex": "We banged pots until they ran away, but our breakfast was gone.",
+"id": "bang",
+"m": [
+3,
+9
+]
+},
+{
+"w": "pot",
+"ipa": "/pɑt/",
+"fa": "قابلمه",
+"ex": "We banged pots until they ran away, but our breakfast was gone.",
+"id": "pot",
+"m": [
+10,
+14
+]
+},
+{
+"w": "run away",
+"ipa": "/rʌn əˈweɪ/",
+"fa": "فرار کردن",
+"ex": "We banged pots until they ran away, but our breakfast was gone.",
+"id": "run-away",
+"m": [
+26,
+34
+]
+},
+{
+"w": "wet",
+"ipa": "/wɛt/",
+"fa": "خیس",
+"ex": "We threw everything into the car, wet and muddy, and drove to a diner.",
+"id": "wet",
+"m": [
+34,
+37
+]
+},
+{
+"w": "add",
+"ipa": "/æd/",
+"fa": "اضافه کردن",
+"ex": "“And we’ll lock the cooler,” Ana added.",
+"id": "add",
+"m": [
+33,
+38
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "The forecast said sunny.",
+"fa": "پیش‌بینی هوا گفته بود آفتابی است."
+},
+{
+"id": "s2",
+"en": "Something was opening our cooler!",
+"fa": "چیزی داشت یخدانمان را باز می‌کرد!"
+},
+{
+"id": "s3",
+"en": "Our breakfast was gone.",
+"fa": "صبحانه‌مان غیب شده بود."
+},
+{
+"id": "s4",
+"en": "Our sleeping bags got soaked.",
+"fa": "کیسه‌خواب‌هایمان خیس آب شد."
+},
+{
+"id": "s5",
+"en": "We couldn’t stop laughing.",
+"fa": "نمی‌توانستیم جلوی خنده‌مان را بگیریم."
+}
+]
+}

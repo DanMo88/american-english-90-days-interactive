@@ -1,0 +1,393 @@
+{
+"day": 63,
+"level": "B1",
+"title": "The Neighborhood Meeting",
+"fa_title": "جلسه‌ی محله",
+"audio": "audio/day63.mp3",
+"img": "img/day63.webp",
+"sents": [
+{
+"p": 0,
+"t": "“Have you heard the news?” Mr. Brooks asked me on Monday.",
+"s": 3.98
+},
+{
+"p": 0,
+"t": "“The city wants to build a parking lot in Maple Park.”",
+"s": 8.06
+},
+{
+"p": 1,
+"t": "Maple Park is small, but it’s the heart of our neighborhood.",
+"s": 11.72
+},
+{
+"p": 1,
+"t": "Rosa has walked Max there every day for ten years, and children have played under its old oak trees for generations.",
+"s": 15.83
+},
+{
+"p": 2,
+"t": "On Thursday evening, about sixty neighbors came to a meeting at the community center.",
+"s": 24.0
+},
+{
+"p": 2,
+"t": "A woman from the city council explained the plan.",
+"s": 29.47
+},
+{
+"p": 2,
+"t": "“Downtown has become very busy,” she said.",
+"s": 33.01
+},
+{
+"p": 2,
+"t": "“People can’t find parking.”",
+"s": 36.42
+},
+{
+"p": 3,
+"t": "Then neighbors raised their hands one by one.",
+"s": 38.74
+},
+{
+"p": 3,
+"t": "Rosa spoke about the trees.",
+"s": 41.94
+},
+{
+"p": 3,
+"t": "A young father said his kids had nowhere else to play.",
+"s": 44.16
+},
+{
+"p": 3,
+"t": "Even Lily, who rarely speaks in public, suggested a different location: the empty land behind the old train station.",
+"s": 47.85
+},
+{
+"p": 4,
+"t": "Finally, Mr. Brooks stood up.",
+"s": 56.37
+},
+{
+"p": 4,
+"t": "“I’ve lived on Maple Street for forty years,” he said.",
+"s": 58.76
+},
+{
+"p": 4,
+"t": "“I’ve seen many changes, and most of them were good. But we can’t plant a hundred-year-old tree again.”",
+"s": 62.28
+},
+{
+"p": 5,
+"t": "Everyone clapped.",
+"s": 68.78
+},
+{
+"p": 5,
+"t": "The council member promised to study Lily’s idea.",
+"s": 70.15
+},
+{
+"p": 6,
+"t": "A month later, we got a letter.",
+"s": 73.65
+},
+{
+"p": 6,
+"t": "The city has accepted the plan: the parking lot will be built behind the train station.",
+"s": 75.82
+},
+{
+"p": 6,
+"t": "Maple Park is safe.",
+"s": 81.27
+}
+],
+"comp": [
+{
+"q": "What did the city want to build?",
+"o": [
+"a new school",
+"a shopping mall",
+"a train station",
+"a parking lot in Maple Park"
+],
+"a": 3,
+"fa": "شهرداری می‌خواست چه چیزی بسازد؟"
+},
+{
+"q": "How long has Rosa walked Max in the park?",
+"o": [
+"since last month",
+"for forty years",
+"for ten years",
+"for one year"
+],
+"a": 2,
+"fa": "رزا چند سال است مکس را در پارک می‌گرداند؟"
+},
+{
+"q": "Who explained the city’s plan at the meeting?",
+"o": [
+"a woman from the city council",
+"Lily",
+"Mr. Brooks",
+"a young father"
+],
+"a": 0,
+"fa": "چه کسی در جلسه طرح شهرداری را توضیح داد؟"
+},
+{
+"q": "What does “rarely” mean?",
+"o": [
+"very often",
+"not often",
+"loudly",
+"always"
+],
+"a": 1,
+"fa": "«rarely» یعنی چه؟"
+},
+{
+"q": "What was Mr. Brooks’s main point?",
+"o": [
+"Parking is too expensive.",
+"Downtown isn’t busy.",
+"The meeting was too long.",
+"Old trees can’t be replaced."
+],
+"a": 3,
+"fa": "حرف اصلی آقای بروکس چه بود؟"
+},
+{
+"q": "Where will the parking lot be built?",
+"o": [
+"next to the bookstore",
+"behind the old train station",
+"in Maple Park",
+"on Maple Street"
+],
+"a": 1,
+"fa": "پارکینگ کجا ساخته خواهد شد؟"
+}
+],
+"words": [
+{
+"w": "neighborhood",
+"ipa": "/ˈneɪbɚˌhʊd/",
+"fa": "محله",
+"ex": "Maple Park is small, but it’s the heart of our neighborhood.",
+"book": 1,
+"id": "neighborhood",
+"m": [
+47,
+59
+]
+},
+{
+"w": "oak",
+"ipa": "/oʊk/",
+"fa": "درخت بلوط",
+"ex": "There is a big oak tree in our yard.",
+"book": 1,
+"id": "oak",
+"m": [
+15,
+18
+]
+},
+{
+"w": "generation",
+"ipa": "/ˌdʒɛnəˈreɪʃən/",
+"fa": "نسل",
+"ex": "Three generations of my family live in this town.",
+"book": 1,
+"id": "generation",
+"m": [
+6,
+17
+]
+},
+{
+"w": "community center",
+"ipa": "/kəˈmjunəti ˌsɛntɚ/",
+"fa": "مرکز اجتماعات محلی",
+"ex": "On Thursday evening, about sixty neighbors came to a meeting at the community center.",
+"book": 1,
+"id": "community-center",
+"m": [
+68,
+84
+]
+},
+{
+"w": "council",
+"ipa": "/ˈkaʊnsəl/",
+"fa": "شورای شهر",
+"ex": "The council member promised to study Lily’s idea.",
+"book": 1,
+"id": "council",
+"m": [
+4,
+11
+]
+},
+{
+"w": "downtown",
+"ipa": "/ˌdaʊnˈtaʊn/",
+"fa": "مرکز شهر",
+"ex": "Downtown has become very busy.",
+"book": 1,
+"id": "downtown",
+"m": [
+0,
+8
+]
+},
+{
+"w": "rarely",
+"ipa": "/ˈrɛrli/",
+"fa": "به‌ندرت",
+"ex": "I rarely watch TV in the summer.",
+"book": 1,
+"id": "rarely",
+"m": [
+2,
+8
+]
+},
+{
+"w": "public",
+"ipa": "/ˈpʌblɪk/",
+"fa": "جمع، عموم مردم",
+"ex": "Smoking is not allowed in public places.",
+"book": 1,
+"id": "public",
+"m": [
+26,
+32
+]
+},
+{
+"w": "location",
+"ipa": "/loʊˈkeɪʃən/",
+"fa": "مکان، محل",
+"ex": "The hotel is in a great location.",
+"book": 1,
+"id": "location",
+"m": [
+24,
+32
+]
+},
+{
+"w": "accept",
+"ipa": "/əkˈsɛpt/",
+"fa": "پذیرفتن، قبول کردن",
+"ex": "The city has accepted the plan: the parking lot will be built behind the train station.",
+"book": 1,
+"id": "accept",
+"m": [
+13,
+21
+]
+},
+{
+"w": "nowhere",
+"ipa": "/ˈnoʊˌwɛr/",
+"fa": "هیچ‌جا",
+"ex": "A young father said his kids had nowhere else to play.",
+"id": "nowhere",
+"m": [
+33,
+40
+]
+},
+{
+"w": "train station",
+"ipa": "/treɪn ˈsteɪʃən/",
+"fa": "ایستگاه قطار",
+"ex": "The city has accepted the plan: the parking lot will be built behind the train station.",
+"id": "train-station",
+"m": [
+73,
+86
+]
+},
+{
+"w": "one by one",
+"ipa": "/wʌn baɪ wʌn/",
+"fa": "یکی‌یکی",
+"ex": "Then neighbors raised their hands one by one.",
+"id": "one-by-one",
+"m": [
+34,
+44
+]
+},
+{
+"w": "safe",
+"ipa": "/seɪf/",
+"fa": "امن، در امان",
+"ex": "Maple Park is safe.",
+"id": "safe",
+"m": [
+14,
+18
+]
+},
+{
+"w": "member",
+"ipa": "/ˈmɛmbɚ/",
+"fa": "عضو",
+"ex": "The council member promised to study Lily’s idea.",
+"id": "member",
+"m": [
+12,
+18
+]
+},
+{
+"w": "speak",
+"ipa": "/spik/",
+"fa": "صحبت کردن",
+"ex": "Rosa spoke about the trees.",
+"id": "speak",
+"m": [
+5,
+10
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Have you heard the news?",
+"fa": "خبر را شنیده‌ای؟"
+},
+{
+"id": "s2",
+"en": "People can’t find parking.",
+"fa": "مردم جای پارک پیدا نمی‌کنند."
+},
+{
+"id": "s3",
+"en": "I’ve lived on Maple Street for forty years.",
+"fa": "چهل سال است در خیابان میپل زندگی می‌کنم."
+},
+{
+"id": "s4",
+"en": "The city has accepted the plan.",
+"fa": "شهرداری طرح را پذیرفته است."
+},
+{
+"id": "s5",
+"en": "Maple Park is safe.",
+"fa": "پارک میپل در امان است."
+}
+]
+}
