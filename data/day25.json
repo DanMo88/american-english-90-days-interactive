@@ -1,0 +1,380 @@
+{
+"day": 25,
+"level": "A1",
+"title": "What Did You Do Last Weekend?",
+"fa_title": "آخر هفته‌ی گذشته چه کار کردی؟",
+"audio": "audio/day25.mp3",
+"img": "img/day25.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Monday morning at the bookstore, Emma asks, “Hi, Sam! What did you do last weekend?”",
+"s": 4.28
+},
+{
+"p": 1,
+"t": "“I had a great weekend,” I say.",
+"s": 10.51
+},
+{
+"p": 1,
+"t": "“On Saturday morning, I played soccer with Carlos. Then I visited the farmers market with Rosa and bought peaches and corn.”",
+"s": 13.23
+},
+{
+"p": 2,
+"t": "“Nice! And on Saturday evening?”",
+"s": 21.62
+},
+{
+"p": 3,
+"t": "“I stayed home. I cooked dinner and watched a movie. I was very tired after soccer.”",
+"s": 24.38
+},
+{
+"p": 4,
+"t": "“What about Sunday?”",
+"s": 30.29
+},
+{
+"p": 5,
+"t": "“I cleaned my apartment and washed my clothes. In the afternoon, I called my family. Then I walked to the lake. The weather was beautiful. And you?”",
+"s": 32.16
+},
+{
+"p": 6,
+"t": "“I went to my grandparents’ house in Riverside. We had a big family lunch. My grandpa told funny stories, and I helped my grandma in her garden.”",
+"s": 42.23
+},
+{
+"p": 7,
+"t": "Then Mr. Lee comes in with a big box.",
+"s": 52.44
+},
+{
+"p": 7,
+"t": "“Good morning! I painted my kitchen this weekend. It was a lot of work!” We all laugh.",
+"s": 55.18
+},
+{
+"p": 8,
+"t": "We open the box.",
+"s": 61.0
+},
+{
+"p": 8,
+"t": "There are fifty new books inside.",
+"s": 62.36
+},
+{
+"p": 8,
+"t": "A new week starts!",
+"s": 64.28
+}
+],
+"comp": [
+{
+"q": "What did Sam do on Saturday morning?",
+"o": [
+"He worked.",
+"He played soccer.",
+"He cleaned his apartment.",
+"He went to the lake."
+],
+"a": 1,
+"fa": "سام شنبه صبح چه کار کرد؟"
+},
+{
+"q": "What did Sam buy at the farmers market?",
+"o": [
+"peaches and corn",
+"honey and flowers",
+"bread",
+"tomatoes"
+],
+"a": 0,
+"fa": "سام از بازار کشاورزان چه خرید؟"
+},
+{
+"q": "Why was Sam tired on Saturday evening?",
+"o": [
+"He had a lot of work.",
+"He walked to the lake.",
+"He played soccer.",
+"He didn’t sleep."
+],
+"a": 2,
+"fa": "چرا سام شنبه عصر خسته بود؟"
+},
+{
+"q": "Who did Sam call on Sunday?",
+"o": [
+"Carlos",
+"Rosa",
+"Mr. Lee",
+"his family"
+],
+"a": 3,
+"fa": "سام یکشنبه به چه کسی زنگ زد؟"
+},
+{
+"q": "Where did Emma go?",
+"o": [
+"to her grandparents’ house",
+"to the mall",
+"to a baseball game",
+"to Maple Café"
+],
+"a": 0,
+"fa": "اِما کجا رفت؟"
+},
+{
+"q": "What did Mr. Lee do?",
+"o": [
+"He played baseball.",
+"He painted his kitchen.",
+"He read books.",
+"He went to the lake."
+],
+"a": 1,
+"fa": "آقای لی چه کار کرد؟"
+}
+],
+"words": [
+{
+"w": "last",
+"ipa": "/læst/",
+"fa": "گذشته، قبلی",
+"ex": "What did you do last weekend?",
+"book": 1,
+"id": "last",
+"m": [
+16,
+20
+]
+},
+{
+"w": "weekend",
+"ipa": "/ˈwikˌɛnd/",
+"fa": "آخر هفته",
+"ex": "What did you do last weekend?",
+"book": 1,
+"id": "weekend",
+"m": [
+21,
+28
+]
+},
+{
+"w": "visit",
+"ipa": "/ˈvɪzɪt/",
+"fa": "سر زدن، دیدن کردن",
+"ex": "Then I visited the farmers market with Rosa and bought peaches and corn.",
+"book": 1,
+"id": "visit",
+"m": [
+7,
+14
+]
+},
+{
+"w": "stay",
+"ipa": "/steɪ/",
+"fa": "ماندن",
+"ex": "I stayed home.",
+"book": 1,
+"id": "stay",
+"m": [
+2,
+8
+]
+},
+{
+"w": "cook",
+"ipa": "/kʊk/",
+"fa": "آشپزی کردن، پختن",
+"ex": "I cooked dinner and watched a movie.",
+"book": 1,
+"id": "cook",
+"m": [
+2,
+8
+]
+},
+{
+"w": "clean",
+"ipa": "/klin/",
+"fa": "تمیز کردن",
+"ex": "I cleaned my apartment and washed my clothes.",
+"book": 1,
+"id": "clean",
+"m": [
+2,
+9
+]
+},
+{
+"w": "wash",
+"ipa": "/wɑʃ/",
+"fa": "شستن",
+"ex": "I cleaned my apartment and washed my clothes.",
+"book": 1,
+"id": "wash",
+"m": [
+27,
+33
+]
+},
+{
+"w": "funny",
+"ipa": "/ˈfʌni/",
+"fa": "خنده‌دار، بامزه",
+"ex": "My grandpa told funny stories, and I helped my grandma in her garden.",
+"book": 1,
+"id": "funny",
+"m": [
+16,
+21
+]
+},
+{
+"w": "garden",
+"ipa": "/ˈɡɑrdən/",
+"fa": "باغ، باغچه",
+"ex": "My grandpa told funny stories, and I helped my grandma in her garden.",
+"book": 1,
+"id": "garden",
+"m": [
+62,
+68
+]
+},
+{
+"w": "paint",
+"ipa": "/peɪnt/",
+"fa": "رنگ کردن",
+"ex": "I painted my kitchen this weekend.",
+"book": 1,
+"id": "paint",
+"m": [
+2,
+9
+]
+},
+{
+"w": "great",
+"ipa": "/ɡreɪt/",
+"fa": "عالی، خیلی خوب",
+"ex": "I had a great weekend.",
+"id": "great",
+"m": [
+8,
+13
+]
+},
+{
+"w": "grandparents",
+"ipa": "/ˈɡrændˌpɛrənts/",
+"fa": "پدربزرگ و مادربزرگ",
+"ex": "I went to my grandparents’ house in Riverside.",
+"id": "grandparents",
+"m": [
+13,
+25
+]
+},
+{
+"w": "grandpa",
+"ipa": "/ˈɡrændˌpɑ/",
+"fa": "پدربزرگ",
+"ex": "My grandpa told funny stories, and I helped my grandma in her garden.",
+"id": "grandpa",
+"m": [
+3,
+10
+]
+},
+{
+"w": "story",
+"ipa": "/ˈstɔri/",
+"fa": "داستان، ماجرا",
+"ex": "My grandpa told funny stories, and I helped my grandma in her garden.",
+"id": "story",
+"m": [
+22,
+29
+]
+},
+{
+"w": "tell",
+"ipa": "/tɛl/",
+"fa": "تعریف کردن، گفتن",
+"ex": "My grandpa told funny stories, and I helped my grandma in her garden.",
+"id": "tell",
+"m": [
+11,
+15
+]
+},
+{
+"w": "inside",
+"ipa": "/ˌɪnˈsaɪd/",
+"fa": "داخل، توی",
+"ex": "There are fifty new books inside.",
+"id": "inside",
+"m": [
+26,
+32
+]
+},
+{
+"w": "dinner",
+"ipa": "/ˈdɪnɚ/",
+"fa": "شام",
+"ex": "I cooked dinner and watched a movie.",
+"id": "dinner",
+"m": [
+9,
+15
+]
+},
+{
+"w": "Sunday",
+"ipa": "/ˈsʌnˌdeɪ/",
+"fa": "یکشنبه",
+"ex": "What about Sunday?",
+"id": "sunday",
+"m": [
+11,
+17
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "What did you do last weekend?",
+"fa": "آخر هفته‌ی گذشته چه کار کردی؟"
+},
+{
+"id": "s2",
+"en": "I had a great weekend.",
+"fa": "آخر هفته‌ی خیلی خوبی داشتم."
+},
+{
+"id": "s3",
+"en": "I stayed home.",
+"fa": "خانه ماندم."
+},
+{
+"id": "s4",
+"en": "I cleaned my apartment.",
+"fa": "آپارتمانم را تمیز کردم."
+},
+{
+"id": "s5",
+"en": "It was a lot of work!",
+"fa": "کار زیادی بود!"
+}
+]
+}

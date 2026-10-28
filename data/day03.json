@@ -1,0 +1,435 @@
+{
+"day": 3,
+"level": "A1",
+"title": "My Family",
+"fa_title": "خانواده‌ی من",
+"audio": "audio/day03.mp3",
+"img": "img/day03.webp",
+"sents": [
+{
+"p": 0,
+"t": "It is Sunday morning.",
+"s": 1.55
+},
+{
+"p": 0,
+"t": "I call my family on my computer.",
+"s": 4.56
+},
+{
+"p": 0,
+"t": "In my country, it is evening, and everyone is at home.",
+"s": 6.79
+},
+{
+"p": 1,
+"t": "My mother is first on the screen.",
+"s": 10.71
+},
+{
+"p": 1,
+"t": "“Sam! How are you? Do you eat well?” Mothers always ask about food!",
+"s": 12.73
+},
+{
+"p": 2,
+"t": "My father is next to her.",
+"s": 17.72
+},
+{
+"p": 2,
+"t": "He is fifty-eight, and he is a teacher.",
+"s": 19.37
+},
+{
+"p": 2,
+"t": "He has gray hair and big glasses.",
+"s": 21.8
+},
+{
+"p": 2,
+"t": "“Is your apartment OK?” he asks.",
+"s": 24.49
+},
+{
+"p": 3,
+"t": "“Yes, Dad. It is small, but I like it.”",
+"s": 27.44
+},
+{
+"p": 4,
+"t": "Then my little sister, Mia, says hello.",
+"s": 30.8
+},
+{
+"p": 4,
+"t": "She is nineteen, and she is a student at a university.",
+"s": 33.62
+},
+{
+"p": 4,
+"t": "My brother, Leo, is not at home.",
+"s": 37.44
+},
+{
+"p": 4,
+"t": "He works at a hospital at night.",
+"s": 39.55
+},
+{
+"p": 5,
+"t": "My grandmother is there too.",
+"s": 42.04
+},
+{
+"p": 5,
+"t": "She does not speak English, but she waves and smiles.",
+"s": 43.99
+},
+{
+"p": 5,
+"t": "I love her very much.",
+"s": 47.46
+},
+{
+"p": 6,
+"t": "“I miss you all,” I say.",
+"s": 49.55
+},
+{
+"p": 7,
+"t": "“We miss you too,” my mother says.",
+"s": 51.82
+},
+{
+"p": 7,
+"t": "“Call us again next Sunday!”",
+"s": 54.18
+},
+{
+"p": 8,
+"t": "After the call, I feel a little sad.",
+"s": 56.41
+},
+{
+"p": 8,
+"t": "Then Rosa knocks on my door with a plate of cookies.",
+"s": 58.77
+},
+{
+"p": 8,
+"t": "Max is with her.",
+"s": 62.03
+},
+{
+"p": 8,
+"t": "I am not alone here.",
+"s": 63.33
+}
+],
+"comp": [
+{
+"q": "When does Sam call his family?",
+"o": [
+"on Saturday evening",
+"on Sunday morning",
+"on Monday morning",
+"on Friday night"
+],
+"a": 1,
+"fa": "سام کی به خانواده‌اش زنگ می‌زند؟"
+},
+{
+"q": "What is Sam’s father’s job?",
+"o": [
+"He is a doctor.",
+"He is a student.",
+"He is a teacher.",
+"He works at a hospital."
+],
+"a": 2,
+"fa": "شغل پدر سام چیست؟"
+},
+{
+"q": "How old is Mia?",
+"o": [
+"nineteen",
+"nine",
+"twenty-nine",
+"ninety"
+],
+"a": 0,
+"fa": "میا چند سال دارد؟"
+},
+{
+"q": "Why is Leo not at home?",
+"o": [
+"He is at school.",
+"He is in America.",
+"He is at the park.",
+"He works at night."
+],
+"a": 3,
+"fa": "چرا لئو خانه نیست؟"
+},
+{
+"q": "What does Sam’s grandmother do?",
+"o": [
+"She speaks a lot of English.",
+"She sleeps.",
+"She cooks dinner.",
+"She waves and smiles."
+],
+"a": 3,
+"fa": "مادربزرگ سام چه کار می‌کند؟"
+},
+{
+"q": "What does Rosa bring?",
+"o": [
+"a plate of cookies",
+"a cake",
+"a cup of coffee",
+"a letter"
+],
+"a": 0,
+"fa": "رزا چه چیزی می‌آورد؟"
+}
+],
+"words": [
+{
+"w": "family",
+"ipa": "/ˈfæməli/",
+"fa": "خانواده",
+"ex": "I call my family on my computer.",
+"book": 1,
+"id": "family",
+"m": [
+10,
+16
+]
+},
+{
+"w": "mother",
+"ipa": "/ˈmʌðɚ/",
+"fa": "مادر",
+"ex": "My mother is first on the screen.",
+"book": 1,
+"id": "mother",
+"m": [
+3,
+9
+]
+},
+{
+"w": "father",
+"ipa": "/ˈfɑðɚ/",
+"fa": "پدر",
+"ex": "My father is next to her.",
+"book": 1,
+"id": "father",
+"m": [
+3,
+9
+]
+},
+{
+"w": "sister",
+"ipa": "/ˈsɪstɚ/",
+"fa": "خواهر",
+"ex": "Then my little sister, Mia, says hello.",
+"book": 1,
+"id": "sister",
+"m": [
+15,
+21
+]
+},
+{
+"w": "brother",
+"ipa": "/ˈbrʌðɚ/",
+"fa": "برادر",
+"ex": "My brother, Leo, is not at home.",
+"book": 1,
+"id": "brother",
+"m": [
+3,
+10
+]
+},
+{
+"w": "grandmother",
+"ipa": "/ˈɡrænˌmʌðɚ/",
+"fa": "مادربزرگ",
+"ex": "My grandmother is there too.",
+"book": 1,
+"id": "grandmother",
+"m": [
+3,
+14
+]
+},
+{
+"w": "gray",
+"ipa": "/ɡreɪ/",
+"fa": "خاکستری",
+"ex": "He has gray hair and big glasses.",
+"book": 1,
+"id": "gray",
+"m": [
+7,
+11
+]
+},
+{
+"w": "student",
+"ipa": "/ˈstudənt/",
+"fa": "دانشجو، دانش‌آموز",
+"ex": "She is nineteen, and she is a student at a university.",
+"book": 1,
+"id": "student",
+"m": [
+30,
+37
+]
+},
+{
+"w": "miss",
+"ipa": "/mɪs/",
+"fa": "دلتنگ شدن",
+"ex": "I miss you all.",
+"book": 1,
+"id": "miss",
+"m": [
+2,
+6
+]
+},
+{
+"w": "alone",
+"ipa": "/əˈloʊn/",
+"fa": "تنها",
+"ex": "I am not alone here.",
+"book": 1,
+"id": "alone",
+"m": [
+9,
+14
+]
+},
+{
+"w": "computer",
+"ipa": "/kəmˈpjutɚ/",
+"fa": "کامپیوتر",
+"ex": "I call my family on my computer.",
+"id": "computer",
+"m": [
+23,
+31
+]
+},
+{
+"w": "country",
+"ipa": "/ˈkʌntri/",
+"fa": "کشور",
+"ex": "In my country, it is evening, and everyone is at home.",
+"id": "country",
+"m": [
+6,
+13
+]
+},
+{
+"w": "evening",
+"ipa": "/ˈivnɪŋ/",
+"fa": "عصر، سرِ شب",
+"ex": "In my country, it is evening, and everyone is at home.",
+"id": "evening",
+"m": [
+21,
+28
+]
+},
+{
+"w": "screen",
+"ipa": "/skrin/",
+"fa": "صفحه‌ی نمایش",
+"ex": "My mother is first on the screen.",
+"id": "screen",
+"m": [
+26,
+32
+]
+},
+{
+"w": "glasses",
+"ipa": "/ˈɡlæsəz/",
+"fa": "عینک",
+"ex": "He has gray hair and big glasses.",
+"id": "glasses",
+"m": [
+25,
+32
+]
+},
+{
+"w": "university",
+"ipa": "/ˌjunəˈvɝsəti/",
+"fa": "دانشگاه",
+"ex": "She is nineteen, and she is a student at a university.",
+"id": "university",
+"m": [
+43,
+53
+]
+},
+{
+"w": "hospital",
+"ipa": "/ˈhɑˌspɪtəl/",
+"fa": "بیمارستان",
+"ex": "He works at a hospital at night.",
+"id": "hospital",
+"m": [
+14,
+22
+]
+},
+{
+"w": "sad",
+"ipa": "/sæd/",
+"fa": "غمگین، ناراحت",
+"ex": "After the call, I feel a little sad.",
+"id": "sad",
+"m": [
+32,
+35
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I call my family on my computer.",
+"fa": "با کامپیوترم به خانواده‌ام زنگ می‌زنم."
+},
+{
+"id": "s2",
+"en": "She is a student at a university.",
+"fa": "او دانشجوی دانشگاه است."
+},
+{
+"id": "s3",
+"en": "He works at a hospital at night.",
+"fa": "او شب‌ها در بیمارستان کار می‌کند."
+},
+{
+"id": "s4",
+"en": "I miss you all.",
+"fa": "دلم برای همه‌تان تنگ شده."
+},
+{
+"id": "s5",
+"en": "I am not alone here.",
+"fa": "من اینجا تنها نیستم."
+}
+]
+}

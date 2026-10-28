@@ -1,0 +1,405 @@
+{
+"day": 2,
+"level": "A1",
+"title": "Numbers, Please!",
+"fa_title": "شماره، لطفاً!",
+"audio": "audio/day02.mp3",
+"img": "img/day02.webp",
+"sents": [
+{
+"p": 0,
+"t": "Today I need a new phone number.",
+"s": 3.29
+},
+{
+"p": 0,
+"t": "Rosa says, “Go to the phone store on Main Street. It is near the bank.”",
+"s": 5.67
+},
+{
+"p": 1,
+"t": "At the store, a young woman smiles at me.",
+"s": 9.79
+},
+{
+"p": 1,
+"t": "“Hello! I’m Jen. How can I help you?”",
+"s": 13.44
+},
+{
+"p": 2,
+"t": "“Hi. I need a phone plan, please,” I say.",
+"s": 16.53
+},
+{
+"p": 3,
+"t": "“OK. What is your name and address?”",
+"s": 19.91
+},
+{
+"p": 4,
+"t": "“My name is Sam. My address is 14 Maple Street, Apartment 3.”",
+"s": 22.7
+},
+{
+"p": 5,
+"t": "“Great. This plan is thirty dollars a month. It has a lot of data.”",
+"s": 28.0
+},
+{
+"p": 6,
+"t": "“Thirty dollars a month? That is good.”",
+"s": 32.84
+},
+{
+"p": 7,
+"t": "Jen gives me a little card for my phone.",
+"s": 35.03
+},
+{
+"p": 7,
+"t": "“Your new number is 555-274-8190,” she says.",
+"s": 38.52
+},
+{
+"p": 8,
+"t": "I say the numbers slowly: “Five, five, five, two, seven, four, eight, one, nine, zero.” Jen smiles.",
+"s": 43.77
+},
+{
+"p": 8,
+"t": "“Perfect!”",
+"s": 51.56
+},
+{
+"p": 9,
+"t": "At home, I call Rosa.",
+"s": 51.86
+},
+{
+"p": 9,
+"t": "“Hi, Rosa! This is Sam. This is my new number!”",
+"s": 54.9
+},
+{
+"p": 10,
+"t": "“Great! Now I can call you, and you can call me.”",
+"s": 58.65
+},
+{
+"p": 11,
+"t": "Max barks next to her.",
+"s": 61.87
+},
+{
+"p": 11,
+"t": "Maybe he wants a phone too!",
+"s": 63.52
+}
+],
+"comp": [
+{
+"q": "Where is the phone store?",
+"o": [
+"on Maple Street",
+"near the park",
+"on Main Street",
+"next to the coffee shop"
+],
+"a": 2,
+"fa": "فروشگاه تلفن کجاست؟"
+},
+{
+"q": "What is the woman’s name?",
+"o": [
+"Rosa",
+"Jen",
+"Lily",
+"Anna"
+],
+"a": 1,
+"fa": "اسم آن خانم چیست؟"
+},
+{
+"q": "What is Sam’s address?",
+"o": [
+"14 Maple Street, Apartment 3",
+"40 Main Street, Apartment 3",
+"4 Park Avenue",
+"14 Oak Street, Apartment 4"
+],
+"a": 0,
+"fa": "آدرس سام چیست؟"
+},
+{
+"q": "How much is the phone plan?",
+"o": [
+"thirteen dollars a month",
+"twenty dollars a week",
+"thirty dollars a week",
+"thirty dollars a month"
+],
+"a": 3,
+"fa": "طرح تلفن چند است؟"
+},
+{
+"q": "Who does Sam call at home?",
+"o": [
+"Jen",
+"his mom",
+"Rosa",
+"the bank"
+],
+"a": 2,
+"fa": "سام در خانه به چه کسی زنگ می‌زند؟"
+},
+{
+"q": "What does Max do?",
+"o": [
+"He sleeps.",
+"He barks.",
+"He eats.",
+"He runs."
+],
+"a": 1,
+"fa": "مکس چه کار می‌کند؟"
+}
+],
+"words": [
+{
+"w": "number",
+"ipa": "/ˈnʌmbɚ/",
+"fa": "شماره",
+"ex": "Today I need a new phone number.",
+"book": 1,
+"id": "number",
+"m": [
+25,
+31
+]
+},
+{
+"w": "phone",
+"ipa": "/foʊn/",
+"fa": "تلفن، گوشی",
+"ex": "Go to the phone store on Main Street.",
+"book": 1,
+"id": "phone",
+"m": [
+10,
+15
+]
+},
+{
+"w": "store",
+"ipa": "/stɔr/",
+"fa": "فروشگاه، مغازه",
+"ex": "Go to the phone store on Main Street.",
+"book": 1,
+"id": "store",
+"m": [
+16,
+21
+]
+},
+{
+"w": "address",
+"ipa": "/ˈædrɛs/",
+"fa": "آدرس، نشانی",
+"ex": "My address is 14 Maple Street, Apartment 3.",
+"book": 1,
+"id": "address",
+"m": [
+3,
+10
+]
+},
+{
+"w": "plan",
+"ipa": "/plæn/",
+"fa": "طرح (اشتراک تلفن)",
+"ex": "This plan is thirty dollars a month.",
+"book": 1,
+"id": "plan",
+"m": [
+5,
+9
+]
+},
+{
+"w": "dollar",
+"ipa": "/ˈdɑlɚ/",
+"fa": "دلار",
+"ex": "This plan is thirty dollars a month.",
+"book": 1,
+"id": "dollar",
+"m": [
+20,
+27
+]
+},
+{
+"w": "month",
+"ipa": "/mʌnθ/",
+"fa": "ماه",
+"ex": "This plan is thirty dollars a month.",
+"book": 1,
+"id": "month",
+"m": [
+30,
+35
+]
+},
+{
+"w": "call",
+"ipa": "/kɔl/",
+"fa": "زنگ زدن، تماس گرفتن",
+"ex": "Now I can call you, and you can call me.",
+"book": 1,
+"id": "call",
+"m": [
+10,
+14
+]
+},
+{
+"w": "slowly",
+"ipa": "/ˈsloʊli/",
+"fa": "آهسته، به‌آرامی",
+"ex": "Please speak slowly.",
+"book": 1,
+"id": "slowly",
+"m": [
+13,
+19
+]
+},
+{
+"w": "perfect",
+"ipa": "/ˈpɝfɪkt/",
+"fa": "عالی، بی‌نقص",
+"ex": "Your English is perfect!",
+"book": 1,
+"id": "perfect",
+"m": [
+16,
+23
+]
+},
+{
+"w": "need",
+"ipa": "/nid/",
+"fa": "لازم داشتن، نیاز داشتن",
+"ex": "Today I need a new phone number.",
+"id": "need",
+"m": [
+8,
+12
+]
+},
+{
+"w": "near",
+"ipa": "/nɪr/",
+"fa": "نزدیکِ",
+"ex": "It is near the bank.",
+"id": "near",
+"m": [
+6,
+10
+]
+},
+{
+"w": "young",
+"ipa": "/jʌŋ/",
+"fa": "جوان",
+"ex": "At the store, a young woman smiles at me.",
+"id": "young",
+"m": [
+16,
+21
+]
+},
+{
+"w": "woman",
+"ipa": "/ˈwʊmən/",
+"fa": "زن، خانم",
+"ex": "At the store, a young woman smiles at me.",
+"id": "woman",
+"m": [
+22,
+27
+]
+},
+{
+"w": "help",
+"ipa": "/hɛlp/",
+"fa": "کمک کردن",
+"ex": "How can I help you?",
+"id": "help",
+"m": [
+10,
+14
+]
+},
+{
+"w": "card",
+"ipa": "/kɑrd/",
+"fa": "کارت",
+"ex": "Jen gives me a little card for my phone.",
+"id": "card",
+"m": [
+22,
+26
+]
+},
+{
+"w": "maybe",
+"ipa": "/ˈmeɪbi/",
+"fa": "شاید",
+"ex": "Maybe he wants a phone too!",
+"id": "maybe",
+"m": [
+0,
+5
+]
+},
+{
+"w": "next to",
+"ipa": "/nɛkst tu/",
+"fa": "کنارِ",
+"ex": "Max barks next to her.",
+"id": "next-to",
+"m": [
+10,
+17
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I need a new phone number.",
+"fa": "یک شماره تلفن جدید لازم دارم."
+},
+{
+"id": "s2",
+"en": "How can I help you?",
+"fa": "چطور می‌توانم کمکتان کنم؟"
+},
+{
+"id": "s3",
+"en": "What is your name and address?",
+"fa": "اسم و آدرس شما چیست؟"
+},
+{
+"id": "s4",
+"en": "This plan is thirty dollars a month.",
+"fa": "این طرح ماهی سی دلار است."
+},
+{
+"id": "s5",
+"en": "Now I can call you.",
+"fa": "حالا می‌توانم به تو زنگ بزنم."
+}
+]
+}

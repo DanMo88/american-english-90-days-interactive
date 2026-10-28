@@ -1,0 +1,385 @@
+{
+"day": 16,
+"level": "A1",
+"title": "At the Post Office",
+"fa_title": "در اداره‌ی پست",
+"audio": "audio/day16.mp3",
+"img": "img/day16.webp",
+"sents": [
+{
+"p": 0,
+"t": "Next week is my mother’s birthday.",
+"s": 3.69
+},
+{
+"p": 0,
+"t": "I buy her a gift: a coffee mug from Maple Café with a red maple leaf on it, and a small book of photos of Oakville.",
+"s": 6.15
+},
+{
+"p": 1,
+"t": "I put the gifts in a box and go to the post office.",
+"s": 14.43
+},
+{
+"p": 1,
+"t": "There is a long line, so I wait.",
+"s": 17.57
+},
+{
+"p": 2,
+"t": "“Next!” says a woman at the counter.",
+"s": 20.35
+},
+{
+"p": 3,
+"t": "“Hello. I want to send this package to my country.”",
+"s": 23.14
+},
+{
+"p": 4,
+"t": "“OK. Please put it on the scale.” The box is three pounds.",
+"s": 26.74
+},
+{
+"p": 4,
+"t": "“Please fill out this customs form.”",
+"s": 30.89
+},
+{
+"p": 5,
+"t": "I write my mother’s name and address on the form.",
+"s": 33.48
+},
+{
+"p": 6,
+"t": "“Regular mail is twenty-eight dollars. It takes two or three weeks. Express mail is sixty dollars, and it takes five days.”",
+"s": 36.96
+},
+{
+"p": 7,
+"t": "“Hmm. Her birthday is in eight days. Express, please.”",
+"s": 45.74
+},
+{
+"p": 8,
+"t": "I also buy two postcards and some stamps.",
+"s": 49.95
+},
+{
+"p": 8,
+"t": "On one postcard, I write to my grandmother: “Dear Grandma, I am happy in America. I miss you. Love, Sam.”",
+"s": 53.1
+},
+{
+"p": 9,
+"t": "Then I put the postcard in the blue mailbox outside.",
+"s": 61.0
+}
+],
+"comp": [
+{
+"q": "Whose birthday is next week?",
+"o": [
+"Rosa’s",
+"Sam’s mother’s",
+"Sam’s sister’s",
+"Emma’s"
+],
+"a": 1,
+"fa": "هفته‌ی بعد تولد کیست؟"
+},
+{
+"q": "What gifts does Sam buy?",
+"o": [
+"a mug and a small book of photos",
+"a shirt and shoes",
+"cookies and coffee",
+"a lamp"
+],
+"a": 0,
+"fa": "سام چه هدیه‌هایی می‌خرد؟"
+},
+{
+"q": "How heavy is the box?",
+"o": [
+"five pounds",
+"eight pounds",
+"two pounds",
+"three pounds"
+],
+"a": 3,
+"fa": "جعبه چقدر سنگین است؟"
+},
+{
+"q": "How much is express mail?",
+"o": [
+"twenty-eight dollars",
+"eighteen dollars",
+"sixty dollars",
+"sixteen dollars"
+],
+"a": 2,
+"fa": "پست اکسپرس چند است؟"
+},
+{
+"q": "Why does Sam choose express mail?",
+"o": [
+"The birthday is in eight days.",
+"It is cheap.",
+"The woman says so.",
+"His mother doesn’t like regular mail."
+],
+"a": 0,
+"fa": "چرا سام پست اکسپرس را انتخاب می‌کند؟"
+},
+{
+"q": "Who is the postcard for?",
+"o": [
+"his mother",
+"his sister",
+"his grandmother",
+"Rosa"
+],
+"a": 2,
+"fa": "کارت‌پستال برای کیست؟"
+}
+],
+"words": [
+{
+"w": "post office",
+"ipa": "/ˈpoʊst ˌɔfɪs/",
+"fa": "اداره‌ی پست",
+"ex": "I put the gifts in a box and go to the post office.",
+"book": 1,
+"id": "post-office",
+"m": [
+39,
+50
+]
+},
+{
+"w": "birthday",
+"ipa": "/ˈbɝθˌdeɪ/",
+"fa": "تولد",
+"ex": "Next week is my mother’s birthday.",
+"book": 1,
+"id": "birthday",
+"m": [
+25,
+33
+]
+},
+{
+"w": "gift",
+"ipa": "/ɡɪft/",
+"fa": "هدیه",
+"ex": "I put the gifts in a box and go to the post office.",
+"book": 1,
+"id": "gift",
+"m": [
+10,
+15
+]
+},
+{
+"w": "box",
+"ipa": "/bɑks/",
+"fa": "جعبه",
+"ex": "The box is three pounds.",
+"book": 1,
+"id": "box",
+"m": [
+4,
+7
+]
+},
+{
+"w": "package",
+"ipa": "/ˈpækɪdʒ/",
+"fa": "بسته‌ی پستی",
+"ex": "I want to send this package to my country.",
+"book": 1,
+"id": "package",
+"m": [
+20,
+27
+]
+},
+{
+"w": "send",
+"ipa": "/sɛnd/",
+"fa": "فرستادن",
+"ex": "I want to send this package to my country.",
+"book": 1,
+"id": "send",
+"m": [
+10,
+14
+]
+},
+{
+"w": "pound",
+"ipa": "/paʊnd/",
+"fa": "پوند (واحد وزن)",
+"ex": "The box is three pounds.",
+"book": 1,
+"id": "pound",
+"m": [
+17,
+23
+]
+},
+{
+"w": "form",
+"ipa": "/fɔrm/",
+"fa": "فرم",
+"ex": "Please fill out this customs form.",
+"book": 1,
+"id": "form",
+"m": [
+29,
+33
+]
+},
+{
+"w": "stamp",
+"ipa": "/stæmp/",
+"fa": "تمبر",
+"ex": "I also buy two postcards and some stamps.",
+"book": 1,
+"id": "stamp",
+"m": [
+34,
+40
+]
+},
+{
+"w": "postcard",
+"ipa": "/ˈpoʊstˌkɑrd/",
+"fa": "کارت‌پستال",
+"ex": "I also buy two postcards and some stamps.",
+"book": 1,
+"id": "postcard",
+"m": [
+15,
+24
+]
+},
+{
+"w": "mug",
+"ipa": "/mʌɡ/",
+"fa": "ماگ، لیوان دسته‌دار",
+"ex": "I buy her a gift: a coffee mug from Maple Café with a red maple leaf on it.",
+"id": "mug",
+"m": [
+27,
+30
+]
+},
+{
+"w": "scale",
+"ipa": "/skeɪl/",
+"fa": "ترازو",
+"ex": "Please put it on the scale.",
+"id": "scale",
+"m": [
+21,
+26
+]
+},
+{
+"w": "customs",
+"ipa": "/ˈkʌstəmz/",
+"fa": "گمرک",
+"ex": "Please fill out this customs form.",
+"id": "customs",
+"m": [
+21,
+28
+]
+},
+{
+"w": "regular",
+"ipa": "/ˈrɛɡjəlɚ/",
+"fa": "معمولی، عادی",
+"ex": "Regular mail is twenty-eight dollars.",
+"id": "regular",
+"m": [
+0,
+7
+]
+},
+{
+"w": "express",
+"ipa": "/ɪkˈsprɛs/",
+"fa": "سریع، اکسپرس",
+"ex": "Express mail is sixty dollars, and it takes five days.",
+"id": "express",
+"m": [
+0,
+7
+]
+},
+{
+"w": "mailbox",
+"ipa": "/ˈmeɪlˌbɑks/",
+"fa": "صندوق پست",
+"ex": "Then I put the postcard in the blue mailbox outside.",
+"id": "mailbox",
+"m": [
+36,
+43
+]
+},
+{
+"w": "dear",
+"ipa": "/dɪr/",
+"fa": "عزیز",
+"ex": "Dear Grandma, I am happy in America.",
+"id": "dear",
+"m": [
+0,
+4
+]
+},
+{
+"w": "long",
+"ipa": "/lɔŋ/",
+"fa": "طولانی، بلند",
+"ex": "There is a long line, so I wait.",
+"id": "long",
+"m": [
+11,
+15
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I want to send this package.",
+"fa": "می‌خواهم این بسته را بفرستم."
+},
+{
+"id": "s2",
+"en": "Please put it on the scale.",
+"fa": "لطفاً آن را روی ترازو بگذارید."
+},
+{
+"id": "s3",
+"en": "Please fill out this form.",
+"fa": "لطفاً این فرم را پر کنید."
+},
+{
+"id": "s4",
+"en": "It takes two or three weeks.",
+"fa": "دو سه هفته طول می‌کشد."
+},
+{
+"id": "s5",
+"en": "I also buy some stamps.",
+"fa": "چند تا تمبر هم می‌خرم."
+}
+]
+}

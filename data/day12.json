@@ -1,0 +1,430 @@
+{
+"day": 12,
+"level": "A1",
+"title": "Hot and Sunny",
+"fa_title": "گرم و آفتابی",
+"audio": "audio/day12.mp3",
+"img": "img/day12.webp",
+"sents": [
+{
+"p": 0,
+"t": "In Oakville, summer is very hot.",
+"s": 3.3
+},
+{
+"p": 0,
+"t": "Today the weather app on my phone says 95 degrees!",
+"s": 5.9
+},
+{
+"p": 0,
+"t": "At first, I don’t understand.",
+"s": 9.62
+},
+{
+"p": 0,
+"t": "Ninety-five degrees?",
+"s": 11.73
+},
+{
+"p": 0,
+"t": "In my country, we use Celsius.",
+"s": 13.41
+},
+{
+"p": 1,
+"t": "Emma laughs.",
+"s": 16.18
+},
+{
+"p": 1,
+"t": "“Here we use Fahrenheit. Ninety-five is about thirty-five degrees Celsius.”",
+"s": 17.28
+},
+{
+"p": 2,
+"t": "The sun is strong, and the sky is blue.",
+"s": 22.54
+},
+{
+"p": 2,
+"t": "I wear shorts, a T-shirt, and sunglasses, and I drink a lot of water.",
+"s": 25.41
+},
+{
+"p": 2,
+"t": "Rosa says, “Max doesn’t like hot weather. We walk early in the morning, when it is cool.”",
+"s": 30.12
+},
+{
+"p": 3,
+"t": "In the afternoon, the sky gets dark.",
+"s": 36.13
+},
+{
+"p": 3,
+"t": "The wind is strong.",
+"s": 38.59
+},
+{
+"p": 3,
+"t": "Then, BOOM!",
+"s": 40.24
+},
+{
+"p": 3,
+"t": "Thunder!",
+"s": 41.33
+},
+{
+"p": 3,
+"t": "Big rain falls on the streets.",
+"s": 42.17
+},
+{
+"p": 3,
+"t": "I can’t walk home, so I wait in the bookstore with Emma and a cup of tea.",
+"s": 44.25
+},
+{
+"p": 4,
+"t": "“Summer storms here are short,” Emma says.",
+"s": 49.04
+},
+{
+"p": 4,
+"t": "And she is right.",
+"s": 51.89
+},
+{
+"p": 4,
+"t": "After thirty minutes, the rain stops, and the sun comes out again.",
+"s": 53.33
+},
+{
+"p": 4,
+"t": "I can see a rainbow over Main Street!",
+"s": 57.32
+},
+{
+"p": 5,
+"t": "At home, I call my mom.",
+"s": 60.33
+},
+{
+"p": 5,
+"t": "“How is the weather in America?” she asks.",
+"s": 62.18
+},
+{
+"p": 6,
+"t": "“Hot, rainy, and sunny, all in one day!” I say.",
+"s": 65.4
+}
+],
+"comp": [
+{
+"q": "What is the temperature today?",
+"o": [
+"fifty-nine degrees",
+"thirty-five degrees Fahrenheit",
+"ninety-five degrees",
+"ninety degrees"
+],
+"a": 2,
+"fa": "دمای هوا امروز چند درجه است؟"
+},
+{
+"q": "What does Sam wear?",
+"o": [
+"a coat and boots",
+"shorts, a T-shirt, and sunglasses",
+"jeans and a sweater",
+"a hat and a jacket"
+],
+"a": 1,
+"fa": "سام چه می‌پوشد؟"
+},
+{
+"q": "When does Rosa walk Max?",
+"o": [
+"at night",
+"at noon",
+"in the afternoon",
+"early in the morning"
+],
+"a": 3,
+"fa": "رزا کی مکس را بیرون می‌برد؟"
+},
+{
+"q": "What happens in the afternoon?",
+"o": [
+"It snows.",
+"Sam goes to the lake.",
+"A storm comes.",
+"Rosa visits Sam."
+],
+"a": 2,
+"fa": "بعدازظهر چه اتفاقی می‌افتد؟"
+},
+{
+"q": "How long is the rain?",
+"o": [
+"all day",
+"two hours",
+"ten minutes",
+"thirty minutes"
+],
+"a": 3,
+"fa": "باران چقدر طول می‌کشد؟"
+},
+{
+"q": "What does Sam see after the rain?",
+"o": [
+"a rainbow",
+"a big cloud",
+"the moon",
+"snow"
+],
+"a": 0,
+"fa": "سام بعد از باران چه می‌بیند؟"
+}
+],
+"words": [
+{
+"w": "weather",
+"ipa": "/ˈwɛðɚ/",
+"fa": "آب‌وهوا، هوا",
+"ex": "Today the weather app on my phone says 95 degrees!",
+"book": 1,
+"id": "weather",
+"m": [
+10,
+17
+]
+},
+{
+"w": "summer",
+"ipa": "/ˈsʌmɚ/",
+"fa": "تابستان",
+"ex": "In Oakville, summer is very hot.",
+"book": 1,
+"id": "summer",
+"m": [
+13,
+19
+]
+},
+{
+"w": "degree",
+"ipa": "/dɪˈɡri/",
+"fa": "درجه",
+"ex": "Today the weather app on my phone says 95 degrees!",
+"book": 1,
+"id": "degree",
+"m": [
+42,
+49
+]
+},
+{
+"w": "sky",
+"ipa": "/skaɪ/",
+"fa": "آسمان",
+"ex": "The sun is strong, and the sky is blue.",
+"book": 1,
+"id": "sky",
+"m": [
+27,
+30
+]
+},
+{
+"w": "cool",
+"ipa": "/kul/",
+"fa": "خنک",
+"ex": "We walk early in the morning, when it is cool.",
+"book": 1,
+"id": "cool",
+"m": [
+41,
+45
+]
+},
+{
+"w": "dark",
+"ipa": "/dɑrk/",
+"fa": "تاریک",
+"ex": "In the afternoon, the sky gets dark.",
+"book": 1,
+"id": "dark",
+"m": [
+31,
+35
+]
+},
+{
+"w": "wind",
+"ipa": "/wɪnd/",
+"fa": "باد",
+"ex": "The wind is strong.",
+"book": 1,
+"id": "wind",
+"m": [
+4,
+8
+]
+},
+{
+"w": "rain",
+"ipa": "/reɪn/",
+"fa": "باران",
+"ex": "Big rain falls on the streets.",
+"book": 1,
+"id": "rain",
+"m": [
+4,
+8
+]
+},
+{
+"w": "storm",
+"ipa": "/stɔrm/",
+"fa": "طوفان",
+"ex": "Summer storms here are short.",
+"book": 1,
+"id": "storm",
+"m": [
+7,
+13
+]
+},
+{
+"w": "rainbow",
+"ipa": "/ˈreɪnˌboʊ/",
+"fa": "رنگین‌کمان",
+"ex": "I can see a rainbow over Main Street!",
+"book": 1,
+"id": "rainbow",
+"m": [
+12,
+19
+]
+},
+{
+"w": "hot",
+"ipa": "/hɑt/",
+"fa": "گرم، داغ",
+"ex": "Hot, rainy, and sunny, all in one day!",
+"id": "hot",
+"m": [
+0,
+3
+]
+},
+{
+"w": "sunny",
+"ipa": "/ˈsʌni/",
+"fa": "آفتابی",
+"ex": "Hot, rainy, and sunny, all in one day!",
+"id": "sunny",
+"m": [
+16,
+21
+]
+},
+{
+"w": "strong",
+"ipa": "/strɔŋ/",
+"fa": "قوی، شدید",
+"ex": "The sun is strong, and the sky is blue.",
+"id": "strong",
+"m": [
+11,
+17
+]
+},
+{
+"w": "wear",
+"ipa": "/wɛr/",
+"fa": "پوشیدن",
+"ex": "I wear shorts, a T-shirt, and sunglasses, and I drink a lot of water.",
+"id": "wear",
+"m": [
+2,
+6
+]
+},
+{
+"w": "shorts",
+"ipa": "/ʃɔrts/",
+"fa": "شلوارک",
+"ex": "I wear shorts, a T-shirt, and sunglasses, and I drink a lot of water.",
+"id": "shorts",
+"m": [
+7,
+13
+]
+},
+{
+"w": "sunglasses",
+"ipa": "/ˈsʌnˌɡlæsɪz/",
+"fa": "عینک آفتابی",
+"ex": "I wear shorts, a T-shirt, and sunglasses, and I drink a lot of water.",
+"id": "sunglasses",
+"m": [
+30,
+40
+]
+},
+{
+"w": "thunder",
+"ipa": "/ˈθʌndɚ/",
+"fa": "رعد",
+"ex": "Thunder!",
+"id": "thunder",
+"m": [
+0,
+7
+]
+},
+{
+"w": "rainy",
+"ipa": "/ˈreɪni/",
+"fa": "بارانی",
+"ex": "Hot, rainy, and sunny, all in one day!",
+"id": "rainy",
+"m": [
+5,
+10
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "The sun is strong.",
+"fa": "آفتاب تند است."
+},
+{
+"id": "s2",
+"en": "I drink a lot of water.",
+"fa": "آب زیادی می‌نوشم."
+},
+{
+"id": "s3",
+"en": "Max doesn’t like hot weather.",
+"fa": "مکس هوای گرم را دوست ندارد."
+},
+{
+"id": "s4",
+"en": "After thirty minutes, the rain stops.",
+"fa": "بعد از سی دقیقه باران بند می‌آید."
+},
+{
+"id": "s5",
+"en": "How is the weather in America?",
+"fa": "هوای آمریکا چطور است؟"
+}
+]
+}

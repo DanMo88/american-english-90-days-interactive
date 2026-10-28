@@ -4,7 +4,8 @@ const FA = n => Number(n).toLocaleString('fa-IR');
 const $app = document.getElementById('app');
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
-const fitW = (t, k) => t.length > (k || 8) ? ` style="font-size:min(var(--fs),${((k || 8) * 16 / t.length).toFixed(1)}vw)"` : '';
+const wlen = t => t.length + 0.45 * (t.match(/[mwMW]/g) || []).length + 0.2 * (t.match(/[A-Z]/g) || []).length;
+const fitW = (t, k) => { const L = wlen(t); return L > (k || 8) ? ` style="font-size:min(var(--fs),${((k || 8) * 16 / L).toFixed(1)}vw)"` : ''; };
 const timers = new Set();
 const later = (fn, ms) => { const t = setTimeout(() => { timers.delete(t); fn(); }, ms); timers.add(t); return t; };
 const clearTimers = () => { timers.forEach(clearTimeout); timers.clear(); };
@@ -17,7 +18,9 @@ let S; try { S = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { S = 
 S.days = S.days || {}; S.run = S.run || null;
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
 
-let D = null; // day data
+let D = null; // current day data
+let IDX = []; // 90-day index
+const pad = n => String(n).padStart(2, '0');
 /* ---------- audio: one element for short clips, one for the story ---------- */
 const au = new Audio(); au.preload = 'auto';
 let aTok = 0;
@@ -36,7 +39,8 @@ function setPlaying(on) { document.querySelectorAll('.spk').forEach(b => b.class
 const story = new Audio(); story.preload = 'metadata';
 function stopStory() { try { story.pause(); } catch (e) {} }
 const vibrate = ms => { try { navigator.vibrate && navigator.vibrate(ms); } catch (e) {} };
-const AW = id => 'audio/w-' + id + '.mp3', AX = id => 'audio/x-' + id + '.mp3', AS = id => 'audio/' + id + '.mp3';
+const AD = () => 'audio/d' + pad(D.day) + '/';
+const AW = id => AD() + 'w-' + id + '.mp3', AX = id => AD() + 'x-' + id + '.mp3', AS = id => AD() + id + '.mp3';
 
 /* ---------- helpers ---------- */
 function screen(html) { clearTimers(); $app.innerHTML = '<div class="screen">' + html + '</div>'; }
@@ -55,11 +59,17 @@ function newRun(mode, only) {
   D.words.forEach((w, i) => { if (!only || only.includes('w' + i)) steps.push({ t: 'w', i }); });
   D.build.forEach((b, i) => { if (!only || only.includes('b' + i)) steps.push({ t: 'b', i }); });
   steps.push({ t: 'review' });
-  const run = { day: 1, mode, steps, pos: 0, ans: (mode === 'fix' && S.run) ? S.run.ans : {}, opts: (mode === 'fix' && S.run) ? S.run.opts : {}, tiles: {} };
+  const run = { day: D.day, mode, steps, pos: 0, ans: (mode === 'fix' && S.run) ? S.run.ans : {}, opts: (mode === 'fix' && S.run) ? S.run.opts : {}, tiles: {} };
   // fixed option sets for the word quiz (stored so the review can show them)
   D.words.forEach((w, i) => {
     if (run.opts['w' + i] && mode !== 'full') return;
-    const others = shuffle(D.words.filter((x, j) => j !== i)).slice(0, 3).map(x => x.fa);
+    const STOPFA = ['کردن','شدن','دادن','زدن','گرفتن','بودن','داشتن','آمدن','رفتن','کشیدن','آوردن','گذاشتن','به','از','در','با','را','که','یک','برای','این','آن','هر'];
+    const tk = s => s.replace(/[()،,؛.!؟?«»]/g, ' ').split(/\s+/).filter(x => x.length > 1 && !STOPFA.includes(x));
+    const clash = (a, b) => a.includes(b) || b.includes(a) || tk(a).some(x => tk(b).includes(x));
+    const pool = shuffle(D.words.filter((x, j) => j !== i));
+    let others = [];
+    for (const x of pool) { if (others.length < 3 && !clash(x.fa, w.fa) && !others.some(o => clash(o, x.fa))) others.push(x.fa); }
+    for (const x of pool) { if (others.length < 3 && x.fa !== w.fa && !others.includes(x.fa)) others.push(x.fa); }
     run.opts['w' + i] = shuffle([w.fa].concat(others));
   });
   D.build.forEach((b, i) => {
@@ -76,30 +86,47 @@ const sectionPos = (R, t) => { const all = R.steps.filter(s => s.t === t); const
 const pctOf = R => Math.round(100 * R.pos / (R.steps.length - 1));
 
 /* ---------- home ---------- */
+const dayDone = n => !!(S.days[n] && S.days[n].done);
+const recDay = () => { for (let n = 1; n <= 90; n++) if (!dayDone(n)) return n; return 90; };
+const inRunOf = () => (S.run && S.run.steps[S.run.pos].t !== 'review' && S.run.pos > 0) ? (S.run.day || 1) : 0;
+function loadDay(n) {
+  if (D && D.day === n) return Promise.resolve(D);
+  return fetch('data/day' + pad(n) + '.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+    D = d;
+    const urls = [D.audio, D.img].concat(D.words.flatMap(w => [AW(w.id), AX(w.id)]), D.build.map(b => AS(b.id)));
+    setTimeout(() => urls.forEach(u => fetch(u).catch(() => {})), 1200);
+    return D;
+  });
+}
+function openDay(n, fresh) {
+  loadDay(n).then(() => {
+    if (fresh || inRunOf() !== n) S.run = newRun('full');
+    go();
+  }).catch(() => toast('بارگذاری درس نشد. اینترنت را بررسی کن.'));
+}
 function home() {
   clearTimers(); stopAudio(); stopStory();
-  const T = D.titles, d1 = S.days[1] || {};
-  const inRun = S.run && S.run.steps[S.run.pos].t !== 'review' && S.run.pos > 0;
-  const status = inRun ? 'ادامه ←' : d1.done ? '✓ ' + FA(d1.best) + '٪' : 'شروع ←';
-  const done = Object.values(S.days).filter(x => x.done).length;
+  const rec = recDay(), cur = inRunOf();
+  const done = Object.keys(S.days).filter(k => S.days[k].done).length;
   let list = '';
   [['A1', 'سطح ۱ · مبتدی', 0], ['A2', 'سطح ۲ · پایه', 30], ['B1', 'سطح ۳ · متوسط', 60]].forEach(([lv, nm, off]) => {
     list += `<div class="lvh"><span class="lvtag ${lv}">${lv}</span>${nm}</div>`;
     for (let i = off; i < off + 30; i++) {
-      const n = i + 1;
-      if (n === 1) list += `<button class="dy on${d1.done ? ' doneD' : ''}" id="d1"><span class="n">${FA(1)}</span><span class="t"><span class="en">${esc(T[0])}</span><span>${esc(D.fa_title)}</span></span><span class="s">${status}</span></button>`;
-      else list += `<div class="dy off"><span class="n">${FA(n)}</span><span class="t"><span class="en">${esc(T[i])}</span><span>روز ${FA(n)}</span></span><span class="s">به‌زودی</span></div>`;
+      const n = i + 1, it = IDX[i] || {}, rd = S.days[n] || {};
+      const isRec = n === rec, isCur = n === cur;
+      const st = isCur ? 'ادامه ←' : rd.done ? '✓ ' + FA(rd.best) + '٪' : isRec ? 'شروع ←' : '';
+      list += `<button class="dy${isRec || isCur ? ' on' : ''}${rd.done ? ' doneD' : ''}" data-d="${n}" id="d${n}"><span class="n">${rd.done ? '✓' : FA(n)}</span><span class="t"><span class="en">${esc(it.t || '')}</span><span>روز ${FA(n)}${it.fa ? ' · ' + esc(it.fa) : ''}</span></span>${st ? `<span class="s">${st}</span>` : ''}</button>`;
     }
   });
   screen(`
-    <div class="home-head"><div class="logo">انگلیسی آمریکایی در ۹۰ روز<small>دوره‌ی تعاملی · نسخه‌ی نمونه</small></div>
+    <div class="home-head"><div class="logo">انگلیسی آمریکایی در ۹۰ روز<small>دوره‌ی تعاملی · داستان، لغت، جمله‌سازی</small></div>
       <button class="inst" data-install>📲 نصب اپ</button></div>
-    <div class="hero"><div class="num">🎯</div><div><b>${FA(done)} از ${FA(90)} روز کامل شده</b><span>داستان · درک مطلب · لغات · جمله‌سازی · تصحیح</span></div></div>
+    <div class="hero"><div class="num">🎯</div><div><b>${FA(done)} از ${FA(90)} روز کامل شده</b><span>درس پیشنهادی: روز ${FA(cur || rec)}</span></div></div>
     <div class="days" id="days">${list}</div>`);
-  document.getElementById('d1').onclick = () => {
-    if (!inRun) S.run = newRun('full');
-    go();
-  };
+  $app.querySelectorAll('.dy').forEach(b => b.onclick = () => openDay(+b.dataset.d));
+  const target = document.getElementById('d' + (cur || rec));
+  const box = document.getElementById('days');
+  if (target && (cur || rec) > 3) box.scrollTop = target.offsetTop - box.offsetTop - box.clientHeight / 3;
 }
 
 /* ---------- 1. story ---------- */
@@ -107,7 +134,7 @@ const fmt = t => { t = Math.max(0, t | 0); return (t / 60 | 0) + ':' + String(t 
 function storyScreen(st, R) {
   const paras = []; D.sents.forEach((s, i) => { (paras[s.p] = paras[s.p] || []).push(`<span class="sn" data-i="${i}">${esc(s.t)}</span>`); });
   screen(`
-    <div class="st-h"><button class="x" id="x" aria-label="خانه">✕</button><div class="tt"><span class="en">${esc(D.title)}</span><span>روز ${FA(1)} · ${esc(D.fa_title)}</span></div><span class="lvtag A1">A1</span></div>
+    <div class="st-h"><button class="x" id="x" aria-label="خانه">✕</button><div class="tt"><span class="en">${esc(D.title)}</span><span>روز ${FA(D.day)} · ${esc(D.fa_title)}</span></div><span class="lvtag ${D.level}">${D.level}</span></div>
     <div class="player"><button class="play" id="play" aria-label="پخش">▶</button><input class="seek" id="seek" type="range" min="0" max="1000" value="0" aria-label="seek"><span class="tm" id="tm">0:00 / 0:00</span><button class="spd" id="spd">سرعت: عادی</button></div>
     <div class="read" id="read"><img src="${D.img}" alt="" width="960" height="540"><div class="tip">روی هر جمله بزن تا از همان‌جا پخش شود.</div>${paras.map(p => '<p class="en">' + p.join(' ') + '</p>').join('')}</div>
     <button class="btn" id="go">شروع آزمون ←</button>`);
@@ -175,8 +202,8 @@ function compScreen(st, R) {
 
 /* ---------- 3a. word intro ---------- */
 function exHtml(w) {
-  const re = new RegExp('\\b(' + w.w + '\\w*)', 'i');
-  return esc(w.ex).replace(re, '<mark>$1</mark>');
+  if (!w.m) return esc(w.ex);
+  return esc(w.ex.slice(0, w.m[0])) + '<mark>' + esc(w.ex.slice(w.m[0], w.m[1])) + '</mark>' + esc(w.ex.slice(w.m[1]));
 }
 function introScreen(st, R) {
   const w = D.words[st.i], [n, of] = sectionPos(R, 'wi');
@@ -256,17 +283,17 @@ function reviewScreen(st, R) {
   const [c1, n1] = sc('c'), [c2, n2] = sc('w'), [c3, n3] = sc('b');
   const tot = c1 + c2 + c3, all = n1 + n2 + n3, pct = Math.round(100 * tot / all);
   const wrong = items.filter(x => !x.ok);
-  const d1 = S.days[1] = S.days[1] || {};
+  const d1 = S.days[D.day] = S.days[D.day] || {};
   if (!R.graded) { R.graded = true; if (R.mode === 'full') { d1.first = pct; } d1.done = true; d1.best = Math.max(d1.best || 0, pct); d1.last = pct; save(); }
   let tab = R.tab || (wrong.length ? 'bad' : 'all'), page = 0, pages = [];
-  screen(`<div class="top"><button class="x" id="x" aria-label="خانه">✕</button><div class="h2">نتیجه و تصحیح · روز ${FA(1)}</div></div>
+  screen(`<div class="top"><button class="x" id="x" aria-label="خانه">✕</button><div class="h2">نتیجه و تصحیح · روز ${FA(D.day)}</div></div>
     <div class="score"><div class="ring" style="--p:${pct}"><b>${FA(pct)}٪</b></div><div class="sx">
       <div><b>${FA(c1)}/${FA(n1)}</b><span>درک مطلب</span></div><div><b>${FA(c2)}/${FA(n2)}</b><span>لغات</span></div><div><b>${FA(c3)}/${FA(n3)}</b><span>جمله‌سازی</span></div></div></div>
     <div class="tabs"><button data-t="bad">❌ غلط‌ها (${FA(wrong.length)})</button><button data-t="all">همه (${FA(all)})</button><button data-t="c">درک</button><button data-t="w">لغات</button><button data-t="b">جمله</button></div>
     <div class="rlist" id="rl"></div>
     <div class="pager" id="pg"><button id="pp" aria-label="قبلی">→</button><span id="pn"></span><button id="pn2" aria-label="بعدی">←</button></div>
     <div class="btns rv">${wrong.length ? `<button class="btn" id="fix">🔁 تمرین غلط‌هایم (${FA(wrong.length)})</button>` : `<button class="btn" disabled>🎉 همه درست بود!</button>`}
-      <div class="row2"><button class="btn ghost" id="again">↺ شروع دوباره</button><button class="btn ghost" id="nextL">درس بعد ←</button></div></div>`);
+      <div class="row2"><button class="btn ghost" id="again">↺ شروع دوباره</button><button class="btn ghost" id="nextL">${D.day < 90 ? 'درس بعد ←' : 'پایان دوره 🎓'}</button></div></div>`);
   document.getElementById('x').onclick = home;
   const rl = document.getElementById('rl');
   const row = x => `<div class="ri${x.ok ? '' : ' bad'}"><div class="q${x.en ? ' en' : ''}">${x.ok ? '✅' : '❌'} ${esc(x.q)}</div><div class="a">
@@ -299,14 +326,15 @@ function reviewScreen(st, R) {
   const fx = document.getElementById('fix');
   if (fx) fx.onclick = () => { const only = wrong.map(x => x.key); wrong.forEach(x => delete R.ans[x.key]); S.run = newRun('fix', only); S.run.ans = R.ans; S.run.opts = R.opts; go(); };
   document.getElementById('again').onclick = () => { S.run = newRun('full'); go(); };
-  document.getElementById('nextL').onclick = () => toast('درس ۲ به‌زودی اضافه می‌شود · این نسخه‌ی نمونه است');
+  document.getElementById('nextL').onclick = () => { if (D.day < 90) openDay(D.day + 1, true); else { toast('تبریک! هر ۹۰ روز را تمام کردی 🎉'); home(); } };
   window.onresize = () => { if (document.body.contains(rl)) paginate(); };
 }
 
 /* ---------- boot ---------- */
-fetch('data/day01.json').then(r => r.json()).then(d => {
-  D = d; home();
-  // cache this lesson's media for offline use (service worker stores them)
-  const urls = [D.audio, D.img].concat(D.words.flatMap(w => [AW(w.id), AX(w.id)]), D.build.map(b => AS(b.id)));
-  setTimeout(() => urls.forEach(u => fetch(u).catch(() => {})), 1500);
+if (S.run && !S.run.day) S.run.day = 1;
+fetch('data/index.json').then(r => r.json()).then(ix => {
+  IDX = ix;
+  const cur = inRunOf();
+  if (cur) loadDay(cur).catch(() => {});
+  home();
 }).catch(() => { $app.innerHTML = '<div class="empty">خطا در بارگذاری. اینترنت را بررسی کن و دوباره باز کن.</div>'; });

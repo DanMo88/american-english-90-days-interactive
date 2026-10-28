@@ -1,459 +1,462 @@
 {
- "day": 1,
- "level": "A1",
- "title": "A New Home on Maple Street",
- "fa_title": "خانه‌ای تازه در خیابان میپل",
- "audio": "audio/day01.mp3",
- "img": "img/day01.webp",
- "sents": [
-  {
-   "p": 0,
-   "t": "My name is Sam.",
-   "s": 3.81
-  },
-  {
-   "p": 0,
-   "t": "I am twenty-five years old.",
-   "s": 5.29
-  },
-  {
-   "p": 0,
-   "t": "Today is my first day in America!",
-   "s": 7.13
-  },
-  {
-   "p": 0,
-   "t": "My new home is in Oakville.",
-   "s": 9.47
-  },
-  {
-   "p": 0,
-   "t": "It is a small town with big green trees.",
-   "s": 11.37
-  },
-  {
-   "p": 1,
-   "t": "I have a small apartment on Maple Street.",
-   "s": 14.68
-  },
-  {
-   "p": 1,
-   "t": "It has one bedroom, a little kitchen, and a big window.",
-   "s": 17.53
-  },
-  {
-   "p": 1,
-   "t": "From my window, I can see a park and a red coffee shop.",
-   "s": 21.47
-  },
-  {
-   "p": 2,
-   "t": "In the morning, I open the door.",
-   "s": 25.62
-  },
-  {
-   "p": 2,
-   "t": "My neighbor is outside.",
-   "s": 27.55
-  },
-  {
-   "p": 2,
-   "t": "She has a brown dog.",
-   "s": 29.19
-  },
-  {
-   "p": 3,
-   "t": "“Hi! I’m Rosa,” she says. “And this is Max.”",
-   "s": 31.21
-  },
-  {
-   "p": 4,
-   "t": "“Hi, Rosa. I’m Sam. Nice to meet you!”",
-   "s": 34.91
-  },
-  {
-   "p": 5,
-   "t": "“Nice to meet you too, Sam. Welcome to Oakville!”",
-   "s": 38.21
-  },
-  {
-   "p": 6,
-   "t": "Max is very friendly.",
-   "s": 41.87
-  },
-  {
-   "p": 6,
-   "t": "He likes me!",
-   "s": 43.35
-  },
-  {
-   "p": 7,
-   "t": "Rosa and I walk to the coffee shop.",
-   "s": 44.92
-  },
-  {
-   "p": 7,
-   "t": "I order a coffee and a muffin.",
-   "s": 47.43
-  },
-  {
-   "p": 7,
-   "t": "The coffee is hot, and the muffin is sweet.",
-   "s": 49.55
-  },
-  {
-   "p": 7,
-   "t": "The man at the counter smiles.",
-   "s": 52.23
-  },
-  {
-   "p": 7,
-   "t": "“Have a nice day!” he says.",
-   "s": 54.43
-  },
-  {
-   "p": 8,
-   "t": "I am happy.",
-   "s": 57.12
-  },
-  {
-   "p": 8,
-   "t": "I don’t know many people here, but I have a new friend.",
-   "s": 58.25
-  },
-  {
-   "p": 8,
-   "t": "My new life starts today.",
-   "s": 61.09
-  }
- ],
- "comp": [
-  {
-   "q": "How old is Sam?",
-   "o": [
-    "fifteen",
-    "twenty",
-    "twenty-five",
-    "thirty-five"
-   ],
-   "a": 2,
-   "fa": "سام چند سال دارد؟"
-  },
-  {
-   "q": "Where is Sam's new home?",
-   "o": [
-    "in Oakville",
-    "in New York",
-    "in a big city",
-    "in a hotel"
-   ],
-   "a": 0,
-   "fa": "خانه‌ی جدید سام کجاست؟"
-  },
-  {
-   "q": "What can Sam see from the window?",
-   "o": [
-    "a school and a bus",
-    "a park and a coffee shop",
-    "a river and a bridge",
-    "a store and a car"
-   ],
-   "a": 1,
-   "fa": "سام از پنجره چه می‌بیند؟"
-  },
-  {
-   "q": "Who is Rosa?",
-   "o": [
-    "Sam's sister",
-    "Sam's teacher",
-    "Sam's neighbor",
-    "a man at the coffee shop"
-   ],
-   "a": 2,
-   "fa": "رُزا کیست؟"
-  },
-  {
-   "q": "What is Max?",
-   "o": [
-    "a cat",
-    "a dog",
-    "a boy",
-    "a coffee shop"
-   ],
-   "a": 1,
-   "fa": "مکس چیست؟"
-  },
-  {
-   "q": "What does Sam order at the coffee shop?",
-   "o": [
-    "tea and a cookie",
-    "a coffee and a muffin",
-    "juice and a sandwich",
-    "water and a cake"
-   ],
-   "a": 1,
-   "fa": "سام در کافی‌شاپ چه سفارش می‌دهد؟"
-  }
- ],
- "words": [
-  {
-   "id": "home",
-   "w": "home",
-   "ipa": "/hoʊm/",
-   "fa": "خانه",
-   "ex": "My new home is in Oakville."
-  },
-  {
-   "id": "apartment",
-   "w": "apartment",
-   "ipa": "/əˈpɑrtmənt/",
-   "fa": "آپارتمان",
-   "ex": "I have a small apartment on Maple Street."
-  },
-  {
-   "id": "neighbor",
-   "w": "neighbor",
-   "ipa": "/ˈneɪbɚ/",
-   "fa": "همسایه",
-   "ex": "My neighbor is outside."
-  },
-  {
-   "id": "window",
-   "w": "window",
-   "ipa": "/ˈwɪndoʊ/",
-   "fa": "پنجره",
-   "ex": "From my window, I can see a park."
-  },
-  {
-   "id": "park",
-   "w": "park",
-   "ipa": "/pɑrk/",
-   "fa": "پارک",
-   "ex": "I can see a park and a red coffee shop."
-  },
-  {
-   "id": "friendly",
-   "w": "friendly",
-   "ipa": "/ˈfrɛndli/",
-   "fa": "مهربان، خون‌گرم",
-   "ex": "Max is very friendly."
-  },
-  {
-   "id": "welcome",
-   "w": "welcome",
-   "ipa": "/ˈwɛlkəm/",
-   "fa": "خوش آمدی",
-   "ex": "Welcome to Oakville!"
-  },
-  {
-   "id": "order",
-   "w": "order",
-   "ipa": "/ˈɔrdɚ/",
-   "fa": "سفارش دادن",
-   "ex": "I order a coffee and a muffin."
-  },
-  {
-   "id": "sweet",
-   "w": "sweet",
-   "ipa": "/swit/",
-   "fa": "شیرین",
-   "ex": "The muffin is sweet."
-  },
-  {
-   "id": "happy",
-   "w": "happy",
-   "ipa": "/ˈhæpi/",
-   "fa": "خوشحال",
-   "ex": "I am happy."
-  },
-  {
-   "id": "town",
-   "w": "town",
-   "ipa": "/taʊn/",
-   "fa": "شهر کوچک",
-   "ex": "It is a small town with big green trees."
-  },
-  {
-   "id": "tree",
-   "w": "tree",
-   "ipa": "/tri/",
-   "fa": "درخت",
-   "ex": "Oakville has big green trees."
-  },
-  {
-   "id": "bedroom",
-   "w": "bedroom",
-   "ipa": "/ˈbɛdˌrum/",
-   "fa": "اتاق خواب",
-   "ex": "It has one bedroom."
-  },
-  {
-   "id": "kitchen",
-   "w": "kitchen",
-   "ipa": "/ˈkɪtʃən/",
-   "fa": "آشپزخانه",
-   "ex": "It has a little kitchen."
-  },
-  {
-   "id": "outside",
-   "w": "outside",
-   "ipa": "/ˌaʊtˈsaɪd/",
-   "fa": "بیرون",
-   "ex": "My neighbor is outside."
-  },
-  {
-   "id": "smile",
-   "w": "smile",
-   "ipa": "/smaɪl/",
-   "fa": "لبخند زدن",
-   "ex": "The man at the counter smiles."
-  },
-  {
-   "id": "counter",
-   "w": "counter",
-   "ipa": "/ˈkaʊntɚ/",
-   "fa": "پیشخوان",
-   "ex": "The man at the counter smiles."
-  },
-  {
-   "id": "friend",
-   "w": "friend",
-   "ipa": "/frɛnd/",
-   "fa": "دوست",
-   "ex": "I have a new friend."
-  },
-  {
-   "id": "life",
-   "w": "life",
-   "ipa": "/laɪf/",
-   "fa": "زندگی",
-   "ex": "My new life starts today."
-  },
-  {
-   "id": "start",
-   "w": "start",
-   "ipa": "/stɑrt/",
-   "fa": "شروع شدن",
-   "ex": "My new life starts today."
-  }
- ],
- "build": [
-  {
-   "id": "s1",
-   "en": "Nice to meet you too.",
-   "fa": "من هم از آشنایی با شما خوشحالم."
-  },
-  {
-   "id": "s2",
-   "en": "My neighbor is very friendly.",
-   "fa": "همسایه‌ام خیلی مهربان است."
-  },
-  {
-   "id": "s3",
-   "en": "I can see a park from my window.",
-   "fa": "از پنجره‌ام یک پارک می‌بینم."
-  },
-  {
-   "id": "s4",
-   "en": "I order a coffee and a muffin.",
-   "fa": "یک قهوه و یک مافین سفارش می‌دهم."
-  },
-  {
-   "id": "s5",
-   "en": "My new life starts today.",
-   "fa": "زندگی جدیدم از امروز شروع می‌شود."
-  }
- ],
- "titles": [
-  "A New Home on Maple Street",
-  "Numbers, Please!",
-  "My Family",
-  "Breakfast with Rosa",
-  "A Latte at Maple Café",
-  "At the Supermarket",
-  "Days of the Week",
-  "What Time Is It?",
-  "Excuse Me, Where Is the Library?",
-  "My First Day at Work",
-  "Taking the Bus",
-  "Hot and Sunny",
-  "A Sofa for My Living Room",
-  "Shopping for Clothes",
-  "At the Bank",
-  "At the Post Office",
-  "I Don't Feel Well",
-  "Happy Fourth of July!",
-  "I Like Playing Soccer",
-  "Calling for a Pizza",
-  "Dinner at Bella's",
-  "Max Is Lost!",
-  "Saturday at the Farmers Market",
-  "Take Me Out to the Ball Game",
-  "What Did You Do Last Weekend?",
-  "Autumn in Oakville",
-  "Rosa's Surprise Party",
-  "My First Halloween",
-  "Thanksgiving Dinner",
-  "My New Life",
-  "Happy New Year!",
-  "The Big Snowstorm",
-  "The Heater Is Broken",
-  "At the Gym",
-  "Driving Lessons",
-  "At the DMV",
-  "Super Bowl Sunday",
-  "Valentine's Day",
-  "A Terrible Toothache",
-  "Shopping Online",
-  "Rosa's Famous Lasagna",
-  "A Better Phone Plan",
-  "The Interview",
-  "A Fall on the Ice",
-  "Volunteer Day",
-  "My First Car",
-  "The Easter Egg Hunt",
-  "A Flat Tire",
-  "Moving Day",
-  "Planning a Road Trip",
-  "On the Road",
-  "In the Rocky Mountains",
-  "Mother's Day",
-  "Shopping for a Suit",
-  "Carlos and Ana's Wedding",
-  "Emma's Graduation",
-  "Planting a Garden",
-  "My First Credit Card",
-  "Memorial Day",
-  "One Year in Oakville",
-  "The Team Meeting",
-  "A Problem at Work",
-  "The Neighborhood Meeting",
-  "Visiting Emma in Chicago",
-  "A Game at Wrigley Field",
-  "Training for a Half Marathon",
-  "The First-Aid Class",
-  "A Visit to the Doctor",
-  "Camping Gone Wrong",
-  "Labor Day",
-  "The Bookstore Podcast",
-  "Jury Duty",
-  "New Orleans",
-  "A Hurricane Warning",
-  "In the News",
-  "A Letter from the IRS",
-  "Race Day",
-  "The Green Card Interview",
-  "A House for Danny",
-  "The Citizenship Class",
-  "Black Friday",
-  "A Job Offer",
-  "A Hard Decision",
-  "Lily's Secret",
-  "The Missing Ring",
-  "The Proposal",
-  "Sharing the News",
-  "Getting Ready",
-  "Opening Day",
-  "Ninety Days"
- ]
+"day": 1,
+"level": "A1",
+"title": "A New Home on Maple Street",
+"fa_title": "خانه‌ای تازه در خیابان میپل",
+"audio": "audio/day01.mp3",
+"img": "img/day01.webp",
+"sents": [
+{
+"p": 0,
+"t": "My name is Sam.",
+"s": 3.81
+},
+{
+"p": 0,
+"t": "I am twenty-five years old.",
+"s": 5.29
+},
+{
+"p": 0,
+"t": "Today is my first day in America!",
+"s": 7.13
+},
+{
+"p": 0,
+"t": "My new home is in Oakville.",
+"s": 9.47
+},
+{
+"p": 0,
+"t": "It is a small town with big green trees.",
+"s": 11.37
+},
+{
+"p": 1,
+"t": "I have a small apartment on Maple Street.",
+"s": 14.68
+},
+{
+"p": 1,
+"t": "It has one bedroom, a little kitchen, and a big window.",
+"s": 17.53
+},
+{
+"p": 1,
+"t": "From my window, I can see a park and a red coffee shop.",
+"s": 21.47
+},
+{
+"p": 2,
+"t": "In the morning, I open the door.",
+"s": 25.62
+},
+{
+"p": 2,
+"t": "My neighbor is outside.",
+"s": 27.55
+},
+{
+"p": 2,
+"t": "She has a brown dog.",
+"s": 29.19
+},
+{
+"p": 3,
+"t": "“Hi! I’m Rosa,” she says.",
+"s": 31.21
+},
+{
+"p": 3,
+"t": "“And this is Max.”",
+"s": 33.12
+},
+{
+"p": 4,
+"t": "“Hi, Rosa. I’m Sam. Nice to meet you!”",
+"s": 34.91
+},
+{
+"p": 5,
+"t": "“Nice to meet you too, Sam. Welcome to Oakville!”",
+"s": 38.21
+},
+{
+"p": 6,
+"t": "Max is very friendly.",
+"s": 41.87
+},
+{
+"p": 6,
+"t": "He likes me!",
+"s": 43.25
+},
+{
+"p": 7,
+"t": "Rosa and I walk to the coffee shop.",
+"s": 44.92
+},
+{
+"p": 7,
+"t": "I order a coffee and a muffin.",
+"s": 47.43
+},
+{
+"p": 7,
+"t": "The coffee is hot, and the muffin is sweet.",
+"s": 49.55
+},
+{
+"p": 7,
+"t": "The man at the counter smiles.",
+"s": 52.23
+},
+{
+"p": 7,
+"t": "“Have a nice day!” he says.",
+"s": 54.43
+},
+{
+"p": 8,
+"t": "I am happy.",
+"s": 57.12
+},
+{
+"p": 8,
+"t": "I don’t know many people here, but I have a new friend.",
+"s": 58.25
+},
+{
+"p": 8,
+"t": "My new life starts today.",
+"s": 61.09
+}
+],
+"comp": [
+{
+"q": "How old is Sam?",
+"o": [
+"fifteen",
+"twenty",
+"twenty-five",
+"thirty-five"
+],
+"a": 2,
+"fa": "سام چند سال دارد؟"
+},
+{
+"q": "Where is Sam’s new home?",
+"o": [
+"in Oakville",
+"in New York",
+"in a big city",
+"in a hotel"
+],
+"a": 0,
+"fa": "خانه‌ی جدید سام کجاست؟"
+},
+{
+"q": "What can Sam see from the window?",
+"o": [
+"a school and a bus",
+"a park and a coffee shop",
+"a river and a bridge",
+"a store and a car"
+],
+"a": 1,
+"fa": "سام از پنجره چه می‌بیند؟"
+},
+{
+"q": "Who is Rosa?",
+"o": [
+"Sam’s sister",
+"Sam’s teacher",
+"Sam’s neighbor",
+"a man at the coffee shop"
+],
+"a": 2,
+"fa": "رُزا کیست؟"
+},
+{
+"q": "What is Max?",
+"o": [
+"a cat",
+"a dog",
+"a boy",
+"a coffee shop"
+],
+"a": 1,
+"fa": "مکس چیست؟"
+},
+{
+"q": "What does Sam order at the coffee shop?",
+"o": [
+"tea and a cookie",
+"a coffee and a muffin",
+"juice and a sandwich",
+"water and a cake"
+],
+"a": 1,
+"fa": "سام در کافی‌شاپ چه سفارش می‌دهد؟"
+}
+],
+"words": [
+{
+"w": "home",
+"ipa": "/hoʊm/",
+"fa": "خانه",
+"ex": "My new home is in Oakville.",
+"book": 1,
+"id": "home",
+"m": [
+7,
+11
+]
+},
+{
+"w": "apartment",
+"ipa": "/əˈpɑrtmənt/",
+"fa": "آپارتمان",
+"ex": "I have a small apartment on Maple Street.",
+"book": 1,
+"id": "apartment",
+"m": [
+15,
+24
+]
+},
+{
+"w": "neighbor",
+"ipa": "/ˈneɪbɚ/",
+"fa": "همسایه",
+"ex": "My neighbor is outside.",
+"book": 1,
+"id": "neighbor",
+"m": [
+3,
+11
+]
+},
+{
+"w": "window",
+"ipa": "/ˈwɪndoʊ/",
+"fa": "پنجره",
+"ex": "It has one bedroom, a little kitchen, and a big window.",
+"book": 1,
+"id": "window",
+"m": [
+48,
+54
+]
+},
+{
+"w": "park",
+"ipa": "/pɑrk/",
+"fa": "پارک",
+"ex": "From my window, I can see a park and a red coffee shop.",
+"book": 1,
+"id": "park",
+"m": [
+28,
+32
+]
+},
+{
+"w": "friendly",
+"ipa": "/ˈfrɛndli/",
+"fa": "مهربان، خون‌گرم",
+"ex": "Max is very friendly.",
+"book": 1,
+"id": "friendly",
+"m": [
+12,
+20
+]
+},
+{
+"w": "welcome",
+"ipa": "/ˈwɛlkəm/",
+"fa": "خوش آمدی",
+"ex": "Welcome to Oakville!",
+"book": 1,
+"id": "welcome",
+"m": [
+0,
+7
+]
+},
+{
+"w": "order",
+"ipa": "/ˈɔrdɚ/",
+"fa": "سفارش دادن",
+"ex": "I order a coffee and a muffin.",
+"book": 1,
+"id": "order",
+"m": [
+2,
+7
+]
+},
+{
+"w": "sweet",
+"ipa": "/swit/",
+"fa": "شیرین",
+"ex": "The coffee is hot, and the muffin is sweet.",
+"book": 1,
+"id": "sweet",
+"m": [
+37,
+42
+]
+},
+{
+"w": "happy",
+"ipa": "/ˈhæpi/",
+"fa": "خوشحال",
+"ex": "I am happy.",
+"book": 1,
+"id": "happy",
+"m": [
+5,
+10
+]
+},
+{
+"w": "town",
+"ipa": "/taʊn/",
+"fa": "شهر کوچک",
+"ex": "It is a small town with big green trees.",
+"id": "town",
+"m": [
+14,
+18
+]
+},
+{
+"w": "tree",
+"ipa": "/tri/",
+"fa": "درخت",
+"ex": "It is a small town with big green trees.",
+"id": "tree",
+"m": [
+34,
+39
+]
+},
+{
+"w": "bedroom",
+"ipa": "/ˈbɛˌdrum/",
+"fa": "اتاق خواب",
+"ex": "It has one bedroom, a little kitchen, and a big window.",
+"id": "bedroom",
+"m": [
+11,
+18
+]
+},
+{
+"w": "kitchen",
+"ipa": "/ˈkɪtʃən/",
+"fa": "آشپزخانه",
+"ex": "It has one bedroom, a little kitchen, and a big window.",
+"id": "kitchen",
+"m": [
+29,
+36
+]
+},
+{
+"w": "outside",
+"ipa": "/ˈaʊtˈsaɪd/",
+"fa": "بیرون",
+"ex": "My neighbor is outside.",
+"id": "outside",
+"m": [
+15,
+22
+]
+},
+{
+"w": "smile",
+"ipa": "/smaɪl/",
+"fa": "لبخند زدن",
+"ex": "The man at the counter smiles.",
+"id": "smile",
+"m": [
+23,
+29
+]
+},
+{
+"w": "counter",
+"ipa": "/ˈkaʊntɚ/",
+"fa": "پیشخوان",
+"ex": "The man at the counter smiles.",
+"id": "counter",
+"m": [
+15,
+22
+]
+},
+{
+"w": "friend",
+"ipa": "/frɛnd/",
+"fa": "دوست",
+"ex": "I don’t know many people here, but I have a new friend.",
+"id": "friend",
+"m": [
+48,
+54
+]
+},
+{
+"w": "life",
+"ipa": "/laɪf/",
+"fa": "زندگی",
+"ex": "My new life starts today.",
+"id": "life",
+"m": [
+7,
+11
+]
+},
+{
+"w": "start",
+"ipa": "/stɑrt/",
+"fa": "شروع شدن",
+"ex": "My new life starts today.",
+"id": "start",
+"m": [
+12,
+18
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Nice to meet you too.",
+"fa": "من هم از آشنایی با شما خوشحالم."
+},
+{
+"id": "s2",
+"en": "My neighbor is very friendly.",
+"fa": "همسایه‌ام خیلی مهربان است."
+},
+{
+"id": "s3",
+"en": "I can see a park from my window.",
+"fa": "از پنجره‌ام یک پارک می‌بینم."
+},
+{
+"id": "s4",
+"en": "I order a coffee and a muffin.",
+"fa": "یک قهوه و یک مافین سفارش می‌دهم."
+},
+{
+"id": "s5",
+"en": "My new life starts today.",
+"fa": "زندگی جدیدم از امروز شروع می‌شود."
+}
+]
 }

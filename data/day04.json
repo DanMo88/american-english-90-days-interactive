@@ -1,0 +1,415 @@
+{
+"day": 4,
+"level": "A1",
+"title": "Breakfast with Rosa",
+"fa_title": "صبحانه با رزا",
+"audio": "audio/day04.mp3",
+"img": "img/day04.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Saturday morning, Rosa invites me to her apartment for breakfast.",
+"s": 3.54
+},
+{
+"p": 0,
+"t": "Her kitchen is yellow and bright, and it smells wonderful.",
+"s": 8.24
+},
+{
+"p": 1,
+"t": "“Do you like pancakes, Sam?” she asks.",
+"s": 12.69
+},
+{
+"p": 2,
+"t": "“I don’t know. I never eat pancakes!”",
+"s": 15.78
+},
+{
+"p": 3,
+"t": "The table is full of food: pancakes, eggs, bacon, and a big bowl of fruit.",
+"s": 18.77
+},
+{
+"p": 3,
+"t": "Rosa puts maple syrup on my pancakes.",
+"s": 24.23
+},
+{
+"p": 3,
+"t": "“This is very American,” she says.",
+"s": 27.27
+},
+{
+"p": 4,
+"t": "I try a pancake.",
+"s": 30.21
+},
+{
+"p": 4,
+"t": "It is soft and sweet.",
+"s": 31.29
+},
+{
+"p": 4,
+"t": "“Mmm, delicious!”",
+"s": 32.88
+},
+{
+"p": 5,
+"t": "Rosa drinks orange juice.",
+"s": 34.72
+},
+{
+"p": 5,
+"t": "I drink coffee with milk.",
+"s": 36.75
+},
+{
+"p": 5,
+"t": "Max sits under the table.",
+"s": 38.65
+},
+{
+"p": 5,
+"t": "He looks at the bacon with big eyes.",
+"s": 40.38
+},
+{
+"p": 6,
+"t": "“No, Max. Bacon is not for dogs,” Rosa says.",
+"s": 43.02
+},
+{
+"p": 7,
+"t": "In my country, we usually eat bread, cheese, tomatoes, and olives for breakfast.",
+"s": 47.02
+},
+{
+"p": 7,
+"t": "“That sounds nice and healthy,” Rosa says.",
+"s": 52.49
+},
+{
+"p": 7,
+"t": "“Next time, you make breakfast!”",
+"s": 55.74
+},
+{
+"p": 8,
+"t": "After breakfast, I wash the dishes.",
+"s": 58.17
+},
+{
+"p": 8,
+"t": "Rosa says, “Thank you, Sam. You are a good neighbor.”",
+"s": 60.67
+}
+],
+"comp": [
+{
+"q": "When is breakfast at Rosa’s apartment?",
+"o": [
+"on Sunday evening",
+"on Friday morning",
+"on Saturday morning",
+"on Monday morning"
+],
+"a": 2,
+"fa": "صبحانه در آپارتمان رزا کی است؟"
+},
+{
+"q": "What color is Rosa’s kitchen?",
+"o": [
+"yellow",
+"green",
+"blue",
+"white"
+],
+"a": 0,
+"fa": "آشپزخانه‌ی رزا چه رنگی است؟"
+},
+{
+"q": "What does Rosa put on Sam’s pancakes?",
+"o": [
+"butter",
+"honey",
+"cheese",
+"maple syrup"
+],
+"a": 3,
+"fa": "رزا روی پنکیک‌های سام چه می‌ریزد؟"
+},
+{
+"q": "What does Sam drink?",
+"o": [
+"orange juice",
+"coffee with milk",
+"tea",
+"water"
+],
+"a": 1,
+"fa": "سام چه می‌نوشد؟"
+},
+{
+"q": "What do people in Sam’s country eat for breakfast?",
+"o": [
+"pancakes and bacon",
+"eggs and fruit",
+"bread, cheese, tomatoes, and olives",
+"cookies"
+],
+"a": 2,
+"fa": "مردم کشور سام برای صبحانه چه می‌خورند؟"
+},
+{
+"q": "What does Sam do after breakfast?",
+"o": [
+"He goes to work.",
+"He walks Max.",
+"He sleeps.",
+"He washes the dishes."
+],
+"a": 3,
+"fa": "سام بعد از صبحانه چه کار می‌کند؟"
+}
+],
+"words": [
+{
+"w": "breakfast",
+"ipa": "/ˈbrɛkfəst/",
+"fa": "صبحانه",
+"ex": "After breakfast, I wash the dishes.",
+"book": 1,
+"id": "breakfast",
+"m": [
+6,
+15
+]
+},
+{
+"w": "kitchen",
+"ipa": "/ˈkɪtʃən/",
+"fa": "آشپزخانه",
+"ex": "Her kitchen is yellow and bright, and it smells wonderful.",
+"book": 1,
+"id": "kitchen",
+"m": [
+4,
+11
+]
+},
+{
+"w": "pancake",
+"ipa": "/ˈpænˌkeɪk/",
+"fa": "پنکیک",
+"ex": "Rosa puts maple syrup on my pancakes.",
+"book": 1,
+"id": "pancake",
+"m": [
+28,
+36
+]
+},
+{
+"w": "egg",
+"ipa": "/ɛɡ/",
+"fa": "تخم‌مرغ",
+"ex": "The table is full of food: pancakes, eggs, bacon, and a big bowl of fruit.",
+"book": 1,
+"id": "egg",
+"m": [
+37,
+41
+]
+},
+{
+"w": "fruit",
+"ipa": "/frut/",
+"fa": "میوه",
+"ex": "The table is full of food: pancakes, eggs, bacon, and a big bowl of fruit.",
+"book": 1,
+"id": "fruit",
+"m": [
+68,
+73
+]
+},
+{
+"w": "juice",
+"ipa": "/dʒus/",
+"fa": "آبمیوه",
+"ex": "Rosa drinks orange juice.",
+"book": 1,
+"id": "juice",
+"m": [
+19,
+24
+]
+},
+{
+"w": "milk",
+"ipa": "/mɪlk/",
+"fa": "شیر",
+"ex": "I drink coffee with milk.",
+"book": 1,
+"id": "milk",
+"m": [
+20,
+24
+]
+},
+{
+"w": "delicious",
+"ipa": "/dɪˈlɪʃəs/",
+"fa": "خوشمزه",
+"ex": "This soup is delicious!",
+"book": 1,
+"id": "delicious",
+"m": [
+13,
+22
+]
+},
+{
+"w": "bread",
+"ipa": "/brɛd/",
+"fa": "نان",
+"ex": "In my country, we usually eat bread, cheese, tomatoes, and olives for breakfast.",
+"book": 1,
+"id": "bread",
+"m": [
+30,
+35
+]
+},
+{
+"w": "cheese",
+"ipa": "/tʃiz/",
+"fa": "پنیر",
+"ex": "In my country, we usually eat bread, cheese, tomatoes, and olives for breakfast.",
+"book": 1,
+"id": "cheese",
+"m": [
+37,
+43
+]
+},
+{
+"w": "invite",
+"ipa": "/ˌɪnˈvaɪt/",
+"fa": "دعوت کردن",
+"ex": "On Saturday morning, Rosa invites me to her apartment for breakfast.",
+"id": "invite",
+"m": [
+26,
+33
+]
+},
+{
+"w": "bright",
+"ipa": "/braɪt/",
+"fa": "روشن، پرنور",
+"ex": "Her kitchen is yellow and bright, and it smells wonderful.",
+"id": "bright",
+"m": [
+26,
+32
+]
+},
+{
+"w": "smell",
+"ipa": "/smɛl/",
+"fa": "بو دادن، بوییدن",
+"ex": "Her kitchen is yellow and bright, and it smells wonderful.",
+"id": "smell",
+"m": [
+41,
+47
+]
+},
+{
+"w": "soft",
+"ipa": "/sɑft/",
+"fa": "نرم",
+"ex": "It is soft and sweet.",
+"id": "soft",
+"m": [
+6,
+10
+]
+},
+{
+"w": "bowl",
+"ipa": "/boʊl/",
+"fa": "کاسه",
+"ex": "The table is full of food: pancakes, eggs, bacon, and a big bowl of fruit.",
+"id": "bowl",
+"m": [
+60,
+64
+]
+},
+{
+"w": "healthy",
+"ipa": "/ˈhɛlθi/",
+"fa": "سالم",
+"ex": "That sounds nice and healthy.",
+"id": "healthy",
+"m": [
+21,
+28
+]
+},
+{
+"w": "wash",
+"ipa": "/wɑʃ/",
+"fa": "شستن",
+"ex": "After breakfast, I wash the dishes.",
+"id": "wash",
+"m": [
+19,
+23
+]
+},
+{
+"w": "dish",
+"ipa": "/dɪʃ/",
+"fa": "ظرف",
+"ex": "After breakfast, I wash the dishes.",
+"id": "dish",
+"m": [
+28,
+34
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Do you like pancakes?",
+"fa": "پنکیک دوست داری؟"
+},
+{
+"id": "s2",
+"en": "The table is full of food.",
+"fa": "میز پر از غذاست."
+},
+{
+"id": "s3",
+"en": "I drink coffee with milk.",
+"fa": "من قهوه با شیر می‌نوشم."
+},
+{
+"id": "s4",
+"en": "That sounds nice and healthy.",
+"fa": "به نظر خوب و سالم است."
+},
+{
+"id": "s5",
+"en": "After breakfast, I wash the dishes.",
+"fa": "بعد از صبحانه ظرف‌ها را می‌شویم."
+}
+]
+}

@@ -1,0 +1,415 @@
+{
+"day": 28,
+"level": "A1",
+"title": "My First Halloween",
+"fa_title": "اولین هالووینِ من",
+"audio": "audio/day28.mp3",
+"img": "img/day28.webp",
+"sents": [
+{
+"p": 0,
+"t": "On October 31st, I celebrated my first Halloween.",
+"s": 2.23
+},
+{
+"p": 0,
+"t": "In the morning, Emma came to the bookstore in a witch costume, with a black hat and a green face!",
+"s": 7.85
+},
+{
+"p": 0,
+"t": "Mr. Lee wore cat ears.",
+"s": 14.05
+},
+{
+"p": 1,
+"t": "In the afternoon, I carved my pumpkin with Rosa.",
+"s": 16.54
+},
+{
+"p": 1,
+"t": "We cut a scary face into it and put a candle inside.",
+"s": 20.15
+},
+{
+"p": 1,
+"t": "Now it was a jack-o’-lantern.",
+"s": 23.79
+},
+{
+"p": 2,
+"t": "In the evening, I wore a simple costume.",
+"s": 26.11
+},
+{
+"p": 2,
+"t": "I was a pirate!",
+"s": 28.77
+},
+{
+"p": 2,
+"t": "Rosa made a funny costume for Max.",
+"s": 30.2
+},
+{
+"p": 2,
+"t": "He was a hot dog!",
+"s": 32.76
+},
+{
+"p": 3,
+"t": "Then the trick-or-treaters came.",
+"s": 34.54
+},
+{
+"p": 3,
+"t": "Children in costumes walked from house to house and knocked on doors.",
+"s": 36.52
+},
+{
+"p": 3,
+"t": "There were princesses, superheroes, ghosts, and little monsters.",
+"s": 40.92
+},
+{
+"p": 3,
+"t": "They said, “Trick or treat!” and we gave them candy.",
+"s": 45.13
+},
+{
+"p": 3,
+"t": "I gave away three big bags of candy!",
+"s": 49.17
+},
+{
+"p": 4,
+"t": "At nine o’clock, Carlos and Emma took me to a Halloween party.",
+"s": 52.17
+},
+{
+"p": 4,
+"t": "Everyone wore costumes.",
+"s": 56.26
+},
+{
+"p": 4,
+"t": "We ate pumpkin pie and played games.",
+"s": 58.12
+},
+{
+"p": 5,
+"t": "When I came home, my candy bag was empty, but my heart was full.",
+"s": 61.16
+},
+{
+"p": 5,
+"t": "Halloween was so much fun!",
+"s": 65.51
+}
+],
+"comp": [
+{
+"q": "What did Emma wear to the bookstore?",
+"o": [
+"a witch costume",
+"cat ears",
+"a pirate costume",
+"a ghost costume"
+],
+"a": 0,
+"fa": "اِما با چه لباسی به کتاب‌فروشی آمد؟"
+},
+{
+"q": "What did Sam and Rosa make?",
+"o": [
+"a pumpkin pie",
+"a jack-o’-lantern",
+"candy",
+"costumes for children"
+],
+"a": 1,
+"fa": "سام و رزا چه درست کردند؟"
+},
+{
+"q": "What was Max’s costume?",
+"o": [
+"a cat",
+"a pirate",
+"a ghost",
+"a hot dog"
+],
+"a": 3,
+"fa": "لباس مکس چه بود؟"
+},
+{
+"q": "What did the children say?",
+"o": [
+"“Happy Halloween!”",
+"“Give me candy!”",
+"“Trick or treat!”",
+"“Boo!”"
+],
+"a": 2,
+"fa": "بچه‌ها چه می‌گفتند؟"
+},
+{
+"q": "How much candy did Sam give away?",
+"o": [
+"one bag",
+"two boxes",
+"ten pieces",
+"three big bags"
+],
+"a": 3,
+"fa": "سام چقدر آبنبات پخش کرد؟"
+},
+{
+"q": "Where did Sam go at nine o’clock?",
+"o": [
+"to bed",
+"to a Halloween party",
+"to Maple Café",
+"to Rosa’s apartment"
+],
+"a": 1,
+"fa": "سام ساعت نه کجا رفت؟"
+}
+],
+"words": [
+{
+"w": "Halloween",
+"ipa": "/ˌhæloʊˈin/",
+"fa": "هالووین",
+"ex": "On October 31st, I celebrated my first Halloween.",
+"book": 1,
+"id": "halloween",
+"m": [
+39,
+48
+]
+},
+{
+"w": "costume",
+"ipa": "/ˈkɑstum/",
+"fa": "لباس مبدل",
+"ex": "In the evening, I wore a simple costume.",
+"book": 1,
+"id": "costume",
+"m": [
+32,
+39
+]
+},
+{
+"w": "witch",
+"ipa": "/wɪtʃ/",
+"fa": "جادوگر",
+"ex": "The witch has a black cat.",
+"book": 1,
+"id": "witch",
+"m": [
+4,
+9
+]
+},
+{
+"w": "carve",
+"ipa": "/kɑrv/",
+"fa": "کندن و شکل دادن (روی کدو)",
+"ex": "In the afternoon, I carved my pumpkin with Rosa.",
+"book": 1,
+"id": "carve",
+"m": [
+20,
+26
+]
+},
+{
+"w": "scary",
+"ipa": "/ˈskɛri/",
+"fa": "ترسناک",
+"ex": "We cut a scary face into it and put a candle inside.",
+"book": 1,
+"id": "scary",
+"m": [
+9,
+14
+]
+},
+{
+"w": "pirate",
+"ipa": "/ˈpaɪrət/",
+"fa": "دزد دریایی",
+"ex": "I was a pirate!",
+"book": 1,
+"id": "pirate",
+"m": [
+8,
+14
+]
+},
+{
+"w": "ghost",
+"ipa": "/ɡoʊst/",
+"fa": "روح، شبح",
+"ex": "There were princesses, superheroes, ghosts, and little monsters.",
+"book": 1,
+"id": "ghost",
+"m": [
+36,
+42
+]
+},
+{
+"w": "candy",
+"ipa": "/ˈkændi/",
+"fa": "آبنبات",
+"ex": "I gave away three big bags of candy!",
+"book": 1,
+"id": "candy",
+"m": [
+30,
+35
+]
+},
+{
+"w": "knock",
+"ipa": "/nɑk/",
+"fa": "در زدن",
+"ex": "Children in costumes walked from house to house and knocked on doors.",
+"book": 1,
+"id": "knock",
+"m": [
+52,
+59
+]
+},
+{
+"w": "fun",
+"ipa": "/fʌn/",
+"fa": "خوش‌گذرانی، سرگرمی",
+"ex": "Halloween was so much fun!",
+"book": 1,
+"id": "fun",
+"m": [
+22,
+25
+]
+},
+{
+"w": "hat",
+"ipa": "/hæt/",
+"fa": "کلاه",
+"ex": "In the morning, Emma came to the bookstore in a witch costume, with a black hat and a green face!",
+"id": "hat",
+"m": [
+76,
+79
+]
+},
+{
+"w": "cut",
+"ipa": "/kʌt/",
+"fa": "بریدن",
+"ex": "We cut a scary face into it and put a candle inside.",
+"id": "cut",
+"m": [
+3,
+6
+]
+},
+{
+"w": "simple",
+"ipa": "/ˈsɪmpəl/",
+"fa": "ساده",
+"ex": "In the evening, I wore a simple costume.",
+"id": "simple",
+"m": [
+25,
+31
+]
+},
+{
+"w": "princess",
+"ipa": "/ˈprɪnsɛs/",
+"fa": "شاهزاده‌خانم",
+"ex": "There were princesses, superheroes, ghosts, and little monsters.",
+"id": "princess",
+"m": [
+11,
+21
+]
+},
+{
+"w": "superhero",
+"ipa": "/ˌsupɚˈhiroʊ/",
+"fa": "ابرقهرمان",
+"ex": "There were princesses, superheroes, ghosts, and little monsters.",
+"id": "superhero",
+"m": [
+23,
+34
+]
+},
+{
+"w": "monster",
+"ipa": "/ˈmɑnstɚ/",
+"fa": "هیولا",
+"ex": "There were princesses, superheroes, ghosts, and little monsters.",
+"id": "monster",
+"m": [
+55,
+63
+]
+},
+{
+"w": "give away",
+"ipa": "/ɡɪv əˈweɪ/",
+"fa": "پخش کردن، مجانی دادن",
+"ex": "I gave away three big bags of candy!",
+"id": "give-away",
+"m": [
+2,
+11
+]
+},
+{
+"w": "heart",
+"ipa": "/hɑrt/",
+"fa": "قلب، دل",
+"ex": "When I came home, my candy bag was empty, but my heart was full.",
+"id": "heart",
+"m": [
+49,
+54
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I celebrated my first Halloween.",
+"fa": "اولین هالووینم را جشن گرفتم."
+},
+{
+"id": "s2",
+"en": "I was a pirate!",
+"fa": "لباس دزد دریایی پوشیده بودم!"
+},
+{
+"id": "s3",
+"en": "Children walked from house to house.",
+"fa": "بچه‌ها خانه به خانه می‌رفتند."
+},
+{
+"id": "s4",
+"en": "We gave them candy.",
+"fa": "به آن‌ها آبنبات دادیم."
+},
+{
+"id": "s5",
+"en": "Halloween was so much fun!",
+"fa": "هالووین خیلی خوش گذشت!"
+}
+]
+}

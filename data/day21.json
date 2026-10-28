@@ -1,0 +1,405 @@
+{
+"day": 21,
+"level": "A1",
+"title": "Dinner at Bella's",
+"fa_title": "شام در رستوران بلا",
+"audio": "audio/day21.mp3",
+"img": "img/day21.webp",
+"sents": [
+{
+"p": 0,
+"t": "Rosa helps me a lot, so I want to say thank you.",
+"s": 3.67
+},
+{
+"p": 0,
+"t": "I invite her to dinner at Bella’s, an Italian restaurant on Main Street.",
+"s": 7.22
+},
+{
+"p": 1,
+"t": "“Good evening! Do you have a reservation?” a woman at the door asks.",
+"s": 12.17
+},
+{
+"p": 2,
+"t": "“Yes, a table for two. My name is Sam.”",
+"s": 16.97
+},
+{
+"p": 3,
+"t": "Our waiter is Mike.",
+"s": 20.34
+},
+{
+"p": 3,
+"t": "He brings water and the menus.",
+"s": 21.81
+},
+{
+"p": 3,
+"t": "Rosa orders a glass of lemonade, and I order iced tea.",
+"s": 24.04
+},
+{
+"p": 3,
+"t": "First, we share some garlic bread.",
+"s": 28.09
+},
+{
+"p": 4,
+"t": "For dinner, Rosa has the spaghetti with meatballs, and I have the chicken with vegetables and a salad.",
+"s": 30.94
+},
+{
+"p": 5,
+"t": "The food is wonderful, but American plates are very big!",
+"s": 37.76
+},
+{
+"p": 5,
+"t": "I can’t eat everything, so Mike gives me a box.",
+"s": 41.53
+},
+{
+"p": 5,
+"t": "I can take the food home.",
+"s": 44.77
+},
+{
+"p": 6,
+"t": "After dinner, I ask for the check.",
+"s": 46.84
+},
+{
+"p": 6,
+"t": "It is fifty-six dollars.",
+"s": 49.12
+},
+{
+"p": 6,
+"t": "In America, people usually leave a tip of fifteen to twenty percent.",
+"s": 51.18
+},
+{
+"p": 6,
+"t": "I leave ten dollars.",
+"s": 55.32
+},
+{
+"p": 7,
+"t": "“Thank you, Sam. This is a lovely evening,” Rosa says.",
+"s": 57.42
+},
+{
+"p": 8,
+"t": "“No, thank you, Rosa. For everything.”",
+"s": 61.72
+}
+],
+"comp": [
+{
+"q": "Why does Sam invite Rosa to dinner?",
+"o": [
+"It is her birthday.",
+"He wants to say thank you.",
+"She is sad.",
+"He has a new job."
+],
+"a": 1,
+"fa": "چرا سام رزا را به شام دعوت می‌کند؟"
+},
+{
+"q": "What kind of restaurant is Bella’s?",
+"o": [
+"Mexican",
+"Chinese",
+"Italian",
+"American"
+],
+"a": 2,
+"fa": "بلا چه نوع رستورانی است؟"
+},
+{
+"q": "What does Rosa drink?",
+"o": [
+"coffee",
+"iced tea",
+"water",
+"lemonade"
+],
+"a": 3,
+"fa": "رزا چه می‌نوشد؟"
+},
+{
+"q": "What does Sam order?",
+"o": [
+"spaghetti with meatballs",
+"pizza",
+"soup",
+"chicken with vegetables"
+],
+"a": 3,
+"fa": "سام چه سفارش می‌دهد؟"
+},
+{
+"q": "Why does Mike give Sam a box?",
+"o": [
+"for the chocolate cake",
+"Sam can’t eat everything.",
+"for Rosa’s dog",
+"It is a gift."
+],
+"a": 1,
+"fa": "چرا مایک یک جعبه به سام می‌دهد؟"
+},
+{
+"q": "How much is the check?",
+"o": [
+"sixty-five dollars",
+"ten dollars",
+"fifty-six dollars",
+"fifteen dollars"
+],
+"a": 2,
+"fa": "صورت‌حساب چند است؟"
+}
+],
+"words": [
+{
+"w": "restaurant",
+"ipa": "/ˈrɛstəˌrɑnt/",
+"fa": "رستوران",
+"ex": "I invite her to dinner at Bella’s, an Italian restaurant on Main Street.",
+"book": 1,
+"id": "restaurant",
+"m": [
+46,
+56
+]
+},
+{
+"w": "invite",
+"ipa": "/ɪnˈvaɪt/",
+"fa": "دعوت کردن",
+"ex": "I invite her to dinner at Bella’s, an Italian restaurant on Main Street.",
+"book": 1,
+"id": "invite",
+"m": [
+2,
+8
+]
+},
+{
+"w": "reservation",
+"ipa": "/ˌrɛzɚˈveɪʃən/",
+"fa": "رزرو",
+"ex": "Do you have a reservation?",
+"book": 1,
+"id": "reservation",
+"m": [
+14,
+25
+]
+},
+{
+"w": "waiter",
+"ipa": "/ˈweɪtɚ/",
+"fa": "گارسون، پیشخدمت",
+"ex": "Our waiter is Mike.",
+"book": 1,
+"id": "waiter",
+"m": [
+4,
+10
+]
+},
+{
+"w": "glass",
+"ipa": "/ɡlæs/",
+"fa": "لیوان",
+"ex": "Rosa orders a glass of lemonade, and I order iced tea.",
+"book": 1,
+"id": "glass",
+"m": [
+14,
+19
+]
+},
+{
+"w": "share",
+"ipa": "/ʃɛr/",
+"fa": "با هم خوردن، شریک شدن",
+"ex": "First, we share some garlic bread.",
+"book": 1,
+"id": "share",
+"m": [
+10,
+15
+]
+},
+{
+"w": "salad",
+"ipa": "/ˈsæləd/",
+"fa": "سالاد",
+"ex": "I eat a salad for lunch.",
+"book": 1,
+"id": "salad",
+"m": [
+8,
+13
+]
+},
+{
+"w": "check",
+"ipa": "/tʃɛk/",
+"fa": "صورت‌حساب",
+"ex": "After dinner, I ask for the check.",
+"book": 1,
+"id": "check",
+"m": [
+28,
+33
+]
+},
+{
+"w": "percent",
+"ipa": "/pɚˈsɛnt/",
+"fa": "درصد",
+"ex": "In America, people usually leave a tip of fifteen to twenty percent.",
+"book": 1,
+"id": "percent",
+"m": [
+60,
+67
+]
+},
+{
+"w": "lovely",
+"ipa": "/ˈlʌvli/",
+"fa": "دلپذیر، دوست‌داشتنی",
+"ex": "This is a lovely evening.",
+"book": 1,
+"id": "lovely",
+"m": [
+10,
+16
+]
+},
+{
+"w": "Italian",
+"ipa": "/ˌɪˈtæljən/",
+"fa": "ایتالیایی",
+"ex": "I invite her to dinner at Bella’s, an Italian restaurant on Main Street.",
+"id": "italian",
+"m": [
+38,
+45
+]
+},
+{
+"w": "lemonade",
+"ipa": "/ˈlɛməˈneɪd/",
+"fa": "لیموناد",
+"ex": "Rosa orders a glass of lemonade, and I order iced tea.",
+"id": "lemonade",
+"m": [
+23,
+31
+]
+},
+{
+"w": "iced tea",
+"ipa": "/aɪst ti/",
+"fa": "چای سرد",
+"ex": "Rosa orders a glass of lemonade, and I order iced tea.",
+"id": "iced-tea",
+"m": [
+45,
+53
+]
+},
+{
+"w": "garlic",
+"ipa": "/ˈɡɑrlɪk/",
+"fa": "سیر",
+"ex": "First, we share some garlic bread.",
+"id": "garlic",
+"m": [
+21,
+27
+]
+},
+{
+"w": "spaghetti",
+"ipa": "/spəˈɡɛti/",
+"fa": "اسپاگتی",
+"ex": "For dinner, Rosa has the spaghetti with meatballs.",
+"id": "spaghetti",
+"m": [
+25,
+34
+]
+},
+{
+"w": "meatball",
+"ipa": "/ˈmitˌbɔl/",
+"fa": "کوفته‌قلقلی",
+"ex": "For dinner, Rosa has the spaghetti with meatballs.",
+"id": "meatball",
+"m": [
+40,
+49
+]
+},
+{
+"w": "usually",
+"ipa": "/ˈjuʒəwəli/",
+"fa": "معمولاً",
+"ex": "In America, people usually leave a tip of fifteen to twenty percent.",
+"id": "usually",
+"m": [
+19,
+26
+]
+},
+{
+"w": "thank",
+"ipa": "/θæŋk/",
+"fa": "تشکر کردن",
+"ex": "Rosa helps me a lot, so I want to say thank you.",
+"id": "thank",
+"m": [
+38,
+43
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Do you have a reservation?",
+"fa": "رزرو دارید؟"
+},
+{
+"id": "s2",
+"en": "A table for two, please.",
+"fa": "یک میز برای دو نفر، لطفاً."
+},
+{
+"id": "s3",
+"en": "We share some garlic bread.",
+"fa": "با هم کمی نان سیر می‌خوریم."
+},
+{
+"id": "s4",
+"en": "I ask for the check.",
+"fa": "صورت‌حساب را می‌خواهم."
+},
+{
+"id": "s5",
+"en": "Thank you for everything.",
+"fa": "برای همه‌چیز ممنونم."
+}
+]
+}

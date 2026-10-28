@@ -1,0 +1,400 @@
+{
+"day": 30,
+"level": "A1",
+"title": "My New Life",
+"fa_title": "زندگی جدید من",
+"audio": "audio/day30.mp3",
+"img": "img/day30.webp",
+"sents": [
+{
+"p": 0,
+"t": "Today it is December, and it is snowing in Oakville for the first time this winter.",
+"s": 1.75
+},
+{
+"p": 0,
+"t": "I sit by my window and think about my first six months in America.",
+"s": 8.74
+},
+{
+"p": 1,
+"t": "When I arrived in June, I didn’t know anyone.",
+"s": 13.56
+},
+{
+"p": 1,
+"t": "My English was not very good, and I was often nervous.",
+"s": 16.7
+},
+{
+"p": 1,
+"t": "I didn’t understand Fahrenheit, yard sales, or baseball!",
+"s": 20.57
+},
+{
+"p": 2,
+"t": "But many things changed.",
+"s": 24.8
+},
+{
+"p": 2,
+"t": "I found a job at Oakville Books.",
+"s": 26.61
+},
+{
+"p": 2,
+"t": "I opened a bank account.",
+"s": 29.04
+},
+{
+"p": 2,
+"t": "I went to a baseball game and celebrated the Fourth of July, Halloween, and Thanksgiving.",
+"s": 30.91
+},
+{
+"p": 3,
+"t": "And I found good friends: Rosa and Max, Emma, Carlos, Lily, and Mr. Lee.",
+"s": 37.06
+},
+{
+"p": 4,
+"t": "Now I can order food, make phone calls, and talk to people in English.",
+"s": 42.97
+},
+{
+"p": 4,
+"t": "I still make mistakes, but that’s OK.",
+"s": 47.7
+},
+{
+"p": 4,
+"t": "I learn something new every day.",
+"s": 50.34
+},
+{
+"p": 5,
+"t": "Outside, Max is playing in the snow, and Rosa waves at me.",
+"s": 52.89
+},
+{
+"p": 5,
+"t": "“Sam! Come outside!”",
+"s": 56.7
+},
+{
+"p": 6,
+"t": "I put on my jacket and go out.",
+"s": 58.99
+},
+{
+"p": 6,
+"t": "My new life is good.",
+"s": 61.0
+}
+],
+"comp": [
+{
+"q": "What is the weather like today?",
+"o": [
+"It is sunny.",
+"It is raining.",
+"It is snowing.",
+"It is hot."
+],
+"a": 2,
+"fa": "امروز هوا چطور است؟"
+},
+{
+"q": "When did Sam arrive in America?",
+"o": [
+"in June",
+"in July",
+"in May",
+"in December"
+],
+"a": 0,
+"fa": "سام کی به آمریکا رسید؟"
+},
+{
+"q": "What didn’t Sam understand at first?",
+"o": [
+"the bus",
+"Fahrenheit, yard sales, and baseball",
+"Rosa’s English",
+"the menu at Maple Café"
+],
+"a": 1,
+"fa": "سام اول چه چیزهایی را نمی‌فهمید؟"
+},
+{
+"q": "Where does Sam work?",
+"o": [
+"at Maple Café",
+"at Tony’s Pizza",
+"at the bank",
+"at Oakville Books"
+],
+"a": 3,
+"fa": "سام کجا کار می‌کند؟"
+},
+{
+"q": "What does Sam say about mistakes?",
+"o": [
+"He never makes mistakes.",
+"Mistakes are very bad.",
+"He still makes mistakes, but that’s OK.",
+"He doesn’t like mistakes."
+],
+"a": 2,
+"fa": "سام درباره‌ی اشتباه‌ها چه می‌گوید؟"
+},
+{
+"q": "Who asks Sam to come outside?",
+"o": [
+"Emma",
+"Carlos",
+"Lily",
+"Rosa"
+],
+"a": 3,
+"fa": "چه کسی از سام می‌خواهد بیرون بیاید؟"
+}
+],
+"words": [
+{
+"w": "winter",
+"ipa": "/ˈwɪntɚ/",
+"fa": "زمستان",
+"ex": "Today it is December, and it is snowing in Oakville for the first time this winter.",
+"book": 1,
+"id": "winter",
+"m": [
+76,
+82
+]
+},
+{
+"w": "snow",
+"ipa": "/snoʊ/",
+"fa": "برف؛ برف باریدن",
+"ex": "Outside, Max is playing in the snow, and Rosa waves at me.",
+"book": 1,
+"id": "snow",
+"m": [
+31,
+35
+]
+},
+{
+"w": "often",
+"ipa": "/ˈɔfən/",
+"fa": "اغلب",
+"ex": "My English was not very good, and I was often nervous.",
+"book": 1,
+"id": "often",
+"m": [
+40,
+45
+]
+},
+{
+"w": "understand",
+"ipa": "/ˌʌndɚˈstænd/",
+"fa": "فهمیدن",
+"ex": "I didn’t understand Fahrenheit, yard sales, or baseball!",
+"book": 1,
+"id": "understand",
+"m": [
+9,
+19
+]
+},
+{
+"w": "learn",
+"ipa": "/lɝn/",
+"fa": "یاد گرفتن",
+"ex": "I learn something new every day.",
+"book": 1,
+"id": "learn",
+"m": [
+2,
+7
+]
+},
+{
+"w": "celebrate",
+"ipa": "/ˈsɛləˌbreɪt/",
+"fa": "جشن گرفتن",
+"ex": "I went to a baseball game and celebrated the Fourth of July, Halloween, and Thanksgiving.",
+"book": 1,
+"id": "celebrate",
+"m": [
+30,
+40
+]
+},
+{
+"w": "mistake",
+"ipa": "/mɪˈsteɪk/",
+"fa": "اشتباه",
+"ex": "I still make mistakes, but that’s OK.",
+"book": 1,
+"id": "mistake",
+"m": [
+13,
+21
+]
+},
+{
+"w": "still",
+"ipa": "/stɪl/",
+"fa": "هنوز",
+"ex": "I still make mistakes, but that’s OK.",
+"book": 1,
+"id": "still",
+"m": [
+2,
+7
+]
+},
+{
+"w": "change",
+"ipa": "/tʃeɪndʒ/",
+"fa": "تغییر کردن، عوض شدن",
+"ex": "Many things changed.",
+"book": 1,
+"id": "change",
+"m": [
+12,
+19
+]
+},
+{
+"w": "life",
+"ipa": "/laɪf/",
+"fa": "زندگی",
+"ex": "My new life is good.",
+"book": 1,
+"id": "life",
+"m": [
+7,
+11
+]
+},
+{
+"w": "December",
+"ipa": "/dɪˈsɛmbɚ/",
+"fa": "دسامبر",
+"ex": "Today it is December, and it is snowing in Oakville for the first time this winter.",
+"id": "december",
+"m": [
+12,
+20
+]
+},
+{
+"w": "June",
+"ipa": "/dʒun/",
+"fa": "ژوئن",
+"ex": "When I arrived in June, I didn’t know anyone.",
+"id": "june",
+"m": [
+18,
+22
+]
+},
+{
+"w": "for the first time",
+"ipa": "/fɔr ðə fɝst taɪm/",
+"fa": "برای اولین بار",
+"ex": "Today it is December, and it is snowing in Oakville for the first time this winter.",
+"id": "for-the-first-time",
+"m": [
+52,
+70
+]
+},
+{
+"w": "find",
+"ipa": "/faɪnd/",
+"fa": "پیدا کردن",
+"ex": "I found a job at Oakville Books.",
+"id": "find",
+"m": [
+2,
+7
+]
+},
+{
+"w": "wave",
+"ipa": "/weɪv/",
+"fa": "دست تکان دادن",
+"ex": "Outside, Max is playing in the snow, and Rosa waves at me.",
+"id": "wave",
+"m": [
+46,
+51
+]
+},
+{
+"w": "put on",
+"ipa": "/pʊt ɑn/",
+"fa": "پوشیدن (لباس)",
+"ex": "I put on my jacket and go out.",
+"id": "put-on",
+"m": [
+2,
+8
+]
+},
+{
+"w": "go out",
+"ipa": "/ɡoʊ aʊt/",
+"fa": "بیرون رفتن",
+"ex": "I put on my jacket and go out.",
+"id": "go-out",
+"m": [
+23,
+29
+]
+},
+{
+"w": "English",
+"ipa": "/ˈɪŋɡlɪʃ/",
+"fa": "زبان انگلیسی",
+"ex": "My English was not very good, and I was often nervous.",
+"id": "english",
+"m": [
+3,
+10
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "It is snowing in Oakville.",
+"fa": "در اوک‌ویل برف می‌بارد."
+},
+{
+"id": "s2",
+"en": "Many things changed.",
+"fa": "خیلی چیزها عوض شد."
+},
+{
+"id": "s3",
+"en": "I still make mistakes.",
+"fa": "هنوز اشتباه می‌کنم."
+},
+{
+"id": "s4",
+"en": "I learn something new every day.",
+"fa": "هر روز چیز جدیدی یاد می‌گیرم."
+},
+{
+"id": "s5",
+"en": "My new life is good.",
+"fa": "زندگی جدیدم خوب است."
+}
+]
+}

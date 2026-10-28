@@ -1,0 +1,415 @@
+{
+"day": 5,
+"level": "A1",
+"title": "A Latte at Maple Café",
+"fa_title": "یک لاته در کافه‌ی میپل",
+"audio": "audio/day05.mp3",
+"img": "img/day05.webp",
+"sents": [
+{
+"p": 0,
+"t": "Every morning, I go to the red coffee shop near my apartment.",
+"s": 4.04
+},
+{
+"p": 0,
+"t": "Its name is Maple Café.",
+"s": 7.97
+},
+{
+"p": 0,
+"t": "The barista is a young woman with short black hair.",
+"s": 10.48
+},
+{
+"p": 0,
+"t": "Her name is Lily.",
+"s": 13.76
+},
+{
+"p": 1,
+"t": "“Good morning, Sam! The usual?” she asks.",
+"s": 15.61
+},
+{
+"p": 2,
+"t": "“Good morning, Lily. Not today. I want something new.”",
+"s": 18.96
+},
+{
+"p": 3,
+"t": "I look at the menu on the wall.",
+"s": 22.74
+},
+{
+"p": 3,
+"t": "It has many drinks: latte, cappuccino, iced coffee, hot chocolate, and tea.",
+"s": 24.56
+},
+{
+"p": 4,
+"t": "“What is a latte?” I ask.",
+"s": 30.43
+},
+{
+"p": 5,
+"t": "“It is coffee with a lot of hot milk,” Lily says.",
+"s": 33.03
+},
+{
+"p": 5,
+"t": "“It comes in three sizes: small, medium, and large.”",
+"s": 36.33
+},
+{
+"p": 6,
+"t": "“A medium latte, please. And a blueberry muffin.”",
+"s": 40.53
+},
+{
+"p": 7,
+"t": "“That is six dollars and fifty cents.”",
+"s": 44.36
+},
+{
+"p": 8,
+"t": "I pay with my card.",
+"s": 47.2
+},
+{
+"p": 8,
+"t": "Next to the register, I see a small jar.",
+"s": 48.88
+},
+{
+"p": 8,
+"t": "It says “Tips.” In America, people often give a tip.",
+"s": 51.55
+},
+{
+"p": 8,
+"t": "I put one dollar in the jar.",
+"s": 55.56
+},
+{
+"p": 9,
+"t": "I sit by the window with my latte.",
+"s": 57.86
+},
+{
+"p": 9,
+"t": "It is hot and creamy.",
+"s": 60.25
+},
+{
+"p": 9,
+"t": "Maple Café is my favorite place in Oakville.",
+"s": 62.19
+}
+],
+"comp": [
+{
+"q": "What is the name of the coffee shop?",
+"o": [
+"Red Café",
+"Oak Café",
+"Coffee Time",
+"Maple Café"
+],
+"a": 3,
+"fa": "اسم کافی‌شاپ چیست؟"
+},
+{
+"q": "Who is Lily?",
+"o": [
+"the barista",
+"Sam’s sister",
+"Sam’s neighbor",
+"a teacher"
+],
+"a": 0,
+"fa": "لیلی کیست؟"
+},
+{
+"q": "What is a latte?",
+"o": [
+"tea with milk",
+"coffee with a lot of hot milk",
+"iced coffee",
+"hot chocolate"
+],
+"a": 1,
+"fa": "لاته چیست؟"
+},
+{
+"q": "What does Sam order?",
+"o": [
+"a small latte and a cookie",
+"a large tea",
+"a medium latte and a blueberry muffin",
+"a hot chocolate"
+],
+"a": 2,
+"fa": "سام چه سفارش می‌دهد؟"
+},
+{
+"q": "How much does Sam pay?",
+"o": [
+"five dollars and sixty cents",
+"six dollars and fifty cents",
+"sixteen dollars and fifty cents",
+"six dollars and fifteen cents"
+],
+"a": 1,
+"fa": "سام چقدر پول می‌دهد؟"
+},
+{
+"q": "Where does Sam sit?",
+"o": [
+"by the window",
+"by the door",
+"outside",
+"at the counter"
+],
+"a": 0,
+"fa": "سام کجا می‌نشیند؟"
+}
+],
+"words": [
+{
+"w": "menu",
+"ipa": "/ˈmɛnju/",
+"fa": "منو",
+"ex": "I look at the menu on the wall.",
+"book": 1,
+"id": "menu",
+"m": [
+14,
+18
+]
+},
+{
+"w": "drink",
+"ipa": "/drɪŋk/",
+"fa": "نوشیدنی",
+"ex": "It has many drinks: latte, cappuccino, iced coffee, hot chocolate, and tea.",
+"book": 1,
+"id": "drink",
+"m": [
+12,
+18
+]
+},
+{
+"w": "size",
+"ipa": "/saɪz/",
+"fa": "اندازه، سایز",
+"ex": "It comes in three sizes: small, medium, and large.",
+"book": 1,
+"id": "size",
+"m": [
+18,
+23
+]
+},
+{
+"w": "medium",
+"ipa": "/ˈmidiəm/",
+"fa": "متوسط",
+"ex": "It comes in three sizes: small, medium, and large.",
+"book": 1,
+"id": "medium",
+"m": [
+32,
+38
+]
+},
+{
+"w": "large",
+"ipa": "/lɑrdʒ/",
+"fa": "بزرگ",
+"ex": "It comes in three sizes: small, medium, and large.",
+"book": 1,
+"id": "large",
+"m": [
+44,
+49
+]
+},
+{
+"w": "cent",
+"ipa": "/sɛnt/",
+"fa": "سِنت",
+"ex": "That is six dollars and fifty cents.",
+"book": 1,
+"id": "cent",
+"m": [
+30,
+35
+]
+},
+{
+"w": "pay",
+"ipa": "/peɪ/",
+"fa": "پرداخت کردن",
+"ex": "I pay with my card.",
+"book": 1,
+"id": "pay",
+"m": [
+2,
+5
+]
+},
+{
+"w": "tip",
+"ipa": "/tɪp/",
+"fa": "انعام",
+"ex": "In America, people often give a tip.",
+"book": 1,
+"id": "tip",
+"m": [
+32,
+35
+]
+},
+{
+"w": "favorite",
+"ipa": "/ˈfeɪvərɪt/",
+"fa": "مورد علاقه، محبوب",
+"ex": "Maple Café is my favorite place in Oakville.",
+"book": 1,
+"id": "favorite",
+"m": [
+17,
+25
+]
+},
+{
+"w": "usual",
+"ipa": "/ˈjuʒuəl/",
+"fa": "همیشگی",
+"ex": "I get up at the usual time.",
+"book": 1,
+"id": "usual",
+"m": [
+16,
+21
+]
+},
+{
+"w": "short",
+"ipa": "/ʃɔrt/",
+"fa": "کوتاه",
+"ex": "The barista is a young woman with short black hair.",
+"id": "short",
+"m": [
+34,
+39
+]
+},
+{
+"w": "hair",
+"ipa": "/hɛr/",
+"fa": "مو",
+"ex": "The barista is a young woman with short black hair.",
+"id": "hair",
+"m": [
+46,
+50
+]
+},
+{
+"w": "wall",
+"ipa": "/wɔl/",
+"fa": "دیوار",
+"ex": "I look at the menu on the wall.",
+"id": "wall",
+"m": [
+26,
+30
+]
+},
+{
+"w": "something",
+"ipa": "/ˈsʌmθɪŋ/",
+"fa": "چیزی",
+"ex": "I want something new.",
+"id": "something",
+"m": [
+7,
+16
+]
+},
+{
+"w": "register",
+"ipa": "/ˈrɛdʒɪstɚ/",
+"fa": "صندوق (فروشگاه)",
+"ex": "Next to the register, I see a small jar.",
+"id": "register",
+"m": [
+12,
+20
+]
+},
+{
+"w": "jar",
+"ipa": "/dʒɑr/",
+"fa": "ظرف شیشه‌ای",
+"ex": "Next to the register, I see a small jar.",
+"id": "jar",
+"m": [
+36,
+39
+]
+},
+{
+"w": "often",
+"ipa": "/ˈɔfən/",
+"fa": "اغلب، بیشتر وقت‌ها",
+"ex": "In America, people often give a tip.",
+"id": "often",
+"m": [
+19,
+24
+]
+},
+{
+"w": "place",
+"ipa": "/pleɪs/",
+"fa": "جا، مکان",
+"ex": "Maple Café is my favorite place in Oakville.",
+"id": "place",
+"m": [
+26,
+31
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I want something new.",
+"fa": "یک چیز جدید می‌خواهم."
+},
+{
+"id": "s2",
+"en": "A medium latte, please.",
+"fa": "یک لاته‌ی متوسط، لطفاً."
+},
+{
+"id": "s3",
+"en": "I pay with my card.",
+"fa": "با کارتم پرداخت می‌کنم."
+},
+{
+"id": "s4",
+"en": "In America, people often give a tip.",
+"fa": "در آمریکا مردم اغلب انعام می‌دهند."
+},
+{
+"id": "s5",
+"en": "Maple Café is my favorite place.",
+"fa": "کافه‌ی میپل جای مورد علاقه‌ی من است."
+}
+]
+}

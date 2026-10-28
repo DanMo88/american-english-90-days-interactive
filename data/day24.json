@@ -1,0 +1,425 @@
+{
+"day": 24,
+"level": "A1",
+"title": "Take Me Out to the Ball Game",
+"fa_title": "مرا به مسابقه‌ی بیسبال ببر",
+"audio": "audio/day24.mp3",
+"img": "img/day24.webp",
+"sents": [
+{
+"p": 0,
+"t": "Carlos remembers his promise.",
+"s": 4.15
+},
+{
+"p": 0,
+"t": "On Sunday, he takes me to my first baseball game.",
+"s": 6.42
+},
+{
+"p": 0,
+"t": "The Oakville Owls are playing the Riverside Rockets at Oakville Stadium.",
+"s": 10.21
+},
+{
+"p": 1,
+"t": "The stadium is full of people.",
+"s": 15.01
+},
+{
+"p": 1,
+"t": "Everyone wears the team colors, green and white.",
+"s": 17.02
+},
+{
+"p": 1,
+"t": "Carlos buys me an Owls cap.",
+"s": 20.37
+},
+{
+"p": 1,
+"t": "“Now you are a real fan!” he says.",
+"s": 22.7
+},
+{
+"p": 2,
+"t": "Our seats are behind first base.",
+"s": 25.85
+},
+{
+"p": 2,
+"t": "Carlos explains the rules.",
+"s": 28.34
+},
+{
+"p": 2,
+"t": "“Each team has nine players. The pitcher throws the ball, and the batter tries to hit it. Then he runs to first, second, and third base, and home. That is a run.”",
+"s": 30.64
+},
+{
+"p": 3,
+"t": "“OK. I think I understand,” I say.",
+"s": 41.77
+},
+{
+"p": 3,
+"t": "But it is not easy!",
+"s": 44.34
+},
+{
+"p": 4,
+"t": "Baseball games are long, almost three hours.",
+"s": 46.2
+},
+{
+"p": 4,
+"t": "But I enjoy watching the people too.",
+"s": 49.63
+},
+{
+"p": 4,
+"t": "They eat hot dogs and popcorn.",
+"s": 52.05
+},
+{
+"p": 4,
+"t": "In the seventh inning, everyone stands up and sings “Take Me Out to the Ball Game.”",
+"s": 54.71
+},
+{
+"p": 5,
+"t": "In the ninth inning, the score is 3 to 3.",
+"s": 60.06
+},
+{
+"p": 5,
+"t": "Then an Owls player hits the ball very far.",
+"s": 62.71
+},
+{
+"p": 5,
+"t": "Home run!",
+"s": 65.56
+},
+{
+"p": 5,
+"t": "The Owls win, 5 to 3!",
+"s": 66.64
+},
+{
+"p": 6,
+"t": "“So, do you like baseball now?” Carlos asks.",
+"s": 69.29
+},
+{
+"p": 7,
+"t": "“I love it!” I say.",
+"s": 72.82
+}
+],
+"comp": [
+{
+"q": "Who takes Sam to the baseball game?",
+"o": [
+"Emma",
+"Mr. Lee",
+"Carlos",
+"Rosa"
+],
+"a": 2,
+"fa": "چه کسی سام را به مسابقه‌ی بیسبال می‌برد؟"
+},
+{
+"q": "What are the Owls’ team colors?",
+"o": [
+"green and white",
+"red and white",
+"blue and gold",
+"green and yellow"
+],
+"a": 0,
+"fa": "رنگ‌های تیم «اولز» چیست؟"
+},
+{
+"q": "How many players are on each team?",
+"o": [
+"eleven",
+"nine",
+"seven",
+"ten"
+],
+"a": 1,
+"fa": "هر تیم چند بازیکن دارد؟"
+},
+{
+"q": "How long are baseball games?",
+"o": [
+"one hour",
+"ninety minutes",
+"all day",
+"almost three hours"
+],
+"a": 3,
+"fa": "مسابقه‌های بیسبال چقدر طول می‌کشند؟"
+},
+{
+"q": "When does everyone sing “Take Me Out to the Ball Game”?",
+"o": [
+"in the ninth inning",
+"at the start",
+"at the end",
+"in the seventh inning"
+],
+"a": 3,
+"fa": "همه کی این آهنگ را می‌خوانند؟"
+},
+{
+"q": "What is the final score?",
+"o": [
+"3 to 3",
+"Rockets 5, Owls 3",
+"Owls 5, Rockets 3",
+"Owls 3, Rockets 0"
+],
+"a": 2,
+"fa": "نتیجه‌ی نهایی چند است؟"
+}
+],
+"words": [
+{
+"w": "baseball",
+"ipa": "/ˈbeɪsˌbɔl/",
+"fa": "بیسبال",
+"ex": "Baseball games are long, almost three hours.",
+"book": 1,
+"id": "baseball",
+"m": [
+0,
+8
+]
+},
+{
+"w": "stadium",
+"ipa": "/ˈsteɪdiəm/",
+"fa": "ورزشگاه",
+"ex": "The stadium is full of people.",
+"book": 1,
+"id": "stadium",
+"m": [
+4,
+11
+]
+},
+{
+"w": "cap",
+"ipa": "/kæp/",
+"fa": "کلاه لبه‌دار",
+"ex": "Carlos buys me an Owls cap.",
+"book": 1,
+"id": "cap",
+"m": [
+23,
+26
+]
+},
+{
+"w": "fan",
+"ipa": "/fæn/",
+"fa": "طرفدار",
+"ex": "Now you are a real fan!",
+"book": 1,
+"id": "fan",
+"m": [
+19,
+22
+]
+},
+{
+"w": "seat",
+"ipa": "/sit/",
+"fa": "صندلی، جایگاه",
+"ex": "Our seats are behind first base.",
+"book": 1,
+"id": "seat",
+"m": [
+4,
+9
+]
+},
+{
+"w": "rule",
+"ipa": "/rul/",
+"fa": "قانون",
+"ex": "Carlos explains the rules.",
+"book": 1,
+"id": "rule",
+"m": [
+20,
+25
+]
+},
+{
+"w": "player",
+"ipa": "/ˈpleɪɚ/",
+"fa": "بازیکن",
+"ex": "Then an Owls player hits the ball very far.",
+"book": 1,
+"id": "player",
+"m": [
+13,
+19
+]
+},
+{
+"w": "throw",
+"ipa": "/θroʊ/",
+"fa": "پرتاب کردن",
+"ex": "The pitcher throws the ball, and the batter tries to hit it.",
+"book": 1,
+"id": "throw",
+"m": [
+12,
+18
+]
+},
+{
+"w": "hit",
+"ipa": "/hɪt/",
+"fa": "ضربه زدن",
+"ex": "Then an Owls player hits the ball very far.",
+"book": 1,
+"id": "hit",
+"m": [
+20,
+24
+]
+},
+{
+"w": "win",
+"ipa": "/wɪn/",
+"fa": "بردن، پیروز شدن",
+"ex": "The Owls win, 5 to 3!",
+"book": 1,
+"id": "win",
+"m": [
+9,
+12
+]
+},
+{
+"w": "remember",
+"ipa": "/rɪˈmɛmbɚ/",
+"fa": "یادِ (چیزی) بودن، به خاطر آوردن",
+"ex": "Carlos remembers his promise.",
+"id": "remember",
+"m": [
+7,
+16
+]
+},
+{
+"w": "promise",
+"ipa": "/ˈprɑməs/",
+"fa": "قول",
+"ex": "Carlos remembers his promise.",
+"id": "promise",
+"m": [
+21,
+28
+]
+},
+{
+"w": "real",
+"ipa": "/ril/",
+"fa": "واقعی",
+"ex": "Now you are a real fan!",
+"id": "real",
+"m": [
+14,
+18
+]
+},
+{
+"w": "ball",
+"ipa": "/bɔl/",
+"fa": "توپ",
+"ex": "Then an Owls player hits the ball very far.",
+"id": "ball",
+"m": [
+29,
+33
+]
+},
+{
+"w": "try",
+"ipa": "/traɪ/",
+"fa": "سعی کردن",
+"ex": "The pitcher throws the ball, and the batter tries to hit it.",
+"id": "try",
+"m": [
+44,
+49
+]
+},
+{
+"w": "almost",
+"ipa": "/ˈɔlˌmoʊst/",
+"fa": "تقریباً",
+"ex": "Baseball games are long, almost three hours.",
+"id": "almost",
+"m": [
+25,
+31
+]
+},
+{
+"w": "stand up",
+"ipa": "/stænd ʌp/",
+"fa": "بلند شدن، سرپا ایستادن",
+"ex": "In the seventh inning, everyone stands up and sings “Take Me Out to the Ball Game.”",
+"id": "stand-up",
+"m": [
+32,
+41
+]
+},
+{
+"w": "sing",
+"ipa": "/sɪŋ/",
+"fa": "آواز خواندن",
+"ex": "In the seventh inning, everyone stands up and sings “Take Me Out to the Ball Game.”",
+"id": "sing",
+"m": [
+46,
+51
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Now you are a real fan!",
+"fa": "حالا یک طرفدار واقعی هستی!"
+},
+{
+"id": "s2",
+"en": "Each team has nine players.",
+"fa": "هر تیم نه بازیکن دارد."
+},
+{
+"id": "s3",
+"en": "I think I understand.",
+"fa": "فکر کنم می‌فهمم."
+},
+{
+"id": "s4",
+"en": "Baseball games are long.",
+"fa": "مسابقه‌های بیسبال طولانی‌اند."
+},
+{
+"id": "s5",
+"en": "Do you like baseball now?",
+"fa": "حالا بیسبال را دوست داری؟"
+}
+]
+}

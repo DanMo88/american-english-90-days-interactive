@@ -1,0 +1,410 @@
+{
+"day": 22,
+"level": "A1",
+"title": "Max Is Lost!",
+"fa_title": "مکس گم شده!",
+"audio": "audio/day22.mp3",
+"img": "img/day22.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Sunday afternoon, Rosa knocks on my door.",
+"s": 3.71
+},
+{
+"p": 0,
+"t": "Her face is white.",
+"s": 6.78
+},
+{
+"p": 0,
+"t": "“Sam, Max is gone! The gate in the backyard is open.”",
+"s": 8.43
+},
+{
+"p": 1,
+"t": "We look everywhere: under the cars, behind the trees, and in the park.",
+"s": 12.7
+},
+{
+"p": 1,
+"t": "No Max.",
+"s": 16.83
+},
+{
+"p": 2,
+"t": "“Let’s make posters,” I say.",
+"s": 18.43
+},
+{
+"p": 2,
+"t": "My poster has a big photo of Max.",
+"s": 20.41
+},
+{
+"p": 2,
+"t": "It says: “LOST DOG! Max. Brown, red collar, very friendly. He likes chasing squirrels and eating hot dogs. Please call 555-274-8190.”",
+"s": 22.43
+},
+{
+"p": 3,
+"t": "We put the posters on trees and in shop windows.",
+"s": 36.19
+},
+{
+"p": 3,
+"t": "Emma puts the photo online.",
+"s": 39.47
+},
+{
+"p": 4,
+"t": "We walk and call his name for three hours.",
+"s": 41.99
+},
+{
+"p": 4,
+"t": "Rosa is very worried.",
+"s": 44.76
+},
+{
+"p": 4,
+"t": "“He is old, Sam. He doesn’t know the streets.”",
+"s": 46.6
+},
+{
+"p": 5,
+"t": "At seven o’clock, my phone rings.",
+"s": 49.96
+},
+{
+"p": 5,
+"t": "“Hi, is this Sam? I think I have your dog. He is in my yard, and he is eating my hamburger!” It is a man on Elm Street.",
+"s": 52.52
+},
+{
+"p": 6,
+"t": "We run to Elm Street.",
+"s": 60.95
+},
+{
+"p": 6,
+"t": "Max is there, with ketchup on his nose.",
+"s": 62.63
+},
+{
+"p": 6,
+"t": "He jumps on Rosa, and she laughs and cries at the same time.",
+"s": 65.44
+},
+{
+"p": 7,
+"t": "“No more hamburgers for you!” she tells Max.",
+"s": 69.81
+}
+],
+"comp": [
+{
+"q": "Why is Rosa scared?",
+"o": [
+"She is sick.",
+"Max is gone.",
+"Her door is broken.",
+"She can’t find her phone."
+],
+"a": 1,
+"fa": "چرا رزا ترسیده است؟"
+},
+{
+"q": "What is open?",
+"o": [
+"the front door",
+"a window",
+"the gate in the backyard",
+"the car"
+],
+"a": 2,
+"fa": "چه چیزی باز است؟"
+},
+{
+"q": "What color is Max’s collar?",
+"o": [
+"red",
+"blue",
+"brown",
+"black"
+],
+"a": 0,
+"fa": "قلاده‌ی مکس چه رنگی است؟"
+},
+{
+"q": "What does Max like doing?",
+"o": [
+"sleeping on the sofa",
+"swimming in the lake",
+"playing soccer",
+"chasing squirrels and eating hot dogs"
+],
+"a": 3,
+"fa": "مکس دوست دارد چه کار کند؟"
+},
+{
+"q": "Where is Max?",
+"o": [
+"at Maple Café",
+"in the park",
+"in a yard on Elm Street",
+"at the lake"
+],
+"a": 2,
+"fa": "مکس کجاست؟"
+},
+{
+"q": "What is on Max’s nose?",
+"o": [
+"mud",
+"ketchup",
+"ice cream",
+"a leaf"
+],
+"a": 1,
+"fa": "روی دماغ مکس چیست؟"
+}
+],
+"words": [
+{
+"w": "lost",
+"ipa": "/lɔst/",
+"fa": "گم‌شده",
+"ex": "I can’t find my keys. They are lost.",
+"book": 1,
+"id": "lost",
+"m": [
+31,
+35
+]
+},
+{
+"w": "gate",
+"ipa": "/ɡeɪt/",
+"fa": "در حیاط، دروازه",
+"ex": "The gate in the backyard is open.",
+"book": 1,
+"id": "gate",
+"m": [
+4,
+8
+]
+},
+{
+"w": "behind",
+"ipa": "/bɪˈhaɪnd/",
+"fa": "پشتِ",
+"ex": "We look everywhere: under the cars, behind the trees, and in the park.",
+"book": 1,
+"id": "behind",
+"m": [
+36,
+42
+]
+},
+{
+"w": "poster",
+"ipa": "/ˈpoʊstɚ/",
+"fa": "پوستر، آگهی",
+"ex": "My poster has a big photo of Max.",
+"book": 1,
+"id": "poster",
+"m": [
+3,
+9
+]
+},
+{
+"w": "collar",
+"ipa": "/ˈkɑlɚ/",
+"fa": "قلاده",
+"ex": "Brown, red collar, very friendly.",
+"book": 1,
+"id": "collar",
+"m": [
+11,
+17
+]
+},
+{
+"w": "squirrel",
+"ipa": "/ˈskwɝəl/",
+"fa": "سنجاب",
+"ex": "He likes chasing squirrels and eating hot dogs.",
+"book": 1,
+"id": "squirrel",
+"m": [
+17,
+26
+]
+},
+{
+"w": "online",
+"ipa": "/ˌɑnˈlaɪn/",
+"fa": "آنلاین، در اینترنت",
+"ex": "Emma puts the photo online.",
+"book": 1,
+"id": "online",
+"m": [
+20,
+26
+]
+},
+{
+"w": "worried",
+"ipa": "/ˈwɝid/",
+"fa": "نگران",
+"ex": "Rosa is very worried.",
+"book": 1,
+"id": "worried",
+"m": [
+13,
+20
+]
+},
+{
+"w": "nose",
+"ipa": "/noʊz/",
+"fa": "دماغ، بینی",
+"ex": "Max is there, with ketchup on his nose.",
+"book": 1,
+"id": "nose",
+"m": [
+34,
+38
+]
+},
+{
+"w": "cry",
+"ipa": "/kraɪ/",
+"fa": "گریه کردن",
+"ex": "He jumps on Rosa, and she laughs and cries at the same time.",
+"book": 1,
+"id": "cry",
+"m": [
+37,
+42
+]
+},
+{
+"w": "knock",
+"ipa": "/nɑk/",
+"fa": "در زدن",
+"ex": "On Sunday afternoon, Rosa knocks on my door.",
+"id": "knock",
+"m": [
+26,
+32
+]
+},
+{
+"w": "gone",
+"ipa": "/ɡɔn/",
+"fa": "رفته، ناپدید",
+"ex": "Sam, Max is gone!",
+"id": "gone",
+"m": [
+12,
+16
+]
+},
+{
+"w": "everywhere",
+"ipa": "/ˈɛvriˌwɛr/",
+"fa": "همه‌جا",
+"ex": "We look everywhere: under the cars, behind the trees, and in the park.",
+"id": "everywhere",
+"m": [
+8,
+18
+]
+},
+{
+"w": "chase",
+"ipa": "/tʃeɪs/",
+"fa": "دنبال کردن",
+"ex": "He likes chasing squirrels and eating hot dogs.",
+"id": "chase",
+"m": [
+9,
+16
+]
+},
+{
+"w": "shop",
+"ipa": "/ʃɑp/",
+"fa": "مغازه",
+"ex": "We put the posters on trees and in shop windows.",
+"id": "shop",
+"m": [
+35,
+39
+]
+},
+{
+"w": "yard",
+"ipa": "/jɑrd/",
+"fa": "حیاط",
+"ex": "He is in my yard, and he is eating my hamburger!",
+"id": "yard",
+"m": [
+12,
+16
+]
+},
+{
+"w": "run",
+"ipa": "/rʌn/",
+"fa": "دویدن",
+"ex": "We run to Elm Street.",
+"id": "run",
+"m": [
+3,
+6
+]
+},
+{
+"w": "ketchup",
+"ipa": "/ˈkɛtʃəp/",
+"fa": "سس گوجه، کچاپ",
+"ex": "Max is there, with ketchup on his nose.",
+"id": "ketchup",
+"m": [
+19,
+26
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "We look everywhere.",
+"fa": "همه‌جا را می‌گردیم."
+},
+{
+"id": "s2",
+"en": "Let’s make posters.",
+"fa": "بیا پوستر درست کنیم."
+},
+{
+"id": "s3",
+"en": "He doesn’t know the streets.",
+"fa": "خیابان‌ها را بلد نیست."
+},
+{
+"id": "s4",
+"en": "I think I have your dog.",
+"fa": "فکر کنم سگتان پیش من است."
+},
+{
+"id": "s5",
+"en": "She laughs and cries at the same time.",
+"fa": "هم‌زمان می‌خندد و گریه می‌کند."
+}
+]
+}

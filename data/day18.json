@@ -1,0 +1,405 @@
+{
+"day": 18,
+"level": "A1",
+"title": "Happy Fourth of July!",
+"fa_title": "چهارم ژوئیه مبارک!",
+"audio": "audio/day18.mp3",
+"img": "img/day18.webp",
+"sents": [
+{
+"p": 0,
+"t": "Today is the Fourth of July.",
+"s": 3.83
+},
+{
+"p": 0,
+"t": "It is Independence Day, America’s birthday!",
+"s": 5.79
+},
+{
+"p": 1,
+"t": "In the morning, there is a parade on Main Street.",
+"s": 9.33
+},
+{
+"p": 1,
+"t": "There are bands, firefighters, and old cars.",
+"s": 12.24
+},
+{
+"p": 1,
+"t": "Everyone wears red, white, and blue, and there are American flags on every house.",
+"s": 15.47
+},
+{
+"p": 2,
+"t": "In the afternoon, there is a big barbecue in Rosa’s backyard.",
+"s": 21.4
+},
+{
+"p": 2,
+"t": "Emma comes too.",
+"s": 25.39
+},
+{
+"p": 2,
+"t": "Rosa’s son, Danny, cooks hamburgers and hot dogs on the grill.",
+"s": 26.9
+},
+{
+"p": 2,
+"t": "There is also corn, potato salad, and watermelon.",
+"s": 31.54
+},
+{
+"p": 2,
+"t": "For dessert, there is an apple pie with stars on it.",
+"s": 35.43
+},
+{
+"p": 3,
+"t": "“Food, family, friends, and fireworks! That is the Fourth of July,” Danny says.",
+"s": 39.19
+},
+{
+"p": 4,
+"t": "At night, we walk to the park.",
+"s": 45.0
+},
+{
+"p": 4,
+"t": "At nine thirty, the fireworks start.",
+"s": 46.99
+},
+{
+"p": 4,
+"t": "Boom!",
+"s": 49.44
+},
+{
+"p": 4,
+"t": "Boom!",
+"s": 50.22
+},
+{
+"p": 4,
+"t": "There are big red, gold, and blue lights in the sky.",
+"s": 50.83
+},
+{
+"p": 4,
+"t": "Max doesn’t like the noise, so Rosa stays home with him.",
+"s": 54.43
+},
+{
+"p": 5,
+"t": "It is my first Fourth of July, and it is wonderful.",
+"s": 58.37
+}
+],
+"comp": [
+{
+"q": "What is the Fourth of July?",
+"o": [
+"Independence Day",
+"Thanksgiving",
+"Rosa’s birthday",
+"Sam’s birthday"
+],
+"a": 0,
+"fa": "چهارم ژوئیه چیست؟"
+},
+{
+"q": "Where is the parade?",
+"o": [
+"in the park",
+"on Main Street",
+"on Maple Street",
+"at the lake"
+],
+"a": 1,
+"fa": "رژه کجاست؟"
+},
+{
+"q": "Who cooks the hamburgers?",
+"o": [
+"Rosa",
+"Sam",
+"Danny",
+"Emma"
+],
+"a": 2,
+"fa": "چه کسی همبرگرها را می‌پزد؟"
+},
+{
+"q": "What is the dessert?",
+"o": [
+"ice cream",
+"watermelon",
+"cookies",
+"an apple pie with stars"
+],
+"a": 3,
+"fa": "دسر چیست؟"
+},
+{
+"q": "When do the fireworks start?",
+"o": [
+"at nine thirty",
+"at nine o’clock",
+"at ten thirty",
+"at eight thirty"
+],
+"a": 0,
+"fa": "آتش‌بازی کی شروع می‌شود؟"
+},
+{
+"q": "Why does Rosa stay home?",
+"o": [
+"She is tired.",
+"Max doesn’t like the noise.",
+"She is sick.",
+"She is cooking."
+],
+"a": 1,
+"fa": "چرا رزا در خانه می‌ماند؟"
+}
+],
+"words": [
+{
+"w": "parade",
+"ipa": "/pəˈreɪd/",
+"fa": "رژه",
+"ex": "In the morning, there is a parade on Main Street.",
+"book": 1,
+"id": "parade",
+"m": [
+27,
+33
+]
+},
+{
+"w": "band",
+"ipa": "/bænd/",
+"fa": "گروه موسیقی",
+"ex": "There are bands, firefighters, and old cars.",
+"book": 1,
+"id": "band",
+"m": [
+10,
+15
+]
+},
+{
+"w": "flag",
+"ipa": "/flæɡ/",
+"fa": "پرچم",
+"ex": "Everyone wears red, white, and blue, and there are American flags on every house.",
+"book": 1,
+"id": "flag",
+"m": [
+60,
+65
+]
+},
+{
+"w": "barbecue",
+"ipa": "/ˈbɑrbɪˌkju/",
+"fa": "باربیکیو (کباب در فضای باز)",
+"ex": "In the afternoon, there is a big barbecue in Rosa’s backyard.",
+"book": 1,
+"id": "barbecue",
+"m": [
+33,
+41
+]
+},
+{
+"w": "backyard",
+"ipa": "/ˌbækˈjɑrd/",
+"fa": "حیاط پشتی",
+"ex": "In the afternoon, there is a big barbecue in Rosa’s backyard.",
+"book": 1,
+"id": "backyard",
+"m": [
+52,
+60
+]
+},
+{
+"w": "grill",
+"ipa": "/ɡrɪl/",
+"fa": "گریل، کباب‌پز",
+"ex": "Rosa’s son, Danny, cooks hamburgers and hot dogs on the grill.",
+"book": 1,
+"id": "grill",
+"m": [
+56,
+61
+]
+},
+{
+"w": "watermelon",
+"ipa": "/ˈwɔtɚˌmɛlən/",
+"fa": "هندوانه",
+"ex": "There is also corn, potato salad, and watermelon.",
+"book": 1,
+"id": "watermelon",
+"m": [
+38,
+48
+]
+},
+{
+"w": "dessert",
+"ipa": "/dɪˈzɝt/",
+"fa": "دسر",
+"ex": "For dessert, there is an apple pie with stars on it.",
+"book": 1,
+"id": "dessert",
+"m": [
+4,
+11
+]
+},
+{
+"w": "fireworks",
+"ipa": "/ˈfaɪɚˌwɝks/",
+"fa": "آتش‌بازی",
+"ex": "At nine thirty, the fireworks start.",
+"book": 1,
+"id": "fireworks",
+"m": [
+20,
+29
+]
+},
+{
+"w": "noise",
+"ipa": "/nɔɪz/",
+"fa": "سروصدا",
+"ex": "Max doesn’t like the noise, so Rosa stays home with him.",
+"book": 1,
+"id": "noise",
+"m": [
+21,
+26
+]
+},
+{
+"w": "independence",
+"ipa": "/ˌɪndɪˈpɛndəns/",
+"fa": "استقلال",
+"ex": "It is Independence Day, America’s birthday!",
+"id": "independence",
+"m": [
+6,
+18
+]
+},
+{
+"w": "firefighter",
+"ipa": "/ˈfaɪrˌfaɪtɚ/",
+"fa": "آتش‌نشان",
+"ex": "There are bands, firefighters, and old cars.",
+"id": "firefighter",
+"m": [
+17,
+29
+]
+},
+{
+"w": "son",
+"ipa": "/sʌn/",
+"fa": "پسر (فرزند)",
+"ex": "Rosa’s son, Danny, cooks hamburgers and hot dogs on the grill.",
+"id": "son",
+"m": [
+7,
+10
+]
+},
+{
+"w": "corn",
+"ipa": "/kɔrn/",
+"fa": "ذرت",
+"ex": "There is also corn, potato salad, and watermelon.",
+"id": "corn",
+"m": [
+14,
+18
+]
+},
+{
+"w": "pie",
+"ipa": "/paɪ/",
+"fa": "پای (نوعی شیرینی)",
+"ex": "For dessert, there is an apple pie with stars on it.",
+"id": "pie",
+"m": [
+31,
+34
+]
+},
+{
+"w": "star",
+"ipa": "/stɑr/",
+"fa": "ستاره",
+"ex": "For dessert, there is an apple pie with stars on it.",
+"id": "star",
+"m": [
+40,
+45
+]
+},
+{
+"w": "gold",
+"ipa": "/ɡoʊld/",
+"fa": "طلایی",
+"ex": "There are big red, gold, and blue lights in the sky.",
+"id": "gold",
+"m": [
+19,
+23
+]
+},
+{
+"w": "wonderful",
+"ipa": "/ˈwʌndɚfəl/",
+"fa": "فوق‌العاده",
+"ex": "It is my first Fourth of July, and it is wonderful.",
+"id": "wonderful",
+"m": [
+41,
+50
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Today is the Fourth of July.",
+"fa": "امروز چهارم ژوئیه است."
+},
+{
+"id": "s2",
+"en": "Everyone wears red, white, and blue.",
+"fa": "همه قرمز، سفید و آبی می‌پوشند."
+},
+{
+"id": "s3",
+"en": "Danny cooks hamburgers on the grill.",
+"fa": "دنی روی گریل همبرگر می‌پزد."
+},
+{
+"id": "s4",
+"en": "Max doesn’t like the noise.",
+"fa": "مکس از سروصدا خوشش نمی‌آید."
+},
+{
+"id": "s5",
+"en": "It is my first Fourth of July.",
+"fa": "این اولین چهارم ژوئیه‌ی من است."
+}
+]
+}

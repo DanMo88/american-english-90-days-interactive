@@ -1,0 +1,395 @@
+{
+"day": 15,
+"level": "A1",
+"title": "At the Bank",
+"fa_title": "در بانک",
+"audio": "audio/day15.mp3",
+"img": "img/day15.webp",
+"sents": [
+{
+"p": 0,
+"t": "Mr. Lee says, “Sam, you need a bank account for your paycheck.”",
+"s": 1.89
+},
+{
+"p": 1,
+"t": "On Tuesday, I go to Oakville Bank on Main Street.",
+"s": 7.78
+},
+{
+"p": 1,
+"t": "There is an ATM outside, and inside there are three tellers.",
+"s": 11.11
+},
+{
+"p": 1,
+"t": "I wait in line.",
+"s": 15.49
+},
+{
+"p": 2,
+"t": "“Next, please!” says a man.",
+"s": 17.22
+},
+{
+"p": 2,
+"t": "His name is Tom.",
+"s": 18.97
+},
+{
+"p": 3,
+"t": "“Hi. I want to open a bank account.”",
+"s": 20.91
+},
+{
+"p": 4,
+"t": "“Sure. I need your passport and your address, please.” I give them to Tom.",
+"s": 23.74
+},
+{
+"p": 4,
+"t": "“Thank you. Do you want a checking account or a savings account?”",
+"s": 28.71
+},
+{
+"p": 5,
+"t": "“Um... what is the difference?”",
+"s": 32.81
+},
+{
+"p": 6,
+"t": "“A checking account is for every day. You get a debit card for shopping. A savings account is for saving money for the future.”",
+"s": 35.18
+},
+{
+"p": 7,
+"t": "“Then I want both, please.”",
+"s": 43.57
+},
+{
+"p": 8,
+"t": "After twenty minutes, everything is ready.",
+"s": 45.81
+},
+{
+"p": 8,
+"t": "“Your debit card comes in the mail in seven to ten days,” Tom says.",
+"s": 48.61
+},
+{
+"p": 9,
+"t": "Now I have an American bank account!",
+"s": 53.56
+},
+{
+"p": 9,
+"t": "Maybe one day, I can save money for a car.",
+"s": 56.01
+}
+],
+"comp": [
+{
+"q": "Why does Sam need a bank account?",
+"o": [
+"for a trip",
+"for a car",
+"for his apartment",
+"for his paycheck"
+],
+"a": 3,
+"fa": "چرا سام به حساب بانکی نیاز دارد؟"
+},
+{
+"q": "How many tellers are inside the bank?",
+"o": [
+"one",
+"two",
+"three",
+"four"
+],
+"a": 2,
+"fa": "داخل بانک چند تحویلدار هست؟"
+},
+{
+"q": "What does Tom need from Sam?",
+"o": [
+"his phone and a photo",
+"his passport and his address",
+"his job and his family",
+"money"
+],
+"a": 1,
+"fa": "تام چه چیزهایی از سام لازم دارد؟"
+},
+{
+"q": "What is a checking account for?",
+"o": [
+"for saving money",
+"for buying a car",
+"for the future",
+"for every day"
+],
+"a": 3,
+"fa": "حساب جاری برای چیست؟"
+},
+{
+"q": "Which account does Sam open?",
+"o": [
+"a checking account",
+"a savings account",
+"both accounts",
+"no account"
+],
+"a": 2,
+"fa": "سام کدام حساب را باز می‌کند؟"
+},
+{
+"q": "When does the debit card come?",
+"o": [
+"in seven to ten days",
+"today",
+"in two weeks",
+"tomorrow"
+],
+"a": 0,
+"fa": "کارت بانکی کی می‌رسد؟"
+}
+],
+"words": [
+{
+"w": "bank",
+"ipa": "/bæŋk/",
+"fa": "بانک",
+"ex": "Sam, you need a bank account for your paycheck.",
+"book": 1,
+"id": "bank",
+"m": [
+16,
+20
+]
+},
+{
+"w": "account",
+"ipa": "/əˈkaʊnt/",
+"fa": "حساب",
+"ex": "Sam, you need a bank account for your paycheck.",
+"book": 1,
+"id": "account",
+"m": [
+21,
+28
+]
+},
+{
+"w": "ATM",
+"ipa": "/ˌeɪ ti ˈɛm/",
+"fa": "دستگاه خودپرداز",
+"ex": "There is an ATM outside, and inside there are three tellers.",
+"book": 1,
+"id": "atm",
+"m": [
+12,
+15
+]
+},
+{
+"w": "line",
+"ipa": "/laɪn/",
+"fa": "صف",
+"ex": "I wait in line.",
+"book": 1,
+"id": "line",
+"m": [
+10,
+14
+]
+},
+{
+"w": "passport",
+"ipa": "/ˈpæsˌpɔrt/",
+"fa": "گذرنامه، پاسپورت",
+"ex": "I need your passport and your address, please.",
+"book": 1,
+"id": "passport",
+"m": [
+12,
+20
+]
+},
+{
+"w": "save",
+"ipa": "/seɪv/",
+"fa": "پس‌انداز کردن",
+"ex": "A savings account is for saving money for the future.",
+"book": 1,
+"id": "save",
+"m": [
+25,
+31
+]
+},
+{
+"w": "money",
+"ipa": "/ˈmʌni/",
+"fa": "پول",
+"ex": "A savings account is for saving money for the future.",
+"book": 1,
+"id": "money",
+"m": [
+32,
+37
+]
+},
+{
+"w": "debit card",
+"ipa": "/ˈdɛbɪt ˌkɑrd/",
+"fa": "کارت بانکی",
+"ex": "You get a debit card for shopping.",
+"book": 1,
+"id": "debit-card",
+"m": [
+10,
+20
+]
+},
+{
+"w": "mail",
+"ipa": "/meɪl/",
+"fa": "پست، نامه",
+"ex": "Your debit card comes in the mail in seven to ten days.",
+"book": 1,
+"id": "mail",
+"m": [
+29,
+33
+]
+},
+{
+"w": "future",
+"ipa": "/ˈfjutʃɚ/",
+"fa": "آینده",
+"ex": "A savings account is for saving money for the future.",
+"book": 1,
+"id": "future",
+"m": [
+46,
+52
+]
+},
+{
+"w": "paycheck",
+"ipa": "/ˈpeɪˌtʃɛk/",
+"fa": "حقوق (چک حقوق)",
+"ex": "Sam, you need a bank account for your paycheck.",
+"id": "paycheck",
+"m": [
+38,
+46
+]
+},
+{
+"w": "teller",
+"ipa": "/ˈtɛlɚ/",
+"fa": "تحویلدار بانک",
+"ex": "There is an ATM outside, and inside there are three tellers.",
+"id": "teller",
+"m": [
+52,
+59
+]
+},
+{
+"w": "open",
+"ipa": "/ˈoʊpən/",
+"fa": "باز کردن",
+"ex": "I want to open a bank account.",
+"id": "open",
+"m": [
+10,
+14
+]
+},
+{
+"w": "checking account",
+"ipa": "/ˈtʃɛkɪŋ əˈkaʊnt/",
+"fa": "حساب جاری",
+"ex": "A checking account is for every day.",
+"id": "checking-account",
+"m": [
+2,
+18
+]
+},
+{
+"w": "savings account",
+"ipa": "/ˈseɪvɪŋz əˈkaʊnt/",
+"fa": "حساب پس‌انداز",
+"ex": "Do you want a checking account or a savings account?",
+"id": "savings-account",
+"m": [
+36,
+51
+]
+},
+{
+"w": "difference",
+"ipa": "/ˈdɪfɚəns/",
+"fa": "فرق، تفاوت",
+"ex": "What is the difference?",
+"id": "difference",
+"m": [
+12,
+22
+]
+},
+{
+"w": "shopping",
+"ipa": "/ˈʃɑpɪŋ/",
+"fa": "خرید کردن",
+"ex": "You get a debit card for shopping.",
+"id": "shopping",
+"m": [
+25,
+33
+]
+},
+{
+"w": "car",
+"ipa": "/kɑr/",
+"fa": "ماشین، خودرو",
+"ex": "Maybe one day, I can save money for a car.",
+"id": "car",
+"m": [
+38,
+41
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I want to open a bank account.",
+"fa": "می‌خواهم یک حساب بانکی باز کنم."
+},
+{
+"id": "s2",
+"en": "I wait in line.",
+"fa": "در صف منتظر می‌مانم."
+},
+{
+"id": "s3",
+"en": "What is the difference?",
+"fa": "فرقشان چیست؟"
+},
+{
+"id": "s4",
+"en": "Then I want both, please.",
+"fa": "پس هر دو را می‌خواهم، لطفاً."
+},
+{
+"id": "s5",
+"en": "I can save money for a car.",
+"fa": "می‌توانم برای خرید ماشین پول پس‌انداز کنم."
+}
+]
+}

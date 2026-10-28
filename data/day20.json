@@ -1,0 +1,415 @@
+{
+"day": 20,
+"level": "A1",
+"title": "Calling for a Pizza",
+"fa_title": "سفارش تلفنی پیتزا",
+"audio": "audio/day20.mp3",
+"img": "img/day20.webp",
+"sents": [
+{
+"p": 0,
+"t": "It is Friday night.",
+"s": 3.59
+},
+{
+"p": 0,
+"t": "Carlos and Emma are at my apartment.",
+"s": 5.16
+},
+{
+"p": 0,
+"t": "We want pizza and a movie.",
+"s": 7.5
+},
+{
+"p": 0,
+"t": "“Sam, you call the pizza place,” Emma says.",
+"s": 9.67
+},
+{
+"p": 0,
+"t": "“It is good practice!”",
+"s": 12.72
+},
+{
+"p": 1,
+"t": "I am a little nervous.",
+"s": 14.78
+},
+{
+"p": 1,
+"t": "Talking on the phone in English is hard for me, because I can’t see the person’s face.",
+"s": 16.52
+},
+{
+"p": 1,
+"t": "But I call Tony’s Pizza.",
+"s": 21.64
+},
+{
+"p": 2,
+"t": "“Hi, Tony’s Pizza. Is this for pickup or delivery?”",
+"s": 23.98
+},
+{
+"p": 3,
+"t": "“Um, delivery, please. Two large pizzas: one cheese pizza and one with mushrooms and peppers. And three bottles of soda.”",
+"s": 28.15
+},
+{
+"p": 4,
+"t": "“OK. What’s your address and phone number?”",
+"s": 37.27
+},
+{
+"p": 5,
+"t": "“14 Maple Street, Apartment 3. My number is 555-274-8190.”",
+"s": 40.35
+},
+{
+"p": 6,
+"t": "“Thank you. That’s thirty-four dollars. It’s about forty minutes.”",
+"s": 48.1
+},
+{
+"p": 7,
+"t": "Emma and Carlos clap.",
+"s": 52.57
+},
+{
+"p": 7,
+"t": "“Perfect, Sam!”",
+"s": 54.21
+},
+{
+"p": 8,
+"t": "Forty-five minutes later, the doorbell rings.",
+"s": 55.96
+},
+{
+"p": 8,
+"t": "The pizza is hot and delicious.",
+"s": 58.93
+},
+{
+"p": 8,
+"t": "We give the delivery driver a five-dollar tip.",
+"s": 61.28
+},
+{
+"p": 8,
+"t": "“Thanks! Enjoy your pizza!” he says.",
+"s": 64.56
+},
+{
+"p": 8,
+"t": "Now phone calls are not so scary for me.",
+"s": 67.52
+}
+],
+"comp": [
+{
+"q": "Who is at Sam’s apartment?",
+"o": [
+"Rosa and Max",
+"Emma and Carlos",
+"Mr. Lee",
+"Lily"
+],
+"a": 1,
+"fa": "چه کسانی در آپارتمان سام هستند؟"
+},
+{
+"q": "Why is talking on the phone hard for Sam?",
+"o": [
+"His phone is old.",
+"He doesn’t like pizza.",
+"He can’t see the person’s face.",
+"He is tired."
+],
+"a": 2,
+"fa": "چرا حرف زدن پشت تلفن برای سام سخت است؟"
+},
+{
+"q": "What is the name of the pizza place?",
+"o": [
+"Pizza Time",
+"Oakville Pizza",
+"Maple Pizza",
+"Tony’s Pizza"
+],
+"a": 3,
+"fa": "اسم پیتزافروشی چیست؟"
+},
+{
+"q": "What do they order?",
+"o": [
+"one large cheese pizza",
+"two large pizzas and three sodas",
+"two small pizzas",
+"three pizzas and water"
+],
+"a": 1,
+"fa": "آن‌ها چه سفارش می‌دهند؟"
+},
+{
+"q": "How much is the order?",
+"o": [
+"twenty-four dollars",
+"forty dollars",
+"forty-five dollars",
+"thirty-four dollars"
+],
+"a": 3,
+"fa": "سفارش چند می‌شود؟"
+},
+{
+"q": "How much is the tip?",
+"o": [
+"two dollars",
+"ten dollars",
+"five dollars",
+"one dollar"
+],
+"a": 2,
+"fa": "انعام چقدر است؟"
+}
+],
+"words": [
+{
+"w": "movie",
+"ipa": "/ˈmuvi/",
+"fa": "فیلم",
+"ex": "We want pizza and a movie.",
+"book": 1,
+"id": "movie",
+"m": [
+20,
+25
+]
+},
+{
+"w": "practice",
+"ipa": "/ˈpræktɪs/",
+"fa": "تمرین",
+"ex": "It is good practice!",
+"book": 1,
+"id": "practice",
+"m": [
+11,
+19
+]
+},
+{
+"w": "hard",
+"ipa": "/hɑrd/",
+"fa": "سخت",
+"ex": "This homework is hard.",
+"book": 1,
+"id": "hard",
+"m": [
+17,
+21
+]
+},
+{
+"w": "face",
+"ipa": "/feɪs/",
+"fa": "صورت، چهره",
+"ex": "Wash your face, please.",
+"book": 1,
+"id": "face",
+"m": [
+10,
+14
+]
+},
+{
+"w": "pickup",
+"ipa": "/ˈpɪkˌʌp/",
+"fa": "تحویل حضوری از مغازه",
+"ex": "Is this for pickup or delivery?",
+"book": 1,
+"id": "pickup",
+"m": [
+12,
+18
+]
+},
+{
+"w": "delivery",
+"ipa": "/dɪˈlɪvəri/",
+"fa": "ارسال به خانه",
+"ex": "We give the delivery driver a five-dollar tip.",
+"book": 1,
+"id": "delivery",
+"m": [
+12,
+20
+]
+},
+{
+"w": "mushroom",
+"ipa": "/ˈmʌʃˌrum/",
+"fa": "قارچ",
+"ex": "Two large pizzas: one cheese pizza and one with mushrooms and peppers.",
+"book": 1,
+"id": "mushroom",
+"m": [
+48,
+57
+]
+},
+{
+"w": "pepper",
+"ipa": "/ˈpɛpɚ/",
+"fa": "فلفل دلمه‌ای",
+"ex": "Two large pizzas: one cheese pizza and one with mushrooms and peppers.",
+"book": 1,
+"id": "pepper",
+"m": [
+62,
+69
+]
+},
+{
+"w": "bottle",
+"ipa": "/ˈbɑtəl/",
+"fa": "بطری",
+"ex": "Three bottles of soda.",
+"book": 1,
+"id": "bottle",
+"m": [
+6,
+13
+]
+},
+{
+"w": "doorbell",
+"ipa": "/ˈdɔrˌbɛl/",
+"fa": "زنگ در",
+"ex": "Forty-five minutes later, the doorbell rings.",
+"book": 1,
+"id": "doorbell",
+"m": [
+30,
+38
+]
+},
+{
+"w": "night",
+"ipa": "/naɪt/",
+"fa": "شب",
+"ex": "It is Friday night.",
+"id": "night",
+"m": [
+13,
+18
+]
+},
+{
+"w": "person",
+"ipa": "/ˈpɝsən/",
+"fa": "شخص، آدم",
+"ex": "Talking on the phone in English is hard for me, because I can’t see the person’s face.",
+"id": "person",
+"m": [
+72,
+78
+]
+},
+{
+"w": "soda",
+"ipa": "/ˈsoʊdə/",
+"fa": "نوشابه",
+"ex": "Three bottles of soda.",
+"id": "soda",
+"m": [
+17,
+21
+]
+},
+{
+"w": "clap",
+"ipa": "/klæp/",
+"fa": "دست زدن",
+"ex": "Emma and Carlos clap.",
+"id": "clap",
+"m": [
+16,
+20
+]
+},
+{
+"w": "later",
+"ipa": "/ˈleɪtɚ/",
+"fa": "بعد، بعداً",
+"ex": "Forty-five minutes later, the doorbell rings.",
+"id": "later",
+"m": [
+19,
+24
+]
+},
+{
+"w": "ring",
+"ipa": "/rɪŋ/",
+"fa": "زنگ زدن (زنگ در)",
+"ex": "Forty-five minutes later, the doorbell rings.",
+"id": "ring",
+"m": [
+39,
+44
+]
+},
+{
+"w": "scary",
+"ipa": "/ˈskɛri/",
+"fa": "ترسناک",
+"ex": "Now phone calls are not so scary for me.",
+"id": "scary",
+"m": [
+27,
+32
+]
+},
+{
+"w": "talk",
+"ipa": "/tɔk/",
+"fa": "حرف زدن",
+"ex": "Talking on the phone in English is hard for me, because I can’t see the person’s face.",
+"id": "talk",
+"m": [
+0,
+7
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Talking on the phone is hard for me.",
+"fa": "حرف زدن پشت تلفن برایم سخت است."
+},
+{
+"id": "s2",
+"en": "Is this for pickup or delivery?",
+"fa": "خودتان می‌برید یا ارسال شود؟"
+},
+{
+"id": "s3",
+"en": "Two large pizzas, please.",
+"fa": "دو تا پیتزای بزرگ، لطفاً."
+},
+{
+"id": "s4",
+"en": "What’s your address and phone number?",
+"fa": "آدرس و شماره تلفنتان چیست؟"
+},
+{
+"id": "s5",
+"en": "It’s about forty minutes.",
+"fa": "حدود چهل دقیقه طول می‌کشد."
+}
+]
+}

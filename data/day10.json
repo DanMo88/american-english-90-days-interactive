@@ -1,0 +1,410 @@
+{
+"day": 10,
+"level": "A1",
+"title": "My First Day at Work",
+"fa_title": "اولین روز کارم",
+"audio": "audio/day10.mp3",
+"img": "img/day10.webp",
+"sents": [
+{
+"p": 0,
+"t": "Today is Monday, my first day at Oakville Books.",
+"s": 3.5
+},
+{
+"p": 0,
+"t": "I arrive at eight forty-five.",
+"s": 6.72
+},
+{
+"p": 0,
+"t": "Mr. Lee says, “Good morning, Sam! Meet Emma. She works here too.”",
+"s": 8.75
+},
+{
+"p": 1,
+"t": "Emma is about my age.",
+"s": 13.95
+},
+{
+"p": 1,
+"t": "She has red hair and a big smile.",
+"s": 15.48
+},
+{
+"p": 1,
+"t": "“Hi, Sam! Welcome to the team,” she says.",
+"s": 17.91
+},
+{
+"p": 2,
+"t": "The bookstore is not very big, but it has thousands of books.",
+"s": 21.53
+},
+{
+"p": 2,
+"t": "Emma shows me my work.",
+"s": 25.48
+},
+{
+"p": 2,
+"t": "I put new books on the shelves.",
+"s": 27.32
+},
+{
+"p": 2,
+"t": "I help customers find books.",
+"s": 29.15
+},
+{
+"p": 2,
+"t": "I can also use the register.",
+"s": 31.27
+},
+{
+"p": 2,
+"t": "“It is easy,” Emma says.",
+"s": 33.39
+},
+{
+"p": 2,
+"t": "“Just scan the book and take the money.”",
+"s": 35.61
+},
+{
+"p": 3,
+"t": "At noon, we eat lunch in the back room.",
+"s": 38.2
+},
+{
+"p": 3,
+"t": "Emma is a college student.",
+"s": 40.94
+},
+{
+"p": 3,
+"t": "She studies art and works at the bookstore three days a week.",
+"s": 43.02
+},
+{
+"p": 4,
+"t": "In the afternoon, a little boy asks me, “Do you have books about dinosaurs?” I find two books for him.",
+"s": 46.99
+},
+{
+"p": 4,
+"t": "He is very happy, and I am happy too.",
+"s": 53.63
+},
+{
+"p": 5,
+"t": "At five o’clock, Mr. Lee says, “Good job today, Sam.” I walk home tired but proud.",
+"s": 56.59
+}
+],
+"comp": [
+{
+"q": "What time does Sam arrive at work?",
+"o": [
+"at nine o’clock",
+"at eight thirty",
+"at eight forty-five",
+"at ten o’clock"
+],
+"a": 2,
+"fa": "سام ساعت چند سرِ کار می‌رسد؟"
+},
+{
+"q": "Who is Emma?",
+"o": [
+"Rosa’s daughter",
+"Mr. Lee’s wife",
+"a customer",
+"Sam’s new coworker"
+],
+"a": 3,
+"fa": "اِما کیست؟"
+},
+{
+"q": "What does Emma look like?",
+"o": [
+"She has black hair.",
+"She is tall with brown hair.",
+"She has gray hair and glasses.",
+"She has red hair and a big smile."
+],
+"a": 3,
+"fa": "اِما چه شکلی است؟"
+},
+{
+"q": "What does Emma study?",
+"o": [
+"English",
+"art",
+"music",
+"math"
+],
+"a": 1,
+"fa": "اِما چه رشته‌ای می‌خواند؟"
+},
+{
+"q": "What does the little boy want?",
+"o": [
+"toys",
+"a sandwich",
+"books about dinosaurs",
+"a map"
+],
+"a": 2,
+"fa": "آن پسر کوچک چه می‌خواهد؟"
+},
+{
+"q": "How does Sam feel at the end of the day?",
+"o": [
+"sad and bored",
+"tired but proud",
+"angry",
+"nervous"
+],
+"a": 1,
+"fa": "سام آخر روز چه حسی دارد؟"
+}
+],
+"words": [
+{
+"w": "arrive",
+"ipa": "/əˈraɪv/",
+"fa": "رسیدن",
+"ex": "I arrive at eight forty-five.",
+"book": 1,
+"id": "arrive",
+"m": [
+2,
+8
+]
+},
+{
+"w": "team",
+"ipa": "/tim/",
+"fa": "تیم",
+"ex": "Welcome to the team.",
+"book": 1,
+"id": "team",
+"m": [
+15,
+19
+]
+},
+{
+"w": "shelf",
+"ipa": "/ʃɛlf/",
+"fa": "قفسه",
+"ex": "I put new books on the shelves.",
+"book": 1,
+"id": "shelf",
+"m": [
+23,
+30
+]
+},
+{
+"w": "customer",
+"ipa": "/ˈkʌstəmɚ/",
+"fa": "مشتری",
+"ex": "I help customers find books.",
+"book": 1,
+"id": "customer",
+"m": [
+7,
+16
+]
+},
+{
+"w": "easy",
+"ipa": "/ˈizi/",
+"fa": "آسان",
+"ex": "It is easy.",
+"book": 1,
+"id": "easy",
+"m": [
+6,
+10
+]
+},
+{
+"w": "lunch",
+"ipa": "/lʌntʃ/",
+"fa": "ناهار",
+"ex": "At noon, we eat lunch in the back room.",
+"book": 1,
+"id": "lunch",
+"m": [
+16,
+21
+]
+},
+{
+"w": "college",
+"ipa": "/ˈkɑlɪdʒ/",
+"fa": "کالج، دانشگاه",
+"ex": "Emma is a college student.",
+"book": 1,
+"id": "college",
+"m": [
+10,
+17
+]
+},
+{
+"w": "art",
+"ipa": "/ɑrt/",
+"fa": "هنر",
+"ex": "She studies art and works at the bookstore three days a week.",
+"book": 1,
+"id": "art",
+"m": [
+12,
+15
+]
+},
+{
+"w": "tired",
+"ipa": "/ˈtaɪɚd/",
+"fa": "خسته",
+"ex": "I walk home tired but proud.",
+"book": 1,
+"id": "tired",
+"m": [
+12,
+17
+]
+},
+{
+"w": "proud",
+"ipa": "/praʊd/",
+"fa": "مفتخر، سربلند",
+"ex": "I walk home tired but proud.",
+"book": 1,
+"id": "proud",
+"m": [
+22,
+27
+]
+},
+{
+"w": "meet",
+"ipa": "/mit/",
+"fa": "آشنا شدن؛ ملاقات کردن",
+"ex": "Meet Emma.",
+"id": "meet",
+"m": [
+0,
+4
+]
+},
+{
+"w": "age",
+"ipa": "/eɪdʒ/",
+"fa": "سن",
+"ex": "Emma is about my age.",
+"id": "age",
+"m": [
+17,
+20
+]
+},
+{
+"w": "show",
+"ipa": "/ʃoʊ/",
+"fa": "نشان دادن",
+"ex": "Emma shows me my work.",
+"id": "show",
+"m": [
+5,
+10
+]
+},
+{
+"w": "scan",
+"ipa": "/skæn/",
+"fa": "اسکن کردن",
+"ex": "Just scan the book and take the money.",
+"id": "scan",
+"m": [
+5,
+9
+]
+},
+{
+"w": "noon",
+"ipa": "/nun/",
+"fa": "ظهر",
+"ex": "At noon, we eat lunch in the back room.",
+"id": "noon",
+"m": [
+3,
+7
+]
+},
+{
+"w": "room",
+"ipa": "/rum/",
+"fa": "اتاق",
+"ex": "At noon, we eat lunch in the back room.",
+"id": "room",
+"m": [
+34,
+38
+]
+},
+{
+"w": "study",
+"ipa": "/ˈstʌdi/",
+"fa": "درس خواندن، تحصیل کردن",
+"ex": "She studies art and works at the bookstore three days a week.",
+"id": "study",
+"m": [
+4,
+11
+]
+},
+{
+"w": "dinosaur",
+"ipa": "/ˈdaɪnəˌsɔr/",
+"fa": "دایناسور",
+"ex": "Do you have books about dinosaurs?",
+"id": "dinosaur",
+"m": [
+24,
+33
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Welcome to the team.",
+"fa": "به تیم خوش آمدی."
+},
+{
+"id": "s2",
+"en": "She works here too.",
+"fa": "او هم اینجا کار می‌کند."
+},
+{
+"id": "s3",
+"en": "I help customers find books.",
+"fa": "به مشتری‌ها کمک می‌کنم کتاب پیدا کنند."
+},
+{
+"id": "s4",
+"en": "Good job today, Sam.",
+"fa": "امروز خوب کار کردی، سام."
+},
+{
+"id": "s5",
+"en": "I walk home tired but proud.",
+"fa": "خسته ولی سربلند پیاده به خانه برمی‌گردم."
+}
+]
+}

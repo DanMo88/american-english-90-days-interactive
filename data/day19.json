@@ -1,0 +1,400 @@
+{
+"day": 19,
+"level": "A1",
+"title": "I Like Playing Soccer",
+"fa_title": "فوتبال بازی کردن را دوست دارم",
+"audio": "audio/day19.mp3",
+"img": "img/day19.webp",
+"sents": [
+{
+"p": 0,
+"t": "What do I like doing in my free time?",
+"s": 3.78
+},
+{
+"p": 0,
+"t": "I like reading, I like cooking, and I love playing soccer.",
+"s": 5.95
+},
+{
+"p": 1,
+"t": "One day at work, Emma says, “My friend Carlos plays soccer in Oakville Park every Saturday. Do you want to join?”",
+"s": 10.3
+},
+{
+"p": 2,
+"t": "“Yes! I love playing soccer!”",
+"s": 18.07
+},
+{
+"p": 3,
+"t": "On Saturday morning, I go to the park.",
+"s": 20.67
+},
+{
+"p": 3,
+"t": "Carlos is tall and friendly.",
+"s": 23.15
+},
+{
+"p": 3,
+"t": "He is from Mexico, and he is a math teacher at a high school.",
+"s": 25.36
+},
+{
+"p": 3,
+"t": "“Welcome, Sam!” he says.",
+"s": 29.38
+},
+{
+"p": 4,
+"t": "We play for two hours, and I score two goals!",
+"s": 32.13
+},
+{
+"p": 4,
+"t": "After the game, we sit on the grass and drink cold water.",
+"s": 35.36
+},
+{
+"p": 5,
+"t": "“What other hobbies do you have?” Carlos asks.",
+"s": 39.42
+},
+{
+"p": 6,
+"t": "“I like taking photos and hiking. And you?”",
+"s": 42.91
+},
+{
+"p": 7,
+"t": "“I enjoy playing the guitar. And I like watching baseball.”",
+"s": 46.36
+},
+{
+"p": 8,
+"t": "“Baseball? I don’t understand baseball,” I say.",
+"s": 50.46
+},
+{
+"p": 9,
+"t": "Carlos laughs.",
+"s": 54.11
+},
+{
+"p": 9,
+"t": "“Don’t worry. One day, I can take you to a game.”",
+"s": 55.35
+},
+{
+"p": 10,
+"t": "Now I have a new friend and a new hobby for Saturdays.",
+"s": 58.75
+}
+],
+"comp": [
+{
+"q": "Where does Carlos play soccer?",
+"o": [
+"at the high school",
+"at the lake",
+"in Oakville Park",
+"on Main Street"
+],
+"a": 2,
+"fa": "کارلوس کجا فوتبال بازی می‌کند؟"
+},
+{
+"q": "Who is Carlos?",
+"o": [
+"Emma’s friend",
+"Emma’s brother",
+"Rosa’s son",
+"Sam’s manager"
+],
+"a": 0,
+"fa": "کارلوس کیست؟"
+},
+{
+"q": "What is Carlos’s job?",
+"o": [
+"He is a soccer player.",
+"He is a math teacher.",
+"He is a doctor.",
+"He is a barista."
+],
+"a": 1,
+"fa": "شغل کارلوس چیست؟"
+},
+{
+"q": "How many goals does Sam score?",
+"o": [
+"one",
+"three",
+"none",
+"two"
+],
+"a": 3,
+"fa": "سام چند گل می‌زند؟"
+},
+{
+"q": "What does Carlos enjoy doing?",
+"o": [
+"playing the guitar",
+"hiking",
+"cooking",
+"taking photos"
+],
+"a": 0,
+"fa": "کارلوس از چه کاری لذت می‌برد؟"
+},
+{
+"q": "What doesn’t Sam understand?",
+"o": [
+"soccer",
+"math",
+"baseball",
+"the guitar"
+],
+"a": 2,
+"fa": "سام چه چیزی را نمی‌فهمد؟"
+}
+],
+"words": [
+{
+"w": "hobby",
+"ipa": "/ˈhɑbi/",
+"fa": "سرگرمی",
+"ex": "What other hobbies do you have?",
+"book": 1,
+"id": "hobby",
+"m": [
+11,
+18
+]
+},
+{
+"w": "soccer",
+"ipa": "/ˈsɑkɚ/",
+"fa": "فوتبال",
+"ex": "My friend Carlos plays soccer in Oakville Park every Saturday.",
+"book": 1,
+"id": "soccer",
+"m": [
+23,
+29
+]
+},
+{
+"w": "join",
+"ipa": "/dʒɔɪn/",
+"fa": "پیوستن، ملحق شدن",
+"ex": "Do you want to join?",
+"book": 1,
+"id": "join",
+"m": [
+15,
+19
+]
+},
+{
+"w": "math",
+"ipa": "/mæθ/",
+"fa": "ریاضی",
+"ex": "He is from Mexico, and he is a math teacher at a high school.",
+"book": 1,
+"id": "math",
+"m": [
+31,
+35
+]
+},
+{
+"w": "high school",
+"ipa": "/ˈhaɪ ˌskul/",
+"fa": "دبیرستان",
+"ex": "He is from Mexico, and he is a math teacher at a high school.",
+"book": 1,
+"id": "high-school",
+"m": [
+49,
+60
+]
+},
+{
+"w": "goal",
+"ipa": "/ɡoʊl/",
+"fa": "گل (در بازی)",
+"ex": "We play for two hours, and I score two goals!",
+"book": 1,
+"id": "goal",
+"m": [
+39,
+44
+]
+},
+{
+"w": "game",
+"ipa": "/ɡeɪm/",
+"fa": "بازی، مسابقه",
+"ex": "One day, I can take you to a game.",
+"book": 1,
+"id": "game",
+"m": [
+29,
+33
+]
+},
+{
+"w": "photo",
+"ipa": "/ˈfoʊtoʊ/",
+"fa": "عکس",
+"ex": "I like taking photos and hiking.",
+"book": 1,
+"id": "photo",
+"m": [
+14,
+20
+]
+},
+{
+"w": "hiking",
+"ipa": "/ˈhaɪkɪŋ/",
+"fa": "کوه‌پیمایی، پیاده‌روی در طبیعت",
+"ex": "I like taking photos and hiking.",
+"book": 1,
+"id": "hiking",
+"m": [
+25,
+31
+]
+},
+{
+"w": "guitar",
+"ipa": "/ɡɪˈtɑr/",
+"fa": "گیتار",
+"ex": "I enjoy playing the guitar.",
+"book": 1,
+"id": "guitar",
+"m": [
+20,
+26
+]
+},
+{
+"w": "free time",
+"ipa": "/fri taɪm/",
+"fa": "اوقات فراغت",
+"ex": "What do I like doing in my free time?",
+"id": "free-time",
+"m": [
+27,
+36
+]
+},
+{
+"w": "teacher",
+"ipa": "/ˈtitʃɚ/",
+"fa": "معلم",
+"ex": "He is from Mexico, and he is a math teacher at a high school.",
+"id": "teacher",
+"m": [
+36,
+43
+]
+},
+{
+"w": "score",
+"ipa": "/skɔr/",
+"fa": "گل زدن، امتیاز گرفتن",
+"ex": "We play for two hours, and I score two goals!",
+"id": "score",
+"m": [
+29,
+34
+]
+},
+{
+"w": "hour",
+"ipa": "/ˈaʊɚ/",
+"fa": "ساعت (۶۰ دقیقه)",
+"ex": "We play for two hours, and I score two goals!",
+"id": "hour",
+"m": [
+16,
+21
+]
+},
+{
+"w": "grass",
+"ipa": "/ɡræs/",
+"fa": "چمن",
+"ex": "After the game, we sit on the grass and drink cold water.",
+"id": "grass",
+"m": [
+30,
+35
+]
+},
+{
+"w": "enjoy",
+"ipa": "/ˌɛnˈdʒɔɪ/",
+"fa": "لذت بردن",
+"ex": "I enjoy playing the guitar.",
+"id": "enjoy",
+"m": [
+2,
+7
+]
+},
+{
+"w": "watch",
+"ipa": "/wɑtʃ/",
+"fa": "تماشا کردن",
+"ex": "I like watching baseball.",
+"id": "watch",
+"m": [
+7,
+15
+]
+},
+{
+"w": "laugh",
+"ipa": "/læf/",
+"fa": "خندیدن",
+"ex": "Carlos laughs.",
+"id": "laugh",
+"m": [
+7,
+13
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "What do you like doing in your free time?",
+"fa": "در اوقات فراغتت دوست داری چه کار کنی؟"
+},
+{
+"id": "s2",
+"en": "I love playing soccer.",
+"fa": "عاشق فوتبال بازی کردنم."
+},
+{
+"id": "s3",
+"en": "Do you want to join?",
+"fa": "می‌خواهی به ما ملحق شوی؟"
+},
+{
+"id": "s4",
+"en": "We play for two hours.",
+"fa": "دو ساعت بازی می‌کنیم."
+},
+{
+"id": "s5",
+"en": "I enjoy playing the guitar.",
+"fa": "از گیتار زدن لذت می‌برم."
+}
+]
+}

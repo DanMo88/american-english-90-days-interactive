@@ -1,0 +1,435 @@
+{
+"day": 6,
+"level": "A1",
+"title": "At the Supermarket",
+"fa_title": "در سوپرمارکت",
+"audio": "audio/day06.mp3",
+"img": "img/day06.webp",
+"sents": [
+{
+"p": 0,
+"t": "My refrigerator is empty, so today I go to the supermarket.",
+"s": 3.35
+},
+{
+"p": 0,
+"t": "It is big, very big!",
+"s": 7.46
+},
+{
+"p": 0,
+"t": "In my country, our stores are small.",
+"s": 9.42
+},
+{
+"p": 1,
+"t": "I take a shopping cart and walk in.",
+"s": 12.23
+},
+{
+"p": 1,
+"t": "First, I go to the fruit and vegetable section.",
+"s": 14.66
+},
+{
+"p": 1,
+"t": "I put bananas, apples, carrots, and potatoes in my cart.",
+"s": 17.91
+},
+{
+"p": 1,
+"t": "Everything is fresh.",
+"s": 22.05
+},
+{
+"p": 2,
+"t": "Next, I need chicken and rice.",
+"s": 24.11
+},
+{
+"p": 2,
+"t": "The meat is at the back of the store.",
+"s": 26.66
+},
+{
+"p": 2,
+"t": "Then I look for coffee, but I can’t find it.",
+"s": 28.66
+},
+{
+"p": 3,
+"t": "“Excuse me,” I say to a worker.",
+"s": 31.85
+},
+{
+"p": 3,
+"t": "“Where is the coffee?”",
+"s": 34.1
+},
+{
+"p": 4,
+"t": "“Aisle seven, next to the tea,” he says.",
+"s": 35.96
+},
+{
+"p": 5,
+"t": "At the checkout, the cashier smiles.",
+"s": 39.03
+},
+{
+"p": 5,
+"t": "“Hi! Paper or plastic?”",
+"s": 41.29
+},
+{
+"p": 6,
+"t": "I don’t understand.",
+"s": 43.8
+},
+{
+"p": 6,
+"t": "“Sorry?”",
+"s": 45.01
+},
+{
+"p": 7,
+"t": "“Your bags. Paper bags or plastic bags?”",
+"s": 46.42
+},
+{
+"p": 8,
+"t": "“Oh! Paper, please.”",
+"s": 49.97
+},
+{
+"p": 9,
+"t": "Everything is forty-two dollars.",
+"s": 52.05
+},
+{
+"p": 9,
+"t": "That is a lot of money, but now I have food for the whole week.",
+"s": 54.4
+},
+{
+"p": 10,
+"t": "I carry the heavy bags home.",
+"s": 58.48
+},
+{
+"p": 10,
+"t": "Max waits at the door.",
+"s": 60.66
+},
+{
+"p": 10,
+"t": "He smells the chicken!",
+"s": 61.99
+}
+],
+"comp": [
+{
+"q": "Why does Sam go to the supermarket?",
+"o": [
+"Rosa is there.",
+"He works there.",
+"He wants a coffee.",
+"His refrigerator is empty."
+],
+"a": 3,
+"fa": "چرا سام به سوپرمارکت می‌رود؟"
+},
+{
+"q": "What does Sam put in his cart first?",
+"o": [
+"coffee and tea",
+"chicken and rice",
+"fruit and vegetables",
+"bread and milk"
+],
+"a": 2,
+"fa": "سام اول چه چیزهایی در چرخ خریدش می‌گذارد؟"
+},
+{
+"q": "Where is the coffee?",
+"o": [
+"in aisle eleven",
+"at the back of the store",
+"next to the rice",
+"in aisle seven"
+],
+"a": 3,
+"fa": "قهوه کجاست؟"
+},
+{
+"q": "What bags does Sam want?",
+"o": [
+"plastic bags",
+"paper bags",
+"big bags",
+"no bags"
+],
+"a": 1,
+"fa": "سام چه کیسه‌هایی می‌خواهد؟"
+},
+{
+"q": "How much is everything?",
+"o": [
+"forty-two dollars",
+"twenty-four dollars",
+"forty dollars",
+"fifty-two dollars"
+],
+"a": 0,
+"fa": "همه‌چیز روی هم چند می‌شود؟"
+},
+{
+"q": "What does Max smell?",
+"o": [
+"the coffee",
+"the bananas",
+"the chicken",
+"the bread"
+],
+"a": 2,
+"fa": "مکس بوی چه چیزی را حس می‌کند؟"
+}
+],
+"words": [
+{
+"w": "supermarket",
+"ipa": "/ˈsupɚˌmɑrkɪt/",
+"fa": "سوپرمارکت",
+"ex": "My refrigerator is empty, so today I go to the supermarket.",
+"book": 1,
+"id": "supermarket",
+"m": [
+47,
+58
+]
+},
+{
+"w": "refrigerator",
+"ipa": "/rɪˈfrɪdʒəˌreɪtɚ/",
+"fa": "یخچال",
+"ex": "My refrigerator is empty, so today I go to the supermarket.",
+"book": 1,
+"id": "refrigerator",
+"m": [
+3,
+15
+]
+},
+{
+"w": "empty",
+"ipa": "/ˈɛmpti/",
+"fa": "خالی",
+"ex": "My refrigerator is empty, so today I go to the supermarket.",
+"book": 1,
+"id": "empty",
+"m": [
+19,
+24
+]
+},
+{
+"w": "cart",
+"ipa": "/kɑrt/",
+"fa": "چرخ خرید",
+"ex": "I take a shopping cart and walk in.",
+"book": 1,
+"id": "cart",
+"m": [
+18,
+22
+]
+},
+{
+"w": "vegetable",
+"ipa": "/ˈvɛdʒtəbəl/",
+"fa": "سبزی، سبزیجات",
+"ex": "First, I go to the fruit and vegetable section.",
+"book": 1,
+"id": "vegetable",
+"m": [
+29,
+38
+]
+},
+{
+"w": "fresh",
+"ipa": "/frɛʃ/",
+"fa": "تازه",
+"ex": "Everything is fresh.",
+"book": 1,
+"id": "fresh",
+"m": [
+14,
+19
+]
+},
+{
+"w": "aisle",
+"ipa": "/aɪl/",
+"fa": "راهرو (فروشگاه)",
+"ex": "Aisle seven, next to the tea.",
+"book": 1,
+"id": "aisle",
+"m": [
+0,
+5
+]
+},
+{
+"w": "cashier",
+"ipa": "/kæˈʃɪr/",
+"fa": "صندوق‌دار",
+"ex": "At the checkout, the cashier smiles.",
+"book": 1,
+"id": "cashier",
+"m": [
+21,
+28
+]
+},
+{
+"w": "bag",
+"ipa": "/bæɡ/",
+"fa": "کیسه",
+"ex": "I carry the heavy bags home.",
+"book": 1,
+"id": "bag",
+"m": [
+18,
+22
+]
+},
+{
+"w": "heavy",
+"ipa": "/ˈhɛvi/",
+"fa": "سنگین",
+"ex": "I carry the heavy bags home.",
+"book": 1,
+"id": "heavy",
+"m": [
+12,
+17
+]
+},
+{
+"w": "section",
+"ipa": "/ˈsɛkʃən/",
+"fa": "بخش، قسمت",
+"ex": "First, I go to the fruit and vegetable section.",
+"id": "section",
+"m": [
+39,
+46
+]
+},
+{
+"w": "chicken",
+"ipa": "/ˈtʃɪkən/",
+"fa": "مرغ",
+"ex": "Next, I need chicken and rice.",
+"id": "chicken",
+"m": [
+13,
+20
+]
+},
+{
+"w": "rice",
+"ipa": "/raɪs/",
+"fa": "برنج",
+"ex": "Next, I need chicken and rice.",
+"id": "rice",
+"m": [
+25,
+29
+]
+},
+{
+"w": "meat",
+"ipa": "/mit/",
+"fa": "گوشت",
+"ex": "The meat is at the back of the store.",
+"id": "meat",
+"m": [
+4,
+8
+]
+},
+{
+"w": "worker",
+"ipa": "/ˈwɝkɚ/",
+"fa": "کارمند، کارگر",
+"ex": "“Excuse me,” I say to a worker.",
+"id": "worker",
+"m": [
+24,
+30
+]
+},
+{
+"w": "understand",
+"ipa": "/ˌʌndɚˈstænd/",
+"fa": "فهمیدن",
+"ex": "I don’t understand.",
+"id": "understand",
+"m": [
+8,
+18
+]
+},
+{
+"w": "paper",
+"ipa": "/ˈpeɪpɚ/",
+"fa": "کاغذی، کاغذ",
+"ex": "Paper bags or plastic bags?",
+"id": "paper",
+"m": [
+0,
+5
+]
+},
+{
+"w": "money",
+"ipa": "/ˈmʌni/",
+"fa": "پول",
+"ex": "That is a lot of money, but now I have food for the whole week.",
+"id": "money",
+"m": [
+17,
+22
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Where is the coffee?",
+"fa": "قهوه کجاست؟"
+},
+{
+"id": "s2",
+"en": "I don’t understand.",
+"fa": "نمی‌فهمم."
+},
+{
+"id": "s3",
+"en": "Everything is fresh.",
+"fa": "همه‌چیز تازه است."
+},
+{
+"id": "s4",
+"en": "Paper bags, please.",
+"fa": "کیسه‌ی کاغذی، لطفاً."
+},
+{
+"id": "s5",
+"en": "I carry the heavy bags home.",
+"fa": "کیسه‌های سنگین را به خانه می‌برم."
+}
+]
+}

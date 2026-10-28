@@ -1,0 +1,405 @@
+{
+"day": 29,
+"level": "A1",
+"title": "Thanksgiving Dinner",
+"fa_title": "شام شکرگزاری",
+"audio": "audio/day29.mp3",
+"img": "img/day29.webp",
+"sents": [
+{
+"p": 0,
+"t": "Thanksgiving is on the fourth Thursday in November.",
+"s": 2.53
+},
+{
+"p": 0,
+"t": "It is a very important holiday in America.",
+"s": 7.21
+},
+{
+"p": 0,
+"t": "Families say thank you for the good things in their lives.",
+"s": 10.36
+},
+{
+"p": 1,
+"t": "This year, Rosa invited me to her family’s Thanksgiving dinner.",
+"s": 14.27
+},
+{
+"p": 1,
+"t": "Danny, his wife, and their two kids came.",
+"s": 18.48
+},
+{
+"p": 1,
+"t": "Emma and Carlos came too.",
+"s": 21.51
+},
+{
+"p": 2,
+"t": "I helped in the kitchen all morning.",
+"s": 24.04
+},
+{
+"p": 2,
+"t": "Rosa cooked a big turkey in the oven for five hours.",
+"s": 26.25
+},
+{
+"p": 2,
+"t": "I made mashed potatoes.",
+"s": 29.07
+},
+{
+"p": 2,
+"t": "Carlos brought cornbread.",
+"s": 31.62
+},
+{
+"p": 2,
+"t": "Emma baked a pumpkin pie.",
+"s": 33.45
+},
+{
+"p": 3,
+"t": "At four o’clock, we all sat at the long table.",
+"s": 35.87
+},
+{
+"p": 3,
+"t": "Rosa said, “Let’s say what we are thankful for.”",
+"s": 38.87
+},
+{
+"p": 4,
+"t": "Danny’s daughter said, “I’m thankful for my puppy.” Carlos said, “I’m thankful for my students.” Then it was my turn.",
+"s": 42.5
+},
+{
+"p": 5,
+"t": "“Five months ago, I didn’t know anyone here,” I said.",
+"s": 50.29
+},
+{
+"p": 5,
+"t": "“Now I have a home, a job, and wonderful friends. I’m thankful for all of you.”",
+"s": 53.74
+},
+{
+"p": 6,
+"t": "After dinner, we watched football on TV.",
+"s": 59.31
+},
+{
+"p": 6,
+"t": "I ate too much, and I was very, very happy.",
+"s": 62.2
+}
+],
+"comp": [
+{
+"q": "When is Thanksgiving?",
+"o": [
+"on the fourth Thursday in November",
+"on November 4th",
+"on the last Friday in October",
+"on the first Monday in November"
+],
+"a": 0,
+"fa": "روز شکرگزاری کی است؟"
+},
+{
+"q": "Who invited Sam to Thanksgiving dinner?",
+"o": [
+"Emma",
+"Rosa",
+"Carlos",
+"Mr. Lee"
+],
+"a": 1,
+"fa": "چه کسی سام را به شام شکرگزاری دعوت کرد؟"
+},
+{
+"q": "How long did the turkey cook?",
+"o": [
+"two hours",
+"four hours",
+"all night",
+"five hours"
+],
+"a": 3,
+"fa": "بوقلمون چقدر در فر پخت؟"
+},
+{
+"q": "What did Sam make?",
+"o": [
+"cornbread",
+"pumpkin pie",
+"mashed potatoes",
+"green beans"
+],
+"a": 2,
+"fa": "سام چه درست کرد؟"
+},
+{
+"q": "What is Carlos thankful for?",
+"o": [
+"his puppy",
+"his students",
+"his car",
+"his garden"
+],
+"a": 1,
+"fa": "کارلوس بابت چه چیزی سپاسگزار است؟"
+},
+{
+"q": "What did they do after dinner?",
+"o": [
+"They went to bed.",
+"They played soccer.",
+"They went to the park.",
+"They watched football on TV."
+],
+"a": 3,
+"fa": "بعد از شام چه کار کردند؟"
+}
+],
+"words": [
+{
+"w": "Thanksgiving",
+"ipa": "/ˌθæŋksˈɡɪvɪŋ/",
+"fa": "روز شکرگزاری",
+"ex": "Thanksgiving is on the fourth Thursday in November.",
+"book": 1,
+"id": "thanksgiving",
+"m": [
+0,
+12
+]
+},
+{
+"w": "holiday",
+"ipa": "/ˈhɑləˌdeɪ/",
+"fa": "تعطیلات، روز تعطیل",
+"ex": "It is a very important holiday in America.",
+"book": 1,
+"id": "holiday",
+"m": [
+23,
+30
+]
+},
+{
+"w": "important",
+"ipa": "/ɪmˈpɔrtənt/",
+"fa": "مهم",
+"ex": "It is a very important holiday in America.",
+"book": 1,
+"id": "important",
+"m": [
+13,
+22
+]
+},
+{
+"w": "turkey",
+"ipa": "/ˈtɝki/",
+"fa": "بوقلمون",
+"ex": "Rosa cooked a big turkey in the oven for five hours.",
+"book": 1,
+"id": "turkey",
+"m": [
+18,
+24
+]
+},
+{
+"w": "oven",
+"ipa": "/ˈʌvən/",
+"fa": "فر",
+"ex": "Rosa cooked a big turkey in the oven for five hours.",
+"book": 1,
+"id": "oven",
+"m": [
+32,
+36
+]
+},
+{
+"w": "potato",
+"ipa": "/pəˈteɪtoʊ/",
+"fa": "سیب‌زمینی",
+"ex": "I made mashed potatoes.",
+"book": 1,
+"id": "potato",
+"m": [
+14,
+22
+]
+},
+{
+"w": "pie",
+"ipa": "/paɪ/",
+"fa": "پای (نوعی شیرینی)",
+"ex": "Emma baked a pumpkin pie.",
+"book": 1,
+"id": "pie",
+"m": [
+21,
+24
+]
+},
+{
+"w": "thankful",
+"ipa": "/ˈθæŋkfəl/",
+"fa": "سپاسگزار، شکرگزار",
+"ex": "Let’s say what we are thankful for.",
+"book": 1,
+"id": "thankful",
+"m": [
+22,
+30
+]
+},
+{
+"w": "turn",
+"ipa": "/tɝn/",
+"fa": "نوبت",
+"ex": "Then it was my turn.",
+"book": 1,
+"id": "turn",
+"m": [
+15,
+19
+]
+},
+{
+"w": "football",
+"ipa": "/ˈfʊtˌbɔl/",
+"fa": "فوتبال آمریکایی",
+"ex": "After dinner, we watched football on TV.",
+"book": 1,
+"id": "football",
+"m": [
+25,
+33
+]
+},
+{
+"w": "November",
+"ipa": "/noʊˈvɛmbɚ/",
+"fa": "نوامبر",
+"ex": "Thanksgiving is on the fourth Thursday in November.",
+"id": "november",
+"m": [
+42,
+50
+]
+},
+{
+"w": "wife",
+"ipa": "/waɪf/",
+"fa": "همسر (زن)",
+"ex": "Danny, his wife, and their two kids came.",
+"id": "wife",
+"m": [
+11,
+15
+]
+},
+{
+"w": "kid",
+"ipa": "/kɪd/",
+"fa": "بچه",
+"ex": "Danny, his wife, and their two kids came.",
+"id": "kid",
+"m": [
+31,
+35
+]
+},
+{
+"w": "daughter",
+"ipa": "/ˈdɔtɚ/",
+"fa": "دختر (فرزند)",
+"ex": "Danny’s daughter said, “I’m thankful for my puppy.”",
+"id": "daughter",
+"m": [
+8,
+16
+]
+},
+{
+"w": "puppy",
+"ipa": "/ˈpʌpi/",
+"fa": "توله‌سگ",
+"ex": "I’m thankful for my puppy.",
+"id": "puppy",
+"m": [
+20,
+25
+]
+},
+{
+"w": "ago",
+"ipa": "/əˈɡoʊ/",
+"fa": "پیش، قبل",
+"ex": "Five months ago, I didn’t know anyone here.",
+"id": "ago",
+"m": [
+12,
+15
+]
+},
+{
+"w": "anyone",
+"ipa": "/ˈɛniˌwʌn/",
+"fa": "هیچ‌کس، کسی",
+"ex": "Five months ago, I didn’t know anyone here.",
+"id": "anyone",
+"m": [
+31,
+37
+]
+},
+{
+"w": "TV",
+"ipa": "/ˈtiˈvi/",
+"fa": "تلویزیون",
+"ex": "After dinner, we watched football on TV.",
+"id": "tv",
+"m": [
+37,
+39
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "It is a very important holiday.",
+"fa": "تعطیلات خیلی مهمی است."
+},
+{
+"id": "s2",
+"en": "I helped in the kitchen all morning.",
+"fa": "تمام صبح در آشپزخانه کمک کردم."
+},
+{
+"id": "s3",
+"en": "Let’s say what we are thankful for.",
+"fa": "بیایید بگوییم بابت چه چیزی سپاسگزاریم."
+},
+{
+"id": "s4",
+"en": "Then it was my turn.",
+"fa": "بعد نوبت من شد."
+},
+{
+"id": "s5",
+"en": "I ate too much.",
+"fa": "زیادی غذا خوردم."
+}
+]
+}

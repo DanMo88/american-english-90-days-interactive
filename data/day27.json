@@ -1,0 +1,409 @@
+{
+"day": 27,
+"level": "A1",
+"title": "Rosa's Surprise Party",
+"fa_title": "جشن غافلگیری رزا",
+"audio": "audio/day27.mp3",
+"img": "img/day27.webp",
+"sents": [
+{
+"p": 0,
+"t": "Rosa’s birthday was on October 15th.",
+"s": 2.81
+},
+{
+"p": 0,
+"t": "She turned fifty!",
+"s": 7.27
+},
+{
+"p": 0,
+"t": "Her son Danny and I planned a surprise party for her.",
+"s": 8.77
+},
+{
+"p": 1,
+"t": "For two weeks, we kept it a secret.",
+"s": 12.55
+},
+{
+"p": 1,
+"t": "Danny invited all her friends and family.",
+"s": 15.0
+},
+{
+"p": 1,
+"t": "I made a big card, and everyone at the bookstore signed it.",
+"s": 18.02
+},
+{
+"p": 1,
+"t": "Lily from Maple Café baked a chocolate cake with “Happy 50th Birthday, Rosa!” on it.",
+"s": 21.82
+},
+{
+"p": 2,
+"t": "At three o’clock on her birthday, Danny took Rosa to the movies.",
+"s": 28.75
+},
+{
+"p": 2,
+"t": "Then we decorated her apartment with balloons and flowers.",
+"s": 33.01
+},
+{
+"p": 2,
+"t": "Twenty people came.",
+"s": 37.01
+},
+{
+"p": 2,
+"t": "We waited in the dark living room.",
+"s": 38.48
+},
+{
+"p": 3,
+"t": "At six o’clock, the door opened.",
+"s": 41.01
+},
+{
+"p": 3,
+"t": "The lights went on, and we all shouted, “SURPRISE!”",
+"s": 43.26
+},
+{
+"p": 4,
+"t": "Rosa put her hands on her face.",
+"s": 46.97
+},
+{
+"p": 4,
+"t": "“Oh my goodness!” she said.",
+"s": 49.29
+},
+{
+"p": 4,
+"t": "She laughed, and then she cried a little.",
+"s": 51.21
+},
+{
+"p": 5,
+"t": "We sang “Happy Birthday,” and Rosa blew out the candles.",
+"s": 53.78
+},
+{
+"p": 5,
+"t": "She opened her presents: a new coat, a book about Italy, and a photo album.",
+"s": 57.72
+},
+{
+"p": 5,
+"t": "I gave her a painting of Max.",
+"s": 62.63
+},
+{
+"p": 5,
+"t": "Emma painted it!",
+"s": 64.64
+},
+{
+"p": 6,
+"t": "“This is the best birthday of my life,” Rosa said.",
+"s": 66.34
+}
+],
+"comp": [
+{
+"q": "When was Rosa’s birthday?",
+"o": [
+"October 5th",
+"October 15th",
+"November 15th",
+"October 25th"
+],
+"a": 1,
+"fa": "تولد رزا کی بود؟"
+},
+{
+"q": "How old was Rosa?",
+"o": [
+"forty",
+"fifteen",
+"fifty-five",
+"fifty"
+],
+"a": 3,
+"fa": "رزا چند ساله شد؟"
+},
+{
+"q": "Who baked the cake?",
+"o": [
+"Lily",
+"Sam",
+"Danny",
+"Emma"
+],
+"a": 0,
+"fa": "چه کسی کیک را پخت؟"
+},
+{
+"q": "Where did Danny take Rosa?",
+"o": [
+"to a restaurant",
+"to the park",
+"to the mall",
+"to the movies"
+],
+"a": 3,
+"fa": "دنی رزا را کجا برد؟"
+},
+{
+"q": "How many people came to the party?",
+"o": [
+"ten",
+"twenty",
+"thirty",
+"twelve"
+],
+"a": 1,
+"fa": "چند نفر به جشن آمدند؟"
+},
+{
+"q": "What did Sam give Rosa?",
+"o": [
+"a new coat",
+"a book about Italy",
+"a painting of Max",
+"a photo album"
+],
+"a": 2,
+"fa": "سام به رزا چه داد؟"
+}
+],
+"words": [
+{
+"w": "surprise",
+"ipa": "/sɚˈpraɪz/",
+"fa": "غافلگیری، سورپرایز",
+"ex": "Her son Danny and I planned a surprise party for her.",
+"book": 1,
+"id": "surprise",
+"m": [
+30,
+38
+]
+},
+{
+"w": "party",
+"ipa": "/ˈpɑrti/",
+"fa": "جشن، مهمانی",
+"ex": "Her son Danny and I planned a surprise party for her.",
+"book": 1,
+"id": "party",
+"m": [
+39,
+44
+]
+},
+{
+"w": "secret",
+"ipa": "/ˈsikrɪt/",
+"fa": "راز",
+"ex": "For two weeks, we kept it a secret.",
+"book": 1,
+"id": "secret",
+"m": [
+28,
+34
+]
+},
+{
+"w": "sign",
+"ipa": "/saɪn/",
+"fa": "امضا کردن",
+"ex": "I made a big card, and everyone at the bookstore signed it.",
+"book": 1,
+"id": "sign",
+"m": [
+49,
+55
+]
+},
+{
+"w": "bake",
+"ipa": "/beɪk/",
+"fa": "پختن (در فر)",
+"ex": "Lily from Maple Café baked a chocolate cake with “Happy 50th Birthday, Rosa!”",
+"book": 1,
+"id": "bake",
+"m": [
+21,
+26
+]
+},
+{
+"w": "balloon",
+"ipa": "/bəˈlun/",
+"fa": "بادکنک",
+"ex": "Then we decorated her apartment with balloons and flowers.",
+"book": 1,
+"id": "balloon",
+"m": [
+37,
+45
+]
+},
+{
+"w": "decorate",
+"ipa": "/ˈdɛkəˌreɪt/",
+"fa": "تزئین کردن",
+"ex": "Then we decorated her apartment with balloons and flowers.",
+"book": 1,
+"id": "decorate",
+"m": [
+8,
+17
+]
+},
+{
+"w": "shout",
+"ipa": "/ʃaʊt/",
+"fa": "فریاد زدن",
+"ex": "Don’t shout! The baby is sleeping.",
+"book": 1,
+"id": "shout",
+"m": [
+6,
+11
+]
+},
+{
+"w": "candle",
+"ipa": "/ˈkændəl/",
+"fa": "شمع",
+"ex": "We sang “Happy Birthday,” and Rosa blew out the candles.",
+"book": 1,
+"id": "candle",
+"m": [
+48,
+55
+]
+},
+{
+"w": "present",
+"ipa": "/ˈprɛzənt/",
+"fa": "هدیه، کادو",
+"ex": "She opened her presents: a new coat, a book about Italy, and a photo album.",
+"book": 1,
+"id": "present",
+"m": [
+15,
+23
+]
+},
+{
+"w": "keep",
+"ipa": "/kip/",
+"fa": "نگه داشتن",
+"ex": "For two weeks, we kept it a secret.",
+"id": "keep",
+"m": [
+18,
+22
+]
+},
+{
+"w": "cake",
+"ipa": "/keɪk/",
+"fa": "کیک",
+"ex": "Lily from Maple Café baked a chocolate cake with “Happy 50th Birthday, Rosa!”",
+"id": "cake",
+"m": [
+39,
+43
+]
+},
+{
+"w": "oh my goodness",
+"ipa": "/oʊ maɪ ˈɡʊdnəs/",
+"fa": "وای خدای من!",
+"ex": "Oh my goodness!",
+"id": "oh-my-goodness",
+"m": [
+0,
+14
+]
+},
+{
+"w": "blow out",
+"ipa": "/bloʊ aʊt/",
+"fa": "فوت کردن (شمع)",
+"ex": "We sang “Happy Birthday,” and Rosa blew out the candles.",
+"id": "blow-out",
+"m": [
+35,
+43
+]
+},
+{
+"w": "album",
+"ipa": "/ˈælbəm/",
+"fa": "آلبوم",
+"ex": "She opened her presents: a new coat, a book about Italy, and a photo album.",
+"id": "album",
+"m": [
+69,
+74
+]
+},
+{
+"w": "painting",
+"ipa": "/ˈpeɪntɪŋ/",
+"fa": "نقاشی، تابلو",
+"ex": "I gave her a painting of Max.",
+"id": "painting",
+"m": [
+13,
+21
+]
+},
+{
+"w": "best",
+"ipa": "/bɛst/",
+"fa": "بهترین",
+"ex": "This is the best birthday of my life.",
+"id": "best",
+"m": [
+12,
+16
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "We kept it a secret.",
+"fa": "آن را مخفی نگه داشتیم."
+},
+{
+"id": "s2",
+"en": "Everyone at the bookstore signed it.",
+"fa": "همه در کتاب‌فروشی امضایش کردند."
+},
+{
+"id": "s3",
+"en": "We waited in the dark living room.",
+"fa": "در اتاق نشیمنِ تاریک منتظر ماندیم."
+},
+{
+"id": "s4",
+"en": "Rosa blew out the candles.",
+"fa": "رزا شمع‌ها را فوت کرد."
+},
+{
+"id": "s5",
+"en": "This is the best birthday of my life.",
+"fa": "این بهترین تولد زندگی من است."
+}
+]
+}

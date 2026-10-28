@@ -1,0 +1,421 @@
+{
+"day": 23,
+"level": "A1",
+"title": "Saturday at the Farmers Market",
+"fa_title": "شنبه در بازار کشاورزان",
+"audio": "audio/day23.mp3",
+"img": "img/day23.webp",
+"sents": [
+{
+"p": 0,
+"t": "I love Saturdays.",
+"s": 3.15
+},
+{
+"p": 0,
+"t": "I don’t work, and I like waking up late.",
+"s": 6.3
+},
+{
+"p": 0,
+"t": "But today I get up early, because Rosa and I want to go to the farmers market.",
+"s": 8.96
+},
+{
+"p": 1,
+"t": "The market is in the town square every Saturday from eight to one.",
+"s": 14.17
+},
+{
+"p": 1,
+"t": "Farmers from near Oakville sell their food there.",
+"s": 18.18
+},
+{
+"p": 1,
+"t": "There are tomatoes, corn, peaches, honey, fresh flowers, and homemade bread.",
+"s": 21.15
+},
+{
+"p": 2,
+"t": "“Everything here is local,” Rosa says.",
+"s": 27.34
+},
+{
+"p": 2,
+"t": "“It comes from farms near Oakville.”",
+"s": 30.19
+},
+{
+"p": 3,
+"t": "A farmer gives me a piece of a peach.",
+"s": 32.81
+},
+{
+"p": 3,
+"t": "It is sweet and juicy.",
+"s": 34.85
+},
+{
+"p": 3,
+"t": "“Three dollars a pound,” she says.",
+"s": 36.93
+},
+{
+"p": 4,
+"t": "Rosa buys honey and sunflowers.",
+"s": 39.63
+},
+{
+"p": 4,
+"t": "I buy tomatoes, corn, and bread.",
+"s": 42.23
+},
+{
+"p": 4,
+"t": "A man plays music on a banjo, and some children dance.",
+"s": 44.83
+},
+{
+"p": 5,
+"t": "Max likes walking around the market.",
+"s": 48.97
+},
+{
+"p": 5,
+"t": "One little girl gives him a piece of cheese.",
+"s": 51.56
+},
+{
+"p": 6,
+"t": "At noon, we sit on a bench and eat fresh strawberries.",
+"s": 54.48
+},
+{
+"p": 6,
+"t": "“Do you like the farmers market?” Rosa asks.",
+"s": 57.98
+},
+{
+"p": 7,
+"t": "“I love it! Now I know my plan for every Saturday!”",
+"s": 61.56
+}
+],
+"comp": [
+{
+"q": "When is the farmers market?",
+"o": [
+"every Sunday morning",
+"every Saturday from eight to one",
+"every day",
+"on Friday evenings"
+],
+"a": 1,
+"fa": "بازار کشاورزان کی برگزار می‌شود؟"
+},
+{
+"q": "Where is the market?",
+"o": [
+"in the town square",
+"in the park",
+"on Elm Street",
+"at the mall"
+],
+"a": 0,
+"fa": "بازار کجاست؟"
+},
+{
+"q": "How much are the peaches?",
+"o": [
+"two dollars a pound",
+"three dollars each",
+"two pounds for a dollar",
+"three dollars a pound"
+],
+"a": 3,
+"fa": "هلوها چند است؟"
+},
+{
+"q": "What does Rosa buy?",
+"o": [
+"peaches and corn",
+"bread and tomatoes",
+"honey and sunflowers",
+"strawberries"
+],
+"a": 2,
+"fa": "رزا چه می‌خرد؟"
+},
+{
+"q": "What does the little girl give Max?",
+"o": [
+"a hot dog",
+"a peach",
+"some bread",
+"a piece of cheese"
+],
+"a": 3,
+"fa": "دختر کوچک به مکس چه می‌دهد؟"
+},
+{
+"q": "What do Sam and Rosa eat on the bench?",
+"o": [
+"peaches",
+"fresh strawberries",
+"bread and honey",
+"corn"
+],
+"a": 1,
+"fa": "سام و رزا روی نیمکت چه می‌خورند؟"
+}
+],
+"words": [
+{
+"w": "farm",
+"ipa": "/fɑrm/",
+"fa": "مزرعه",
+"ex": "It comes from farms near Oakville.",
+"book": 1,
+"id": "farm",
+"m": [
+14,
+19
+]
+},
+{
+"w": "square",
+"ipa": "/skwɛr/",
+"fa": "میدان",
+"ex": "The market is in the town square every Saturday from eight to one.",
+"book": 1,
+"id": "square",
+"m": [
+26,
+32
+]
+},
+{
+"w": "tomato",
+"ipa": "/təˈmeɪtoʊ/",
+"fa": "گوجه‌فرنگی",
+"ex": "I buy tomatoes, corn, and bread.",
+"book": 1,
+"id": "tomato",
+"m": [
+6,
+14
+]
+},
+{
+"w": "peach",
+"ipa": "/pitʃ/",
+"fa": "هلو",
+"ex": "A farmer gives me a piece of a peach.",
+"book": 1,
+"id": "peach",
+"m": [
+31,
+36
+]
+},
+{
+"w": "honey",
+"ipa": "/ˈhʌni/",
+"fa": "عسل",
+"ex": "There are tomatoes, corn, peaches, honey, fresh flowers, and homemade bread.",
+"book": 1,
+"id": "honey",
+"m": [
+35,
+40
+]
+},
+{
+"w": "flower",
+"ipa": "/ˈflaʊɚ/",
+"fa": "گل",
+"ex": "There are tomatoes, corn, peaches, honey, fresh flowers, and homemade bread.",
+"book": 1,
+"id": "flower",
+"m": [
+48,
+55
+]
+},
+{
+"w": "local",
+"ipa": "/ˈloʊkəl/",
+"fa": "محلی",
+"ex": "Everything here is local.",
+"book": 1,
+"id": "local",
+"m": [
+19,
+24
+]
+},
+{
+"w": "piece",
+"ipa": "/pis/",
+"fa": "تکه",
+"ex": "A farmer gives me a piece of a peach.",
+"book": 1,
+"id": "piece",
+"m": [
+20,
+25
+]
+},
+{
+"w": "music",
+"ipa": "/ˈmjuzɪk/",
+"fa": "موسیقی",
+"ex": "A man plays music on a banjo, and some children dance.",
+"book": 1,
+"id": "music",
+"m": [
+12,
+17
+]
+},
+{
+"w": "bench",
+"ipa": "/bɛntʃ/",
+"fa": "نیمکت",
+"ex": "At noon, we sit on a bench and eat fresh strawberries.",
+"book": 1,
+"id": "bench",
+"m": [
+21,
+26
+]
+},
+{
+"w": "late",
+"ipa": "/leɪt/",
+"fa": "دیر",
+"ex": "I don’t work, and I like waking up late.",
+"id": "late",
+"m": [
+35,
+39
+]
+},
+{
+"w": "get up",
+"ipa": "/ɡɛt ʌp/",
+"fa": "از خواب بلند شدن",
+"ex": "Today I get up early, because Rosa and I want to go to the farmers market.",
+"id": "get-up",
+"m": [
+8,
+14
+]
+},
+{
+"w": "market",
+"ipa": "/ˈmɑrkət/",
+"fa": "بازار",
+"ex": "Max likes walking around the market.",
+"id": "market",
+"m": [
+29,
+35
+]
+},
+{
+"w": "farmer",
+"ipa": "/ˈfɑrmɚ/",
+"fa": "کشاورز",
+"ex": "Farmers from near Oakville sell their food there.",
+"id": "farmer",
+"m": [
+0,
+7
+]
+},
+{
+"w": "homemade",
+"ipa": "/ˈhoʊmˈmeɪd/",
+"fa": "خانگی",
+"ex": "There are tomatoes, corn, peaches, honey, fresh flowers, and homemade bread.",
+"id": "homemade",
+"m": [
+61,
+69
+]
+},
+{
+"w": "juicy",
+"ipa": "/ˈdʒusi/",
+"fa": "آبدار",
+"ex": "It is sweet and juicy.",
+"id": "juicy",
+"m": [
+16,
+21
+]
+},
+{
+"w": "sunflower",
+"ipa": "/ˈsʌnˌflaʊɚ/",
+"fa": "گل آفتابگردان",
+"ex": "Rosa buys honey and sunflowers.",
+"id": "sunflower",
+"m": [
+20,
+30
+]
+},
+{
+"w": "dance",
+"ipa": "/dæns/",
+"fa": "رقصیدن",
+"ex": "A man plays music on a banjo, and some children dance.",
+"id": "dance",
+"m": [
+48,
+53
+]
+},
+{
+"w": "strawberry",
+"ipa": "/ˈstrɔˌbɛri/",
+"fa": "توت‌فرنگی",
+"ex": "At noon, we sit on a bench and eat fresh strawberries.",
+"id": "strawberry",
+"m": [
+41,
+53
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I like waking up late.",
+"fa": "دوست دارم دیر از خواب بیدار شوم."
+},
+{
+"id": "s2",
+"en": "Everything here is local.",
+"fa": "اینجا همه‌چیز محلی است."
+},
+{
+"id": "s3",
+"en": "It is sweet and juicy.",
+"fa": "شیرین و آبدار است."
+},
+{
+"id": "s4",
+"en": "Three dollars a pound.",
+"fa": "پوندی سه دلار."
+},
+{
+"id": "s5",
+"en": "Do you like the farmers market?",
+"fa": "بازار کشاورزان را دوست داری؟"
+}
+]
+}

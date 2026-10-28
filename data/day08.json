@@ -1,0 +1,430 @@
+{
+"day": 8,
+"level": "A1",
+"title": "What Time Is It?",
+"fa_title": "ساعت چند است؟",
+"audio": "audio/day08.mp3",
+"img": "img/day08.webp",
+"sents": [
+{
+"p": 0,
+"t": "It is Friday.",
+"s": 2.97
+},
+{
+"p": 0,
+"t": "My interview is at ten thirty, but I am awake at five o’clock!",
+"s": 4.23
+},
+{
+"p": 0,
+"t": "I am too nervous to sleep.",
+"s": 8.17
+},
+{
+"p": 1,
+"t": "At six fifteen, I take a shower.",
+"s": 10.51
+},
+{
+"p": 1,
+"t": "At seven, I eat toast and an egg.",
+"s": 13.13
+},
+{
+"p": 1,
+"t": "At seven thirty, I put on my best shirt.",
+"s": 15.99
+},
+{
+"p": 1,
+"t": "Then I look at the clock.",
+"s": 18.61
+},
+{
+"p": 1,
+"t": "It is only seven forty-five!",
+"s": 20.07
+},
+{
+"p": 2,
+"t": "I practice my answers: “My name is Sam. I love books. I can work on weekends.”",
+"s": 22.66
+},
+{
+"p": 3,
+"t": "At nine o’clock, I leave my apartment.",
+"s": 28.67
+},
+{
+"p": 3,
+"t": "The bookstore is a twenty-minute walk from my home, so I am early.",
+"s": 31.33
+},
+{
+"p": 3,
+"t": "I wait at Maple Café.",
+"s": 35.63
+},
+{
+"p": 3,
+"t": "Lily gives me a small coffee.",
+"s": 37.47
+},
+{
+"p": 3,
+"t": "“Good luck, Sam!”",
+"s": 39.8
+},
+{
+"p": 4,
+"t": "At ten twenty-five, I open the door of the bookstore.",
+"s": 41.52
+},
+{
+"p": 4,
+"t": "Mr. Lee is a tall man with a kind face.",
+"s": 44.77
+},
+{
+"p": 4,
+"t": "“You are right on time,” he says.",
+"s": 48.17
+},
+{
+"p": 5,
+"t": "The interview is thirty minutes long.",
+"s": 51.09
+},
+{
+"p": 5,
+"t": "Mr. Lee asks many questions, and I answer them all.",
+"s": 53.47
+},
+{
+"p": 6,
+"t": "At eleven o’clock, he shakes my hand.",
+"s": 57.48
+},
+{
+"p": 6,
+"t": "“Can you start on Monday at nine?”",
+"s": 60.1
+},
+{
+"p": 7,
+"t": "“Yes, I can!” I say.",
+"s": 62.52
+},
+{
+"p": 7,
+"t": "I have a job!",
+"s": 63.99
+}
+],
+"comp": [
+{
+"q": "What time is the interview?",
+"o": [
+"at ten o’clock",
+"at ten thirty",
+"at eleven thirty",
+"at nine o’clock"
+],
+"a": 1,
+"fa": "مصاحبه ساعت چند است؟"
+},
+{
+"q": "Why is Sam awake at five o’clock?",
+"o": [
+"He is nervous.",
+"Max is barking.",
+"He works early.",
+"His phone rings."
+],
+"a": 0,
+"fa": "چرا سام ساعت پنج بیدار است؟"
+},
+{
+"q": "What does Sam eat for breakfast?",
+"o": [
+"pancakes",
+"a muffin",
+"toast and an egg",
+"fruit"
+],
+"a": 2,
+"fa": "سام برای صبحانه چه می‌خورد؟"
+},
+{
+"q": "How long is the walk to the bookstore?",
+"o": [
+"ten minutes",
+"thirty minutes",
+"one hour",
+"twenty minutes"
+],
+"a": 3,
+"fa": "پیاده‌روی تا کتاب‌فروشی چقدر طول می‌کشد؟"
+},
+{
+"q": "Who gives Sam a coffee?",
+"o": [
+"Rosa",
+"Mr. Lee",
+"Lily",
+"his sister"
+],
+"a": 2,
+"fa": "چه کسی به سام قهوه می‌دهد؟"
+},
+{
+"q": "When does Sam start his new job?",
+"o": [
+"on Monday at nine",
+"on Friday at ten",
+"on Saturday",
+"on Monday at eleven"
+],
+"a": 0,
+"fa": "سام کی کار جدیدش را شروع می‌کند؟"
+}
+],
+"words": [
+{
+"w": "awake",
+"ipa": "/əˈweɪk/",
+"fa": "بیدار",
+"ex": "My interview is at ten thirty, but I am awake at five o’clock!",
+"book": 1,
+"id": "awake",
+"m": [
+40,
+45
+]
+},
+{
+"w": "shower",
+"ipa": "/ˈʃaʊɚ/",
+"fa": "دوش",
+"ex": "At six fifteen, I take a shower.",
+"book": 1,
+"id": "shower",
+"m": [
+25,
+31
+]
+},
+{
+"w": "clock",
+"ipa": "/klɑk/",
+"fa": "ساعت (دیواری)",
+"ex": "At nine o’clock, I leave my apartment.",
+"book": 1,
+"id": "clock",
+"m": [
+10,
+15
+]
+},
+{
+"w": "minute",
+"ipa": "/ˈmɪnɪt/",
+"fa": "دقیقه",
+"ex": "The interview is thirty minutes long.",
+"book": 1,
+"id": "minute",
+"m": [
+24,
+31
+]
+},
+{
+"w": "early",
+"ipa": "/ˈɝli/",
+"fa": "زود",
+"ex": "The bookstore is a twenty-minute walk from my home, so I am early.",
+"book": 1,
+"id": "early",
+"m": [
+60,
+65
+]
+},
+{
+"w": "leave",
+"ipa": "/liv/",
+"fa": "ترک کردن، بیرون رفتن",
+"ex": "At nine o’clock, I leave my apartment.",
+"book": 1,
+"id": "leave",
+"m": [
+19,
+24
+]
+},
+{
+"w": "luck",
+"ipa": "/lʌk/",
+"fa": "شانس",
+"ex": "Good luck, Sam!",
+"book": 1,
+"id": "luck",
+"m": [
+5,
+9
+]
+},
+{
+"w": "answer",
+"ipa": "/ˈænsɚ/",
+"fa": "جواب دادن، جواب",
+"ex": "Mr. Lee asks many questions, and I answer them all.",
+"book": 1,
+"id": "answer",
+"m": [
+35,
+41
+]
+},
+{
+"w": "question",
+"ipa": "/ˈkwɛstʃən/",
+"fa": "سؤال",
+"ex": "Mr. Lee asks many questions, and I answer them all.",
+"book": 1,
+"id": "question",
+"m": [
+18,
+27
+]
+},
+{
+"w": "start",
+"ipa": "/stɑrt/",
+"fa": "شروع کردن",
+"ex": "Can you start on Monday at nine?",
+"book": 1,
+"id": "start",
+"m": [
+8,
+13
+]
+},
+{
+"w": "sleep",
+"ipa": "/slip/",
+"fa": "خوابیدن",
+"ex": "I am too nervous to sleep.",
+"id": "sleep",
+"m": [
+20,
+25
+]
+},
+{
+"w": "toast",
+"ipa": "/toʊst/",
+"fa": "نان تُست",
+"ex": "At seven, I eat toast and an egg.",
+"id": "toast",
+"m": [
+16,
+21
+]
+},
+{
+"w": "shirt",
+"ipa": "/ʃɝt/",
+"fa": "پیراهن",
+"ex": "At seven thirty, I put on my best shirt.",
+"id": "shirt",
+"m": [
+34,
+39
+]
+},
+{
+"w": "weekend",
+"ipa": "/ˈwiˌkɛnd/",
+"fa": "آخر هفته",
+"ex": "I can work on weekends.",
+"id": "weekend",
+"m": [
+14,
+22
+]
+},
+{
+"w": "wait",
+"ipa": "/weɪt/",
+"fa": "منتظر ماندن",
+"ex": "I wait at Maple Café.",
+"id": "wait",
+"m": [
+2,
+6
+]
+},
+{
+"w": "tall",
+"ipa": "/tɔl/",
+"fa": "قدبلند",
+"ex": "Mr. Lee is a tall man with a kind face.",
+"id": "tall",
+"m": [
+13,
+17
+]
+},
+{
+"w": "kind",
+"ipa": "/kaɪnd/",
+"fa": "مهربان",
+"ex": "Mr. Lee is a tall man with a kind face.",
+"id": "kind",
+"m": [
+29,
+33
+]
+},
+{
+"w": "hand",
+"ipa": "/hænd/",
+"fa": "دست",
+"ex": "At eleven o’clock, he shakes my hand.",
+"id": "hand",
+"m": [
+32,
+36
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "What time is it?",
+"fa": "ساعت چند است؟"
+},
+{
+"id": "s2",
+"en": "I am too nervous to sleep.",
+"fa": "آن‌قدر مضطربم که خوابم نمی‌برد."
+},
+{
+"id": "s3",
+"en": "I can work on weekends.",
+"fa": "می‌توانم آخر هفته‌ها کار کنم."
+},
+{
+"id": "s4",
+"en": "You are right on time.",
+"fa": "درست سرِ وقت آمدی."
+},
+{
+"id": "s5",
+"en": "Can you start on Monday?",
+"fa": "می‌توانی دوشنبه شروع کنی؟"
+}
+]
+}

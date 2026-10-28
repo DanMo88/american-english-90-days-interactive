@@ -1,0 +1,405 @@
+{
+"day": 26,
+"level": "A1",
+"title": "Autumn in Oakville",
+"fa_title": "پاییز در اوک‌ویل",
+"audio": "audio/day26.mp3",
+"img": "img/day26.webp",
+"sents": [
+{
+"p": 0,
+"t": "Summer is over.",
+"s": 2.41
+},
+{
+"p": 0,
+"t": "Now it is October, and Oakville looks different.",
+"s": 5.14
+},
+{
+"p": 0,
+"t": "The leaves on the trees on Maple Street are red, orange, and yellow.",
+"s": 8.34
+},
+{
+"p": 0,
+"t": "Now I understand the name of my street!",
+"s": 12.89
+},
+{
+"p": 1,
+"t": "Last week, the weather changed.",
+"s": 15.77
+},
+{
+"p": 1,
+"t": "On Monday, it was warm and sunny.",
+"s": 17.84
+},
+{
+"p": 1,
+"t": "On Tuesday, it was cold and windy.",
+"s": 20.44
+},
+{
+"p": 1,
+"t": "On Wednesday morning, it was only forty degrees!",
+"s": 23.35
+},
+{
+"p": 1,
+"t": "I didn’t have a warm coat, so I bought a jacket, a scarf, and gloves.",
+"s": 26.31
+},
+{
+"p": 2,
+"t": "On Saturday, Carlos drove Emma and me to an apple farm outside town.",
+"s": 31.08
+},
+{
+"p": 2,
+"t": "We picked apples and drank hot apple cider.",
+"s": 36.26
+},
+{
+"p": 2,
+"t": "I also chose a big orange pumpkin for my apartment.",
+"s": 39.58
+},
+{
+"p": 3,
+"t": "In the evening, I raked the leaves in front of our building with Rosa.",
+"s": 43.41
+},
+{
+"p": 3,
+"t": "Max jumped into the big pile of leaves again and again.",
+"s": 47.76
+},
+{
+"p": 4,
+"t": "My mother called me on Sunday.",
+"s": 51.83
+},
+{
+"p": 4,
+"t": "“Is it cold in America?” she asked.",
+"s": 53.91
+},
+{
+"p": 5,
+"t": "“Yes, a little,” I said.",
+"s": 56.97
+},
+{
+"p": 5,
+"t": "“But autumn here is beautiful. Americans call it ’fall,’ because the leaves fall from the trees.”",
+"s": 58.96
+}
+],
+"comp": [
+{
+"q": "What month is it?",
+"o": [
+"September",
+"October",
+"November",
+"July"
+],
+"a": 1,
+"fa": "چه ماهی است؟"
+},
+{
+"q": "What color are the leaves on Maple Street?",
+"o": [
+"red and green",
+"green and yellow",
+"brown",
+"red, orange, and yellow"
+],
+"a": 3,
+"fa": "برگ‌های خیابان میپل چه رنگی‌اند؟"
+},
+{
+"q": "How cold was it on Wednesday morning?",
+"o": [
+"four degrees",
+"fourteen degrees",
+"forty degrees",
+"zero degrees"
+],
+"a": 2,
+"fa": "چهارشنبه صبح هوا چقدر سرد بود؟"
+},
+{
+"q": "What did Sam buy?",
+"o": [
+"a coat and boots",
+"a hat and a sweater",
+"gloves only",
+"a jacket, a scarf, and gloves"
+],
+"a": 3,
+"fa": "سام چه خرید؟"
+},
+{
+"q": "What did they drink at the apple farm?",
+"o": [
+"hot apple cider",
+"coffee",
+"hot chocolate",
+"lemonade"
+],
+"a": 0,
+"fa": "آن‌ها در باغ سیب چه نوشیدند؟"
+},
+{
+"q": "Why do Americans call autumn “fall”?",
+"o": [
+"because it is cold",
+"because people fall in the leaves",
+"because the leaves fall from the trees",
+"because of Halloween"
+],
+"a": 2,
+"fa": "چرا آمریکایی‌ها به پاییز «fall» می‌گویند؟"
+}
+],
+"words": [
+{
+"w": "autumn",
+"ipa": "/ˈɔtəm/",
+"fa": "پاییز",
+"ex": "Autumn here is beautiful.",
+"book": 1,
+"id": "autumn",
+"m": [
+0,
+6
+]
+},
+{
+"w": "fall",
+"ipa": "/fɔl/",
+"fa": "پاییز؛ افتادن",
+"ex": "Americans call it ’fall,’ because the leaves fall from the trees.",
+"book": 1,
+"id": "fall",
+"m": [
+19,
+23
+]
+},
+{
+"w": "leaf",
+"ipa": "/lif/",
+"fa": "برگ",
+"ex": "Max jumped into the big pile of leaves again and again.",
+"book": 1,
+"id": "leaf",
+"m": [
+32,
+38
+]
+},
+{
+"w": "warm",
+"ipa": "/wɔrm/",
+"fa": "گرم، ملایم",
+"ex": "On Monday, it was warm and sunny.",
+"book": 1,
+"id": "warm",
+"m": [
+18,
+22
+]
+},
+{
+"w": "jacket",
+"ipa": "/ˈdʒækɪt/",
+"fa": "کاپشن، ژاکت",
+"ex": "I didn’t have a warm coat, so I bought a jacket, a scarf, and gloves.",
+"book": 1,
+"id": "jacket",
+"m": [
+41,
+47
+]
+},
+{
+"w": "scarf",
+"ipa": "/skɑrf/",
+"fa": "شال‌گردن",
+"ex": "I didn’t have a warm coat, so I bought a jacket, a scarf, and gloves.",
+"book": 1,
+"id": "scarf",
+"m": [
+51,
+56
+]
+},
+{
+"w": "gloves",
+"ipa": "/ɡlʌvz/",
+"fa": "دستکش",
+"ex": "I didn’t have a warm coat, so I bought a jacket, a scarf, and gloves.",
+"book": 1,
+"id": "gloves",
+"m": [
+62,
+68
+]
+},
+{
+"w": "pick",
+"ipa": "/pɪk/",
+"fa": "چیدن",
+"ex": "We picked apples and drank hot apple cider.",
+"book": 1,
+"id": "pick",
+"m": [
+3,
+9
+]
+},
+{
+"w": "pumpkin",
+"ipa": "/ˈpʌmpkɪn/",
+"fa": "کدو تنبل",
+"ex": "I also chose a big orange pumpkin for my apartment.",
+"book": 1,
+"id": "pumpkin",
+"m": [
+26,
+33
+]
+},
+{
+"w": "rake",
+"ipa": "/reɪk/",
+"fa": "جمع کردن (با شن‌کش)",
+"ex": "In the evening, I raked the leaves in front of our building with Rosa.",
+"book": 1,
+"id": "rake",
+"m": [
+18,
+23
+]
+},
+{
+"w": "over",
+"ipa": "/ˈoʊvɚ/",
+"fa": "تمام‌شده",
+"ex": "Summer is over.",
+"id": "over",
+"m": [
+10,
+14
+]
+},
+{
+"w": "October",
+"ipa": "/ɑkˈtoʊbɚ/",
+"fa": "اکتبر",
+"ex": "Now it is October, and Oakville looks different.",
+"id": "october",
+"m": [
+10,
+17
+]
+},
+{
+"w": "different",
+"ipa": "/ˈdɪfɚənt/",
+"fa": "متفاوت",
+"ex": "Now it is October, and Oakville looks different.",
+"id": "different",
+"m": [
+38,
+47
+]
+},
+{
+"w": "change",
+"ipa": "/tʃeɪndʒ/",
+"fa": "تغییر کردن، عوض شدن",
+"ex": "Last week, the weather changed.",
+"id": "change",
+"m": [
+23,
+30
+]
+},
+{
+"w": "windy",
+"ipa": "/ˈwɪndi/",
+"fa": "پرباد، بادی",
+"ex": "On Tuesday, it was cold and windy.",
+"id": "windy",
+"m": [
+28,
+33
+]
+},
+{
+"w": "coat",
+"ipa": "/koʊt/",
+"fa": "پالتو، کت",
+"ex": "I didn’t have a warm coat, so I bought a jacket, a scarf, and gloves.",
+"id": "coat",
+"m": [
+21,
+25
+]
+},
+{
+"w": "drive",
+"ipa": "/draɪv/",
+"fa": "با ماشین بردن، رانندگی کردن",
+"ex": "On Saturday, Carlos drove Emma and me to an apple farm outside town.",
+"id": "drive",
+"m": [
+20,
+25
+]
+},
+{
+"w": "pile",
+"ipa": "/paɪl/",
+"fa": "کُپه، توده",
+"ex": "Max jumped into the big pile of leaves again and again.",
+"id": "pile",
+"m": [
+24,
+28
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Summer is over.",
+"fa": "تابستان تمام شده."
+},
+{
+"id": "s2",
+"en": "Oakville looks different.",
+"fa": "اوک‌ویل متفاوت به نظر می‌رسد."
+},
+{
+"id": "s3",
+"en": "The weather changed.",
+"fa": "هوا عوض شد."
+},
+{
+"id": "s4",
+"en": "It was cold and windy.",
+"fa": "هوا سرد و پرباد بود."
+},
+{
+"id": "s5",
+"en": "We picked apples.",
+"fa": "سیب چیدیم."
+}
+]
+}

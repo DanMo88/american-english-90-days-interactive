@@ -1,0 +1,405 @@
+{
+"day": 9,
+"level": "A1",
+"title": "Excuse Me, Where Is the Library?",
+"fa_title": "ببخشید، کتابخانه کجاست؟",
+"audio": "audio/day09.mp3",
+"img": "img/day09.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Sunday, I want to find the Oakville Library.",
+"s": 4.25
+},
+{
+"p": 0,
+"t": "I want to read books in English.",
+"s": 7.45
+},
+{
+"p": 0,
+"t": "I have a map on my phone, but my phone has no battery.",
+"s": 9.72
+},
+{
+"p": 1,
+"t": "I stop a woman on the street.",
+"s": 13.68
+},
+{
+"p": 1,
+"t": "“Excuse me. Where is the library?”",
+"s": 15.53
+},
+{
+"p": 2,
+"t": "“It is not far,” she says.",
+"s": 18.65
+},
+{
+"p": 2,
+"t": "“Go straight on Main Street. Turn left at the bank. Then walk two blocks. The library is on the right, across from the post office. It is a big white building between a school and a small park.”",
+"s": 20.73
+},
+{
+"p": 3,
+"t": "“Straight, left at the bank, two blocks, on the right. Thank you!”",
+"s": 33.76
+},
+{
+"p": 4,
+"t": "I walk straight and turn left at the bank.",
+"s": 38.21
+},
+{
+"p": 4,
+"t": "After two blocks, I see the post office on the left and a big white building on the right.",
+"s": 41.15
+},
+{
+"p": 4,
+"t": "It is the library!",
+"s": 46.53
+},
+{
+"p": 5,
+"t": "Inside, it is quiet.",
+"s": 48.49
+},
+{
+"p": 5,
+"t": "A librarian helps me.",
+"s": 50.51
+},
+{
+"p": 5,
+"t": "I fill out a form, and in five minutes, I have a library card.",
+"s": 52.31
+},
+{
+"p": 5,
+"t": "It is free!",
+"s": 56.07
+},
+{
+"p": 5,
+"t": "Today I take home three books and two movies.",
+"s": 57.2
+},
+{
+"p": 6,
+"t": "Now I know the way.",
+"s": 60.55
+},
+{
+"p": 6,
+"t": "Next time, I can walk here without a map.",
+"s": 62.07
+}
+],
+"comp": [
+{
+"q": "What does Sam want to find?",
+"o": [
+"the bank",
+"the library",
+"the post office",
+"the park"
+],
+"a": 1,
+"fa": "سام می‌خواهد کجا را پیدا کند؟"
+},
+{
+"q": "Why can’t Sam use the map on his phone?",
+"o": [
+"His phone has no battery.",
+"He doesn’t have a phone.",
+"The map is wrong.",
+"He can’t read it."
+],
+"a": 0,
+"fa": "چرا سام نمی‌تواند از نقشه‌ی گوشی‌اش استفاده کند؟"
+},
+{
+"q": "Where does Sam turn left?",
+"o": [
+"at the school",
+"at the park",
+"at the post office",
+"at the bank"
+],
+"a": 3,
+"fa": "سام کجا به چپ می‌پیچد؟"
+},
+{
+"q": "What is across from the library?",
+"o": [
+"Maple Café",
+"the bank",
+"a school",
+"the post office"
+],
+"a": 3,
+"fa": "روبه‌روی کتابخانه چیست؟"
+},
+{
+"q": "What is the library building like?",
+"o": [
+"small and red",
+"big and white",
+"tall and gray",
+"old and brown"
+],
+"a": 1,
+"fa": "ساختمان کتابخانه چه شکلی است؟"
+},
+{
+"q": "What does Sam take home?",
+"o": [
+"one book",
+"two books and three movies",
+"three books and two movies",
+"five books"
+],
+"a": 2,
+"fa": "سام چه چیزهایی به خانه می‌برد؟"
+}
+],
+"words": [
+{
+"w": "library",
+"ipa": "/ˈlaɪˌbrɛri/",
+"fa": "کتابخانه",
+"ex": "On Sunday, I want to find the Oakville Library.",
+"book": 1,
+"id": "library",
+"m": [
+39,
+46
+]
+},
+{
+"w": "map",
+"ipa": "/mæp/",
+"fa": "نقشه",
+"ex": "Next time, I can walk here without a map.",
+"book": 1,
+"id": "map",
+"m": [
+37,
+40
+]
+},
+{
+"w": "straight",
+"ipa": "/streɪt/",
+"fa": "مستقیم",
+"ex": "I walk straight and turn left at the bank.",
+"book": 1,
+"id": "straight",
+"m": [
+7,
+15
+]
+},
+{
+"w": "left",
+"ipa": "/lɛft/",
+"fa": "چپ",
+"ex": "I walk straight and turn left at the bank.",
+"book": 1,
+"id": "left",
+"m": [
+25,
+29
+]
+},
+{
+"w": "right",
+"ipa": "/raɪt/",
+"fa": "راست",
+"ex": "Straight, left at the bank, two blocks, on the right.",
+"book": 1,
+"id": "right",
+"m": [
+47,
+52
+]
+},
+{
+"w": "block",
+"ipa": "/blɑk/",
+"fa": "بلوک (فاصله‌ی دو خیابان)",
+"ex": "Straight, left at the bank, two blocks, on the right.",
+"book": 1,
+"id": "block",
+"m": [
+32,
+38
+]
+},
+{
+"w": "across",
+"ipa": "/əˈkrɔs/",
+"fa": "آن طرفِ، روبه‌رویِ",
+"ex": "The library is on the right, across from the post office.",
+"book": 1,
+"id": "across",
+"m": [
+29,
+35
+]
+},
+{
+"w": "between",
+"ipa": "/bɪˈtwin/",
+"fa": "بینِ",
+"ex": "It is a big white building between a school and a small park.",
+"book": 1,
+"id": "between",
+"m": [
+27,
+34
+]
+},
+{
+"w": "quiet",
+"ipa": "/ˈkwaɪət/",
+"fa": "ساکت، آرام",
+"ex": "Inside, it is quiet.",
+"book": 1,
+"id": "quiet",
+"m": [
+14,
+19
+]
+},
+{
+"w": "free",
+"ipa": "/fri/",
+"fa": "رایگان، مجانی",
+"ex": "It is free!",
+"book": 1,
+"id": "free",
+"m": [
+6,
+10
+]
+},
+{
+"w": "battery",
+"ipa": "/ˈbætɚi/",
+"fa": "باتری",
+"ex": "I have a map on my phone, but my phone has no battery.",
+"id": "battery",
+"m": [
+46,
+53
+]
+},
+{
+"w": "turn",
+"ipa": "/tɝn/",
+"fa": "پیچیدن",
+"ex": "I walk straight and turn left at the bank.",
+"id": "turn",
+"m": [
+20,
+24
+]
+},
+{
+"w": "post office",
+"ipa": "/poʊst ˈɔfɪs/",
+"fa": "اداره‌ی پست",
+"ex": "The library is on the right, across from the post office.",
+"id": "post-office",
+"m": [
+45,
+56
+]
+},
+{
+"w": "building",
+"ipa": "/ˈbɪldɪŋ/",
+"fa": "ساختمان",
+"ex": "It is a big white building between a school and a small park.",
+"id": "building",
+"m": [
+18,
+26
+]
+},
+{
+"w": "librarian",
+"ipa": "/laɪˈbrɛˌriən/",
+"fa": "کتابدار",
+"ex": "A librarian helps me.",
+"id": "librarian",
+"m": [
+2,
+11
+]
+},
+{
+"w": "form",
+"ipa": "/fɔrm/",
+"fa": "فرم",
+"ex": "I fill out a form, and in five minutes, I have a library card.",
+"id": "form",
+"m": [
+13,
+17
+]
+},
+{
+"w": "movie",
+"ipa": "/ˈmuvi/",
+"fa": "فیلم",
+"ex": "Today I take home three books and two movies.",
+"id": "movie",
+"m": [
+38,
+44
+]
+},
+{
+"w": "way",
+"ipa": "/weɪ/",
+"fa": "راه",
+"ex": "Now I know the way.",
+"id": "way",
+"m": [
+15,
+18
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Excuse me, where is the library?",
+"fa": "ببخشید، کتابخانه کجاست؟"
+},
+{
+"id": "s2",
+"en": "Go straight on Main Street.",
+"fa": "در خیابان مِین مستقیم برو."
+},
+{
+"id": "s3",
+"en": "Turn left at the bank.",
+"fa": "سرِ بانک به چپ بپیچ."
+},
+{
+"id": "s4",
+"en": "It is not far.",
+"fa": "دور نیست."
+},
+{
+"id": "s5",
+"en": "Now I know the way.",
+"fa": "حالا راه را بلدم."
+}
+]
+}

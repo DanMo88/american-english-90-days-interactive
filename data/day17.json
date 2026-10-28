@@ -1,0 +1,415 @@
+{
+"day": 17,
+"level": "A1",
+"title": "I Don't Feel Well",
+"fa_title": "حالم خوب نیست",
+"audio": "audio/day17.mp3",
+"img": "img/day17.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Wednesday morning, I wake up and I feel terrible.",
+"s": 3.53
+},
+{
+"p": 0,
+"t": "My head hurts, my throat is sore, and I am very hot.",
+"s": 6.73
+},
+{
+"p": 0,
+"t": "I call Mr. Lee.",
+"s": 10.26
+},
+{
+"p": 0,
+"t": "“Sorry, I can’t come to work today. I am sick.”",
+"s": 11.78
+},
+{
+"p": 1,
+"t": "Rosa brings me chicken soup.",
+"s": 15.42
+},
+{
+"p": 1,
+"t": "She touches my head.",
+"s": 17.47
+},
+{
+"p": 1,
+"t": "“You have a fever. You need a doctor.”",
+"s": 18.99
+},
+{
+"p": 2,
+"t": "There is a clinic on Oak Street.",
+"s": 21.73
+},
+{
+"p": 2,
+"t": "The nurse at the front desk gives me a form, and I wait for thirty minutes.",
+"s": 23.86
+},
+{
+"p": 2,
+"t": "Then the doctor comes in.",
+"s": 28.5
+},
+{
+"p": 2,
+"t": "Her name is Dr. Patel.",
+"s": 30.3
+},
+{
+"p": 3,
+"t": "“What’s the problem?” she asks.",
+"s": 32.74
+},
+{
+"p": 4,
+"t": "“I have a headache and a sore throat. And I am very tired.”",
+"s": 35.4
+},
+{
+"p": 5,
+"t": "Dr. Patel checks my throat and my ears.",
+"s": 39.36
+},
+{
+"p": 5,
+"t": "“You have a bad cold,” she says.",
+"s": 42.52
+},
+{
+"p": 5,
+"t": "“Drink a lot of water and rest for two or three days. Take this medicine twice a day, after meals.”",
+"s": 45.05
+},
+{
+"p": 6,
+"t": "At the pharmacy, I get my medicine.",
+"s": 51.79
+},
+{
+"p": 6,
+"t": "At home, I go to bed with Rosa’s soup and my library book.",
+"s": 54.24
+},
+{
+"p": 6,
+"t": "Rosa leaves Max with me, and he sleeps next to my bed.",
+"s": 58.52
+},
+{
+"p": 6,
+"t": "He is a good nurse!",
+"s": 62.08
+}
+],
+"comp": [
+{
+"q": "What day does Sam feel sick?",
+"o": [
+"Monday",
+"Wednesday",
+"Friday",
+"Sunday"
+],
+"a": 1,
+"fa": "سام چه روزی مریض است؟"
+},
+{
+"q": "What does Rosa bring?",
+"o": [
+"chicken soup",
+"medicine",
+"cookies",
+"tea"
+],
+"a": 0,
+"fa": "رزا چه می‌آورد؟"
+},
+{
+"q": "Where is the clinic?",
+"o": [
+"on Main Street",
+"on Maple Street",
+"on Elm Street",
+"on Oak Street"
+],
+"a": 3,
+"fa": "درمانگاه کجاست؟"
+},
+{
+"q": "What is the problem?",
+"o": [
+"He has a broken arm.",
+"He has a stomachache.",
+"He has a bad cold.",
+"He has a toothache."
+],
+"a": 2,
+"fa": "مشکل چیست؟"
+},
+{
+"q": "How often does Sam take the medicine?",
+"o": [
+"once a day",
+"three times a day",
+"before bed",
+"twice a day, after meals"
+],
+"a": 3,
+"fa": "سام دارو را چند وقت یک بار می‌خورد؟"
+},
+{
+"q": "Who sleeps next to Sam’s bed?",
+"o": [
+"Max",
+"Rosa",
+"Emma",
+"a cat"
+],
+"a": 0,
+"fa": "چه کسی کنار تخت سام می‌خوابد؟"
+}
+],
+"words": [
+{
+"w": "sick",
+"ipa": "/sɪk/",
+"fa": "مریض، بیمار",
+"ex": "I am sick.",
+"book": 1,
+"id": "sick",
+"m": [
+5,
+9
+]
+},
+{
+"w": "rest",
+"ipa": "/rɛst/",
+"fa": "استراحت کردن",
+"ex": "Drink a lot of water and rest for two or three days.",
+"book": 1,
+"id": "rest",
+"m": [
+25,
+29
+]
+},
+{
+"w": "throat",
+"ipa": "/θroʊt/",
+"fa": "گلو",
+"ex": "I have a headache and a sore throat.",
+"book": 1,
+"id": "throat",
+"m": [
+29,
+35
+]
+},
+{
+"w": "fever",
+"ipa": "/ˈfivɚ/",
+"fa": "تب",
+"ex": "You have a fever.",
+"book": 1,
+"id": "fever",
+"m": [
+11,
+16
+]
+},
+{
+"w": "doctor",
+"ipa": "/ˈdɑktɚ/",
+"fa": "دکتر، پزشک",
+"ex": "Then the doctor comes in.",
+"book": 1,
+"id": "doctor",
+"m": [
+9,
+15
+]
+},
+{
+"w": "nurse",
+"ipa": "/nɝs/",
+"fa": "پرستار",
+"ex": "He is a good nurse!",
+"book": 1,
+"id": "nurse",
+"m": [
+13,
+18
+]
+},
+{
+"w": "headache",
+"ipa": "/ˈhɛdˌeɪk/",
+"fa": "سردرد",
+"ex": "I have a headache and a sore throat.",
+"book": 1,
+"id": "headache",
+"m": [
+9,
+17
+]
+},
+{
+"w": "cold",
+"ipa": "/koʊld/",
+"fa": "سرماخوردگی",
+"ex": "You have a bad cold.",
+"book": 1,
+"id": "cold",
+"m": [
+15,
+19
+]
+},
+{
+"w": "medicine",
+"ipa": "/ˈmɛdəsən/",
+"fa": "دارو",
+"ex": "Take this medicine twice a day, after meals.",
+"book": 1,
+"id": "medicine",
+"m": [
+10,
+18
+]
+},
+{
+"w": "pharmacy",
+"ipa": "/ˈfɑrməsi/",
+"fa": "داروخانه",
+"ex": "At the pharmacy, I get my medicine.",
+"book": 1,
+"id": "pharmacy",
+"m": [
+7,
+15
+]
+},
+{
+"w": "wake up",
+"ipa": "/weɪk ʌp/",
+"fa": "بیدار شدن",
+"ex": "On Wednesday morning, I wake up and I feel terrible.",
+"id": "wake-up",
+"m": [
+24,
+31
+]
+},
+{
+"w": "terrible",
+"ipa": "/ˈtɛrəbəl/",
+"fa": "افتضاح، خیلی بد",
+"ex": "On Wednesday morning, I wake up and I feel terrible.",
+"id": "terrible",
+"m": [
+43,
+51
+]
+},
+{
+"w": "hurt",
+"ipa": "/hɝt/",
+"fa": "درد کردن",
+"ex": "My head hurts, my throat is sore, and I am very hot.",
+"id": "hurt",
+"m": [
+8,
+13
+]
+},
+{
+"w": "sore",
+"ipa": "/sɔr/",
+"fa": "دردناک، ملتهب",
+"ex": "I have a headache and a sore throat.",
+"id": "sore",
+"m": [
+24,
+28
+]
+},
+{
+"w": "soup",
+"ipa": "/sup/",
+"fa": "سوپ",
+"ex": "Rosa brings me chicken soup.",
+"id": "soup",
+"m": [
+23,
+27
+]
+},
+{
+"w": "clinic",
+"ipa": "/ˈklɪnɪk/",
+"fa": "درمانگاه",
+"ex": "There is a clinic on Oak Street.",
+"id": "clinic",
+"m": [
+11,
+17
+]
+},
+{
+"w": "problem",
+"ipa": "/ˈprɑbləm/",
+"fa": "مشکل",
+"ex": "What’s the problem?",
+"id": "problem",
+"m": [
+11,
+18
+]
+},
+{
+"w": "twice",
+"ipa": "/twaɪs/",
+"fa": "دو بار",
+"ex": "Take this medicine twice a day, after meals.",
+"id": "twice",
+"m": [
+19,
+24
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "My head hurts.",
+"fa": "سرم درد می‌کند."
+},
+{
+"id": "s2",
+"en": "I can’t come to work today.",
+"fa": "امروز نمی‌توانم سر کار بیایم."
+},
+{
+"id": "s3",
+"en": "You have a bad cold.",
+"fa": "سرماخوردگی بدی داری."
+},
+{
+"id": "s4",
+"en": "Drink a lot of water.",
+"fa": "آب زیاد بنوش."
+},
+{
+"id": "s5",
+"en": "Take this medicine twice a day.",
+"fa": "این دارو را روزی دو بار بخور."
+}
+]
+}

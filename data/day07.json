@@ -1,0 +1,400 @@
+{
+"day": 7,
+"level": "A1",
+"title": "Days of the Week",
+"fa_title": "روزهای هفته",
+"audio": "audio/day07.mp3",
+"img": "img/day07.webp",
+"sents": [
+{
+"p": 0,
+"t": "I need a job.",
+"s": 3.34
+},
+{
+"p": 0,
+"t": "On Monday, I look online, and I find a job at Oakville Books, a bookstore on Main Street.",
+"s": 4.72
+},
+{
+"p": 0,
+"t": "I love books, so I really want this job.",
+"s": 10.67
+},
+{
+"p": 0,
+"t": "I send an email.",
+"s": 13.54
+},
+{
+"p": 1,
+"t": "On Tuesday, the manager calls me.",
+"s": 15.38
+},
+{
+"p": 1,
+"t": "“Hello, Sam. This is Mr. Lee from Oakville Books. Can you come for an interview this week? Maybe on Wednesday?”",
+"s": 17.82
+},
+{
+"p": 2,
+"t": "“Sorry, I can’t. On Wednesday, I have an English class.”",
+"s": 25.57
+},
+{
+"p": 3,
+"t": "“How about Thursday?”",
+"s": 29.66
+},
+{
+"p": 4,
+"t": "“On Thursday, I can come in the afternoon.”",
+"s": 31.68
+},
+{
+"p": 5,
+"t": "“Hmm, I’m busy on Thursday afternoon. Can you come on Friday morning?”",
+"s": 34.84
+},
+{
+"p": 6,
+"t": "“Yes! Friday morning is perfect.”",
+"s": 39.82
+},
+{
+"p": 7,
+"t": "I write “INTERVIEW” on my calendar for Friday.",
+"s": 42.74
+},
+{
+"p": 7,
+"t": "Now I am nervous.",
+"s": 45.52
+},
+{
+"p": 7,
+"t": "I tell Rosa about it.",
+"s": 47.03
+},
+{
+"p": 8,
+"t": "“Don’t worry,” she says.",
+"s": 49.09
+},
+{
+"p": 8,
+"t": "“You can do it. On Thursday evening, we can practice together.”",
+"s": 50.68
+},
+{
+"p": 9,
+"t": "A week has seven days, but this week, I only think about one day: Friday!",
+"s": 55.05
+}
+],
+"comp": [
+{
+"q": "Where is Oakville Books?",
+"o": [
+"on Maple Street",
+"on Main Street",
+"next to the park",
+"on Oak Street"
+],
+"a": 1,
+"fa": "کتاب‌فروشی اوک‌ویل کجاست؟"
+},
+{
+"q": "Who is Mr. Lee?",
+"o": [
+"Sam’s teacher",
+"Rosa’s friend",
+"the manager of the bookstore",
+"a cashier"
+],
+"a": 2,
+"fa": "آقای لی کیست؟"
+},
+{
+"q": "Why can’t Sam come on Wednesday?",
+"o": [
+"He has an English class.",
+"He works.",
+"He is sick.",
+"He visits Rosa."
+],
+"a": 0,
+"fa": "چرا سام نمی‌تواند چهارشنبه بیاید؟"
+},
+{
+"q": "When is the interview?",
+"o": [
+"on Thursday afternoon",
+"on Wednesday morning",
+"on Monday",
+"on Friday morning"
+],
+"a": 3,
+"fa": "مصاحبه کی است؟"
+},
+{
+"q": "How does Sam feel?",
+"o": [
+"happy",
+"nervous",
+"tired",
+"angry"
+],
+"a": 1,
+"fa": "سام چه حسی دارد؟"
+},
+{
+"q": "What can Rosa and Sam do on Thursday evening?",
+"o": [
+"go to the bookstore",
+"watch TV",
+"practice together",
+"have dinner"
+],
+"a": 2,
+"fa": "رزا و سام پنجشنبه عصر چه کاری می‌توانند بکنند؟"
+}
+],
+"words": [
+{
+"w": "job",
+"ipa": "/dʒɑb/",
+"fa": "کار، شغل",
+"ex": "I love books, so I really want this job.",
+"book": 1,
+"id": "job",
+"m": [
+36,
+39
+]
+},
+{
+"w": "bookstore",
+"ipa": "/ˈbʊkˌstɔr/",
+"fa": "کتاب‌فروشی",
+"ex": "I buy a dictionary at the bookstore.",
+"book": 1,
+"id": "bookstore",
+"m": [
+26,
+35
+]
+},
+{
+"w": "email",
+"ipa": "/ˈiˌmeɪl/",
+"fa": "ایمیل",
+"ex": "I send an email.",
+"book": 1,
+"id": "email",
+"m": [
+10,
+15
+]
+},
+{
+"w": "manager",
+"ipa": "/ˈmænɪdʒɚ/",
+"fa": "مدیر",
+"ex": "On Tuesday, the manager calls me.",
+"book": 1,
+"id": "manager",
+"m": [
+16,
+23
+]
+},
+{
+"w": "interview",
+"ipa": "/ˈɪntɚˌvju/",
+"fa": "مصاحبه",
+"ex": "Can you come for an interview this week?",
+"book": 1,
+"id": "interview",
+"m": [
+20,
+29
+]
+},
+{
+"w": "afternoon",
+"ipa": "/ˌæftɚˈnun/",
+"fa": "بعدازظهر",
+"ex": "On Thursday, I can come in the afternoon.",
+"book": 1,
+"id": "afternoon",
+"m": [
+31,
+40
+]
+},
+{
+"w": "busy",
+"ipa": "/ˈbɪzi/",
+"fa": "مشغول، گرفتار",
+"ex": "Hmm, I’m busy on Thursday afternoon.",
+"book": 1,
+"id": "busy",
+"m": [
+9,
+13
+]
+},
+{
+"w": "calendar",
+"ipa": "/ˈkæləndɚ/",
+"fa": "تقویم",
+"ex": "I write “INTERVIEW” on my calendar for Friday.",
+"book": 1,
+"id": "calendar",
+"m": [
+26,
+34
+]
+},
+{
+"w": "nervous",
+"ipa": "/ˈnɝvəs/",
+"fa": "مضطرب، نگران",
+"ex": "Now I am nervous.",
+"book": 1,
+"id": "nervous",
+"m": [
+9,
+16
+]
+},
+{
+"w": "week",
+"ipa": "/wik/",
+"fa": "هفته",
+"ex": "Can you come for an interview this week?",
+"book": 1,
+"id": "week",
+"m": [
+35,
+39
+]
+},
+{
+"w": "online",
+"ipa": "/ˈɔnˌlaɪn/",
+"fa": "آنلاین، در اینترنت",
+"ex": "On Monday, I look online.",
+"id": "online",
+"m": [
+18,
+24
+]
+},
+{
+"w": "send",
+"ipa": "/sɛnd/",
+"fa": "فرستادن",
+"ex": "I send an email.",
+"id": "send",
+"m": [
+2,
+6
+]
+},
+{
+"w": "worry",
+"ipa": "/ˈwɝi/",
+"fa": "نگران بودن",
+"ex": "Don’t worry.",
+"id": "worry",
+"m": [
+6,
+11
+]
+},
+{
+"w": "practice",
+"ipa": "/ˈpræktəs/",
+"fa": "تمرین کردن",
+"ex": "On Thursday evening, we can practice together.",
+"id": "practice",
+"m": [
+28,
+36
+]
+},
+{
+"w": "together",
+"ipa": "/təˈɡɛðɚ/",
+"fa": "با هم",
+"ex": "On Thursday evening, we can practice together.",
+"id": "together",
+"m": [
+37,
+45
+]
+},
+{
+"w": "Monday",
+"ipa": "/ˈmʌndi/",
+"fa": "دوشنبه",
+"ex": "On Monday, I look online.",
+"id": "monday",
+"m": [
+3,
+9
+]
+},
+{
+"w": "Wednesday",
+"ipa": "/ˈwɛnzdi/",
+"fa": "چهارشنبه",
+"ex": "On Wednesday, I have an English class.",
+"id": "wednesday",
+"m": [
+3,
+12
+]
+},
+{
+"w": "Friday",
+"ipa": "/ˈfraɪdi/",
+"fa": "جمعه",
+"ex": "I write “INTERVIEW” on my calendar for Friday.",
+"id": "friday",
+"m": [
+39,
+45
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I need a job.",
+"fa": "به یک کار نیاز دارم."
+},
+{
+"id": "s2",
+"en": "Can you come on Friday morning?",
+"fa": "می‌توانی جمعه صبح بیایی؟"
+},
+{
+"id": "s3",
+"en": "I have an English class.",
+"fa": "کلاس انگلیسی دارم."
+},
+{
+"id": "s4",
+"en": "Don’t worry, you can do it.",
+"fa": "نگران نباش، از پسش برمی‌آیی."
+},
+{
+"id": "s5",
+"en": "We can practice together.",
+"fa": "می‌توانیم با هم تمرین کنیم."
+}
+]
+}

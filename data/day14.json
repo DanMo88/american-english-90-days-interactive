@@ -1,0 +1,435 @@
+{
+"day": 14,
+"level": "A1",
+"title": "Shopping for Clothes",
+"fa_title": "خرید لباس",
+"audio": "audio/day14.mp3",
+"img": "img/day14.webp",
+"sents": [
+{
+"p": 0,
+"t": "Next Saturday, there is a big book event at Oakville Books.",
+"s": 2.37
+},
+{
+"p": 0,
+"t": "Mr. Lee says, “Please wear nice clothes.” But I only have T-shirts and old jeans!",
+"s": 7.4
+},
+{
+"p": 1,
+"t": "So on Sunday, Emma and I take the bus to Riverside Mall.",
+"s": 13.63
+},
+{
+"p": 1,
+"t": "It is huge.",
+"s": 17.9
+},
+{
+"p": 1,
+"t": "There are more than one hundred stores, and there is a food court with food from many countries.",
+"s": 19.34
+},
+{
+"p": 2,
+"t": "In a clothing store, there are shirts in many colors.",
+"s": 24.95
+},
+{
+"p": 2,
+"t": "I like a light blue shirt.",
+"s": 27.81
+},
+{
+"p": 2,
+"t": "“What size are you?” the salesperson asks.",
+"s": 30.34
+},
+{
+"p": 3,
+"t": "“Medium, I think.”",
+"s": 33.32
+},
+{
+"p": 4,
+"t": "“The fitting room is over there.”",
+"s": 35.33
+},
+{
+"p": 5,
+"t": "I try on the shirt.",
+"s": 37.81
+},
+{
+"p": 5,
+"t": "It is a little big.",
+"s": 38.93
+},
+{
+"p": 5,
+"t": "“Do you have it in a small?”",
+"s": 40.29
+},
+{
+"p": 6,
+"t": "“Yes, here you go.” The small is perfect.",
+"s": 42.3
+},
+{
+"p": 7,
+"t": "I also need pants.",
+"s": 45.65
+},
+{
+"p": 7,
+"t": "There are black pants and gray pants.",
+"s": 47.09
+},
+{
+"p": 7,
+"t": "I choose the gray pants.",
+"s": 49.25
+},
+{
+"p": 7,
+"t": "Emma says, “And you need new shoes, Sam!” She is right.",
+"s": 51.24
+},
+{
+"p": 7,
+"t": "My shoes are very old.",
+"s": 54.77
+},
+{
+"p": 7,
+"t": "At a shoe store, I find brown shoes.",
+"s": 56.55
+},
+{
+"p": 7,
+"t": "They are on sale, twenty percent off!",
+"s": 59.11
+},
+{
+"p": 8,
+"t": "The shirt, pants, and shoes are one hundred and ten dollars.",
+"s": 62.05
+},
+{
+"p": 8,
+"t": "Now I am ready for the book event.",
+"s": 66.07
+},
+{
+"p": 8,
+"t": "Then we eat pizza at the food court.",
+"s": 68.26
+}
+],
+"comp": [
+{
+"q": "Why does Sam need new clothes?",
+"o": [
+"for a book event at work",
+"for a party",
+"for a wedding",
+"for a trip"
+],
+"a": 0,
+"fa": "چرا سام به لباس نو نیاز دارد؟"
+},
+{
+"q": "Where do Sam and Emma go?",
+"o": [
+"to a yard sale",
+"to Riverside Mall",
+"to Main Street",
+"to the lake"
+],
+"a": 1,
+"fa": "سام و اِما کجا می‌روند؟"
+},
+{
+"q": "What color is the shirt?",
+"o": [
+"white",
+"dark blue",
+"light blue",
+"green"
+],
+"a": 2,
+"fa": "پیراهن چه رنگی است؟"
+},
+{
+"q": "What size is perfect for Sam?",
+"o": [
+"large",
+"medium",
+"extra large",
+"small"
+],
+"a": 3,
+"fa": "چه سایزی برای سام عالی است؟"
+},
+{
+"q": "What is on sale?",
+"o": [
+"the shirt",
+"the shoes",
+"the pants",
+"the pizza"
+],
+"a": 1,
+"fa": "چه چیزی حراج است؟"
+},
+{
+"q": "What do they eat at the food court?",
+"o": [
+"salad",
+"burgers",
+"tacos",
+"pizza"
+],
+"a": 3,
+"fa": "آن‌ها در فودکورت چه می‌خورند؟"
+}
+],
+"words": [
+{
+"w": "clothes",
+"ipa": "/kloʊðz/",
+"fa": "لباس‌ها",
+"ex": "Please wear nice clothes.",
+"book": 1,
+"id": "clothes",
+"m": [
+17,
+24
+]
+},
+{
+"w": "jeans",
+"ipa": "/dʒinz/",
+"fa": "شلوار جین",
+"ex": "I only have T-shirts and old jeans!",
+"book": 1,
+"id": "jeans",
+"m": [
+29,
+34
+]
+},
+{
+"w": "mall",
+"ipa": "/mɔl/",
+"fa": "مرکز خرید",
+"ex": "On Sunday, Emma and I take the bus to Riverside Mall.",
+"book": 1,
+"id": "mall",
+"m": [
+48,
+52
+]
+},
+{
+"w": "shirt",
+"ipa": "/ʃɝt/",
+"fa": "پیراهن",
+"ex": "I only have T-shirts and old jeans!",
+"book": 1,
+"id": "shirt",
+"m": [
+14,
+20
+]
+},
+{
+"w": "salesperson",
+"ipa": "/ˈseɪlzˌpɝsən/",
+"fa": "فروشنده",
+"ex": "The salesperson helps me find a dress.",
+"book": 1,
+"id": "salesperson",
+"m": [
+4,
+15
+]
+},
+{
+"w": "try on",
+"ipa": "/ˌtraɪ ˈɑn/",
+"fa": "پرو کردن",
+"ex": "I try on the shirt.",
+"book": 1,
+"id": "try-on",
+"m": [
+2,
+8
+]
+},
+{
+"w": "pants",
+"ipa": "/pænts/",
+"fa": "شلوار",
+"ex": "There are black pants and gray pants.",
+"book": 1,
+"id": "pants",
+"m": [
+16,
+21
+]
+},
+{
+"w": "shoes",
+"ipa": "/ʃuz/",
+"fa": "کفش",
+"ex": "At a shoe store, I find brown shoes.",
+"book": 1,
+"id": "shoes",
+"m": [
+30,
+35
+]
+},
+{
+"w": "choose",
+"ipa": "/tʃuz/",
+"fa": "انتخاب کردن",
+"ex": "I choose the gray pants.",
+"book": 1,
+"id": "choose",
+"m": [
+2,
+8
+]
+},
+{
+"w": "ready",
+"ipa": "/ˈrɛdi/",
+"fa": "آماده",
+"ex": "Now I am ready for the book event.",
+"book": 1,
+"id": "ready",
+"m": [
+9,
+14
+]
+},
+{
+"w": "event",
+"ipa": "/ɪˈvɛnt/",
+"fa": "مراسم، رویداد",
+"ex": "Now I am ready for the book event.",
+"id": "event",
+"m": [
+28,
+33
+]
+},
+{
+"w": "huge",
+"ipa": "/hjudʒ/",
+"fa": "خیلی بزرگ، عظیم",
+"ex": "It is huge.",
+"id": "huge",
+"m": [
+6,
+10
+]
+},
+{
+"w": "food court",
+"ipa": "/fud kɔrt/",
+"fa": "فودکورت (بخش غذاخوری)",
+"ex": "Then we eat pizza at the food court.",
+"id": "food-court",
+"m": [
+25,
+35
+]
+},
+{
+"w": "color",
+"ipa": "/ˈkʌlɚ/",
+"fa": "رنگ",
+"ex": "In a clothing store, there are shirts in many colors.",
+"id": "color",
+"m": [
+46,
+52
+]
+},
+{
+"w": "light",
+"ipa": "/laɪt/",
+"fa": "روشن (رنگ)",
+"ex": "I like a light blue shirt.",
+"id": "light",
+"m": [
+9,
+14
+]
+},
+{
+"w": "fitting room",
+"ipa": "/ˈfɪtɪŋ rum/",
+"fa": "اتاق پرو",
+"ex": "The fitting room is over there.",
+"id": "fitting-room",
+"m": [
+4,
+16
+]
+},
+{
+"w": "on sale",
+"ipa": "/ɑn seɪl/",
+"fa": "حراج، با تخفیف",
+"ex": "They are on sale, twenty percent off!",
+"id": "on-sale",
+"m": [
+9,
+16
+]
+},
+{
+"w": "brown",
+"ipa": "/braʊn/",
+"fa": "قهوه‌ای",
+"ex": "At a shoe store, I find brown shoes.",
+"id": "brown",
+"m": [
+24,
+29
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "What size are you?",
+"fa": "سایزت چند است؟"
+},
+{
+"id": "s2",
+"en": "The fitting room is over there.",
+"fa": "اتاق پرو آنجاست."
+},
+{
+"id": "s3",
+"en": "Do you have it in a small?",
+"fa": "سایز کوچکش را دارید؟"
+},
+{
+"id": "s4",
+"en": "They are on sale.",
+"fa": "حراج هستند."
+},
+{
+"id": "s5",
+"en": "Now I am ready for the book event.",
+"fa": "حالا برای مراسم کتاب آماده‌ام."
+}
+]
+}

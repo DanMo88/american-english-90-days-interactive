@@ -1,0 +1,425 @@
+{
+"day": 13,
+"level": "A1",
+"title": "A Sofa for My Living Room",
+"fa_title": "یک مبل برای اتاق نشیمنم",
+"audio": "audio/day13.mp3",
+"img": "img/day13.webp",
+"sents": [
+{
+"p": 0,
+"t": "My apartment is small, but it is nice.",
+"s": 4.19
+},
+{
+"p": 0,
+"t": "There is a bedroom with a bed and a closet.",
+"s": 7.07
+},
+{
+"p": 0,
+"t": "In the kitchen, there is a stove, a refrigerator, and a small table with two chairs.",
+"s": 9.95
+},
+{
+"p": 0,
+"t": "But my living room is empty.",
+"s": 15.36
+},
+{
+"p": 0,
+"t": "There is no sofa, and there are no lamps.",
+"s": 17.55
+},
+{
+"p": 1,
+"t": "On Saturday, Rosa says, “Sam, there is a yard sale on Elm Street today. Let’s go!”",
+"s": 20.76
+},
+{
+"p": 2,
+"t": "A yard sale is very American.",
+"s": 27.24
+},
+{
+"p": 2,
+"t": "People sell old things in front of their house.",
+"s": 29.75
+},
+{
+"p": 2,
+"t": "There are tables with clothes, books, toys, plates, and lamps.",
+"s": 32.53
+},
+{
+"p": 3,
+"t": "At one house, there is a big green sofa.",
+"s": 37.34
+},
+{
+"p": 3,
+"t": "It is old, but it is clean and comfortable.",
+"s": 40.09
+},
+{
+"p": 4,
+"t": "“How much is the sofa?” I ask.",
+"s": 43.27
+},
+{
+"p": 5,
+"t": "“Forty dollars,” the woman says.",
+"s": 46.17
+},
+{
+"p": 6,
+"t": "“Can you do thirty?” Rosa asks.",
+"s": 48.99
+},
+{
+"p": 6,
+"t": "The woman smiles.",
+"s": 51.03
+},
+{
+"p": 6,
+"t": "“OK, thirty dollars.”",
+"s": 52.6
+},
+{
+"p": 7,
+"t": "There is also a small lamp for five dollars and a picture of the ocean for three.",
+"s": 53.47
+},
+{
+"p": 7,
+"t": "I buy them too.",
+"s": 60.0
+},
+{
+"p": 8,
+"t": "Emma’s brother has a truck, and he helps us carry the sofa home.",
+"s": 61.81
+},
+{
+"p": 8,
+"t": "Now there is a green sofa, a lamp, and a picture in my living room.",
+"s": 65.81
+},
+{
+"p": 8,
+"t": "Max jumps on the sofa.",
+"s": 70.36
+},
+{
+"p": 8,
+"t": "He likes it too!",
+"s": 72.27
+}
+],
+"comp": [
+{
+"q": "Which room is empty?",
+"o": [
+"the bedroom",
+"the kitchen",
+"the bathroom",
+"the living room"
+],
+"a": 3,
+"fa": "کدام اتاق خالی است؟"
+},
+{
+"q": "Where is the yard sale?",
+"o": [
+"on Elm Street",
+"on Maple Street",
+"on Main Street",
+"in the park"
+],
+"a": 0,
+"fa": "حراج جلوی خانه کجاست؟"
+},
+{
+"q": "What color is the sofa?",
+"o": [
+"brown",
+"blue",
+"red",
+"green"
+],
+"a": 3,
+"fa": "مبل چه رنگی است؟"
+},
+{
+"q": "How much does Sam pay for the sofa?",
+"o": [
+"forty dollars",
+"thirty dollars",
+"thirteen dollars",
+"fifty dollars"
+],
+"a": 1,
+"fa": "سام برای مبل چقدر پول می‌دهد؟"
+},
+{
+"q": "What else does Sam buy?",
+"o": [
+"a table and two chairs",
+"a bed",
+"a lamp and a picture",
+"books and toys"
+],
+"a": 2,
+"fa": "سام چه چیز دیگری می‌خرد؟"
+},
+{
+"q": "Who helps carry the sofa?",
+"o": [
+"Emma’s brother",
+"Mr. Lee",
+"Rosa’s son",
+"the woman at the yard sale"
+],
+"a": 0,
+"fa": "چه کسی در بردن مبل کمک می‌کند؟"
+}
+],
+"words": [
+{
+"w": "living room",
+"ipa": "/ˈlɪvɪŋ ˌrum/",
+"fa": "اتاق نشیمن، پذیرایی",
+"ex": "My living room is empty.",
+"book": 1,
+"id": "living-room",
+"m": [
+3,
+14
+]
+},
+{
+"w": "bedroom",
+"ipa": "/ˈbɛdˌrum/",
+"fa": "اتاق خواب",
+"ex": "There is a bedroom with a bed and a closet.",
+"book": 1,
+"id": "bedroom",
+"m": [
+11,
+18
+]
+},
+{
+"w": "closet",
+"ipa": "/ˈklɑzɪt/",
+"fa": "کمد دیواری",
+"ex": "There is a bedroom with a bed and a closet.",
+"book": 1,
+"id": "closet",
+"m": [
+36,
+42
+]
+},
+{
+"w": "stove",
+"ipa": "/stoʊv/",
+"fa": "اجاق گاز",
+"ex": "In the kitchen, there is a stove, a refrigerator, and a small table with two chairs.",
+"book": 1,
+"id": "stove",
+"m": [
+27,
+32
+]
+},
+{
+"w": "chair",
+"ipa": "/tʃɛr/",
+"fa": "صندلی",
+"ex": "In the kitchen, there is a stove, a refrigerator, and a small table with two chairs.",
+"book": 1,
+"id": "chair",
+"m": [
+77,
+83
+]
+},
+{
+"w": "sofa",
+"ipa": "/ˈsoʊfə/",
+"fa": "مبل، کاناپه",
+"ex": "There is no sofa, and there are no lamps.",
+"book": 1,
+"id": "sofa",
+"m": [
+12,
+16
+]
+},
+{
+"w": "lamp",
+"ipa": "/læmp/",
+"fa": "چراغ، آباژور",
+"ex": "There is no sofa, and there are no lamps.",
+"book": 1,
+"id": "lamp",
+"m": [
+35,
+40
+]
+},
+{
+"w": "yard sale",
+"ipa": "/ˈjɑrd ˌseɪl/",
+"fa": "حراج وسایل جلوی خانه",
+"ex": "Sam, there is a yard sale on Elm Street today.",
+"book": 1,
+"id": "yard-sale",
+"m": [
+16,
+25
+]
+},
+{
+"w": "sell",
+"ipa": "/sɛl/",
+"fa": "فروختن",
+"ex": "People sell old things in front of their house.",
+"book": 1,
+"id": "sell",
+"m": [
+7,
+11
+]
+},
+{
+"w": "comfortable",
+"ipa": "/ˈkʌmftɚbəl/",
+"fa": "راحت",
+"ex": "It is old, but it is clean and comfortable.",
+"book": 1,
+"id": "comfortable",
+"m": [
+31,
+42
+]
+},
+{
+"w": "bed",
+"ipa": "/bɛd/",
+"fa": "تخت‌خواب",
+"ex": "There is a bedroom with a bed and a closet.",
+"id": "bed",
+"m": [
+26,
+29
+]
+},
+{
+"w": "clothes",
+"ipa": "/kloʊðz/",
+"fa": "لباس‌ها",
+"ex": "There are tables with clothes, books, toys, plates, and lamps.",
+"id": "clothes",
+"m": [
+22,
+29
+]
+},
+{
+"w": "toy",
+"ipa": "/tɔɪ/",
+"fa": "اسباب‌بازی",
+"ex": "There are tables with clothes, books, toys, plates, and lamps.",
+"id": "toy",
+"m": [
+38,
+42
+]
+},
+{
+"w": "plate",
+"ipa": "/pleɪt/",
+"fa": "بشقاب",
+"ex": "There are tables with clothes, books, toys, plates, and lamps.",
+"id": "plate",
+"m": [
+44,
+50
+]
+},
+{
+"w": "picture",
+"ipa": "/ˈpɪktʃɚ/",
+"fa": "عکس، تابلو",
+"ex": "Now there is a green sofa, a lamp, and a picture in my living room.",
+"id": "picture",
+"m": [
+41,
+48
+]
+},
+{
+"w": "ocean",
+"ipa": "/ˈoʊʃən/",
+"fa": "اقیانوس",
+"ex": "There is also a small lamp for five dollars and a picture of the ocean for three.",
+"id": "ocean",
+"m": [
+65,
+70
+]
+},
+{
+"w": "truck",
+"ipa": "/trʌk/",
+"fa": "وانت، کامیون",
+"ex": "Emma’s brother has a truck, and he helps us carry the sofa home.",
+"id": "truck",
+"m": [
+21,
+26
+]
+},
+{
+"w": "jump",
+"ipa": "/dʒʌmp/",
+"fa": "پریدن",
+"ex": "Max jumps on the sofa.",
+"id": "jump",
+"m": [
+4,
+9
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "My living room is empty.",
+"fa": "اتاق نشیمنم خالی است."
+},
+{
+"id": "s2",
+"en": "How much is the sofa?",
+"fa": "این مبل چند است؟"
+},
+{
+"id": "s3",
+"en": "Can you do thirty?",
+"fa": "سی دلار حساب می‌کنید؟"
+},
+{
+"id": "s4",
+"en": "It is old, but it is clean.",
+"fa": "کهنه است، اما تمیز است."
+},
+{
+"id": "s5",
+"en": "There is no sofa.",
+"fa": "مبلی نیست."
+}
+]
+}

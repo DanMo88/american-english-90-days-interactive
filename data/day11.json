@@ -1,0 +1,410 @@
+{
+"day": 11,
+"level": "A1",
+"title": "Taking the Bus",
+"fa_title": "سوار اتوبوس شدن",
+"audio": "audio/day11.mp3",
+"img": "img/day11.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Saturday, I don’t work.",
+"s": 3.26
+},
+{
+"p": 0,
+"t": "Emma says, “Go to Lake Oakville, Sam. It is beautiful!” The lake is outside town.",
+"s": 5.17
+},
+{
+"p": 0,
+"t": "It is too far to walk, so I take the bus.",
+"s": 10.98
+},
+{
+"p": 1,
+"t": "The bus stop is on the corner of Maple Street and Main Street.",
+"s": 14.11
+},
+{
+"p": 1,
+"t": "The number 12 bus comes every fifteen minutes.",
+"s": 18.16
+},
+{
+"p": 1,
+"t": "I wait with an old man and a mother with a baby.",
+"s": 21.5
+},
+{
+"p": 2,
+"t": "When the bus comes, I get on.",
+"s": 24.97
+},
+{
+"p": 2,
+"t": "“How much is a ticket?” I ask the driver.",
+"s": 26.96
+},
+{
+"p": 3,
+"t": "“Two dollars and twenty-five cents. You can pay with cash or with your phone.”",
+"s": 30.22
+},
+{
+"p": 4,
+"t": "I pay with my phone and sit by the window.",
+"s": 35.41
+},
+{
+"p": 4,
+"t": "The bus is clean and cool.",
+"s": 38.11
+},
+{
+"p": 4,
+"t": "At every stop, a voice says the name of the street.",
+"s": 40.59
+},
+{
+"p": 5,
+"t": "After twenty-five minutes, I hear, “Next stop: Lake Oakville.” I press the red button, and the bus stops.",
+"s": 44.1
+},
+{
+"p": 5,
+"t": "I get off.",
+"s": 50.42
+},
+{
+"p": 6,
+"t": "The lake is blue and beautiful.",
+"s": 51.89
+},
+{
+"p": 6,
+"t": "People swim, ride bikes, and have picnics.",
+"s": 54.18
+},
+{
+"p": 6,
+"t": "I sit under a tree and read my library book.",
+"s": 57.57
+},
+{
+"p": 7,
+"t": "In the evening, I take the bus home.",
+"s": 60.94
+},
+{
+"p": 7,
+"t": "Now I know: the bus is easy!",
+"s": 63.2
+}
+],
+"comp": [
+{
+"q": "Where does Sam want to go?",
+"o": [
+"to Riverside",
+"to the bookstore",
+"to Lake Oakville",
+"to the library"
+],
+"a": 2,
+"fa": "سام می‌خواهد کجا برود؟"
+},
+{
+"q": "Where is the bus stop?",
+"o": [
+"on the corner of Maple Street and Main Street",
+"next to the library",
+"in front of the bank",
+"near the lake"
+],
+"a": 0,
+"fa": "ایستگاه اتوبوس کجاست؟"
+},
+{
+"q": "How often does the number 12 bus come?",
+"o": [
+"every five minutes",
+"every hour",
+"every thirty minutes",
+"every fifteen minutes"
+],
+"a": 3,
+"fa": "اتوبوس شماره‌ی ۱۲ هر چند وقت یک بار می‌آید؟"
+},
+{
+"q": "How much is a ticket?",
+"o": [
+"two dollars and fifty cents",
+"two dollars and twenty-five cents",
+"one dollar and twenty-five cents",
+"two dollars and fifteen cents"
+],
+"a": 1,
+"fa": "بلیت چند است؟"
+},
+{
+"q": "How does Sam pay?",
+"o": [
+"with cash",
+"with a bus card",
+"with his phone",
+"He doesn’t pay."
+],
+"a": 2,
+"fa": "سام چطور پرداخت می‌کند؟"
+},
+{
+"q": "What does Sam do at the lake?",
+"o": [
+"He swims.",
+"He rides a bike.",
+"He has a picnic with Emma.",
+"He reads a book under a tree."
+],
+"a": 3,
+"fa": "سام کنار دریاچه چه کار می‌کند؟"
+}
+],
+"words": [
+{
+"w": "bus",
+"ipa": "/bʌs/",
+"fa": "اتوبوس",
+"ex": "The number 12 bus comes every fifteen minutes.",
+"book": 1,
+"id": "bus",
+"m": [
+14,
+17
+]
+},
+{
+"w": "stop",
+"ipa": "/stɑp/",
+"fa": "ایستگاه؛ ایستادن",
+"ex": "I press the red button, and the bus stops.",
+"book": 1,
+"id": "stop",
+"m": [
+36,
+41
+]
+},
+{
+"w": "corner",
+"ipa": "/ˈkɔrnɚ/",
+"fa": "گوشه، سرِ خیابان",
+"ex": "The bus stop is on the corner of Maple Street and Main Street.",
+"book": 1,
+"id": "corner",
+"m": [
+23,
+29
+]
+},
+{
+"w": "ticket",
+"ipa": "/ˈtɪkɪt/",
+"fa": "بلیت",
+"ex": "How much is a ticket?",
+"book": 1,
+"id": "ticket",
+"m": [
+14,
+20
+]
+},
+{
+"w": "driver",
+"ipa": "/ˈdraɪvɚ/",
+"fa": "راننده",
+"ex": "The bus driver is very nice.",
+"book": 1,
+"id": "driver",
+"m": [
+8,
+14
+]
+},
+{
+"w": "cash",
+"ipa": "/kæʃ/",
+"fa": "پول نقد",
+"ex": "You can pay with cash or with your phone.",
+"book": 1,
+"id": "cash",
+"m": [
+17,
+21
+]
+},
+{
+"w": "far",
+"ipa": "/fɑr/",
+"fa": "دور",
+"ex": "It is too far to walk, so I take the bus.",
+"book": 1,
+"id": "far",
+"m": [
+10,
+13
+]
+},
+{
+"w": "lake",
+"ipa": "/leɪk/",
+"fa": "دریاچه",
+"ex": "The lake is blue and beautiful.",
+"book": 1,
+"id": "lake",
+"m": [
+4,
+8
+]
+},
+{
+"w": "button",
+"ipa": "/ˈbʌtən/",
+"fa": "دکمه",
+"ex": "I press the red button, and the bus stops.",
+"book": 1,
+"id": "button",
+"m": [
+16,
+22
+]
+},
+{
+"w": "get off",
+"ipa": "/ˌɡɛt ˈɔf/",
+"fa": "پیاده شدن",
+"ex": "I get off.",
+"book": 1,
+"id": "get-off",
+"m": [
+2,
+9
+]
+},
+{
+"w": "beautiful",
+"ipa": "/ˈbjutəfəl/",
+"fa": "زیبا، قشنگ",
+"ex": "The lake is blue and beautiful.",
+"id": "beautiful",
+"m": [
+21,
+30
+]
+},
+{
+"w": "get on",
+"ipa": "/ɡɛt ɑn/",
+"fa": "سوار شدن",
+"ex": "When the bus comes, I get on.",
+"id": "get-on",
+"m": [
+22,
+28
+]
+},
+{
+"w": "clean",
+"ipa": "/klin/",
+"fa": "تمیز",
+"ex": "The bus is clean and cool.",
+"id": "clean",
+"m": [
+11,
+16
+]
+},
+{
+"w": "voice",
+"ipa": "/vɔɪs/",
+"fa": "صدا",
+"ex": "At every stop, a voice says the name of the street.",
+"id": "voice",
+"m": [
+17,
+22
+]
+},
+{
+"w": "press",
+"ipa": "/prɛs/",
+"fa": "فشار دادن",
+"ex": "I press the red button, and the bus stops.",
+"id": "press",
+"m": [
+2,
+7
+]
+},
+{
+"w": "swim",
+"ipa": "/swɪm/",
+"fa": "شنا کردن",
+"ex": "People swim, ride bikes, and have picnics.",
+"id": "swim",
+"m": [
+7,
+11
+]
+},
+{
+"w": "bike",
+"ipa": "/baɪk/",
+"fa": "دوچرخه",
+"ex": "People swim, ride bikes, and have picnics.",
+"id": "bike",
+"m": [
+18,
+23
+]
+},
+{
+"w": "picnic",
+"ipa": "/ˈpɪkˌnɪk/",
+"fa": "پیک‌نیک",
+"ex": "People swim, ride bikes, and have picnics.",
+"id": "picnic",
+"m": [
+34,
+41
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "It is too far to walk.",
+"fa": "برای پیاده رفتن خیلی دور است."
+},
+{
+"id": "s2",
+"en": "The bus comes every fifteen minutes.",
+"fa": "اتوبوس هر پانزده دقیقه می‌آید."
+},
+{
+"id": "s3",
+"en": "How much is a ticket?",
+"fa": "بلیت چند است؟"
+},
+{
+"id": "s4",
+"en": "I pay with my phone.",
+"fa": "با گوشی‌ام پرداخت می‌کنم."
+},
+{
+"id": "s5",
+"en": "I get off the bus.",
+"fa": "از اتوبوس پیاده می‌شوم."
+}
+]
+}
