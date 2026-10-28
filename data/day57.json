@@ -1,0 +1,411 @@
+{
+"day": 57,
+"level": "A2",
+"title": "Planting a Garden",
+"fa_title": "کاشتن باغچه",
+"audio": "audio/day57.mp3",
+"img": "img/day57.webp",
+"sents": [
+{
+"p": 0,
+"t": "Rosa wants to grow her own vegetables this summer.",
+"s": 3.68
+},
+{
+"p": 0,
+"t": "Behind our building, there is a small piece of land, and Mr. Brooks said, “You can use it for a garden.”",
+"s": 7.17
+},
+{
+"p": 1,
+"t": "On Saturday, Rosa and I went to the garden center.",
+"s": 14.04
+},
+{
+"p": 1,
+"t": "“How many tomato plants do we need?” I asked.",
+"s": 17.67
+},
+{
+"p": 2,
+"t": "“Six,” Rosa said.",
+"s": 21.39
+},
+{
+"p": 3,
+"t": "“And how much soil?”",
+"s": 23.57
+},
+{
+"p": 4,
+"t": "“A lot! Let’s get five bags.”",
+"s": 25.46
+},
+{
+"p": 5,
+"t": "We also bought seeds for carrots, beans, and lettuce, and a few herbs like basil and mint.",
+"s": 28.11
+},
+{
+"p": 6,
+"t": "Back home, I dug the ground, and Rosa showed me how to plant the seeds.",
+"s": 34.34
+},
+{
+"p": 6,
+"t": "“Not too deep,” she said.",
+"s": 38.88
+},
+{
+"p": 6,
+"t": "“And don’t put them too close together. Plants need space.”",
+"s": 40.97
+},
+{
+"p": 7,
+"t": "Max wanted to help too.",
+"s": 44.93
+},
+{
+"p": 7,
+"t": "Unfortunately, he dug a big hole right in the middle of the carrots!",
+"s": 46.88
+},
+{
+"p": 8,
+"t": "“Gardening teaches you patience,” Rosa said.",
+"s": 51.3
+},
+{
+"p": 8,
+"t": "“You plant a tiny seed, you water it every day, and you wait. One day, you have a tomato.”",
+"s": 54.36
+},
+{
+"p": 9,
+"t": "Yesterday, I saw the first green leaves coming out of the soil.",
+"s": 60.59
+},
+{
+"p": 9,
+"t": "It felt like magic.",
+"s": 64.68
+}
+],
+"comp": [
+{
+"q": "Who said they could use the land?",
+"o": [
+"Danny",
+"Mr. Brooks",
+"Mr. Lee",
+"Carlos"
+],
+"a": 1,
+"fa": "چه کسی گفت می‌توانند از آن زمین استفاده کنند؟"
+},
+{
+"q": "How many tomato plants did they buy?",
+"o": [
+"six",
+"two",
+"ten",
+"five"
+],
+"a": 0,
+"fa": "چند بوته‌ی گوجه لازم داشتند؟"
+},
+{
+"q": "How many bags of soil did they get?",
+"o": [
+"two",
+"ten",
+"five",
+"one"
+],
+"a": 2,
+"fa": "چند کیسه خاک گرفتند؟"
+},
+{
+"q": "What did Max do?",
+"o": [
+"ate the tomatoes",
+"slept in the sun",
+"barked at birds",
+"dug a hole in the carrots"
+],
+"a": 3,
+"fa": "مکس چه کار کرد؟"
+},
+{
+"q": "What does gardening teach you, says Rosa?",
+"o": [
+"math",
+"patience",
+"cooking",
+"English"
+],
+"a": 1,
+"fa": "به گفته‌ی رزا، باغبانی چه چیزی به آدم یاد می‌دهد؟"
+},
+{
+"q": "What did Sam see yesterday?",
+"o": [
+"the first green leaves",
+"a tomato",
+"a rabbit",
+"a sunflower"
+],
+"a": 0,
+"fa": "سام دیروز چه دید؟"
+}
+],
+"words": [
+{
+"w": "grow",
+"ipa": "/ɡroʊ/",
+"fa": "پرورش دادن، کاشتن",
+"ex": "Rosa wants to grow her own vegetables this summer.",
+"book": 1,
+"id": "grow",
+"m": [
+14,
+18
+]
+},
+{
+"w": "land",
+"ipa": "/lænd/",
+"fa": "زمین",
+"ex": "My uncle has a lot of land.",
+"book": 1,
+"id": "land",
+"m": [
+22,
+26
+]
+},
+{
+"w": "garden center",
+"ipa": "/ˈɡɑrdən ˌsɛntɚ/",
+"fa": "فروشگاه گل و گیاه",
+"ex": "On Saturday, Rosa and I went to the garden center.",
+"book": 1,
+"id": "garden-center",
+"m": [
+36,
+49
+]
+},
+{
+"w": "plant",
+"ipa": "/plænt/",
+"fa": "گیاه؛ کاشتن",
+"ex": "How many tomato plants do we need?",
+"book": 1,
+"id": "plant",
+"m": [
+16,
+22
+]
+},
+{
+"w": "soil",
+"ipa": "/sɔɪl/",
+"fa": "خاک",
+"ex": "Yesterday, I saw the first green leaves coming out of the soil.",
+"book": 1,
+"id": "soil",
+"m": [
+58,
+62
+]
+},
+{
+"w": "seed",
+"ipa": "/sid/",
+"fa": "بذر، دانه",
+"ex": "You plant a tiny seed, you water it every day, and you wait.",
+"book": 1,
+"id": "seed",
+"m": [
+17,
+21
+]
+},
+{
+"w": "lettuce",
+"ipa": "/ˈlɛtɪs/",
+"fa": "کاهو",
+"ex": "I buy lettuce for salad.",
+"book": 1,
+"id": "lettuce",
+"m": [
+6,
+13
+]
+},
+{
+"w": "herb",
+"ipa": "/ɝb/",
+"fa": "سبزی معطر",
+"ex": "Basil is my favorite herb.",
+"book": 1,
+"id": "herb",
+"m": [
+21,
+25
+]
+},
+{
+"w": "dig",
+"ipa": "/dɪɡ/",
+"fa": "کندن (زمین)",
+"ex": "Unfortunately, he dug a big hole right in the middle of the carrots!",
+"book": 1,
+"id": "dig",
+"m": [
+18,
+21
+]
+},
+{
+"w": "unfortunately",
+"ipa": "/ʌnˈfɔrtʃənətli/",
+"fa": "متأسفانه",
+"ex": "Unfortunately, he dug a big hole right in the middle of the carrots!",
+"book": 1,
+"id": "unfortunately",
+"m": [
+0,
+13
+]
+},
+{
+"w": "bean",
+"ipa": "/bin/",
+"fa": "لوبیا",
+"ex": "We also bought seeds for carrots, beans.",
+"id": "bean",
+"m": [
+34,
+39
+]
+},
+{
+"w": "basil",
+"ipa": "/ˈbæzəl/",
+"fa": "ریحان",
+"ex": "A few herbs like basil and mint.",
+"id": "basil",
+"m": [
+17,
+22
+]
+},
+{
+"w": "mint",
+"ipa": "/mɪnt/",
+"fa": "نعناع",
+"ex": "A few herbs like basil and mint.",
+"id": "mint",
+"m": [
+27,
+31
+]
+},
+{
+"w": "space",
+"ipa": "/speɪs/",
+"fa": "فضا، جا",
+"ex": "Plants need space.",
+"id": "space",
+"m": [
+12,
+17
+]
+},
+{
+"w": "hole",
+"ipa": "/hoʊl/",
+"fa": "سوراخ، چاله",
+"ex": "Unfortunately, he dug a big hole right in the middle of the carrots!",
+"id": "hole",
+"m": [
+28,
+32
+]
+},
+{
+"w": "middle",
+"ipa": "/ˈmɪdəl/",
+"fa": "وسط",
+"ex": "Unfortunately, he dug a big hole right in the middle of the carrots!",
+"id": "middle",
+"m": [
+46,
+52
+]
+},
+{
+"w": "patience",
+"ipa": "/ˈpeɪʃəns/",
+"fa": "صبر، حوصله",
+"ex": "Gardening teaches you patience.",
+"id": "patience",
+"m": [
+22,
+30
+]
+},
+{
+"w": "tiny",
+"ipa": "/ˈtaɪni/",
+"fa": "ریز، خیلی کوچک",
+"ex": "You plant a tiny seed, you water it every day, and you wait.",
+"id": "tiny",
+"m": [
+12,
+16
+]
+},
+{
+"w": "magic",
+"ipa": "/ˈmædʒɪk/",
+"fa": "جادو",
+"ex": "It felt like magic.",
+"id": "magic",
+"m": [
+13,
+18
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Plants need space.",
+"fa": "گیاهان به فضا نیاز دارند."
+},
+{
+"id": "s2",
+"en": "Don’t put them too close together.",
+"fa": "آن‌ها را خیلی نزدیک به هم نکار."
+},
+{
+"id": "s3",
+"en": "Max wanted to help too.",
+"fa": "مکس هم می‌خواست کمک کند."
+},
+{
+"id": "s4",
+"en": "Gardening teaches you patience.",
+"fa": "باغبانی به آدم صبر یاد می‌دهد."
+},
+{
+"id": "s5",
+"en": "It felt like magic.",
+"fa": "مثل جادو بود."
+}
+]
+}

@@ -1,0 +1,367 @@
+{
+"day": 56,
+"level": "A2",
+"title": "Emma's Graduation",
+"fa_title": "فارغ‌التحصیلی اِما",
+"audio": "audio/day56.mp3",
+"img": "img/day56.webp",
+"sents": [
+{
+"p": 0,
+"t": "Emma has studied art at Oakville College for four years, and this month she has finally finished!",
+"s": 4.07
+},
+{
+"p": 0,
+"t": "On Friday, her graduation ceremony took place in the college stadium.",
+"s": 10.3
+},
+{
+"p": 1,
+"t": "The students wore black caps and gowns.",
+"s": 15.58
+},
+{
+"p": 1,
+"t": "When the president called “Emma Walsh,” we all stood up and cheered.",
+"s": 18.36
+},
+{
+"p": 1,
+"t": "After the ceremony, the students threw their caps into the air.",
+"s": 22.83
+},
+{
+"p": 2,
+"t": "“What are you going to do now?” her father asked.",
+"s": 25.97
+},
+{
+"p": 3,
+"t": "Emma smiled.",
+"s": 30.18
+},
+{
+"p": 3,
+"t": "“I have some news. I’ve gotten a job! A design company in Chicago has hired me as a junior illustrator.”",
+"s": 31.56
+},
+{
+"p": 4,
+"t": "Everybody was surprised.",
+"s": 39.2
+},
+{
+"p": 4,
+"t": "Emma has worked at Oakville Books since she was nineteen.",
+"s": 41.03
+},
+{
+"p": 4,
+"t": "“I’ve always known you’re very talented,” he said.",
+"s": 44.7
+},
+{
+"p": 5,
+"t": "Emma is going to move to Chicago in July.",
+"s": 48.15
+},
+{
+"p": 5,
+"t": "“Chicago is only a four-hour drive,” she said.",
+"s": 51.05
+},
+{
+"p": 5,
+"t": "“You can visit me!”",
+"s": 54.53
+},
+{
+"p": 6,
+"t": "That night, we had a party at Rosa’s.",
+"s": 56.23
+},
+{
+"p": 6,
+"t": "Emma gave each of us a small painting.",
+"s": 58.89
+},
+{
+"p": 6,
+"t": "Mine shows me and Max on Maple Street in the snow.",
+"s": 61.49
+}
+],
+"comp": [
+{
+"q": "What did Emma study?",
+"o": [
+"music",
+"business",
+"art",
+"science"
+],
+"a": 2,
+"fa": "اِما چه رشته‌ای خواند؟"
+},
+{
+"q": "Where was the graduation ceremony?",
+"o": [
+"in the college stadium",
+"at the church",
+"in the park",
+"at the bookstore"
+],
+"a": 0,
+"fa": "مراسم فارغ‌التحصیلی کجا بود؟"
+},
+{
+"q": "What did the students throw into the air?",
+"o": [
+"flowers",
+"their caps",
+"balloons",
+"their books"
+],
+"a": 1,
+"fa": "دانشجوها چه چیزی را به هوا پرتاب کردند؟"
+},
+{
+"q": "Where is Emma’s new job?",
+"o": [
+"in Oakville",
+"in Riverside",
+"in New York",
+"in Chicago"
+],
+"a": 3,
+"fa": "کار جدید اِما کجاست؟"
+},
+{
+"q": "How long has Emma worked at Oakville Books?",
+"o": [
+"since she was nineteen",
+"for one year",
+"since January",
+"for ten years"
+],
+"a": 0,
+"fa": "اِما چه مدت در کتاب‌فروشی اوک‌ویل کار کرده است؟"
+},
+{
+"q": "What did Emma give her friends?",
+"o": [
+"books",
+"cookies",
+"photos",
+"small paintings"
+],
+"a": 3,
+"fa": "اِما به دوستانش چه داد؟"
+}
+],
+"words": [
+{
+"w": "graduation",
+"ipa": "/ˌɡrædʒuˈeɪʃən/",
+"fa": "فارغ‌التحصیلی",
+"ex": "On Friday, her graduation ceremony took place in the college stadium.",
+"book": 1,
+"id": "graduation",
+"m": [
+15,
+25
+]
+},
+{
+"w": "gown",
+"ipa": "/ɡaʊn/",
+"fa": "ردای فارغ‌التحصیلی",
+"ex": "The students wore black caps and gowns.",
+"book": 1,
+"id": "gown",
+"m": [
+33,
+38
+]
+},
+{
+"w": "president",
+"ipa": "/ˈprɛzɪdənt/",
+"fa": "رئیس (دانشگاه)",
+"ex": "When the president called “Emma Walsh,” we all stood up and cheered.",
+"book": 1,
+"id": "president",
+"m": [
+9,
+18
+]
+},
+{
+"w": "air",
+"ipa": "/ɛr/",
+"fa": "هوا",
+"ex": "After the ceremony, the students threw their caps into the air.",
+"book": 1,
+"id": "air",
+"m": [
+59,
+62
+]
+},
+{
+"w": "news",
+"ipa": "/nuz/",
+"fa": "خبر",
+"ex": "I have some news.",
+"book": 1,
+"id": "news",
+"m": [
+12,
+16
+]
+},
+{
+"w": "design",
+"ipa": "/dɪˈzaɪn/",
+"fa": "طراحی",
+"ex": "A design company in Chicago has hired me as a junior illustrator.",
+"book": 1,
+"id": "design",
+"m": [
+2,
+8
+]
+},
+{
+"w": "company",
+"ipa": "/ˈkʌmpəni/",
+"fa": "شرکت",
+"ex": "A design company in Chicago has hired me as a junior illustrator.",
+"book": 1,
+"id": "company",
+"m": [
+9,
+16
+]
+},
+{
+"w": "junior",
+"ipa": "/ˈdʒunjɚ/",
+"fa": "تازه‌کار، رده‌پایین",
+"ex": "A design company in Chicago has hired me as a junior illustrator.",
+"book": 1,
+"id": "junior",
+"m": [
+46,
+52
+]
+},
+{
+"w": "illustrator",
+"ipa": "/ˈɪləˌstreɪtɚ/",
+"fa": "تصویرگر",
+"ex": "A design company in Chicago has hired me as a junior illustrator.",
+"book": 1,
+"id": "illustrator",
+"m": [
+53,
+64
+]
+},
+{
+"w": "talented",
+"ipa": "/ˈtæləntɪd/",
+"fa": "بااستعداد",
+"ex": "I’ve always known you’re very talented.",
+"book": 1,
+"id": "talented",
+"m": [
+30,
+38
+]
+},
+{
+"w": "take place",
+"ipa": "/teɪk pleɪs/",
+"fa": "برگزار شدن",
+"ex": "On Friday, her graduation ceremony took place in the college stadium.",
+"id": "take-place",
+"m": [
+35,
+45
+]
+},
+{
+"w": "surprised",
+"ipa": "/sɚˈpraɪzd/",
+"fa": "غافلگیر، متعجب",
+"ex": "Everybody was surprised.",
+"id": "surprised",
+"m": [
+14,
+23
+]
+},
+{
+"w": "move",
+"ipa": "/muv/",
+"fa": "نقل‌مکان کردن، اسباب‌کشی کردن",
+"ex": "Emma is going to move to Chicago in July.",
+"id": "move",
+"m": [
+17,
+21
+]
+},
+{
+"w": "July",
+"ipa": "/ˌdʒuˈlaɪ/",
+"fa": "ژوئیه",
+"ex": "Emma is going to move to Chicago in July.",
+"id": "july",
+"m": [
+36,
+40
+]
+},
+{
+"w": "each of us",
+"ipa": "/itʃ ʌv ʌs/",
+"fa": "هر کدام از ما",
+"ex": "Emma gave each of us a small painting.",
+"id": "each-of-us",
+"m": [
+10,
+20
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "She has finally finished!",
+"fa": "بالاخره تمامش کرد!"
+},
+{
+"id": "s2",
+"en": "I have some news.",
+"fa": "یک خبری دارم."
+},
+{
+"id": "s3",
+"en": "I’ve gotten a job!",
+"fa": "کار پیدا کرده‌ام!"
+},
+{
+"id": "s4",
+"en": "Everybody was surprised.",
+"fa": "همه غافلگیر شدند."
+},
+{
+"id": "s5",
+"en": "You can visit me!",
+"fa": "می‌توانید به دیدنم بیایید!"
+}
+]
+}

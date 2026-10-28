@@ -1,0 +1,410 @@
+{
+"day": 51,
+"level": "A2",
+"title": "On the Road",
+"fa_title": "در جاده",
+"audio": "audio/day51.mp3",
+"img": "img/day51.webp",
+"sents": [
+{
+"p": 0,
+"t": "At six on Saturday morning, we left Oakville.",
+"s": 1.85
+},
+{
+"p": 0,
+"t": "The sun was rising, and Lily was singing along to her playlist.",
+"s": 6.58
+},
+{
+"p": 0,
+"t": "For hours, we drove past farms, small towns, and endless fields of corn.",
+"s": 10.7
+},
+{
+"p": 0,
+"t": "I have never seen so much flat land in my life!",
+"s": 16.63
+},
+{
+"p": 1,
+"t": "At noon, we stopped at a gas station.",
+"s": 20.19
+},
+{
+"p": 1,
+"t": "While I was filling up the tank, Lily was buying coffee and snacks.",
+"s": 22.96
+},
+{
+"p": 1,
+"t": "Then she took the wheel, and I took a nap.",
+"s": 27.48
+},
+{
+"p": 2,
+"t": "Around three o’clock, we were driving through Nebraska when the sky suddenly turned dark.",
+"s": 30.5
+},
+{
+"p": 2,
+"t": "A huge thunderstorm started.",
+"s": 36.15
+},
+{
+"p": 2,
+"t": "It was raining so hard that we couldn’t see the road.",
+"s": 38.42
+},
+{
+"p": 2,
+"t": "Lily pulled over at a rest area, and we waited for half an hour.",
+"s": 41.77
+},
+{
+"p": 2,
+"t": "While we were waiting, we played word games.",
+"s": 45.95
+},
+{
+"p": 3,
+"t": "When the rain stopped, there was a double rainbow over the fields.",
+"s": 49.35
+},
+{
+"p": 4,
+"t": "We arrived at the motel at seven.",
+"s": 53.56
+},
+{
+"p": 4,
+"t": "It was old but clean, and the owner was a friendly woman with a big dog.",
+"s": 55.25
+},
+{
+"p": 4,
+"t": "She recommended a diner across the street.",
+"s": 61.26
+},
+{
+"p": 4,
+"t": "We ate the biggest burgers of our lives and drank chocolate milkshakes.",
+"s": 64.01
+},
+{
+"p": 5,
+"t": "That night, I was asleep before ten.",
+"s": 68.69
+},
+{
+"p": 5,
+"t": "Tomorrow: the mountains!",
+"s": 71.04
+}
+],
+"comp": [
+{
+"q": "What was Lily doing when they left?",
+"o": [
+"sleeping",
+"singing",
+"driving",
+"eating"
+],
+"a": 1,
+"fa": "وقتی راه افتادند لیلی چه کار می‌کرد؟"
+},
+{
+"q": "What was Lily doing while Sam was filling up the tank?",
+"o": [
+"buying coffee and snacks",
+"sleeping in the car",
+"calling her mom",
+"checking the tires"
+],
+"a": 0,
+"fa": "وقتی سام باک را پر می‌کرد لیلی چه کار می‌کرد؟"
+},
+{
+"q": "What happened around three o’clock?",
+"o": [
+"The car broke down.",
+"They got lost.",
+"A huge thunderstorm started.",
+"They saw the mountains."
+],
+"a": 2,
+"fa": "حدود ساعت سه چه اتفاقی افتاد؟"
+},
+{
+"q": "What did they see when the rain stopped?",
+"o": [
+"a tornado",
+"a double rainbow",
+"snow",
+"a deer"
+],
+"a": 1,
+"fa": "وقتی باران بند آمد چه دیدند؟"
+},
+{
+"q": "Who recommended the diner?",
+"o": [
+"Gus",
+"a police officer",
+"the motel owner",
+"a man at the gas station"
+],
+"a": 2,
+"fa": "چه کسی آن غذاخوری را پیشنهاد داد؟"
+},
+{
+"q": "What time did Sam fall asleep?",
+"o": [
+"after midnight",
+"at seven",
+"at eleven",
+"before ten"
+],
+"a": 3,
+"fa": "سام ساعت چند خوابش برد؟"
+}
+],
+"words": [
+{
+"w": "rise",
+"ipa": "/raɪz/",
+"fa": "طلوع کردن، بالا آمدن",
+"ex": "The sun was rising, and Lily was singing along to her playlist.",
+"book": 1,
+"id": "rise",
+"m": [
+12,
+18
+]
+},
+{
+"w": "endless",
+"ipa": "/ˈɛndləs/",
+"fa": "بی‌پایان",
+"ex": "For hours, we drove past farms, small towns, and endless fields of corn.",
+"book": 1,
+"id": "endless",
+"m": [
+49,
+56
+]
+},
+{
+"w": "field",
+"ipa": "/fild/",
+"fa": "دشت، کشتزار",
+"ex": "When the rain stopped, there was a double rainbow over the fields.",
+"book": 1,
+"id": "field",
+"m": [
+59,
+65
+]
+},
+{
+"w": "tank",
+"ipa": "/tæŋk/",
+"fa": "باک (بنزین)",
+"ex": "While I was filling up the tank, Lily was buying coffee and snacks.",
+"book": 1,
+"id": "tank",
+"m": [
+27,
+31
+]
+},
+{
+"w": "nap",
+"ipa": "/næp/",
+"fa": "چُرت",
+"ex": "Then she took the wheel, and I took a nap.",
+"book": 1,
+"id": "nap",
+"m": [
+38,
+41
+]
+},
+{
+"w": "thunderstorm",
+"ipa": "/ˈθʌndɚˌstɔrm/",
+"fa": "رعدوبرق، طوفان تندری",
+"ex": "A huge thunderstorm started.",
+"book": 1,
+"id": "thunderstorm",
+"m": [
+7,
+19
+]
+},
+{
+"w": "rest area",
+"ipa": "/ˈrɛst ˌɛriə/",
+"fa": "استراحتگاه بین‌راهی",
+"ex": "Lily pulled over at a rest area, and we waited for half an hour.",
+"book": 1,
+"id": "rest-area",
+"m": [
+22,
+31
+]
+},
+{
+"w": "recommend",
+"ipa": "/ˌrɛkəˈmɛnd/",
+"fa": "پیشنهاد دادن، توصیه کردن",
+"ex": "She recommended a diner across the street.",
+"book": 1,
+"id": "recommend",
+"m": [
+4,
+15
+]
+},
+{
+"w": "diner",
+"ipa": "/ˈdaɪnɚ/",
+"fa": "غذاخوری ساده",
+"ex": "She recommended a diner across the street.",
+"book": 1,
+"id": "diner",
+"m": [
+18,
+23
+]
+},
+{
+"w": "milkshake",
+"ipa": "/ˈmɪlkˌʃeɪk/",
+"fa": "میلک‌شیک",
+"ex": "We ate the biggest burgers of our lives and drank chocolate milkshakes.",
+"book": 1,
+"id": "milkshake",
+"m": [
+60,
+70
+]
+},
+{
+"w": "sing along",
+"ipa": "/sɪŋ əˈlɔŋ/",
+"fa": "همراه آهنگ خواندن",
+"ex": "The sun was rising, and Lily was singing along to her playlist.",
+"id": "sing-along",
+"m": [
+33,
+46
+]
+},
+{
+"w": "gas station",
+"ipa": "/ɡæs ˈsteɪʃən/",
+"fa": "پمپ بنزین",
+"ex": "At noon, we stopped at a gas station.",
+"id": "gas-station",
+"m": [
+25,
+36
+]
+},
+{
+"w": "fill up",
+"ipa": "/fɪl ʌp/",
+"fa": "پر کردن (باک)",
+"ex": "While I was filling up the tank, Lily was buying coffee and snacks.",
+"id": "fill-up",
+"m": [
+12,
+22
+]
+},
+{
+"w": "wheel",
+"ipa": "/wil/",
+"fa": "فرمان (ماشین)",
+"ex": "Then she took the wheel, and I took a nap.",
+"id": "wheel",
+"m": [
+18,
+23
+]
+},
+{
+"w": "double",
+"ipa": "/ˈdʌbəl/",
+"fa": "دوتایی، دوبل",
+"ex": "When the rain stopped, there was a double rainbow over the fields.",
+"id": "double",
+"m": [
+35,
+41
+]
+},
+{
+"w": "owner",
+"ipa": "/ˈoʊnɚ/",
+"fa": "صاحب، مالک",
+"ex": "It was old but clean, and the owner was a friendly woman with a big dog.",
+"id": "owner",
+"m": [
+30,
+35
+]
+},
+{
+"w": "burger",
+"ipa": "/ˈbɝɡɚ/",
+"fa": "برگر",
+"ex": "We ate the biggest burgers of our lives and drank chocolate milkshakes.",
+"id": "burger",
+"m": [
+19,
+26
+]
+},
+{
+"w": "asleep",
+"ipa": "/əˈslip/",
+"fa": "خواب، در خواب",
+"ex": "That night, I was asleep before ten.",
+"id": "asleep",
+"m": [
+18,
+24
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "The sun was rising.",
+"fa": "خورشید داشت طلوع می‌کرد."
+},
+{
+"id": "s2",
+"en": "We stopped at a gas station.",
+"fa": "جلوی یک پمپ بنزین توقف کردیم."
+},
+{
+"id": "s3",
+"en": "I took a nap.",
+"fa": "چرت زدم."
+},
+{
+"id": "s4",
+"en": "We waited for half an hour.",
+"fa": "نیم ساعت منتظر ماندیم."
+},
+{
+"id": "s5",
+"en": "It was old but clean.",
+"fa": "قدیمی ولی تمیز بود."
+}
+]
+}

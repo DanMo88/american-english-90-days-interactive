@@ -1,0 +1,367 @@
+{
+"day": 53,
+"level": "A2",
+"title": "Mother's Day",
+"fa_title": "روز مادر",
+"audio": "audio/day53.mp3",
+"img": "img/day53.webp",
+"sents": [
+{
+"p": 0,
+"t": "On the second Sunday in May, Americans celebrate Mother’s Day.",
+"s": 2.07
+},
+{
+"p": 1,
+"t": "My mother lives on the other side of the world, so I couldn’t visit her.",
+"s": 8.08
+},
+{
+"p": 1,
+"t": "Instead, I ordered flowers online from a shop in her city.",
+"s": 12.03
+},
+{
+"p": 1,
+"t": "On Sunday morning, I made a video call.",
+"s": 16.52
+},
+{
+"p": 1,
+"t": "She was holding the flowers, and she had happy tears in her eyes.",
+"s": 19.49
+},
+{
+"p": 2,
+"t": "“I’ve missed you so much, Sam,” she said.",
+"s": 23.82
+},
+{
+"p": 2,
+"t": "“You’ve been in America for almost a year!”",
+"s": 26.4
+},
+{
+"p": 3,
+"t": "“I know, Mom. I’ve learned so much since I arrived, and I’ve made good friends here.” Max barked at the screen.",
+"s": 29.15
+},
+{
+"p": 4,
+"t": "Then I had an idea.",
+"s": 36.36
+},
+{
+"p": 4,
+"t": "Rosa has been like a mother to me since my first day in Oakville.",
+"s": 38.04
+},
+{
+"p": 4,
+"t": "So Lily and I made brunch for her: pancakes, fresh strawberries, and coffee.",
+"s": 41.7
+},
+{
+"p": 4,
+"t": "Danny, Sarah, Mia, and Leo came too.",
+"s": 47.23
+},
+{
+"p": 4,
+"t": "Mia gave Rosa a handmade card with a drawing of Max.",
+"s": 50.55
+},
+{
+"p": 5,
+"t": "My mom wanted to meet Rosa, so I called her again.",
+"s": 54.52
+},
+{
+"p": 5,
+"t": "They couldn’t speak the same language, but they smiled and waved at each other.",
+"s": 57.96
+},
+{
+"p": 5,
+"t": "“Your son is a wonderful young man,” Rosa said.",
+"s": 62.58
+},
+{
+"p": 5,
+"t": "I translated, and my mom cried again.",
+"s": 66.26
+}
+],
+"comp": [
+{
+"q": "When is Mother’s Day?",
+"o": [
+"the first Monday in May",
+"the second Sunday in May",
+"May 1st",
+"the last Sunday in June"
+],
+"a": 1,
+"fa": "روز مادر کی است؟"
+},
+{
+"q": "What did Sam send his mother?",
+"o": [
+"a card",
+"chocolates",
+"flowers",
+"a photo"
+],
+"a": 2,
+"fa": "سام برای مادرش چه فرستاد؟"
+},
+{
+"q": "How long has Sam been in America?",
+"o": [
+"almost a year",
+"two years",
+"six months",
+"three months"
+],
+"a": 0,
+"fa": "سام چه مدت است در آمریکاست؟"
+},
+{
+"q": "What did Sam and Lily make for Rosa?",
+"o": [
+"dinner",
+"a cake",
+"lasagna",
+"brunch"
+],
+"a": 3,
+"fa": "سام و لیلی برای رزا چه درست کردند؟"
+},
+{
+"q": "What did Mia give Rosa?",
+"o": [
+"a handmade card",
+"flowers",
+"a necklace",
+"a book"
+],
+"a": 0,
+"fa": "میا به رزا چه داد؟"
+},
+{
+"q": "How did Rosa and Sam’s mom communicate?",
+"o": [
+"They spoke English.",
+"They smiled and waved.",
+"They wrote letters.",
+"Danny translated."
+],
+"a": 1,
+"fa": "رزا و مادر سام چطور با هم ارتباط برقرار کردند؟"
+}
+],
+"words": [
+{
+"w": "brunch",
+"ipa": "/brʌntʃ/",
+"fa": "برانچ (صبحانه‌ی دیرهنگام)",
+"ex": "Lily and I made brunch for her: pancakes, fresh strawberries, and coffee.",
+"book": 1,
+"id": "brunch",
+"m": [
+16,
+22
+]
+},
+{
+"w": "instead",
+"ipa": "/ɪnˈstɛd/",
+"fa": "به جای آن",
+"ex": "Instead, I ordered flowers online from a shop in her city.",
+"book": 1,
+"id": "instead",
+"m": [
+0,
+7
+]
+},
+{
+"w": "video call",
+"ipa": "/ˈvɪdioʊ ˌkɔl/",
+"fa": "تماس تصویری",
+"ex": "On Sunday morning, I made a video call.",
+"book": 1,
+"id": "video-call",
+"m": [
+28,
+38
+]
+},
+{
+"w": "tear",
+"ipa": "/tɪr/",
+"fa": "اشک",
+"ex": "She was holding the flowers, and she had happy tears in her eyes.",
+"book": 1,
+"id": "tear",
+"m": [
+47,
+52
+]
+},
+{
+"w": "screen",
+"ipa": "/skrin/",
+"fa": "صفحه‌ی نمایش",
+"ex": "Max barked at the screen.",
+"book": 1,
+"id": "screen",
+"m": [
+18,
+24
+]
+},
+{
+"w": "idea",
+"ipa": "/aɪˈdiə/",
+"fa": "ایده، فکر",
+"ex": "Then I had an idea.",
+"book": 1,
+"id": "idea",
+"m": [
+14,
+18
+]
+},
+{
+"w": "handmade",
+"ipa": "/ˌhændˈmeɪd/",
+"fa": "دست‌ساز",
+"ex": "Mia gave Rosa a handmade card with a drawing of Max.",
+"book": 1,
+"id": "handmade",
+"m": [
+16,
+24
+]
+},
+{
+"w": "each other",
+"ipa": "/ˌitʃ ˈʌðɚ/",
+"fa": "همدیگر",
+"ex": "They couldn’t speak the same language, but they smiled and waved at each other.",
+"book": 1,
+"id": "each-other",
+"m": [
+68,
+78
+]
+},
+{
+"w": "language",
+"ipa": "/ˈlæŋɡwɪdʒ/",
+"fa": "زبان",
+"ex": "They couldn’t speak the same language, but they smiled and waved at each other.",
+"book": 1,
+"id": "language",
+"m": [
+29,
+37
+]
+},
+{
+"w": "translate",
+"ipa": "/trænzˈleɪt/",
+"fa": "ترجمه کردن",
+"ex": "I translated, and my mom cried again.",
+"book": 1,
+"id": "translate",
+"m": [
+2,
+12
+]
+},
+{
+"w": "other side",
+"ipa": "/ˈʌðɚ saɪd/",
+"fa": "آن طرفِ",
+"ex": "My mother lives on the other side of the world, so I couldn’t visit her.",
+"id": "other-side",
+"m": [
+23,
+33
+]
+},
+{
+"w": "city",
+"ipa": "/ˈsɪti/",
+"fa": "شهر",
+"ex": "Instead, I ordered flowers online from a shop in her city.",
+"id": "city",
+"m": [
+53,
+57
+]
+},
+{
+"w": "bark",
+"ipa": "/bɑrk/",
+"fa": "پارس کردن",
+"ex": "Max barked at the screen.",
+"id": "bark",
+"m": [
+4,
+10
+]
+},
+{
+"w": "same",
+"ipa": "/seɪm/",
+"fa": "یکسان، همان",
+"ex": "They couldn’t speak the same language, but they smiled and waved at each other.",
+"id": "same",
+"m": [
+24,
+28
+]
+},
+{
+"w": "eye",
+"ipa": "/aɪ/",
+"fa": "چشم",
+"ex": "She was holding the flowers, and she had happy tears in her eyes.",
+"id": "eye",
+"m": [
+60,
+64
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I couldn’t visit her.",
+"fa": "نتوانستم به دیدنش بروم."
+},
+{
+"id": "s2",
+"en": "I’ve missed you so much.",
+"fa": "خیلی دلم برایت تنگ شده."
+},
+{
+"id": "s3",
+"en": "I’ve learned so much since I arrived.",
+"fa": "از وقتی آمده‌ام خیلی چیزها یاد گرفته‌ام."
+},
+{
+"id": "s4",
+"en": "Then I had an idea.",
+"fa": "بعد فکری به ذهنم رسید."
+},
+{
+"id": "s5",
+"en": "Your son is a wonderful young man.",
+"fa": "پسرت مرد جوان فوق‌العاده‌ای است."
+}
+]
+}

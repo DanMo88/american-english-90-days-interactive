@@ -1,0 +1,384 @@
+{
+"day": 33,
+"level": "A2",
+"title": "The Heater Is Broken",
+"fa_title": "بخاری خراب است",
+"audio": "audio/day33.mp3",
+"img": "img/day33.webp",
+"sents": [
+{
+"p": 0,
+"t": "After the storm, the heater in my apartment stopped working.",
+"s": 4.03
+},
+{
+"p": 0,
+"t": "The apartment was freezing, and I could see my breath in the kitchen!",
+"s": 7.92
+},
+{
+"p": 0,
+"t": "I called Mr. Brooks, my landlord.",
+"s": 12.15
+},
+{
+"p": 1,
+"t": "“Hi, Mr. Brooks. This is Sam in Apartment 3. My heater is broken.”",
+"s": 15.0
+},
+{
+"p": 2,
+"t": "“Oh no! I’m sorry, Sam. I have to call a repairman. He can come tomorrow morning.”",
+"s": 20.29
+},
+{
+"p": 3,
+"t": "That night, Rosa invited me for dinner.",
+"s": 25.93
+},
+{
+"p": 3,
+"t": "“You shouldn’t sleep in a cold apartment,” she said.",
+"s": 28.75
+},
+{
+"p": 3,
+"t": "“Take my small heater.” She also told me, “Read your lease. The landlord has to fix the heat. That’s the law here.”",
+"s": 31.76
+},
+{
+"p": 4,
+"t": "The next morning, the repairman came at eight.",
+"s": 39.92
+},
+{
+"p": 4,
+"t": "He was a friendly man named Joe.",
+"s": 42.58
+},
+{
+"p": 4,
+"t": "He checked the heater and changed an old part.",
+"s": 44.93
+},
+{
+"p": 4,
+"t": "“This heater is twenty years old,” he said.",
+"s": 47.88
+},
+{
+"p": 4,
+"t": "“You should tell Mr. Brooks to buy a new one.”",
+"s": 50.87
+},
+{
+"p": 5,
+"t": "In the evening, Mr. Brooks knocked on my door with a box of cookies.",
+"s": 53.8
+},
+{
+"p": 5,
+"t": "“A new heater is coming next week,” he said.",
+"s": 58.26
+},
+{
+"p": 5,
+"t": "“And you don’t have to pay rent for three days.”",
+"s": 61.4
+}
+],
+"comp": [
+{
+"q": "What was wrong in Sam’s apartment?",
+"o": [
+"The window was broken.",
+"The heater stopped working.",
+"There was no water.",
+"The door was broken."
+],
+"a": 1,
+"fa": "آپارتمان سام چه مشکلی داشت؟"
+},
+{
+"q": "Who did Sam call?",
+"o": [
+"Rosa",
+"the police",
+"Mr. Brooks",
+"Carlos"
+],
+"a": 2,
+"fa": "سام به چه کسی زنگ زد؟"
+},
+{
+"q": "What did Rosa give Sam?",
+"o": [
+"some soup",
+"a blanket",
+"a new lease",
+"a small heater"
+],
+"a": 3,
+"fa": "رزا به سام چه داد؟"
+},
+{
+"q": "What does the lease say?",
+"o": [
+"The landlord has to fix the heat.",
+"Sam has to buy a heater.",
+"Dogs can’t live there.",
+"The rent is free."
+],
+"a": 0,
+"fa": "قرارداد اجاره چه می‌گوید؟"
+},
+{
+"q": "Who was Joe?",
+"o": [
+"Rosa’s son",
+"a neighbor",
+"a repairman",
+"a teacher"
+],
+"a": 2,
+"fa": "جو که بود؟"
+},
+{
+"q": "What did Mr. Brooks bring in the evening?",
+"o": [
+"a pizza",
+"a box of cookies",
+"flowers",
+"a new heater"
+],
+"a": 1,
+"fa": "آقای بروکس عصر چه آورد؟"
+}
+],
+"words": [
+{
+"w": "heater",
+"ipa": "/ˈhitɚ/",
+"fa": "بخاری",
+"ex": "He checked the heater and changed an old part.",
+"book": 1,
+"id": "heater",
+"m": [
+15,
+21
+]
+},
+{
+"w": "broken",
+"ipa": "/ˈbroʊkən/",
+"fa": "خراب، شکسته",
+"ex": "My heater is broken.",
+"book": 1,
+"id": "broken",
+"m": [
+13,
+19
+]
+},
+{
+"w": "freezing",
+"ipa": "/ˈfrizɪŋ/",
+"fa": "یخ‌زده، خیلی سرد",
+"ex": "The apartment was freezing, and I could see my breath in the kitchen!",
+"book": 1,
+"id": "freezing",
+"m": [
+18,
+26
+]
+},
+{
+"w": "breath",
+"ipa": "/brɛθ/",
+"fa": "نَفَس",
+"ex": "The apartment was freezing, and I could see my breath in the kitchen!",
+"book": 1,
+"id": "breath",
+"m": [
+47,
+53
+]
+},
+{
+"w": "repairman",
+"ipa": "/rɪˈpɛrˌmæn/",
+"fa": "تعمیرکار",
+"ex": "The next morning, the repairman came at eight.",
+"book": 1,
+"id": "repairman",
+"m": [
+22,
+31
+]
+},
+{
+"w": "lease",
+"ipa": "/lis/",
+"fa": "قرارداد اجاره",
+"ex": "Read your lease.",
+"book": 1,
+"id": "lease",
+"m": [
+10,
+15
+]
+},
+{
+"w": "fix",
+"ipa": "/fɪks/",
+"fa": "تعمیر کردن، درست کردن",
+"ex": "The landlord has to fix the heat.",
+"book": 1,
+"id": "fix",
+"m": [
+20,
+23
+]
+},
+{
+"w": "law",
+"ipa": "/lɔ/",
+"fa": "قانون",
+"ex": "That’s the law here.",
+"book": 1,
+"id": "law",
+"m": [
+11,
+14
+]
+},
+{
+"w": "part",
+"ipa": "/pɑrt/",
+"fa": "قطعه",
+"ex": "He checked the heater and changed an old part.",
+"book": 1,
+"id": "part",
+"m": [
+41,
+45
+]
+},
+{
+"w": "rent",
+"ipa": "/rɛnt/",
+"fa": "اجاره‌بها",
+"ex": "You don’t have to pay rent for three days.",
+"book": 1,
+"id": "rent",
+"m": [
+22,
+26
+]
+},
+{
+"w": "stop",
+"ipa": "/stɑp/",
+"fa": "از کار افتادن، متوقف شدن",
+"ex": "After the storm, the heater in my apartment stopped working.",
+"id": "stop",
+"m": [
+44,
+51
+]
+},
+{
+"w": "sorry",
+"ipa": "/ˈsɑri/",
+"fa": "متأسف",
+"ex": "I’m sorry, Sam.",
+"id": "sorry",
+"m": [
+4,
+9
+]
+},
+{
+"w": "have to",
+"ipa": "/hæv tu/",
+"fa": "مجبور بودن، باید",
+"ex": "The landlord has to fix the heat.",
+"id": "have-to",
+"m": [
+13,
+19
+]
+},
+{
+"w": "tomorrow",
+"ipa": "/təˈmɑˌroʊ/",
+"fa": "فردا",
+"ex": "He can come tomorrow morning.",
+"id": "tomorrow",
+"m": [
+12,
+20
+]
+},
+{
+"w": "should",
+"ipa": "/ʃʊd/",
+"fa": "بهتر است، باید",
+"ex": "You should tell Mr. Brooks to buy a new one.",
+"id": "should",
+"m": [
+4,
+10
+]
+},
+{
+"w": "check",
+"ipa": "/tʃɛk/",
+"fa": "بررسی کردن، چک کردن",
+"ex": "He checked the heater and changed an old part.",
+"id": "check",
+"m": [
+3,
+10
+]
+},
+{
+"w": "cookie",
+"ipa": "/ˈkʊki/",
+"fa": "کوکی، شیرینی",
+"ex": "In the evening, Mr. Brooks knocked on my door with a box of cookies.",
+"id": "cookie",
+"m": [
+60,
+67
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "My heater is broken.",
+"fa": "بخاری‌ام خراب است."
+},
+{
+"id": "s2",
+"en": "He can come tomorrow morning.",
+"fa": "فردا صبح می‌تواند بیاید."
+},
+{
+"id": "s3",
+"en": "The landlord has to fix the heat.",
+"fa": "صاحبخانه باید گرمایش را درست کند."
+},
+{
+"id": "s4",
+"en": "You should tell Mr. Brooks.",
+"fa": "بهتر است به آقای بروکس بگویی."
+},
+{
+"id": "s5",
+"en": "You don’t have to pay rent.",
+"fa": "لازم نیست اجاره بدهی."
+}
+]
+}

@@ -1,0 +1,395 @@
+{
+"day": 37,
+"level": "A2",
+"title": "Super Bowl Sunday",
+"fa_title": "یکشنبه‌ی سوپربول",
+"audio": "audio/day37.mp3",
+"img": "img/day37.webp",
+"sents": [
+{
+"p": 0,
+"t": "The Super Bowl is the biggest sports event of the year in America.",
+"s": 4.02
+},
+{
+"p": 0,
+"t": "It’s the final game of the football season.",
+"s": 8.07
+},
+{
+"p": 0,
+"t": "This year, Carlos had a Super Bowl party, and he invited me, Emma, Danny.",
+"s": 10.83
+},
+{
+"p": 0,
+"t": "Carlos’s fiancée, Ana, was there too.",
+"s": 16.45
+},
+{
+"p": 0,
+"t": "She is a nurse at Oakville Hospital, and she is friendlier than anyone I know.",
+"s": 19.66
+},
+{
+"p": 1,
+"t": "Everyone brought food.",
+"s": 24.98
+},
+{
+"p": 1,
+"t": "Danny brought chicken wings, which were spicier than I expected.",
+"s": 26.6
+},
+{
+"p": 1,
+"t": "Emma made guacamole, and I brought chips and salsa.",
+"s": 30.67
+},
+{
+"p": 2,
+"t": "I don’t really understand American football.",
+"s": 34.72
+},
+{
+"p": 2,
+"t": "“It’s more complicated than soccer,” I told Danny.",
+"s": 37.82
+},
+{
+"p": 3,
+"t": "“It’s easier than it looks,” he said.",
+"s": 41.68
+},
+{
+"p": 3,
+"t": "“Each team tries to carry the ball to the end zone. That’s a touchdown.”",
+"s": 44.28
+},
+{
+"p": 4,
+"t": "Half the people at the party were watching the game, and the other half were watching the commercials.",
+"s": 49.19
+},
+{
+"p": 4,
+"t": "Super Bowl commercials are more expensive than any others, so they are often funnier and more creative.",
+"s": 54.85
+},
+{
+"p": 5,
+"t": "In the end, our team lost by three points.",
+"s": 62.25
+},
+{
+"p": 5,
+"t": "Danny was sad, but Carlos said, “The food was better than the game!” I agreed.",
+"s": 65.07
+}
+],
+"comp": [
+{
+"q": "What is the Super Bowl?",
+"o": [
+"a big concert",
+"a holiday dinner",
+"a basketball game",
+"the final game of the football season"
+],
+"a": 3,
+"fa": "سوپربول چیست؟"
+},
+{
+"q": "Who is Ana?",
+"o": [
+"Carlos’s sister",
+"Emma’s friend",
+"Carlos’s fiancée",
+"a teacher"
+],
+"a": 2,
+"fa": "آنا کیست؟"
+},
+{
+"q": "What did Danny bring?",
+"o": [
+"chicken wings",
+"guacamole",
+"chips and salsa",
+"pizza"
+],
+"a": 0,
+"fa": "دنی چه آورد؟"
+},
+{
+"q": "What does Sam think about American football?",
+"o": [
+"It’s boring.",
+"It’s easier than soccer.",
+"It’s his favorite sport.",
+"It’s more complicated than soccer."
+],
+"a": 3,
+"fa": "نظر سام درباره‌ی فوتبال آمریکایی چیست؟"
+},
+{
+"q": "Why are Super Bowl commercials often funny?",
+"o": [
+"They are very cheap.",
+"They are very expensive, so companies work hard on them.",
+"Children make them.",
+"They are very short."
+],
+"a": 1,
+"fa": "چرا تبلیغات سوپربول اغلب خنده‌دارند؟"
+},
+{
+"q": "Who won the game?",
+"o": [
+"Sam’s team",
+"Carlos’s team",
+"the other team",
+"nobody"
+],
+"a": 2,
+"fa": "کدام تیم بازی را برد؟"
+}
+],
+"words": [
+{
+"w": "event",
+"ipa": "/ɪˈvɛnt/",
+"fa": "رویداد، مراسم",
+"ex": "The Super Bowl is the biggest sports event of the year in America.",
+"book": 1,
+"id": "event",
+"m": [
+37,
+42
+]
+},
+{
+"w": "final",
+"ipa": "/ˈfaɪnəl/",
+"fa": "نهایی، پایانی",
+"ex": "It’s the final game of the football season.",
+"book": 1,
+"id": "final",
+"m": [
+9,
+14
+]
+},
+{
+"w": "fiancée",
+"ipa": "/ˌfiɑnˈseɪ/",
+"fa": "نامزد (زن)",
+"ex": "Carlos’s fiancée, Ana, was there too.",
+"book": 1,
+"id": "fianc-e",
+"m": [
+9,
+16
+]
+},
+{
+"w": "wing",
+"ipa": "/wɪŋ/",
+"fa": "بال (مرغ)",
+"ex": "Danny brought chicken wings, which were spicier than I expected.",
+"book": 1,
+"id": "wing",
+"m": [
+22,
+27
+]
+},
+{
+"w": "spicy",
+"ipa": "/ˈspaɪsi/",
+"fa": "تند",
+"ex": "Danny brought chicken wings, which were spicier than I expected.",
+"book": 1,
+"id": "spicy",
+"m": [
+40,
+47
+]
+},
+{
+"w": "complicated",
+"ipa": "/ˈkɑmpləˌkeɪtɪd/",
+"fa": "پیچیده",
+"ex": "It’s more complicated than soccer.",
+"book": 1,
+"id": "complicated",
+"m": [
+10,
+21
+]
+},
+{
+"w": "touchdown",
+"ipa": "/ˈtʌtʃˌdaʊn/",
+"fa": "تاچ‌داون (امتیاز فوتبال آمریکایی)",
+"ex": "That’s a touchdown.",
+"book": 1,
+"id": "touchdown",
+"m": [
+9,
+18
+]
+},
+{
+"w": "commercial",
+"ipa": "/kəˈmɝʃəl/",
+"fa": "آگهی تبلیغاتی",
+"ex": "I like the funny commercials on TV.",
+"book": 1,
+"id": "commercial",
+"m": [
+17,
+28
+]
+},
+{
+"w": "creative",
+"ipa": "/kriˈeɪtɪv/",
+"fa": "خلاق",
+"ex": "Emma is a very creative artist.",
+"book": 1,
+"id": "creative",
+"m": [
+15,
+23
+]
+},
+{
+"w": "halftime",
+"ipa": "/ˈhæfˌtaɪm/",
+"fa": "وقت استراحت بین دو نیمه",
+"ex": "We ate pizza at halftime.",
+"book": 1,
+"id": "halftime",
+"m": [
+16,
+24
+]
+},
+{
+"w": "sports",
+"ipa": "/spɔrts/",
+"fa": "ورزشی، ورزش‌ها",
+"ex": "The Super Bowl is the biggest sports event of the year in America.",
+"id": "sports",
+"m": [
+30,
+36
+]
+},
+{
+"w": "season",
+"ipa": "/ˈsizən/",
+"fa": "فصل (مسابقات)",
+"ex": "It’s the final game of the football season.",
+"id": "season",
+"m": [
+36,
+42
+]
+},
+{
+"w": "expect",
+"ipa": "/ɪkˈspɛkt/",
+"fa": "انتظار داشتن",
+"ex": "Danny brought chicken wings, which were spicier than I expected.",
+"id": "expect",
+"m": [
+55,
+63
+]
+},
+{
+"w": "chips",
+"ipa": "/tʃɪps/",
+"fa": "چیپس",
+"ex": "Emma made guacamole, and I brought chips and salsa.",
+"id": "chips",
+"m": [
+35,
+40
+]
+},
+{
+"w": "expensive",
+"ipa": "/ɪkˈspɛnsɪv/",
+"fa": "گران",
+"ex": "Super Bowl commercials are more expensive than any others.",
+"id": "expensive",
+"m": [
+32,
+41
+]
+},
+{
+"w": "point",
+"ipa": "/pɔɪnt/",
+"fa": "امتیاز",
+"ex": "In the end, our team lost by three points.",
+"id": "point",
+"m": [
+35,
+41
+]
+},
+{
+"w": "lose",
+"ipa": "/luz/",
+"fa": "باختن",
+"ex": "In the end, our team lost by three points.",
+"id": "lose",
+"m": [
+21,
+25
+]
+},
+{
+"w": "agree",
+"ipa": "/əˈɡri/",
+"fa": "موافق بودن",
+"ex": "I agreed.",
+"id": "agree",
+"m": [
+2,
+8
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "It’s more complicated than soccer.",
+"fa": "از فوتبال پیچیده‌تر است."
+},
+{
+"id": "s2",
+"en": "It’s easier than it looks.",
+"fa": "از آنچه به نظر می‌رسد آسان‌تر است."
+},
+{
+"id": "s3",
+"en": "The wings were spicier than I expected.",
+"fa": "بال‌ها از آنچه فکر می‌کردم تندتر بودند."
+},
+{
+"id": "s4",
+"en": "Our team lost by three points.",
+"fa": "تیم ما با سه امتیاز باخت."
+},
+{
+"id": "s5",
+"en": "The food was better than the game!",
+"fa": "غذا از بازی بهتر بود!"
+}
+]
+}

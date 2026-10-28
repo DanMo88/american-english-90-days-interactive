@@ -1,0 +1,373 @@
+{
+"day": 46,
+"level": "A2",
+"title": "My First Car",
+"fa_title": "اولین ماشینم",
+"audio": "audio/day46.mp3",
+"img": "img/day46.webp",
+"sents": [
+{
+"p": 0,
+"t": "After I got my license, I started saving money for a car.",
+"s": 3.43
+},
+{
+"p": 0,
+"t": "By April, I had five thousand dollars.",
+"s": 7.46
+},
+{
+"p": 0,
+"t": "Carlos came with me to a used car lot outside town.",
+"s": 10.68
+},
+{
+"p": 0,
+"t": "“Don’t buy the first car you see,” he said.",
+"s": 14.38
+},
+{
+"p": 0,
+"t": "“And don’t believe everything the salesman says.”",
+"s": 17.26
+},
+{
+"p": 1,
+"t": "The salesman, Rick, showed us three cars.",
+"s": 20.45
+},
+{
+"p": 1,
+"t": "A red sports car was the fastest and the most beautiful, but it was too expensive, and it used a lot of gas.",
+"s": 23.48
+},
+{
+"p": 1,
+"t": "A big black truck was the largest, but it had over two hundred thousand miles.",
+"s": 30.74
+},
+{
+"p": 1,
+"t": "Then Rick showed us a small silver car.",
+"s": 35.68
+},
+{
+"p": 1,
+"t": "It was older than the truck, but it had fewer miles, and it was the cheapest of the three: forty-eight hundred dollars.",
+"s": 38.68
+},
+{
+"p": 2,
+"t": "Carlos checked the tires and looked under the hood.",
+"s": 45.59
+},
+{
+"p": 2,
+"t": "We took it for a test drive.",
+"s": 48.53
+},
+{
+"p": 3,
+"t": "“Can you lower the price?” Carlos asked.",
+"s": 50.78
+},
+{
+"p": 4,
+"t": "“OK, forty-five hundred. That’s my best price,” Rick said.",
+"s": 53.92
+},
+{
+"p": 5,
+"t": "I paid, signed the papers, and drove my own car home for the first time!",
+"s": 58.54
+},
+{
+"p": 5,
+"t": "That evening, I took Rosa and Max to the lake, and we ate ice cream with the windows down.",
+"s": 63.64
+}
+],
+"comp": [
+{
+"q": "How much money did Sam save?",
+"o": [
+"five thousand dollars",
+"three thousand dollars",
+"ten thousand dollars",
+"forty-five hundred dollars"
+],
+"a": 0,
+"fa": "سام چقدر پول پس‌انداز کرد؟"
+},
+{
+"q": "What was wrong with the red sports car?",
+"o": [
+"It was too slow.",
+"It was too expensive.",
+"It was too small.",
+"It had no brakes."
+],
+"a": 1,
+"fa": "ماشین اسپرت قرمز چه ایرادی داشت؟"
+},
+{
+"q": "What was the problem with the truck?",
+"o": [
+"It was too new.",
+"It was pink.",
+"It had over two hundred thousand miles.",
+"It had no seats."
+],
+"a": 2,
+"fa": "مشکل وانت چه بود؟"
+},
+{
+"q": "What color was the car Sam bought?",
+"o": [
+"red",
+"black",
+"blue",
+"silver"
+],
+"a": 3,
+"fa": "ماشینی که سام خرید چه رنگی بود؟"
+},
+{
+"q": "What was the final price?",
+"o": [
+"forty-five hundred dollars",
+"forty-eight hundred dollars",
+"five thousand dollars",
+"four thousand dollars"
+],
+"a": 0,
+"fa": "قیمت نهایی چقدر بود؟"
+},
+{
+"q": "Where did Sam drive Rosa and Max?",
+"o": [
+"to the mall",
+"to the lake",
+"to the park",
+"to the hospital"
+],
+"a": 1,
+"fa": "سام رزا و مکس را کجا برد؟"
+}
+],
+"words": [
+{
+"w": "used",
+"ipa": "/juzd/",
+"fa": "دست‌دوم",
+"ex": "Carlos came with me to a used car lot outside town.",
+"book": 1,
+"id": "used",
+"m": [
+25,
+29
+]
+},
+{
+"w": "salesman",
+"ipa": "/ˈseɪlzmən/",
+"fa": "فروشنده (مرد)",
+"ex": "The salesman, Rick, showed us three cars.",
+"book": 1,
+"id": "salesman",
+"m": [
+4,
+12
+]
+},
+{
+"w": "sports car",
+"ipa": "/ˈspɔrts ˌkɑr/",
+"fa": "ماشین اسپرت",
+"ex": "He drives a fast sports car.",
+"book": 1,
+"id": "sports-car",
+"m": [
+17,
+27
+]
+},
+{
+"w": "gas",
+"ipa": "/ɡæs/",
+"fa": "بنزین",
+"ex": "We need to buy gas before the trip.",
+"book": 1,
+"id": "gas",
+"m": [
+15,
+18
+]
+},
+{
+"w": "truck",
+"ipa": "/trʌk/",
+"fa": "وانت، کامیونت",
+"ex": "A big black truck was the largest, but it had over two hundred thousand miles.",
+"book": 1,
+"id": "truck",
+"m": [
+12,
+17
+]
+},
+{
+"w": "mile",
+"ipa": "/maɪl/",
+"fa": "مایل",
+"ex": "A big black truck was the largest, but it had over two hundred thousand miles.",
+"book": 1,
+"id": "mile",
+"m": [
+72,
+77
+]
+},
+{
+"w": "tire",
+"ipa": "/taɪɚ/",
+"fa": "لاستیک",
+"ex": "Carlos checked the tires and looked under the hood.",
+"book": 1,
+"id": "tire",
+"m": [
+19,
+24
+]
+},
+{
+"w": "hood",
+"ipa": "/hʊd/",
+"fa": "کاپوت",
+"ex": "Carlos checked the tires and looked under the hood.",
+"book": 1,
+"id": "hood",
+"m": [
+46,
+50
+]
+},
+{
+"w": "test drive",
+"ipa": "/ˈtɛst ˌdraɪv/",
+"fa": "رانندگی آزمایشی",
+"ex": "We took it for a test drive.",
+"book": 1,
+"id": "test-drive",
+"m": [
+17,
+27
+]
+},
+{
+"w": "lower",
+"ipa": "/ˈloʊɚ/",
+"fa": "پایین آوردن، کم کردن",
+"ex": "Can you lower the price?",
+"book": 1,
+"id": "lower",
+"m": [
+8,
+13
+]
+},
+{
+"w": "believe",
+"ipa": "/bɪˈliv/",
+"fa": "باور کردن",
+"ex": "Don’t believe everything the salesman says.",
+"id": "believe",
+"m": [
+6,
+13
+]
+},
+{
+"w": "fast",
+"ipa": "/fæst/",
+"fa": "سریع، تند",
+"ex": "A red sports car was the fastest and the most beautiful.",
+"id": "fast",
+"m": [
+25,
+32
+]
+},
+{
+"w": "silver",
+"ipa": "/ˈsɪlvɚ/",
+"fa": "نقره‌ای",
+"ex": "Then Rick showed us a small silver car.",
+"id": "silver",
+"m": [
+28,
+34
+]
+},
+{
+"w": "fewer",
+"ipa": "/ˈfjuɚ/",
+"fa": "کمتر (برای قابل‌شمارش)",
+"ex": "It had fewer miles.",
+"id": "fewer",
+"m": [
+7,
+12
+]
+},
+{
+"w": "price",
+"ipa": "/praɪs/",
+"fa": "قیمت",
+"ex": "Can you lower the price?",
+"id": "price",
+"m": [
+18,
+23
+]
+},
+{
+"w": "ice cream",
+"ipa": "/aɪs krim/",
+"fa": "بستنی",
+"ex": "We ate ice cream with the windows down.",
+"id": "ice-cream",
+"m": [
+7,
+16
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Don’t buy the first car you see.",
+"fa": "اولین ماشینی را که می‌بینی نخر."
+},
+{
+"id": "s2",
+"en": "It was too expensive.",
+"fa": "خیلی گران بود."
+},
+{
+"id": "s3",
+"en": "Can you lower the price?",
+"fa": "می‌توانید قیمت را پایین بیاورید؟"
+},
+{
+"id": "s4",
+"en": "That’s my best price.",
+"fa": "این آخرین قیمت من است."
+},
+{
+"id": "s5",
+"en": "I drove my own car home.",
+"fa": "با ماشین خودم به خانه رفتم."
+}
+]
+}

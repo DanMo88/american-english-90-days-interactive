@@ -1,0 +1,373 @@
+{
+"day": 40,
+"level": "A2",
+"title": "Shopping Online",
+"fa_title": "خرید اینترنتی",
+"audio": "audio/day40.mp3",
+"img": "img/day40.webp",
+"sents": [
+{
+"p": 0,
+"t": "This winter, I started shopping online.",
+"s": 1.93
+},
+{
+"p": 0,
+"t": "It’s easy: you choose, you click, and the package comes to your door.",
+"s": 6.16
+},
+{
+"p": 1,
+"t": "Last week, I ordered new winter boots.",
+"s": 10.94
+},
+{
+"p": 1,
+"t": "The website said, “Your order has shipped. It will arrive in three days.” The package came on Friday, but there was a problem.",
+"s": 13.57
+},
+{
+"p": 1,
+"t": "The boots were too small!",
+"s": 21.89
+},
+{
+"p": 2,
+"t": "I have never returned anything online before, so I asked Emma for help.",
+"s": 24.02
+},
+{
+"p": 2,
+"t": "“It’s easy,” she said.",
+"s": 28.73
+},
+{
+"p": 2,
+"t": "“Go to ’My Orders,’ and click ’Return item.’”",
+"s": 30.64
+},
+{
+"p": 3,
+"t": "The website asked, “Why are you returning this item?” I chose “wrong size.” Then it gave me a free return label.",
+"s": 34.01
+},
+{
+"p": 3,
+"t": "I printed it, put the boots back in the box, and took it to the post office.",
+"s": 41.98
+},
+{
+"p": 4,
+"t": "Today I checked my email: “We have received your return, and we have sent your refund.”",
+"s": 46.73
+},
+{
+"p": 5,
+"t": "I have ordered size ten this time, and I have read the reviews carefully.",
+"s": 52.47
+},
+{
+"p": 5,
+"t": "They haven’t arrived yet.",
+"s": 57.1
+},
+{
+"p": 6,
+"t": "“Have you ever ordered the wrong size?” I asked Rosa.",
+"s": 59.2
+},
+{
+"p": 6,
+"t": "She laughed.",
+"s": 62.15
+},
+{
+"p": 6,
+"t": "“Many times!”",
+"s": 63.35
+}
+],
+"comp": [
+{
+"q": "What did Sam order online?",
+"o": [
+"a jacket",
+"winter boots",
+"a phone",
+"gloves"
+],
+"a": 1,
+"fa": "سام چه چیزی اینترنتی سفارش داد؟"
+},
+{
+"q": "What was the problem?",
+"o": [
+"The boots were too big.",
+"The boots were the wrong color.",
+"The boots were too small.",
+"The package didn’t arrive."
+],
+"a": 2,
+"fa": "مشکل چه بود؟"
+},
+{
+"q": "What size did Sam order the second time?",
+"o": [
+"size ten",
+"size eight",
+"size nine",
+"size twelve"
+],
+"a": 0,
+"fa": "سام بار دوم چه سایزی سفارش داد؟"
+},
+{
+"q": "Who helped Sam with the return?",
+"o": [
+"Rosa",
+"Lily",
+"Carlos",
+"Emma"
+],
+"a": 3,
+"fa": "چه کسی در مرجوع کردن به سام کمک کرد؟"
+},
+{
+"q": "What did the website give Sam?",
+"o": [
+"a coupon",
+"a free return label",
+"a new password",
+"a gift card"
+],
+"a": 1,
+"fa": "وب‌سایت به سام چه داد؟"
+},
+{
+"q": "Where did Sam take the box?",
+"o": [
+"to the post office",
+"to the bookstore",
+"to the mall",
+"to the bank"
+],
+"a": 0,
+"fa": "سام جعبه را کجا برد؟"
+}
+],
+"words": [
+{
+"w": "boots",
+"ipa": "/buts/",
+"fa": "چکمه، بوت",
+"ex": "Last week, I ordered new winter boots.",
+"book": 1,
+"id": "boots",
+"m": [
+32,
+37
+]
+},
+{
+"w": "website",
+"ipa": "/ˈwɛbˌsaɪt/",
+"fa": "وب‌سایت",
+"ex": "The website asked, “Why are you returning this item?”",
+"book": 1,
+"id": "website",
+"m": [
+4,
+11
+]
+},
+{
+"w": "click",
+"ipa": "/klɪk/",
+"fa": "کلیک کردن",
+"ex": "Go to ’My Orders,’ and click ’Return item.’.",
+"book": 1,
+"id": "click",
+"m": [
+23,
+28
+]
+},
+{
+"w": "ship",
+"ipa": "/ʃɪp/",
+"fa": "ارسال شدن (سفارش)",
+"ex": "Your order has shipped.",
+"book": 1,
+"id": "ship",
+"m": [
+15,
+22
+]
+},
+{
+"w": "item",
+"ipa": "/ˈaɪtəm/",
+"fa": "کالا، قلم جنس",
+"ex": "Go to ’My Orders,’ and click ’Return item.’.",
+"book": 1,
+"id": "item",
+"m": [
+37,
+41
+]
+},
+{
+"w": "return",
+"ipa": "/rɪˈtɝn/",
+"fa": "مرجوع کردن",
+"ex": "Go to ’My Orders,’ and click ’Return item.’.",
+"book": 1,
+"id": "return",
+"m": [
+30,
+36
+]
+},
+{
+"w": "label",
+"ipa": "/ˈleɪbəl/",
+"fa": "برچسب",
+"ex": "Then it gave me a free return label.",
+"book": 1,
+"id": "label",
+"m": [
+30,
+35
+]
+},
+{
+"w": "print",
+"ipa": "/prɪnt/",
+"fa": "چاپ کردن",
+"ex": "Can you print this page for me?",
+"book": 1,
+"id": "print",
+"m": [
+8,
+13
+]
+},
+{
+"w": "refund",
+"ipa": "/ˈriˌfʌnd/",
+"fa": "بازپرداخت پول",
+"ex": "We have received your return, and we have sent your refund.",
+"book": 1,
+"id": "refund",
+"m": [
+52,
+58
+]
+},
+{
+"w": "review",
+"ipa": "/rɪˈvju/",
+"fa": "نظر مشتری",
+"ex": "I have ordered size ten this time, and I have read the reviews carefully.",
+"book": 1,
+"id": "review",
+"m": [
+55,
+62
+]
+},
+{
+"w": "anything",
+"ipa": "/ˈɛniˌθɪŋ/",
+"fa": "هیچ چیز، هر چیزی",
+"ex": "I have never returned anything online before, so I asked Emma for help.",
+"id": "anything",
+"m": [
+22,
+30
+]
+},
+{
+"w": "wrong",
+"ipa": "/rɔŋ/",
+"fa": "اشتباه، غلط",
+"ex": "Have you ever ordered the wrong size?",
+"id": "wrong",
+"m": [
+26,
+31
+]
+},
+{
+"w": "receive",
+"ipa": "/rəˈsiv/",
+"fa": "دریافت کردن",
+"ex": "We have received your return, and we have sent your refund.",
+"id": "receive",
+"m": [
+8,
+16
+]
+},
+{
+"w": "yet",
+"ipa": "/jɛt/",
+"fa": "هنوز (در جمله‌ی منفی)",
+"ex": "They haven’t arrived yet.",
+"id": "yet",
+"m": [
+21,
+24
+]
+},
+{
+"w": "ever",
+"ipa": "/ˈɛvɚ/",
+"fa": "تا حالا، هیچ‌وقت",
+"ex": "Have you ever ordered the wrong size?",
+"id": "ever",
+"m": [
+9,
+13
+]
+},
+{
+"w": "time",
+"ipa": "/taɪm/",
+"fa": "بار، دفعه",
+"ex": "Many times!",
+"id": "time",
+"m": [
+5,
+10
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Your order has shipped.",
+"fa": "سفارش شما ارسال شد."
+},
+{
+"id": "s2",
+"en": "The boots were too small!",
+"fa": "بوت‌ها خیلی کوچک بودند!"
+},
+{
+"id": "s3",
+"en": "Why are you returning this item?",
+"fa": "چرا این کالا را مرجوع می‌کنید؟"
+},
+{
+"id": "s4",
+"en": "They haven’t arrived yet.",
+"fa": "هنوز نرسیده‌اند."
+},
+{
+"id": "s5",
+"en": "Have you ever ordered the wrong size?",
+"fa": "تا حالا سایز اشتباه سفارش داده‌ای؟"
+}
+]
+}

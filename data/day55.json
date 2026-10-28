@@ -1,0 +1,395 @@
+{
+"day": 55,
+"level": "A2",
+"title": "Carlos and Ana's Wedding",
+"fa_title": "عروسی کارلوس و آنا",
+"audio": "audio/day55.mp3",
+"img": "img/day55.webp",
+"sents": [
+{
+"p": 0,
+"t": "The wedding was on a sunny Saturday in May at a beautiful old church.",
+"s": 4.29
+},
+{
+"p": 0,
+"t": "The party was in a big white tent in Ana’s parents’ garden.",
+"s": 9.14
+},
+{
+"p": 1,
+"t": "When Ana walked down the aisle in her white dress, Carlos was smiling and crying at the same time.",
+"s": 13.55
+},
+{
+"p": 1,
+"t": "Ana’s little niece was throwing flower petals, and her nephew was carrying the rings on a small pillow.",
+"s": 20.07
+},
+{
+"p": 2,
+"t": "During the ceremony, Carlos and Ana said their vows in English and in Spanish.",
+"s": 27.01
+},
+{
+"p": 2,
+"t": "Then the priest said, “You may kiss the bride!” and everyone cheered.",
+"s": 32.1
+},
+{
+"p": 3,
+"t": "At the reception, a mariachi band played, and we ate tacos, rice, and chicken.",
+"s": 36.99
+},
+{
+"p": 3,
+"t": "Carlos’s brother, Luis, was the best man.",
+"s": 42.81
+},
+{
+"p": 3,
+"t": "He gave a very funny speech.",
+"s": 45.61
+},
+{
+"p": 4,
+"t": "Then the dancing began.",
+"s": 48.0
+},
+{
+"p": 4,
+"t": "I don’t dance well, but Ana’s grandmother pulled me onto the dance floor.",
+"s": 49.87
+},
+{
+"p": 4,
+"t": "While we were dancing, she was teaching me Spanish words.",
+"s": 54.42
+},
+{
+"p": 5,
+"t": "At the end of the night, Ana threw her bouquet.",
+"s": 58.34
+},
+{
+"p": 5,
+"t": "Who caught it?",
+"s": 61.19
+},
+{
+"p": 5,
+"t": "Lily!",
+"s": 62.17
+},
+{
+"p": 5,
+"t": "Everyone looked at me, and my face turned as red as a tomato.",
+"s": 63.07
+}
+],
+"comp": [
+{
+"q": "Where was the party after the wedding?",
+"o": [
+"in a restaurant",
+"in a tent in Ana’s parents’ garden",
+"at the church",
+"at the bookstore"
+],
+"a": 1,
+"fa": "جشن بعد از عروسی کجا بود؟"
+},
+{
+"q": "What was Ana’s niece doing?",
+"o": [
+"carrying the rings",
+"singing",
+"throwing flower petals",
+"taking photos"
+],
+"a": 2,
+"fa": "دختر کوچکِ خواهر یا برادرِ آنا چه کار می‌کرد؟"
+},
+{
+"q": "In which languages did they say their vows?",
+"o": [
+"English and Spanish",
+"only English",
+"only Spanish",
+"English and Italian"
+],
+"a": 0,
+"fa": "آن‌ها پیمان‌هایشان را به چه زبان‌هایی گفتند؟"
+},
+{
+"q": "Who gave a funny speech?",
+"o": [
+"Sam",
+"Ana’s father",
+"the priest",
+"Carlos’s brother, Luis"
+],
+"a": 3,
+"fa": "چه کسی سخنرانی خنده‌داری کرد؟"
+},
+{
+"q": "Who taught Sam Spanish words while they were dancing?",
+"o": [
+"Ana",
+"Ana’s grandmother",
+"Lily",
+"Rosa"
+],
+"a": 1,
+"fa": "وقتی می‌رقصیدند چه کسی به سام کلمات اسپانیایی یاد می‌داد؟"
+},
+{
+"q": "Who caught the bouquet?",
+"o": [
+"Emma",
+"Rosa",
+"Lily",
+"Ana’s niece"
+],
+"a": 2,
+"fa": "چه کسی دسته‌گل را گرفت؟"
+}
+],
+"words": [
+{
+"w": "church",
+"ipa": "/tʃɝtʃ/",
+"fa": "کلیسا",
+"ex": "The wedding was on a sunny Saturday in May at a beautiful old church.",
+"book": 1,
+"id": "church",
+"m": [
+62,
+68
+]
+},
+{
+"w": "niece",
+"ipa": "/nis/",
+"fa": "دختر خواهر یا برادر",
+"ex": "My niece is six years old.",
+"book": 1,
+"id": "niece",
+"m": [
+3,
+8
+]
+},
+{
+"w": "nephew",
+"ipa": "/ˈnɛfju/",
+"fa": "پسر خواهر یا برادر",
+"ex": "My nephew loves video games.",
+"book": 1,
+"id": "nephew",
+"m": [
+3,
+9
+]
+},
+{
+"w": "ring",
+"ipa": "/rɪŋ/",
+"fa": "حلقه، انگشتر",
+"ex": "She wears a gold ring.",
+"book": 1,
+"id": "ring",
+"m": [
+17,
+21
+]
+},
+{
+"w": "ceremony",
+"ipa": "/ˈsɛrəˌmoʊni/",
+"fa": "مراسم",
+"ex": "During the ceremony, Carlos and Ana said their vows in English and in Spanish.",
+"book": 1,
+"id": "ceremony",
+"m": [
+11,
+19
+]
+},
+{
+"w": "vow",
+"ipa": "/vaʊ/",
+"fa": "پیمان، عهد",
+"ex": "During the ceremony, Carlos and Ana said their vows in English and in Spanish.",
+"book": 1,
+"id": "vow",
+"m": [
+47,
+51
+]
+},
+{
+"w": "bride",
+"ipa": "/braɪd/",
+"fa": "عروس",
+"ex": "You may kiss the bride!",
+"book": 1,
+"id": "bride",
+"m": [
+17,
+22
+]
+},
+{
+"w": "reception",
+"ipa": "/rɪˈsɛpʃən/",
+"fa": "مهمانی پذیرایی (بعد از عقد)",
+"ex": "At the reception, a mariachi band played, and we ate tacos, rice, and chicken.",
+"book": 1,
+"id": "reception",
+"m": [
+7,
+16
+]
+},
+{
+"w": "speech",
+"ipa": "/spitʃ/",
+"fa": "سخنرانی",
+"ex": "He gave a very funny speech.",
+"book": 1,
+"id": "speech",
+"m": [
+21,
+27
+]
+},
+{
+"w": "bouquet",
+"ipa": "/boʊˈkeɪ/",
+"fa": "دسته‌گل",
+"ex": "At the end of the night, Ana threw her bouquet.",
+"book": 1,
+"id": "bouquet",
+"m": [
+39,
+46
+]
+},
+{
+"w": "dress",
+"ipa": "/drɛs/",
+"fa": "لباس (زنانه)، پیراهن",
+"ex": "When Ana walked down the aisle in her white dress, Carlos was smiling and crying at the same time.",
+"id": "dress",
+"m": [
+44,
+49
+]
+},
+{
+"w": "petal",
+"ipa": "/ˈpɛtəl/",
+"fa": "گلبرگ",
+"ex": "Ana’s little niece was throwing flower petals.",
+"id": "petal",
+"m": [
+39,
+45
+]
+},
+{
+"w": "pillow",
+"ipa": "/ˈpɪloʊ/",
+"fa": "بالش، کوسن",
+"ex": "Her nephew was carrying the rings on a small pillow.",
+"id": "pillow",
+"m": [
+45,
+51
+]
+},
+{
+"w": "priest",
+"ipa": "/prist/",
+"fa": "کشیش",
+"ex": "Then the priest said, “You may kiss the bride!”",
+"id": "priest",
+"m": [
+9,
+15
+]
+},
+{
+"w": "cheer",
+"ipa": "/tʃɪr/",
+"fa": "هورا کشیدن، تشویق کردن",
+"ex": "Everyone cheered.",
+"id": "cheer",
+"m": [
+9,
+16
+]
+},
+{
+"w": "best man",
+"ipa": "/bɛst mæn/",
+"fa": "ساقدوش اصلی داماد",
+"ex": "Carlos’s brother, Luis, was the best man.",
+"id": "best-man",
+"m": [
+32,
+40
+]
+},
+{
+"w": "catch",
+"ipa": "/kætʃ/",
+"fa": "گرفتن (در هوا)",
+"ex": "Who caught it?",
+"id": "catch",
+"m": [
+4,
+10
+]
+},
+{
+"w": "Spanish",
+"ipa": "/ˈspænɪʃ/",
+"fa": "اسپانیایی",
+"ex": "While we were dancing, she was teaching me Spanish words.",
+"id": "spanish",
+"m": [
+43,
+50
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "You may kiss the bride!",
+"fa": "می‌توانی عروس را ببوسی!"
+},
+{
+"id": "s2",
+"en": "He gave a very funny speech.",
+"fa": "سخنرانی خیلی خنده‌داری کرد."
+},
+{
+"id": "s3",
+"en": "Then the dancing began.",
+"fa": "بعد رقص شروع شد."
+},
+{
+"id": "s4",
+"en": "I don’t dance well.",
+"fa": "خوب نمی‌رقصم."
+},
+{
+"id": "s5",
+"en": "My face turned as red as a tomato.",
+"fa": "صورتم مثل گوجه سرخ شد."
+}
+]
+}

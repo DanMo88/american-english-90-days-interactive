@@ -1,0 +1,405 @@
+{
+"day": 49,
+"level": "A2",
+"title": "Moving Day",
+"fa_title": "روز اسباب‌کشی",
+"audio": "audio/day49.mp3",
+"img": "img/day49.webp",
+"sents": [
+{
+"p": 0,
+"t": "Lily has found a new apartment!",
+"s": 2.23
+},
+{
+"p": 0,
+"t": "Her old place was small and far from the café.",
+"s": 5.77
+},
+{
+"p": 0,
+"t": "The new one is a two-bedroom apartment on Oak Street, and she’s going to share it with a roommate, her friend Priya.",
+"s": 9.32
+},
+{
+"p": 1,
+"t": "Lily asked me to see it with her.",
+"s": 16.54
+},
+{
+"p": 1,
+"t": "The landlord showed us the kitchen, the bathroom, and the bedrooms.",
+"s": 18.83
+},
+{
+"p": 1,
+"t": "“The rent is fourteen hundred dollars a month, and utilities are not included,” she said.",
+"s": 23.26
+},
+{
+"p": 1,
+"t": "“You have to pay the first month’s rent and a security deposit.”",
+"s": 29.31
+},
+{
+"p": 2,
+"t": "“Are pets allowed?” Lily asked.",
+"s": 33.39
+},
+{
+"p": 2,
+"t": "“Cats are OK, but dogs aren’t.”",
+"s": 35.69
+},
+{
+"p": 3,
+"t": "On moving day, it was raining, of course.",
+"s": 38.25
+},
+{
+"p": 3,
+"t": "Carlos, Emma, and I helped.",
+"s": 41.14
+},
+{
+"p": 3,
+"t": "We rented a moving truck and carried boxes for five hours.",
+"s": 43.47
+},
+{
+"p": 3,
+"t": "Lily has so many cookbooks and baking supplies!",
+"s": 47.52
+},
+{
+"p": 3,
+"t": "Her couch didn’t fit through the door, so we had to take off its legs.",
+"s": 50.68
+},
+{
+"p": 4,
+"t": "By evening, everything was inside.",
+"s": 55.22
+},
+{
+"p": 4,
+"t": "We were exhausted, and our backs hurt.",
+"s": 57.89
+},
+{
+"p": 4,
+"t": "We ate pizza on the floor between the boxes.",
+"s": 60.36
+},
+{
+"p": 5,
+"t": "“Next time, let’s hire movers,” Carlos laughed.",
+"s": 63.53
+}
+],
+"comp": [
+{
+"q": "Why did Lily move?",
+"o": [
+"Her old place was small and far from the café.",
+"Her rent went up.",
+"She got a new job.",
+"Her landlord was angry."
+],
+"a": 0,
+"fa": "چرا لیلی اسباب‌کشی کرد؟"
+},
+{
+"q": "Who is Priya?",
+"o": [
+"Lily’s sister",
+"Carlos’s friend",
+"the landlord",
+"Lily’s roommate"
+],
+"a": 3,
+"fa": "پریا کیست؟"
+},
+{
+"q": "How much is the rent?",
+"o": [
+"twelve hundred dollars",
+"one thousand dollars",
+"fourteen hundred dollars",
+"two thousand dollars"
+],
+"a": 2,
+"fa": "اجاره‌بها چقدر است؟"
+},
+{
+"q": "Which pets are allowed?",
+"o": [
+"dogs",
+"birds",
+"no pets",
+"cats"
+],
+"a": 3,
+"fa": "کدام حیوانات خانگی مجازند؟"
+},
+{
+"q": "Why did they take the legs off the couch?",
+"o": [
+"It was too heavy.",
+"It didn’t fit through the door.",
+"The legs were broken.",
+"Lily wanted a new couch."
+],
+"a": 1,
+"fa": "چرا پایه‌های کاناپه را باز کردند؟"
+},
+{
+"q": "What did they eat at the end of the day?",
+"o": [
+"pizza",
+"tacos",
+"lasagna",
+"sandwiches"
+],
+"a": 0,
+"fa": "آخر روز چه خوردند؟"
+}
+],
+"words": [
+{
+"w": "roommate",
+"ipa": "/ˈrumˌmeɪt/",
+"fa": "هم‌خانه",
+"ex": "My roommate is a nurse.",
+"book": 1,
+"id": "roommate",
+"m": [
+3,
+11
+]
+},
+{
+"w": "utilities",
+"ipa": "/juˈtɪlətiz/",
+"fa": "قبض‌های آب و برق و گاز",
+"ex": "The rent is fourteen hundred dollars a month, and utilities are not included.",
+"book": 1,
+"id": "utilities",
+"m": [
+50,
+59
+]
+},
+{
+"w": "security deposit",
+"ipa": "/sɪˈkjʊrəti dɪˌpɑzɪt/",
+"fa": "ودیعه",
+"ex": "You have to pay the first month’s rent and a security deposit.",
+"book": 1,
+"id": "security-deposit",
+"m": [
+45,
+61
+]
+},
+{
+"w": "allowed",
+"ipa": "/əˈlaʊd/",
+"fa": "مجاز",
+"ex": "Are pets allowed?",
+"book": 1,
+"id": "allowed",
+"m": [
+9,
+16
+]
+},
+{
+"w": "pet",
+"ipa": "/pɛt/",
+"fa": "حیوان خانگی",
+"ex": "Are pets allowed?",
+"book": 1,
+"id": "pet",
+"m": [
+4,
+8
+]
+},
+{
+"w": "supplies",
+"ipa": "/səˈplaɪz/",
+"fa": "لوازم",
+"ex": "Lily has so many cookbooks and baking supplies!",
+"book": 1,
+"id": "supplies",
+"m": [
+38,
+46
+]
+},
+{
+"w": "couch",
+"ipa": "/kaʊtʃ/",
+"fa": "کاناپه",
+"ex": "Her couch didn’t fit through the door, so we had to take off its legs.",
+"book": 1,
+"id": "couch",
+"m": [
+4,
+9
+]
+},
+{
+"w": "fit",
+"ipa": "/fɪt/",
+"fa": "جا شدن",
+"ex": "Her couch didn’t fit through the door, so we had to take off its legs.",
+"book": 1,
+"id": "fit",
+"m": [
+17,
+20
+]
+},
+{
+"w": "exhausted",
+"ipa": "/ɪɡˈzɔstɪd/",
+"fa": "خیلی خسته، از پا افتاده",
+"ex": "We were exhausted, and our backs hurt.",
+"book": 1,
+"id": "exhausted",
+"m": [
+8,
+17
+]
+},
+{
+"w": "hire",
+"ipa": "/haɪɚ/",
+"fa": "استخدام کردن، گرفتن (نیرو)",
+"ex": "Next time, let’s hire movers.",
+"book": 1,
+"id": "hire",
+"m": [
+17,
+21
+]
+},
+{
+"w": "bathroom",
+"ipa": "/ˈbæˌθrum/",
+"fa": "حمام و دستشویی",
+"ex": "The landlord showed us the kitchen, the bathroom, and the bedrooms.",
+"id": "bathroom",
+"m": [
+40,
+48
+]
+},
+{
+"w": "of course",
+"ipa": "/ʌv kɔrs/",
+"fa": "البته",
+"ex": "On moving day, it was raining, of course.",
+"id": "of-course",
+"m": [
+31,
+40
+]
+},
+{
+"w": "cookbook",
+"ipa": "/ˈkʊkˌbʊk/",
+"fa": "کتاب آشپزی",
+"ex": "Lily has so many cookbooks and baking supplies!",
+"id": "cookbook",
+"m": [
+17,
+26
+]
+},
+{
+"w": "through",
+"ipa": "/θru/",
+"fa": "از میانِ، از",
+"ex": "Her couch didn’t fit through the door, so we had to take off its legs.",
+"id": "through",
+"m": [
+21,
+28
+]
+},
+{
+"w": "take off",
+"ipa": "/teɪk ɔf/",
+"fa": "درآوردن، جدا کردن",
+"ex": "Her couch didn’t fit through the door, so we had to take off its legs.",
+"id": "take-off",
+"m": [
+52,
+60
+]
+},
+{
+"w": "back",
+"ipa": "/bæk/",
+"fa": "کمر، پشت",
+"ex": "We were exhausted, and our backs hurt.",
+"id": "back",
+"m": [
+27,
+32
+]
+},
+{
+"w": "floor",
+"ipa": "/flɔr/",
+"fa": "کف (اتاق)، زمین",
+"ex": "We ate pizza on the floor between the boxes.",
+"id": "floor",
+"m": [
+20,
+25
+]
+},
+{
+"w": "mover",
+"ipa": "/ˈmuvɚ/",
+"fa": "باربر (اسباب‌کشی)",
+"ex": "Next time, let’s hire movers.",
+"id": "mover",
+"m": [
+22,
+28
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "The rent is fourteen hundred dollars a month.",
+"fa": "اجاره ماهی هزار و چهارصد دلار است."
+},
+{
+"id": "s2",
+"en": "Are pets allowed?",
+"fa": "حیوان خانگی مجاز است؟"
+},
+{
+"id": "s3",
+"en": "Cats are OK, but dogs aren’t.",
+"fa": "گربه اشکالی ندارد، ولی سگ نه."
+},
+{
+"id": "s4",
+"en": "We were exhausted, and our backs hurt.",
+"fa": "از پا افتاده بودیم و کمرمان درد می‌کرد."
+},
+{
+"id": "s5",
+"en": "Next time, let’s hire movers.",
+"fa": "دفعه‌ی بعد باربر بگیریم."
+}
+]
+}

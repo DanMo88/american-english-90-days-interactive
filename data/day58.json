@@ -1,0 +1,352 @@
+{
+"day": 58,
+"level": "A2",
+"title": "My First Credit Card",
+"fa_title": "اولین کارت اعتباری‌ام",
+"audio": "audio/day58.mp3",
+"img": "img/day58.webp",
+"sents": [
+{
+"p": 0,
+"t": "In America, almost everyone talks about their “credit score.” It’s a number that shows banks if you pay your bills on time.",
+"s": 3.82
+},
+{
+"p": 0,
+"t": "You often need good credit to rent an apartment, get a loan for a car, or even get some phone plans.",
+"s": 11.86
+},
+{
+"p": 0,
+"t": "Last winter, I didn’t have a credit score at all, because I had never had a credit card.",
+"s": 18.7
+},
+{
+"p": 1,
+"t": "Danny works at a bank, so I asked him for advice.",
+"s": 24.46
+},
+{
+"p": 1,
+"t": "“You should start with a simple card with a low limit,” he said.",
+"s": 27.11
+},
+{
+"p": 1,
+"t": "“Use it for small things, like gas or groceries, and pay the whole bill every month. Never pay late, and never spend more than you have.”",
+"s": 32.02
+},
+{
+"p": 2,
+"t": "I applied online, and the bank approved me with a limit of five hundred dollars.",
+"s": 41.43
+},
+{
+"p": 3,
+"t": "“What’s the interest rate?” I asked.",
+"s": 47.14
+},
+{
+"p": 4,
+"t": "“About twenty-five percent,” Danny said.",
+"s": 49.96
+},
+{
+"p": 4,
+"t": "“That’s why you have to pay off everything every month. If you don’t, your debt will grow very fast.”",
+"s": 52.89
+},
+{
+"p": 5,
+"t": "Since then, I have used my card only for gas, and I have paid it off every month.",
+"s": 59.45
+},
+{
+"p": 5,
+"t": "This week, I checked my credit score for the first time: 710!",
+"s": 64.66
+},
+{
+"p": 6,
+"t": "“That’s a good start,” Danny said.",
+"s": 69.77
+},
+{
+"p": 6,
+"t": "“Now you’re a real American.”",
+"s": 71.93
+}
+],
+"comp": [
+{
+"q": "What does a credit score show?",
+"o": [
+"how much money you have",
+"if you pay your bills on time",
+"your age",
+"your job"
+],
+"a": 1,
+"fa": "امتیاز اعتباری چه چیزی را نشان می‌دهد؟"
+},
+{
+"q": "Who gave Sam advice?",
+"o": [
+"Mr. Lee",
+"Lily",
+"Danny",
+"Rosa"
+],
+"a": 2,
+"fa": "چه کسی به سام توصیه کرد؟"
+},
+{
+"q": "What was Sam’s credit limit?",
+"o": [
+"five thousand dollars",
+"fifty dollars",
+"one thousand dollars",
+"five hundred dollars"
+],
+"a": 3,
+"fa": "سقف اعتبار سام چقدر بود؟"
+},
+{
+"q": "What does Sam use his card for?",
+"o": [
+"only gas",
+"a new car",
+"his vacation",
+"expensive clothes"
+],
+"a": 0,
+"fa": "سام از کارتش برای چه استفاده می‌کند؟"
+},
+{
+"q": "Why should you pay the whole bill every month?",
+"o": [
+"The bank sends a gift.",
+"The interest rate is high.",
+"It’s the law.",
+"You get a bigger card."
+],
+"a": 1,
+"fa": "چرا باید هر ماه کل صورت‌حساب را پرداخت؟"
+},
+{
+"q": "What was Sam’s credit score?",
+"o": [
+"710",
+"500",
+"800",
+"610"
+],
+"a": 0,
+"fa": "امتیاز اعتباری سام چند بود؟"
+}
+],
+"words": [
+{
+"w": "credit score",
+"ipa": "/ˈkrɛdɪt ˌskɔr/",
+"fa": "امتیاز اعتباری",
+"ex": "In America, almost everyone talks about their “credit score.”",
+"book": 1,
+"id": "credit-score",
+"m": [
+47,
+59
+]
+},
+{
+"w": "on time",
+"ipa": "/ˌɑn ˈtaɪm/",
+"fa": "سرِ وقت",
+"ex": "It’s a number that shows banks if you pay your bills on time.",
+"book": 1,
+"id": "on-time",
+"m": [
+53,
+60
+]
+},
+{
+"w": "loan",
+"ipa": "/loʊn/",
+"fa": "وام",
+"ex": "They got a loan to buy a house.",
+"book": 1,
+"id": "loan",
+"m": [
+11,
+15
+]
+},
+{
+"w": "limit",
+"ipa": "/ˈlɪmɪt/",
+"fa": "سقف، محدودیت",
+"ex": "You should start with a simple card with a low limit.",
+"book": 1,
+"id": "limit",
+"m": [
+47,
+52
+]
+},
+{
+"w": "groceries",
+"ipa": "/ˈɡroʊsəriz/",
+"fa": "مواد غذایی",
+"ex": "Use it for small things, like gas or groceries, and pay the whole bill every month.",
+"book": 1,
+"id": "groceries",
+"m": [
+37,
+46
+]
+},
+{
+"w": "spend",
+"ipa": "/spɛnd/",
+"fa": "خرج کردن",
+"ex": "Never pay late, and never spend more than you have.",
+"book": 1,
+"id": "spend",
+"m": [
+26,
+31
+]
+},
+{
+"w": "approve",
+"ipa": "/əˈpruv/",
+"fa": "تأیید کردن",
+"ex": "I applied online, and the bank approved me with a limit of five hundred dollars.",
+"book": 1,
+"id": "approve",
+"m": [
+31,
+39
+]
+},
+{
+"w": "interest rate",
+"ipa": "/ˈɪntrəst ˌreɪt/",
+"fa": "نرخ بهره",
+"ex": "What’s the interest rate?",
+"book": 1,
+"id": "interest-rate",
+"m": [
+11,
+24
+]
+},
+{
+"w": "pay off",
+"ipa": "/ˌpeɪ ˈɔf/",
+"fa": "تسویه کردن",
+"ex": "That’s why you have to pay off everything every month.",
+"book": 1,
+"id": "pay-off",
+"m": [
+23,
+30
+]
+},
+{
+"w": "debt",
+"ipa": "/dɛt/",
+"fa": "بدهی",
+"ex": "If you don’t, your debt will grow very fast.",
+"book": 1,
+"id": "debt",
+"m": [
+19,
+23
+]
+},
+{
+"w": "credit card",
+"ipa": "/ˈkrɛdət kɑrd/",
+"fa": "کارت اعتباری",
+"ex": "Last winter, I didn’t have a credit score at all, because I had never had a credit card.",
+"id": "credit-card",
+"m": [
+76,
+87
+]
+},
+{
+"w": "low",
+"ipa": "/loʊ/",
+"fa": "پایین، کم",
+"ex": "You should start with a simple card with a low limit.",
+"id": "low",
+"m": [
+43,
+46
+]
+},
+{
+"w": "at all",
+"ipa": "/æt ɔl/",
+"fa": "اصلاً",
+"ex": "Last winter, I didn’t have a credit score at all, because I had never had a credit card.",
+"id": "at-all",
+"m": [
+42,
+48
+]
+},
+{
+"w": "that's why",
+"ipa": "/ðæts waɪ/",
+"fa": "به همین دلیل",
+"ex": "That’s why you have to pay off everything every month.",
+"id": "that-s-why",
+"m": [
+0,
+10
+]
+},
+{
+"w": "since then",
+"ipa": "/sɪns ðɛn/",
+"fa": "از آن موقع",
+"ex": "Since then, I have used my card only for gas.",
+"id": "since-then",
+"m": [
+0,
+10
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Never pay late.",
+"fa": "هیچ‌وقت دیر پرداخت نکن."
+},
+{
+"id": "s2",
+"en": "Never spend more than you have.",
+"fa": "هیچ‌وقت بیشتر از آنچه داری خرج نکن."
+},
+{
+"id": "s3",
+"en": "What’s the interest rate?",
+"fa": "نرخ بهره چقدر است؟"
+},
+{
+"id": "s4",
+"en": "I have paid it off every month.",
+"fa": "هر ماه آن را تسویه کرده‌ام."
+},
+{
+"id": "s5",
+"en": "That’s a good start.",
+"fa": "شروع خوبی است."
+}
+]
+}

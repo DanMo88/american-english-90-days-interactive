@@ -1,0 +1,369 @@
+{
+"day": 50,
+"level": "A2",
+"title": "Planning a Road Trip",
+"fa_title": "برنامه‌ریزی یک سفر جاده‌ای",
+"audio": "audio/day50.mp3",
+"img": "img/day50.webp",
+"sents": [
+{
+"p": 0,
+"t": "In May, I’m going to have my first vacation in America, a whole week!",
+"s": 3.62
+},
+{
+"p": 0,
+"t": "Lily and I decided to take a road trip to Rocky Mountain National Park in Colorado.",
+"s": 8.66
+},
+{
+"p": 0,
+"t": "It’s about a fourteen-hour drive from Oakville.",
+"s": 14.37
+},
+{
+"p": 1,
+"t": "Last night, we made a plan.",
+"s": 17.65
+},
+{
+"p": 1,
+"t": "“We’re going to leave on Saturday at six in the morning,” Lily said.",
+"s": 19.75
+},
+{
+"p": 1,
+"t": "“We’ll drive for eight hours and stay at a motel in Nebraska. On Sunday, we’ll arrive in the mountains.”",
+"s": 23.88
+},
+{
+"p": 2,
+"t": "“Where are we going to sleep in the park?” I asked.",
+"s": 31.12
+},
+{
+"p": 3,
+"t": "“At a campground. I’ve already reserved a site for four nights. It’s the cheapest way, and the most beautiful!”",
+"s": 34.46
+},
+{
+"p": 4,
+"t": "Then we made a packing list: a tent, sleeping bags, warm clothes, hiking boots, sunscreen, and lots of snacks.",
+"s": 41.78
+},
+{
+"p": 4,
+"t": "Lily is the most organized person I know.",
+"s": 49.9
+},
+{
+"p": 4,
+"t": "She even made a playlist for the car.",
+"s": 52.66
+},
+{
+"p": 5,
+"t": "We also made a budget.",
+"s": 55.28
+},
+{
+"p": 5,
+"t": "Gas will cost about two hundred dollars, the motel will be ninety, and the park pass is thirty-five.",
+"s": 57.07
+}
+],
+"comp": [
+{
+"q": "Where are Sam and Lily going?",
+"o": [
+"to Chicago",
+"to the beach",
+"to Rocky Mountain National Park",
+"to Seattle"
+],
+"a": 2,
+"fa": "سام و لیلی کجا می‌روند؟"
+},
+{
+"q": "How long is the drive?",
+"o": [
+"about fourteen hours",
+"about four hours",
+"about two hours",
+"about thirty hours"
+],
+"a": 0,
+"fa": "رانندگی چقدر طول می‌کشد؟"
+},
+{
+"q": "Where are they going to stay on the first night?",
+"o": [
+"at a campground",
+"at a motel in Nebraska",
+"at a hotel in Denver",
+"in the car"
+],
+"a": 1,
+"fa": "شب اول کجا می‌مانند؟"
+},
+{
+"q": "Why did they choose a campground?",
+"o": [
+"It has a pool.",
+"Hotels are closed.",
+"Lily works there.",
+"It’s the cheapest and the most beautiful way."
+],
+"a": 3,
+"fa": "چرا محل کمپینگ را انتخاب کردند؟"
+},
+{
+"q": "Who is the most organized person Sam knows?",
+"o": [
+"Emma",
+"Rosa",
+"Lily",
+"Carlos"
+],
+"a": 2,
+"fa": "منظم‌ترین آدمی که سام می‌شناسد کیست؟"
+},
+{
+"q": "How much will gas cost?",
+"o": [
+"ninety dollars",
+"thirty-five dollars",
+"fifty dollars",
+"about two hundred dollars"
+],
+"a": 3,
+"fa": "بنزین چقدر خرج دارد؟"
+}
+],
+"words": [
+{
+"w": "vacation",
+"ipa": "/veɪˈkeɪʃən/",
+"fa": "تعطیلات، مرخصی",
+"ex": "In May, I’m going to have my first vacation in America, a whole week!",
+"book": 1,
+"id": "vacation",
+"m": [
+35,
+43
+]
+},
+{
+"w": "road trip",
+"ipa": "/ˈroʊd ˌtrɪp/",
+"fa": "سفر جاده‌ای",
+"ex": "Lily and I decided to take a road trip to Rocky Mountain National Park in Colorado.",
+"book": 1,
+"id": "road-trip",
+"m": [
+29,
+38
+]
+},
+{
+"w": "national park",
+"ipa": "/ˌnæʃənəl ˈpɑrk/",
+"fa": "پارک ملی",
+"ex": "Lily and I decided to take a road trip to Rocky Mountain National Park in Colorado.",
+"book": 1,
+"id": "national-park",
+"m": [
+57,
+70
+]
+},
+{
+"w": "motel",
+"ipa": "/moʊˈtɛl/",
+"fa": "متل",
+"ex": "We’ll drive for eight hours and stay at a motel in Nebraska.",
+"book": 1,
+"id": "motel",
+"m": [
+42,
+47
+]
+},
+{
+"w": "campground",
+"ipa": "/ˈkæmpˌɡraʊnd/",
+"fa": "محل کمپینگ",
+"ex": "At a campground.",
+"book": 1,
+"id": "campground",
+"m": [
+5,
+15
+]
+},
+{
+"w": "reserve",
+"ipa": "/rɪˈzɝv/",
+"fa": "رزرو کردن",
+"ex": "I’ve already reserved a site for four nights.",
+"book": 1,
+"id": "reserve",
+"m": [
+13,
+21
+]
+},
+{
+"w": "tent",
+"ipa": "/tɛnt/",
+"fa": "چادر",
+"ex": "We slept in a tent in the forest.",
+"book": 1,
+"id": "tent",
+"m": [
+14,
+18
+]
+},
+{
+"w": "sleeping bag",
+"ipa": "/ˈslipɪŋ ˌbæɡ/",
+"fa": "کیسه‌خواب",
+"ex": "My sleeping bag is very warm.",
+"book": 1,
+"id": "sleeping-bag",
+"m": [
+3,
+15
+]
+},
+{
+"w": "sunscreen",
+"ipa": "/ˈsʌnˌskrin/",
+"fa": "ضدآفتاب",
+"ex": "Put on sunscreen at the beach.",
+"book": 1,
+"id": "sunscreen",
+"m": [
+7,
+16
+]
+},
+{
+"w": "budget",
+"ipa": "/ˈbʌdʒɪt/",
+"fa": "بودجه",
+"ex": "We also made a budget.",
+"book": 1,
+"id": "budget",
+"m": [
+15,
+21
+]
+},
+{
+"w": "decide",
+"ipa": "/ˌdɪˈsaɪd/",
+"fa": "تصمیم گرفتن",
+"ex": "Lily and I decided to take a road trip to Rocky Mountain National Park in Colorado.",
+"id": "decide",
+"m": [
+11,
+18
+]
+},
+{
+"w": "mountain",
+"ipa": "/ˈmaʊntən/",
+"fa": "کوه",
+"ex": "On Sunday, we’ll arrive in the mountains.",
+"id": "mountain",
+"m": [
+31,
+40
+]
+},
+{
+"w": "site",
+"ipa": "/saɪt/",
+"fa": "جا، محل (کمپ)",
+"ex": "I’ve already reserved a site for four nights.",
+"id": "site",
+"m": [
+24,
+28
+]
+},
+{
+"w": "packing list",
+"ipa": "/ˈpækɪŋ lɪst/",
+"fa": "فهرست وسایل سفر",
+"ex": "Then we made a packing list: a tent, sleeping bags, warm clothes, hiking boots, sunscreen.",
+"id": "packing-list",
+"m": [
+15,
+27
+]
+},
+{
+"w": "snack",
+"ipa": "/snæk/",
+"fa": "خوراکی، تنقلات",
+"ex": "Then we made a packing list: a tent, sleeping bags, warm clothes, hiking boots, sunscreen, and lots of snacks.",
+"id": "snack",
+"m": [
+103,
+109
+]
+},
+{
+"w": "organized",
+"ipa": "/ˈɔrɡəˌnaɪzd/",
+"fa": "منظم",
+"ex": "Lily is the most organized person I know.",
+"id": "organized",
+"m": [
+17,
+26
+]
+},
+{
+"w": "playlist",
+"ipa": "/ˈpleɪlɪst/",
+"fa": "فهرست آهنگ‌ها",
+"ex": "She even made a playlist for the car.",
+"id": "playlist",
+"m": [
+16,
+24
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "We’re going to leave on Saturday.",
+"fa": "قرار است شنبه راه بیفتیم."
+},
+{
+"id": "s2",
+"en": "We’ll drive for eight hours.",
+"fa": "هشت ساعت رانندگی می‌کنیم."
+},
+{
+"id": "s3",
+"en": "I’ve already reserved a site for four nights.",
+"fa": "از قبل یک جا برای چهار شب رزرو کرده‌ام."
+},
+{
+"id": "s4",
+"en": "It’s the cheapest way.",
+"fa": "این ارزان‌ترین راه است."
+},
+{
+"id": "s5",
+"en": "We also made a budget.",
+"fa": "یک بودجه هم تعیین کردیم."
+}
+]
+}

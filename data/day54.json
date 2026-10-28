@@ -1,0 +1,394 @@
+{
+"day": 54,
+"level": "A2",
+"title": "Shopping for a Suit",
+"fa_title": "خرید کت‌وشلوار",
+"audio": "audio/day54.mp3",
+"img": "img/day54.webp",
+"sents": [
+{
+"p": 0,
+"t": "Carlos and Ana’s wedding is in two weeks, and Carlos asked me to be one of his groomsmen.",
+"s": 3.77
+},
+{
+"p": 0,
+"t": "I was very honored, but I had a problem: I didn’t have a suit.",
+"s": 9.84
+},
+{
+"p": 1,
+"t": "Lily came with me to the department store at Riverside Mall.",
+"s": 14.27
+},
+{
+"p": 1,
+"t": "“You should get navy blue,” she said.",
+"s": 18.06
+},
+{
+"p": 1,
+"t": "“It’s more modern than black.”",
+"s": 20.49
+},
+{
+"p": 2,
+"t": "The first jacket was too big.",
+"s": 22.86
+},
+{
+"p": 2,
+"t": "The second jacket was too small.",
+"s": 25.05
+},
+{
+"p": 2,
+"t": "The third one fit perfectly.",
+"s": 27.25
+},
+{
+"p": 2,
+"t": "The pants were long enough, but a tailor had to make them a little shorter.",
+"s": 29.5
+},
+{
+"p": 2,
+"t": "“They’ll be ready on Thursday,” the tailor said.",
+"s": 33.8
+},
+{
+"p": 3,
+"t": "The suit was three hundred dollars, but it was on sale.",
+"s": 37.24
+},
+{
+"p": 4,
+"t": "“What about a tie?” Lily asked.",
+"s": 41.07
+},
+{
+"p": 4,
+"t": "“Carlos said all the groomsmen should wear yellow ties, because yellow is Ana’s favorite color,” I told her.",
+"s": 43.71
+},
+{
+"p": 5,
+"t": "Then we had to find a wedding gift.",
+"s": 50.9
+},
+{
+"p": 5,
+"t": "Carlos and Ana have a wedding registry online, a list of gifts they want.",
+"s": 53.36
+},
+{
+"p": 5,
+"t": "I bought them a coffee machine.",
+"s": 58.37
+},
+{
+"p": 6,
+"t": "When I tried on everything at home, Rosa clapped.",
+"s": 60.72
+},
+{
+"p": 6,
+"t": "“You look like a movie star!”",
+"s": 64.03
+}
+],
+"comp": [
+{
+"q": "What did Carlos ask Sam to be?",
+"o": [
+"the photographer",
+"one of his groomsmen",
+"the driver",
+"the DJ"
+],
+"a": 1,
+"fa": "کارلوس از سام خواست چه نقشی داشته باشد؟"
+},
+{
+"q": "What color suit did Sam buy?",
+"o": [
+"black",
+"gray",
+"navy blue",
+"brown"
+],
+"a": 2,
+"fa": "سام چه رنگ کت‌وشلواری خرید؟"
+},
+{
+"q": "Why did a tailor work on the pants?",
+"o": [
+"They were too long.",
+"They were too short.",
+"They had a hole.",
+"They were the wrong color."
+],
+"a": 0,
+"fa": "چرا خیاط روی شلوار کار کرد؟"
+},
+{
+"q": "How much was the suit before the sale?",
+"o": [
+"two hundred dollars",
+"three hundred dollars",
+"four hundred dollars",
+"one hundred dollars"
+],
+"a": 1,
+"fa": "قیمت کت‌وشلوار قبل از حراج چقدر بود؟"
+},
+{
+"q": "Why should the groomsmen wear yellow ties?",
+"o": [
+"It’s Carlos’s favorite color.",
+"It’s cheap.",
+"It’s Ana’s favorite color.",
+"It’s a Mexican tradition."
+],
+"a": 2,
+"fa": "چرا ساقدوش‌ها باید کراوات زرد بزنند؟"
+},
+{
+"q": "What gift did Sam buy?",
+"o": [
+"a toaster",
+"towels",
+"plates",
+"a coffee machine"
+],
+"a": 3,
+"fa": "سام چه هدیه‌ای خرید؟"
+}
+],
+"words": [
+{
+"w": "wedding",
+"ipa": "/ˈwɛdɪŋ/",
+"fa": "عروسی",
+"ex": "Then we had to find a wedding gift.",
+"book": 1,
+"id": "wedding",
+"m": [
+22,
+29
+]
+},
+{
+"w": "groomsman",
+"ipa": "/ˈɡrumzmən/",
+"fa": "ساقدوش داماد",
+"ex": "His brother was a groomsman at the wedding.",
+"book": 1,
+"id": "groomsman",
+"m": [
+18,
+27
+]
+},
+{
+"w": "honored",
+"ipa": "/ˈɑnɚd/",
+"fa": "مفتخر، سرافراز",
+"ex": "I was very honored, but I had a problem: I didn’t have a suit.",
+"book": 1,
+"id": "honored",
+"m": [
+11,
+18
+]
+},
+{
+"w": "suit",
+"ipa": "/sut/",
+"fa": "کت‌وشلوار",
+"ex": "The suit was three hundred dollars, but it was on sale.",
+"book": 1,
+"id": "suit",
+"m": [
+4,
+8
+]
+},
+{
+"w": "department store",
+"ipa": "/dɪˈpɑrtmənt ˌstɔr/",
+"fa": "فروشگاه بزرگ چندبخشی",
+"ex": "Lily came with me to the department store at Riverside Mall.",
+"book": 1,
+"id": "department-store",
+"m": [
+25,
+41
+]
+},
+{
+"w": "modern",
+"ipa": "/ˈmɑdɚn/",
+"fa": "مدرن، امروزی",
+"ex": "It’s more modern than black.",
+"book": 1,
+"id": "modern",
+"m": [
+10,
+16
+]
+},
+{
+"w": "tailor",
+"ipa": "/ˈteɪlɚ/",
+"fa": "خیاط",
+"ex": "The pants were long enough, but a tailor had to make them a little shorter.",
+"book": 1,
+"id": "tailor",
+"m": [
+34,
+40
+]
+},
+{
+"w": "enough",
+"ipa": "/ɪˈnʌf/",
+"fa": "کافی، به اندازه‌ی کافی",
+"ex": "The pants were long enough, but a tailor had to make them a little shorter.",
+"book": 1,
+"id": "enough",
+"m": [
+20,
+26
+]
+},
+{
+"w": "tie",
+"ipa": "/taɪ/",
+"fa": "کراوات",
+"ex": "What about a tie?",
+"book": 1,
+"id": "tie",
+"m": [
+13,
+16
+]
+},
+{
+"w": "registry",
+"ipa": "/ˈrɛdʒɪstri/",
+"fa": "فهرست هدیه‌های عروسی",
+"ex": "Carlos and Ana have a wedding registry online, a list of gifts they want.",
+"book": 1,
+"id": "registry",
+"m": [
+30,
+38
+]
+},
+{
+"w": "navy blue",
+"ipa": "/ˈneɪvi blu/",
+"fa": "سرمه‌ای",
+"ex": "You should get navy blue.",
+"id": "navy-blue",
+"m": [
+15,
+24
+]
+},
+{
+"w": "third",
+"ipa": "/θɝd/",
+"fa": "سوم",
+"ex": "The third one fit perfectly.",
+"id": "third",
+"m": [
+4,
+9
+]
+},
+{
+"w": "perfectly",
+"ipa": "/ˈpɝfəktli/",
+"fa": "کاملاً، بی‌نقص",
+"ex": "The third one fit perfectly.",
+"id": "perfectly",
+"m": [
+18,
+27
+]
+},
+{
+"w": "list",
+"ipa": "/lɪst/",
+"fa": "فهرست",
+"ex": "Carlos and Ana have a wedding registry online, a list of gifts they want.",
+"id": "list",
+"m": [
+49,
+53
+]
+},
+{
+"w": "coffee machine",
+"ipa": "/ˈkɑfi məˈʃin/",
+"fa": "قهوه‌ساز",
+"ex": "I bought them a coffee machine.",
+"id": "coffee-machine",
+"m": [
+16,
+30
+]
+},
+{
+"w": "look like",
+"ipa": "/lʊk laɪk/",
+"fa": "شبیهِ (کسی) بودن",
+"ex": "You look like a movie star!",
+"id": "look-like",
+"m": [
+4,
+13
+]
+},
+{
+"w": "movie star",
+"ipa": "/ˈmuvi stɑr/",
+"fa": "ستاره‌ی سینما",
+"ex": "You look like a movie star!",
+"id": "movie-star",
+"m": [
+16,
+26
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "You should get navy blue.",
+"fa": "بهتر است سرمه‌ای بگیری."
+},
+{
+"id": "s2",
+"en": "The first jacket was too big.",
+"fa": "کت اول خیلی بزرگ بود."
+},
+{
+"id": "s3",
+"en": "The third one fit perfectly.",
+"fa": "سومی کاملاً اندازه بود."
+},
+{
+"id": "s4",
+"en": "They’ll be ready on Thursday.",
+"fa": "پنجشنبه آماده می‌شوند."
+},
+{
+"id": "s5",
+"en": "You look like a movie star!",
+"fa": "شبیه ستاره‌های سینما شده‌ای!"
+}
+]
+}

@@ -1,0 +1,415 @@
+{
+"day": 35,
+"level": "A2",
+"title": "Driving Lessons",
+"fa_title": "کلاس رانندگی",
+"audio": "audio/day35.mp3",
+"img": "img/day35.webp",
+"sents": [
+{
+"p": 0,
+"t": "I have a driver’s license from my country, but it isn’t good here, so I have to get an American license.",
+"s": 3.87
+},
+{
+"p": 0,
+"t": "Carlos offered to teach me.",
+"s": 10.19
+},
+{
+"p": 0,
+"t": "“I’m a math teacher,” he joked.",
+"s": 12.2
+},
+{
+"p": 0,
+"t": "“I’m very patient.”",
+"s": 14.57
+},
+{
+"p": 1,
+"t": "On Saturday morning, we drove to the empty parking lot behind the high school.",
+"s": 16.52
+},
+{
+"p": 1,
+"t": "I sat in the driver’s seat of Carlos’s old blue car.",
+"s": 21.6
+},
+{
+"p": 1,
+"t": "My hands were shaking.",
+"s": 25.28
+},
+{
+"p": 2,
+"t": "“First, check your mirrors. Put on your seat belt. Now, slowly push the gas pedal,” Carlos said.",
+"s": 27.35
+},
+{
+"p": 3,
+"t": "The car jumped forward!",
+"s": 34.08
+},
+{
+"p": 3,
+"t": "I hit the brake too hard, and Carlos’s coffee spilled on his jacket.",
+"s": 35.83
+},
+{
+"p": 4,
+"t": "While I was practicing, it started to snow lightly.",
+"s": 40.65
+},
+{
+"p": 4,
+"t": "We practiced turning, parking, and stopping at stop signs.",
+"s": 43.86
+},
+{
+"p": 4,
+"t": "In America, people drive on the right side of the road.",
+"s": 47.92
+},
+{
+"p": 4,
+"t": "That was new for me too.",
+"s": 51.29
+},
+{
+"p": 5,
+"t": "After two hours, I was driving much more carefully.",
+"s": 53.43
+},
+{
+"p": 5,
+"t": "On the way home, Carlos let me drive on a real street.",
+"s": 56.99
+},
+{
+"p": 5,
+"t": "A police car was driving behind us the whole time!",
+"s": 60.94
+},
+{
+"p": 5,
+"t": "I was very nervous, but I didn’t make any mistakes.",
+"s": 64.32
+},
+{
+"p": 6,
+"t": "“Good job,” Carlos said.",
+"s": 68.1
+},
+{
+"p": 6,
+"t": "“Next stop: the DMV!”",
+"s": 69.91
+}
+],
+"comp": [
+{
+"q": "Why does Sam need an American license?",
+"o": [
+"He lost his license.",
+"His license from home isn’t good here.",
+"Carlos told him.",
+"His license is old."
+],
+"a": 1,
+"fa": "چرا سام به گواهینامه‌ی آمریکایی نیاز دارد؟"
+},
+{
+"q": "Where did they practice?",
+"o": [
+"on Main Street",
+"at the DMV",
+"in an empty parking lot",
+"near the lake"
+],
+"a": 2,
+"fa": "کجا تمرین کردند؟"
+},
+{
+"q": "What happened when the car jumped forward?",
+"o": [
+"Carlos’s coffee spilled.",
+"The car stopped.",
+"Sam hit another car.",
+"A police officer came."
+],
+"a": 0,
+"fa": "وقتی ماشین ناگهان جلو پرید چه شد؟"
+},
+{
+"q": "What was the weather like while Sam was practicing?",
+"o": [
+"It was sunny.",
+"It was raining hard.",
+"It was very windy.",
+"It was snowing lightly."
+],
+"a": 3,
+"fa": "وقتی سام تمرین می‌کرد هوا چطور بود؟"
+},
+{
+"q": "Which side of the road do Americans drive on?",
+"o": [
+"the left side",
+"the right side",
+"the middle",
+"both sides"
+],
+"a": 1,
+"fa": "آمریکایی‌ها در کدام سمت جاده رانندگی می‌کنند؟"
+},
+{
+"q": "What was behind them on the real street?",
+"o": [
+"a school bus",
+"Rosa’s car",
+"a police car",
+"a truck"
+],
+"a": 2,
+"fa": "در خیابان واقعی چه چیزی پشت سرشان بود؟"
+}
+],
+"words": [
+{
+"w": "license",
+"ipa": "/ˈlaɪsəns/",
+"fa": "گواهینامه",
+"ex": "You need a license to drive a car.",
+"book": 1,
+"id": "license",
+"m": [
+11,
+18
+]
+},
+{
+"w": "patient",
+"ipa": "/ˈpeɪʃənt/",
+"fa": "صبور",
+"ex": "I’m very patient.",
+"book": 1,
+"id": "patient",
+"m": [
+9,
+16
+]
+},
+{
+"w": "parking lot",
+"ipa": "/ˈpɑrkɪŋ ˌlɑt/",
+"fa": "پارکینگ روباز",
+"ex": "On Saturday morning, we drove to the empty parking lot behind the high school.",
+"book": 1,
+"id": "parking-lot",
+"m": [
+43,
+54
+]
+},
+{
+"w": "mirror",
+"ipa": "/ˈmɪrɚ/",
+"fa": "آینه",
+"ex": "First, check your mirrors.",
+"book": 1,
+"id": "mirror",
+"m": [
+18,
+25
+]
+},
+{
+"w": "seat belt",
+"ipa": "/ˈsit ˌbɛlt/",
+"fa": "کمربند ایمنی",
+"ex": "Put on your seat belt.",
+"book": 1,
+"id": "seat-belt",
+"m": [
+12,
+21
+]
+},
+{
+"w": "brake",
+"ipa": "/breɪk/",
+"fa": "ترمز",
+"ex": "I hit the brake too hard, and Carlos’s coffee spilled on his jacket.",
+"book": 1,
+"id": "brake",
+"m": [
+10,
+15
+]
+},
+{
+"w": "spill",
+"ipa": "/spɪl/",
+"fa": "ریختن (مایع)",
+"ex": "I hit the brake too hard, and Carlos’s coffee spilled on his jacket.",
+"book": 1,
+"id": "spill",
+"m": [
+46,
+53
+]
+},
+{
+"w": "lightly",
+"ipa": "/ˈlaɪtli/",
+"fa": "کم، آرام",
+"ex": "While I was practicing, it started to snow lightly.",
+"book": 1,
+"id": "lightly",
+"m": [
+43,
+50
+]
+},
+{
+"w": "side",
+"ipa": "/saɪd/",
+"fa": "سمت، طرف",
+"ex": "In America, people drive on the right side of the road.",
+"book": 1,
+"id": "side",
+"m": [
+38,
+42
+]
+},
+{
+"w": "carefully",
+"ipa": "/ˈkɛrfəli/",
+"fa": "با دقت، با احتیاط",
+"ex": "After two hours, I was driving much more carefully.",
+"book": 1,
+"id": "carefully",
+"m": [
+41,
+50
+]
+},
+{
+"w": "offer",
+"ipa": "/ˈɔfɚ/",
+"fa": "پیشنهاد دادن",
+"ex": "Carlos offered to teach me.",
+"id": "offer",
+"m": [
+7,
+14
+]
+},
+{
+"w": "teach",
+"ipa": "/titʃ/",
+"fa": "یاد دادن، آموزش دادن",
+"ex": "Carlos offered to teach me.",
+"id": "teach",
+"m": [
+18,
+23
+]
+},
+{
+"w": "joke",
+"ipa": "/dʒoʊk/",
+"fa": "شوخی کردن",
+"ex": "“I’m a math teacher,” he joked.",
+"id": "joke",
+"m": [
+25,
+30
+]
+},
+{
+"w": "shake",
+"ipa": "/ʃeɪk/",
+"fa": "لرزیدن",
+"ex": "My hands were shaking.",
+"id": "shake",
+"m": [
+14,
+21
+]
+},
+{
+"w": "gas pedal",
+"ipa": "/ɡæs ˈpɛdəl/",
+"fa": "پدال گاز",
+"ex": "Now, slowly push the gas pedal.",
+"id": "gas-pedal",
+"m": [
+21,
+30
+]
+},
+{
+"w": "forward",
+"ipa": "/ˈfɔrwɚd/",
+"fa": "به جلو",
+"ex": "The car jumped forward!",
+"id": "forward",
+"m": [
+15,
+22
+]
+},
+{
+"w": "road",
+"ipa": "/roʊd/",
+"fa": "جاده",
+"ex": "In America, people drive on the right side of the road.",
+"id": "road",
+"m": [
+50,
+54
+]
+},
+{
+"w": "police",
+"ipa": "/pəˈlis/",
+"fa": "پلیس",
+"ex": "A police car was driving behind us the whole time!",
+"id": "police",
+"m": [
+2,
+8
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Check your mirrors.",
+"fa": "آینه‌ها را چک کن."
+},
+{
+"id": "s2",
+"en": "Put on your seat belt.",
+"fa": "کمربند ایمنی‌ات را ببند."
+},
+{
+"id": "s3",
+"en": "I hit the brake too hard.",
+"fa": "ترمز را خیلی محکم گرفتم."
+},
+{
+"id": "s4",
+"en": "People drive on the right side of the road.",
+"fa": "مردم در سمت راست جاده رانندگی می‌کنند."
+},
+{
+"id": "s5",
+"en": "I didn’t make any mistakes.",
+"fa": "هیچ اشتباهی نکردم."
+}
+]
+}

@@ -1,0 +1,368 @@
+{
+"day": 42,
+"level": "A2",
+"title": "A Better Phone Plan",
+"fa_title": "یک طرح تلفن بهتر",
+"audio": "audio/day42.mp3",
+"img": "img/day42.webp",
+"sents": [
+{
+"p": 0,
+"t": "My phone bill was getting more expensive every month.",
+"s": 3.98
+},
+{
+"p": 0,
+"t": "I was paying sixty dollars.",
+"s": 7.52
+},
+{
+"p": 0,
+"t": "So on Saturday, I went to the phone store on Main Street to compare plans.",
+"s": 9.65
+},
+{
+"p": 0,
+"t": "My friend Jen works there.",
+"s": 14.61
+},
+{
+"p": 1,
+"t": "“We have three plans,” Jen said.",
+"s": 16.78
+},
+{
+"p": 1,
+"t": "“The Basic plan is the cheapest. It’s thirty-five dollars a month, but it has the least data. The Plus plan costs fifty dollars and has more data. The Unlimited plan is the most expensive, seventy dollars, but it’s the best for people who watch a lot of videos.”",
+"s": 19.32
+},
+{
+"p": 2,
+"t": "“Which plan is the most popular?” I asked.",
+"s": 37.04
+},
+{
+"p": 3,
+"t": "“Plus. It’s cheaper than Unlimited, and it’s better than Basic for most people.”",
+"s": 40.42
+},
+{
+"p": 4,
+"t": "I checked my usage.",
+"s": 46.04
+},
+{
+"p": 4,
+"t": "I use about ten gigabytes a month.",
+"s": 47.64
+},
+{
+"p": 4,
+"t": "Plus has fifteen gigabytes, and it includes free calls to my country.",
+"s": 49.98
+},
+{
+"p": 4,
+"t": "That’s the most important thing for me.",
+"s": 54.81
+},
+{
+"p": 5,
+"t": "“If you sign a two-year contract, you get a discount,” Jen said.",
+"s": 57.55
+},
+{
+"p": 5,
+"t": "I didn’t want a contract, so I chose month to month.",
+"s": 61.75
+},
+{
+"p": 6,
+"t": "Now I pay ten dollars less every month, and I can talk to my mom for longer!",
+"s": 65.07
+}
+],
+"comp": [
+{
+"q": "How much was Sam paying before?",
+"o": [
+"thirty-five dollars",
+"fifty dollars",
+"sixty dollars",
+"seventy dollars"
+],
+"a": 2,
+"fa": "سام قبلاً چقدر پول می‌داد؟"
+},
+{
+"q": "Who helped Sam at the store?",
+"o": [
+"Jen",
+"Lily",
+"Emma",
+"Ana"
+],
+"a": 0,
+"fa": "چه کسی در فروشگاه به سام کمک کرد؟"
+},
+{
+"q": "Which plan is the cheapest?",
+"o": [
+"Plus",
+"Unlimited",
+"Family",
+"Basic"
+],
+"a": 3,
+"fa": "کدام طرح از همه ارزان‌تر است؟"
+},
+{
+"q": "Which plan is the most popular?",
+"o": [
+"Basic",
+"Plus",
+"Unlimited",
+"Student"
+],
+"a": 1,
+"fa": "کدام طرح از همه محبوب‌تر است؟"
+},
+{
+"q": "Why is the Plus plan good for Sam?",
+"o": [
+"It has free calls to his country.",
+"It’s the most expensive.",
+"It has no data.",
+"It comes with a free phone."
+],
+"a": 0,
+"fa": "چرا طرح «پلاس» برای سام خوب است؟"
+},
+{
+"q": "How much does Sam save every month?",
+"o": [
+"five dollars",
+"fifteen dollars",
+"twenty dollars",
+"ten dollars"
+],
+"a": 3,
+"fa": "سام هر ماه چقدر صرفه‌جویی می‌کند؟"
+}
+],
+"words": [
+{
+"w": "bill",
+"ipa": "/bɪl/",
+"fa": "قبض",
+"ex": "My phone bill was getting more expensive every month.",
+"book": 1,
+"id": "bill",
+"m": [
+9,
+13
+]
+},
+{
+"w": "data",
+"ipa": "/ˈdeɪtə/",
+"fa": "داده‌ی اینترنت",
+"ex": "The Plus plan costs fifty dollars and has more data.",
+"book": 1,
+"id": "data",
+"m": [
+47,
+51
+]
+},
+{
+"w": "compare",
+"ipa": "/kəmˈpɛr/",
+"fa": "مقایسه کردن",
+"ex": "On Saturday, I went to the phone store on Main Street to compare plans.",
+"book": 1,
+"id": "compare",
+"m": [
+57,
+64
+]
+},
+{
+"w": "cheap",
+"ipa": "/tʃip/",
+"fa": "ارزان",
+"ex": "The Basic plan is the cheapest.",
+"book": 1,
+"id": "cheap",
+"m": [
+22,
+30
+]
+},
+{
+"w": "popular",
+"ipa": "/ˈpɑpjəlɚ/",
+"fa": "محبوب، پرطرفدار",
+"ex": "Which plan is the most popular?",
+"book": 1,
+"id": "popular",
+"m": [
+23,
+30
+]
+},
+{
+"w": "usage",
+"ipa": "/ˈjusɪdʒ/",
+"fa": "میزان مصرف",
+"ex": "I checked my usage.",
+"book": 1,
+"id": "usage",
+"m": [
+13,
+18
+]
+},
+{
+"w": "gigabyte",
+"ipa": "/ˈɡɪɡəˌbaɪt/",
+"fa": "گیگابایت",
+"ex": "I use about ten gigabytes a month.",
+"book": 1,
+"id": "gigabyte",
+"m": [
+16,
+25
+]
+},
+{
+"w": "contract",
+"ipa": "/ˈkɑnˌtrækt/",
+"fa": "قرارداد",
+"ex": "If you sign a two-year contract, you get a discount.",
+"book": 1,
+"id": "contract",
+"m": [
+23,
+31
+]
+},
+{
+"w": "discount",
+"ipa": "/ˈdɪsˌkaʊnt/",
+"fa": "تخفیف",
+"ex": "If you sign a two-year contract, you get a discount.",
+"book": 1,
+"id": "discount",
+"m": [
+43,
+51
+]
+},
+{
+"w": "include",
+"ipa": "/ɪnˈklud/",
+"fa": "شامل شدن",
+"ex": "Plus has fifteen gigabytes, and it includes free calls to my country.",
+"book": 1,
+"id": "include",
+"m": [
+35,
+43
+]
+},
+{
+"w": "unlimited",
+"ipa": "/ənˈlɪmətɪd/",
+"fa": "نامحدود",
+"ex": "It’s cheaper than Unlimited, and it’s better than Basic for most people.",
+"id": "unlimited",
+"m": [
+18,
+27
+]
+},
+{
+"w": "basic",
+"ipa": "/ˈbeɪsɪk/",
+"fa": "پایه، ساده",
+"ex": "The Basic plan is the cheapest.",
+"id": "basic",
+"m": [
+4,
+9
+]
+},
+{
+"w": "least",
+"ipa": "/list/",
+"fa": "کمترین",
+"ex": "It’s thirty-five dollars a month, but it has the least data.",
+"id": "least",
+"m": [
+49,
+54
+]
+},
+{
+"w": "video",
+"ipa": "/ˈvɪdioʊ/",
+"fa": "ویدیو",
+"ex": "It’s the best for people who watch a lot of videos.",
+"id": "video",
+"m": [
+44,
+50
+]
+},
+{
+"w": "which",
+"ipa": "/wɪtʃ/",
+"fa": "کدام",
+"ex": "Which plan is the most popular?",
+"id": "which",
+"m": [
+0,
+5
+]
+},
+{
+"w": "month to month",
+"ipa": "/mʌnθ tu mʌnθ/",
+"fa": "ماه به ماه",
+"ex": "I didn’t want a contract, so I chose month to month.",
+"id": "month-to-month",
+"m": [
+37,
+51
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Which plan is the most popular?",
+"fa": "کدام طرح از همه پرطرفدارتر است؟"
+},
+{
+"id": "s2",
+"en": "The Basic plan is the cheapest.",
+"fa": "طرح پایه از همه ارزان‌تر است."
+},
+{
+"id": "s3",
+"en": "It includes free calls to my country.",
+"fa": "تماس رایگان به کشورم را هم شامل می‌شود."
+},
+{
+"id": "s4",
+"en": "I didn’t want a contract.",
+"fa": "قرارداد نمی‌خواستم."
+},
+{
+"id": "s5",
+"en": "Now I pay ten dollars less every month.",
+"fa": "حالا هر ماه ده دلار کمتر می‌پردازم."
+}
+]
+}

@@ -1,0 +1,395 @@
+{
+"day": 52,
+"level": "A2",
+"title": "In the Rocky Mountains",
+"fa_title": "در کوه‌های راکی",
+"audio": "audio/day52.mp3",
+"img": "img/day52.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Sunday afternoon, we saw the mountains for the first time.",
+"s": 3.94
+},
+{
+"p": 0,
+"t": "They were the most amazing thing I have ever seen: huge, with snow on the tops, even in May.",
+"s": 7.87
+},
+{
+"p": 0,
+"t": "At the park entrance, a ranger gave us a map.",
+"s": 14.35
+},
+{
+"p": 0,
+"t": "“Stay on the trails, and never feed the animals,” she said.",
+"s": 17.45
+},
+{
+"p": 1,
+"t": "We set up our tent at the campground near a river.",
+"s": 21.68
+},
+{
+"p": 1,
+"t": "It was harder than I thought, but finally it was standing.",
+"s": 24.97
+},
+{
+"p": 2,
+"t": "On Monday, we hiked to a lake at the top of a trail.",
+"s": 28.8
+},
+{
+"p": 2,
+"t": "It was the longest hike of my life, six miles, and the air was thinner, so I got tired quickly.",
+"s": 32.22
+},
+{
+"p": 2,
+"t": "But the lake was as blue as the sky, and the view was the best in the world.",
+"s": 39.15
+},
+{
+"p": 3,
+"t": "On the way down, we saw a group of elk eating grass.",
+"s": 44.38
+},
+{
+"p": 3,
+"t": "Another ranger told us that a big elk can weigh seven hundred pounds!",
+"s": 48.16
+},
+{
+"p": 4,
+"t": "At night, it was very cold.",
+"s": 52.79
+},
+{
+"p": 4,
+"t": "We made a campfire, cooked hot dogs, and roasted marshmallows.",
+"s": 54.9
+},
+{
+"p": 4,
+"t": "Above us, there were millions of stars.",
+"s": 59.18
+},
+{
+"p": 5,
+"t": "“I’ve never seen the Milky Way before,” I said.",
+"s": 62.06
+},
+{
+"p": 6,
+"t": "“Neither have I,” Lily said, and she held my hand.",
+"s": 65.46
+}
+],
+"comp": [
+{
+"q": "What was on the tops of the mountains?",
+"o": [
+"clouds only",
+"snow",
+"trees",
+"houses"
+],
+"a": 1,
+"fa": "روی قله‌ی کوه‌ها چه بود؟"
+},
+{
+"q": "What did the ranger say?",
+"o": [
+"Swim in the river.",
+"Leave before dark.",
+"Stay on the trails and never feed the animals.",
+"The campground is closed."
+],
+"a": 2,
+"fa": "محیط‌بان چه گفت؟"
+},
+{
+"q": "Why did Sam get tired quickly?",
+"o": [
+"He was sick.",
+"He didn’t sleep.",
+"His boots were small.",
+"The air was thinner."
+],
+"a": 3,
+"fa": "چرا سام زود خسته شد؟"
+},
+{
+"q": "What animals did they see?",
+"o": [
+"bears",
+"wolves",
+"deer",
+"elk"
+],
+"a": 3,
+"fa": "چه حیواناتی دیدند؟"
+},
+{
+"q": "What did they cook on the campfire?",
+"o": [
+"hot dogs and marshmallows",
+"steak",
+"soup",
+"pancakes"
+],
+"a": 0,
+"fa": "روی آتش اردوگاه چه پختند؟"
+},
+{
+"q": "What had Sam never seen before?",
+"o": [
+"a lake",
+"snow",
+"the Milky Way",
+"a campfire"
+],
+"a": 2,
+"fa": "سام قبلاً چه چیزی را هیچ‌وقت ندیده بود؟"
+}
+],
+"words": [
+{
+"w": "mountain",
+"ipa": "/ˈmaʊntən/",
+"fa": "کوه",
+"ex": "On Sunday afternoon, we saw the mountains for the first time.",
+"book": 1,
+"id": "mountain",
+"m": [
+32,
+41
+]
+},
+{
+"w": "entrance",
+"ipa": "/ˈɛntrəns/",
+"fa": "ورودی",
+"ex": "At the park entrance, a ranger gave us a map.",
+"book": 1,
+"id": "entrance",
+"m": [
+12,
+20
+]
+},
+{
+"w": "ranger",
+"ipa": "/ˈreɪndʒɚ/",
+"fa": "محیط‌بان، جنگلبان",
+"ex": "At the park entrance, a ranger gave us a map.",
+"book": 1,
+"id": "ranger",
+"m": [
+24,
+30
+]
+},
+{
+"w": "trail",
+"ipa": "/treɪl/",
+"fa": "مسیر پیاده‌روی",
+"ex": "Stay on the trails, and never feed the animals.",
+"book": 1,
+"id": "trail",
+"m": [
+12,
+18
+]
+},
+{
+"w": "feed",
+"ipa": "/fid/",
+"fa": "غذا دادن",
+"ex": "Stay on the trails, and never feed the animals.",
+"book": 1,
+"id": "feed",
+"m": [
+30,
+34
+]
+},
+{
+"w": "set up",
+"ipa": "/ˌsɛt ˈʌp/",
+"fa": "برپا کردن",
+"ex": "We set up our tent at the campground near a river.",
+"book": 1,
+"id": "set-up",
+"m": [
+3,
+9
+]
+},
+{
+"w": "river",
+"ipa": "/ˈrɪvɚ/",
+"fa": "رودخانه",
+"ex": "We set up our tent at the campground near a river.",
+"book": 1,
+"id": "river",
+"m": [
+44,
+49
+]
+},
+{
+"w": "elk",
+"ipa": "/ɛlk/",
+"fa": "گوزن کوهی (اِلک)",
+"ex": "On the way down, we saw a group of elk eating grass.",
+"book": 1,
+"id": "elk",
+"m": [
+35,
+38
+]
+},
+{
+"w": "campfire",
+"ipa": "/ˈkæmpˌfaɪɚ/",
+"fa": "آتش اردوگاه",
+"ex": "We made a campfire, cooked hot dogs, and roasted marshmallows.",
+"book": 1,
+"id": "campfire",
+"m": [
+10,
+18
+]
+},
+{
+"w": "marshmallow",
+"ipa": "/ˈmɑrʃˌmɛloʊ/",
+"fa": "مارشمالو",
+"ex": "We made a campfire, cooked hot dogs, and roasted marshmallows.",
+"book": 1,
+"id": "marshmallow",
+"m": [
+49,
+61
+]
+},
+{
+"w": "amazing",
+"ipa": "/əˈmeɪzɪŋ/",
+"fa": "شگفت‌انگیز",
+"ex": "They were the most amazing thing I have ever seen: huge, with snow on the tops, even in May.",
+"id": "amazing",
+"m": [
+19,
+26
+]
+},
+{
+"w": "top",
+"ipa": "/tɑp/",
+"fa": "بالا، قله",
+"ex": "On Monday, we hiked to a lake at the top of a trail.",
+"id": "top",
+"m": [
+37,
+40
+]
+},
+{
+"w": "thin",
+"ipa": "/θɪn/",
+"fa": "رقیق",
+"ex": "The air was thinner.",
+"id": "thin",
+"m": [
+12,
+19
+]
+},
+{
+"w": "quickly",
+"ipa": "/ˈkwɪkli/",
+"fa": "سریع، زود",
+"ex": "I got tired quickly.",
+"id": "quickly",
+"m": [
+12,
+19
+]
+},
+{
+"w": "view",
+"ipa": "/vju/",
+"fa": "منظره، چشم‌انداز",
+"ex": "The view was the best in the world.",
+"id": "view",
+"m": [
+4,
+8
+]
+},
+{
+"w": "weigh",
+"ipa": "/weɪ/",
+"fa": "وزن داشتن",
+"ex": "Another ranger told us that a big elk can weigh seven hundred pounds!",
+"id": "weigh",
+"m": [
+42,
+47
+]
+},
+{
+"w": "roast",
+"ipa": "/roʊst/",
+"fa": "برشته کردن، کباب کردن",
+"ex": "We made a campfire, cooked hot dogs, and roasted marshmallows.",
+"id": "roast",
+"m": [
+41,
+48
+]
+},
+{
+"w": "above",
+"ipa": "/əˈbʌv/",
+"fa": "بالای، بالاسرِ",
+"ex": "Above us, there were millions of stars.",
+"id": "above",
+"m": [
+0,
+5
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Stay on the trails.",
+"fa": "در مسیرها بمانید."
+},
+{
+"id": "s2",
+"en": "Never feed the animals.",
+"fa": "هیچ‌وقت به حیوانات غذا ندهید."
+},
+{
+"id": "s3",
+"en": "It was harder than I thought.",
+"fa": "از آنچه فکر می‌کردم سخت‌تر بود."
+},
+{
+"id": "s4",
+"en": "The view was the best in the world.",
+"fa": "آن منظره بهترین منظره‌ی دنیا بود."
+},
+{
+"id": "s5",
+"en": "We made a campfire.",
+"fa": "آتش روشن کردیم."
+}
+]
+}

@@ -1,0 +1,395 @@
+{
+"day": 31,
+"level": "A2",
+"title": "Happy New Year!",
+"fa_title": "سال نو مبارک!",
+"audio": "audio/day31.mp3",
+"img": "img/day31.webp",
+"sents": [
+{
+"p": 0,
+"t": "On December 31st, Oakville was cold, but the town square was full of people.",
+"s": 3.49
+},
+{
+"p": 0,
+"t": "Emma, Carlos, Lily, and I went there together at ten o’clock.",
+"s": 9.21
+},
+{
+"p": 0,
+"t": "There was a big stage with a band, and people were dancing to keep warm.",
+"s": 13.62
+},
+{
+"p": 1,
+"t": "“What are your New Year’s resolutions?” Emma asked.",
+"s": 18.29
+},
+{
+"p": 2,
+"t": "“I’m going to get my driver’s license,” I said.",
+"s": 21.82
+},
+{
+"p": 2,
+"t": "“And I’m going to go to the gym three times a week.”",
+"s": 24.98
+},
+{
+"p": 3,
+"t": "Carlos laughed.",
+"s": 28.2
+},
+{
+"p": 3,
+"t": "“Everybody says that in January! I’m going to cook more and eat less fast food.”",
+"s": 29.74
+},
+{
+"p": 4,
+"t": "“I’m going to finish my art portfolio,” Emma said.",
+"s": 34.87
+},
+{
+"p": 4,
+"t": "Lily smiled.",
+"s": 38.18
+},
+{
+"p": 4,
+"t": "“And I’m going to save money for a trip to Japan.”",
+"s": 39.72
+},
+{
+"p": 5,
+"t": "At 11:59, everyone looked at the big clock on City Hall.",
+"s": 42.91
+},
+{
+"p": 5,
+"t": "We started the countdown together: “Ten, nine, eight...” At midnight, everyone shouted, “Happy New Year!” Fireworks lit up the sky, and people hugged and kissed.",
+"s": 47.31
+},
+{
+"p": 6,
+"t": "Then I called my family.",
+"s": 58.34
+},
+{
+"p": 6,
+"t": "In my country, it was already morning.",
+"s": 59.95
+},
+{
+"p": 6,
+"t": "“Happy New Year, Mom! This year is going to be great.”",
+"s": 62.6
+}
+],
+"comp": [
+{
+"q": "Where did Sam and his friends go on December 31st?",
+"o": [
+"to a restaurant",
+"to Carlos’s apartment",
+"to the town square",
+"to the lake"
+],
+"a": 2,
+"fa": "سام و دوستانش شب ۳۱ دسامبر کجا رفتند؟"
+},
+{
+"q": "What is Sam going to get this year?",
+"o": [
+"a new car",
+"a driver’s license",
+"a new job",
+"a dog"
+],
+"a": 1,
+"fa": "سام قرار است امسال چه چیزی بگیرد؟"
+},
+{
+"q": "What is Carlos going to do?",
+"o": [
+"cook more",
+"travel to Japan",
+"finish his portfolio",
+"sell his car"
+],
+"a": 0,
+"fa": "کارلوس قرار است چه کار کند؟"
+},
+{
+"q": "Where is Lily going to travel?",
+"o": [
+"Mexico",
+"Italy",
+"France",
+"Japan"
+],
+"a": 3,
+"fa": "لیلی قرار است به کجا سفر کند؟"
+},
+{
+"q": "What did people see at midnight?",
+"o": [
+"snow",
+"a parade",
+"fireworks",
+"a movie"
+],
+"a": 2,
+"fa": "مردم نیمه‌شب چه دیدند؟"
+},
+{
+"q": "Who did Sam call after midnight?",
+"o": [
+"Rosa",
+"Mr. Lee",
+"Danny",
+"his family"
+],
+"a": 3,
+"fa": "سام بعد از نیمه‌شب به چه کسی زنگ زد؟"
+}
+],
+"words": [
+{
+"w": "resolution",
+"ipa": "/ˌrɛzəˈluʃən/",
+"fa": "تصمیم سال نو",
+"ex": "What are your New Year’s resolutions?",
+"book": 1,
+"id": "resolution",
+"m": [
+25,
+36
+]
+},
+{
+"w": "countdown",
+"ipa": "/ˈkaʊntˌdaʊn/",
+"fa": "شمارش معکوس",
+"ex": "We started the countdown together.",
+"book": 1,
+"id": "countdown",
+"m": [
+15,
+24
+]
+},
+{
+"w": "midnight",
+"ipa": "/ˈmɪdˌnaɪt/",
+"fa": "نیمه‌شب",
+"ex": "The party ended at midnight.",
+"book": 1,
+"id": "midnight",
+"m": [
+19,
+27
+]
+},
+{
+"w": "stage",
+"ipa": "/steɪdʒ/",
+"fa": "صحنه",
+"ex": "There was a big stage with a band, and people were dancing to keep warm.",
+"book": 1,
+"id": "stage",
+"m": [
+16,
+21
+]
+},
+{
+"w": "hug",
+"ipa": "/hʌɡ/",
+"fa": "بغل کردن",
+"ex": "Fireworks lit up the sky, and people hugged and kissed.",
+"book": 1,
+"id": "hug",
+"m": [
+37,
+43
+]
+},
+{
+"w": "kiss",
+"ipa": "/kɪs/",
+"fa": "بوسیدن",
+"ex": "Fireworks lit up the sky, and people hugged and kissed.",
+"book": 1,
+"id": "kiss",
+"m": [
+48,
+54
+]
+},
+{
+"w": "already",
+"ipa": "/ɔlˈrɛdi/",
+"fa": "از همین حالا، قبلاً",
+"ex": "In my country, it was already morning.",
+"book": 1,
+"id": "already",
+"m": [
+22,
+29
+]
+},
+{
+"w": "less",
+"ipa": "/lɛs/",
+"fa": "کمتر",
+"ex": "I’m going to cook more and eat less fast food.",
+"book": 1,
+"id": "less",
+"m": [
+31,
+35
+]
+},
+{
+"w": "fast food",
+"ipa": "/ˌfæst ˈfud/",
+"fa": "فست‌فود",
+"ex": "I’m going to cook more and eat less fast food.",
+"book": 1,
+"id": "fast-food",
+"m": [
+36,
+45
+]
+},
+{
+"w": "together",
+"ipa": "/təˈɡɛðɚ/",
+"fa": "با هم",
+"ex": "Emma, Carlos, Lily, and I went there together at ten o’clock.",
+"book": 1,
+"id": "together",
+"m": [
+37,
+45
+]
+},
+{
+"w": "gym",
+"ipa": "/dʒɪm/",
+"fa": "باشگاه ورزشی",
+"ex": "I’m going to go to the gym three times a week.",
+"id": "gym",
+"m": [
+23,
+26
+]
+},
+{
+"w": "going to",
+"ipa": "/ˈɡoʊɪŋ tu/",
+"fa": "قرار است (آینده)",
+"ex": "I’m going to get my driver’s license.",
+"id": "going-to",
+"m": [
+4,
+12
+]
+},
+{
+"w": "everybody",
+"ipa": "/ˈɛvriˌbɑdi/",
+"fa": "همه",
+"ex": "Everybody says that in January!",
+"id": "everybody",
+"m": [
+0,
+9
+]
+},
+{
+"w": "finish",
+"ipa": "/ˈfɪnɪʃ/",
+"fa": "تمام کردن",
+"ex": "I’m going to finish my art portfolio.",
+"id": "finish",
+"m": [
+13,
+19
+]
+},
+{
+"w": "portfolio",
+"ipa": "/pɔrtˈfoʊliˌoʊ/",
+"fa": "نمونه‌کار",
+"ex": "I’m going to finish my art portfolio.",
+"id": "portfolio",
+"m": [
+27,
+36
+]
+},
+{
+"w": "trip",
+"ipa": "/trɪp/",
+"fa": "سفر",
+"ex": "I’m going to save money for a trip to Japan.",
+"id": "trip",
+"m": [
+30,
+34
+]
+},
+{
+"w": "city hall",
+"ipa": "/ˈsɪti hɔl/",
+"fa": "ساختمان شهرداری",
+"ex": "At 11:59, everyone looked at the big clock on City Hall.",
+"id": "city-hall",
+"m": [
+46,
+55
+]
+},
+{
+"w": "light up",
+"ipa": "/laɪt ʌp/",
+"fa": "روشن کردن",
+"ex": "Fireworks lit up the sky, and people hugged and kissed.",
+"id": "light-up",
+"m": [
+10,
+16
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "What are your New Year’s resolutions?",
+"fa": "تصمیم‌های سال نوی تو چیست؟"
+},
+{
+"id": "s2",
+"en": "I’m going to go to the gym.",
+"fa": "قرار است به باشگاه بروم."
+},
+{
+"id": "s3",
+"en": "I’m going to cook more.",
+"fa": "قرار است بیشتر آشپزی کنم."
+},
+{
+"id": "s4",
+"en": "We started the countdown together.",
+"fa": "با هم شمارش معکوس را شروع کردیم."
+},
+{
+"id": "s5",
+"en": "This year is going to be great.",
+"fa": "امسال سال فوق‌العاده‌ای خواهد بود."
+}
+]
+}

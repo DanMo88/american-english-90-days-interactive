@@ -1,0 +1,421 @@
+{
+"day": 32,
+"level": "A2",
+"title": "The Big Snowstorm",
+"fa_title": "کولاک بزرگ",
+"audio": "audio/day32.mp3",
+"img": "img/day32.webp",
+"sents": [
+{
+"p": 0,
+"t": "In January, a big winter storm hit Oakville.",
+"s": 3.71
+},
+{
+"p": 0,
+"t": "On Tuesday, the weather report said, “Two feet of snow are coming tonight. Please stay home.” That afternoon, the supermarket was very busy.",
+"s": 7.16
+},
+{
+"p": 0,
+"t": "People were buying bread, milk, batteries, and candles.",
+"s": 16.6
+},
+{
+"p": 1,
+"t": "Rosa was visiting Danny for a few days, so Max was staying with me.",
+"s": 20.78
+},
+{
+"p": 1,
+"t": "When the snow started, I was watching a movie and Max was sleeping on my sofa.",
+"s": 25.51
+},
+{
+"p": 1,
+"t": "Suddenly, the lights went out!",
+"s": 30.49
+},
+{
+"p": 1,
+"t": "The power was off in the whole building.",
+"s": 32.55
+},
+{
+"p": 1,
+"t": "It was completely dark and very quiet.",
+"s": 34.91
+},
+{
+"p": 2,
+"t": "I found a flashlight.",
+"s": 38.09
+},
+{
+"p": 2,
+"t": "Then someone knocked on my door.",
+"s": 39.66
+},
+{
+"p": 2,
+"t": "It was Mr. Brooks, our landlord.",
+"s": 41.54
+},
+{
+"p": 2,
+"t": "He was carrying a box of blankets.",
+"s": 43.59
+},
+{
+"p": 2,
+"t": "“Are you OK, Sam? The heat isn’t working, so take these,” he said.",
+"s": 46.08
+},
+{
+"p": 3,
+"t": "I slept in my jacket and hat with Max next to me.",
+"s": 51.16
+},
+{
+"p": 3,
+"t": "He was a great heater!",
+"s": 54.48
+},
+{
+"p": 4,
+"t": "In the morning, the power came back.",
+"s": 56.27
+},
+{
+"p": 4,
+"t": "Everything outside was white, and the cars were under the snow.",
+"s": 58.7
+},
+{
+"p": 4,
+"t": "The schools and the bookstore were closed.",
+"s": 62.96
+},
+{
+"p": 4,
+"t": "My neighbors and I shoveled the sidewalk together, and then we built a snowman with a carrot nose.",
+"s": 65.57
+}
+],
+"comp": [
+{
+"q": "What did the weather report say?",
+"o": [
+"Stay home.",
+"Go to the lake.",
+"Buy a car.",
+"It’s going to be sunny."
+],
+"a": 0,
+"fa": "گزارش هواشناسی چه گفت؟"
+},
+{
+"q": "What were people buying at the supermarket?",
+"o": [
+"ice cream and soda",
+"shoes and jackets",
+"flowers",
+"bread, milk, and batteries"
+],
+"a": 3,
+"fa": "مردم در سوپرمارکت چه می‌خریدند؟"
+},
+{
+"q": "What was Sam doing when the snow started?",
+"o": [
+"sleeping",
+"cooking dinner",
+"watching a movie",
+"reading a book"
+],
+"a": 2,
+"fa": "وقتی برف شروع شد سام چه کار می‌کرد؟"
+},
+{
+"q": "Why was Max with Sam?",
+"o": [
+"Rosa was sick.",
+"Max was lost.",
+"Sam wanted a dog.",
+"Rosa was visiting Danny."
+],
+"a": 3,
+"fa": "چرا مکس پیش سام بود؟"
+},
+{
+"q": "What did Mr. Brooks bring?",
+"o": [
+"food",
+"candles",
+"blankets",
+"a heater"
+],
+"a": 2,
+"fa": "آقای بروکس چه آورد؟"
+},
+{
+"q": "What did Sam and his neighbors build?",
+"o": [
+"a snowman",
+"a snow house",
+"a fire",
+"a bench"
+],
+"a": 0,
+"fa": "سام و همسایه‌هایش چه ساختند؟"
+}
+],
+"words": [
+{
+"w": "snowstorm",
+"ipa": "/ˈsnoʊˌstɔrm/",
+"fa": "کولاک، طوفان برف",
+"ex": "The snowstorm closed all the roads.",
+"book": 1,
+"id": "snowstorm",
+"m": [
+4,
+13
+]
+},
+{
+"w": "power",
+"ipa": "/ˈpaʊɚ/",
+"fa": "برق",
+"ex": "The power was off in the whole building.",
+"book": 1,
+"id": "power",
+"m": [
+4,
+9
+]
+},
+{
+"w": "battery",
+"ipa": "/ˈbætəri/",
+"fa": "باتری",
+"ex": "People were buying bread, milk, batteries, and candles.",
+"book": 1,
+"id": "battery",
+"m": [
+32,
+41
+]
+},
+{
+"w": "flashlight",
+"ipa": "/ˈflæʃˌlaɪt/",
+"fa": "چراغ‌قوه",
+"ex": "I found a flashlight.",
+"book": 1,
+"id": "flashlight",
+"m": [
+10,
+20
+]
+},
+{
+"w": "landlord",
+"ipa": "/ˈlændˌlɔrd/",
+"fa": "صاحبخانه",
+"ex": "It was Mr. Brooks, our landlord.",
+"book": 1,
+"id": "landlord",
+"m": [
+23,
+31
+]
+},
+{
+"w": "blanket",
+"ipa": "/ˈblæŋkɪt/",
+"fa": "پتو",
+"ex": "He was carrying a box of blankets.",
+"book": 1,
+"id": "blanket",
+"m": [
+25,
+33
+]
+},
+{
+"w": "heat",
+"ipa": "/hit/",
+"fa": "گرما، سیستم گرمایش",
+"ex": "The heat isn’t working, so take these.",
+"book": 1,
+"id": "heat",
+"m": [
+4,
+8
+]
+},
+{
+"w": "suddenly",
+"ipa": "/ˈsʌdənli/",
+"fa": "ناگهان",
+"ex": "Suddenly, the lights went out!",
+"book": 1,
+"id": "suddenly",
+"m": [
+0,
+8
+]
+},
+{
+"w": "shovel",
+"ipa": "/ˈʃʌvəl/",
+"fa": "پارو کردن (برف)",
+"ex": "We shovel snow every morning in winter.",
+"book": 1,
+"id": "shovel",
+"m": [
+3,
+9
+]
+},
+{
+"w": "snowman",
+"ipa": "/ˈsnoʊˌmæn/",
+"fa": "آدم‌برفی",
+"ex": "The kids made a snowman in the yard.",
+"book": 1,
+"id": "snowman",
+"m": [
+16,
+23
+]
+},
+{
+"w": "report",
+"ipa": "/riˈpɔrt/",
+"fa": "گزارش",
+"ex": "On Tuesday, the weather report said, “Two feet of snow are coming tonight.”",
+"id": "report",
+"m": [
+24,
+30
+]
+},
+{
+"w": "tonight",
+"ipa": "/təˈnaɪt/",
+"fa": "امشب",
+"ex": "Two feet of snow are coming tonight.",
+"id": "tonight",
+"m": [
+28,
+35
+]
+},
+{
+"w": "whole",
+"ipa": "/hoʊl/",
+"fa": "کل، تمام",
+"ex": "The power was off in the whole building.",
+"id": "whole",
+"m": [
+25,
+30
+]
+},
+{
+"w": "completely",
+"ipa": "/kəmˈplitli/",
+"fa": "کاملاً",
+"ex": "It was completely dark and very quiet.",
+"id": "completely",
+"m": [
+7,
+17
+]
+},
+{
+"w": "someone",
+"ipa": "/ˈsʌmˌwʌn/",
+"fa": "کسی، یک نفر",
+"ex": "Then someone knocked on my door.",
+"id": "someone",
+"m": [
+5,
+12
+]
+},
+{
+"w": "closed",
+"ipa": "/kloʊzd/",
+"fa": "بسته، تعطیل",
+"ex": "The schools and the bookstore were closed.",
+"id": "closed",
+"m": [
+35,
+41
+]
+},
+{
+"w": "sidewalk",
+"ipa": "/ˈsaɪˌdwɔk/",
+"fa": "پیاده‌رو",
+"ex": "My neighbors and I shoveled the sidewalk together.",
+"id": "sidewalk",
+"m": [
+32,
+40
+]
+},
+{
+"w": "build",
+"ipa": "/bɪld/",
+"fa": "ساختن",
+"ex": "We built a snowman with a carrot nose.",
+"id": "build",
+"m": [
+3,
+8
+]
+},
+{
+"w": "carrot",
+"ipa": "/ˈkærət/",
+"fa": "هویج",
+"ex": "We built a snowman with a carrot nose.",
+"id": "carrot",
+"m": [
+26,
+32
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Please stay home.",
+"fa": "لطفاً در خانه بمانید."
+},
+{
+"id": "s2",
+"en": "Suddenly, the lights went out!",
+"fa": "ناگهان برق رفت!"
+},
+{
+"id": "s3",
+"en": "It was completely dark.",
+"fa": "همه‌جا کاملاً تاریک بود."
+},
+{
+"id": "s4",
+"en": "The heat isn’t working.",
+"fa": "گرمایش کار نمی‌کند."
+},
+{
+"id": "s5",
+"en": "Everything outside was white.",
+"fa": "بیرون همه‌جا سفید بود."
+}
+]
+}

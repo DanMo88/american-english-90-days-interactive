@@ -1,0 +1,356 @@
+{
+"day": 38,
+"level": "A2",
+"title": "Valentine's Day",
+"fa_title": "روز ولنتاین",
+"audio": "audio/day38.mp3",
+"img": "img/day38.webp",
+"sents": [
+{
+"p": 0,
+"t": "February 14th is Valentine’s Day.",
+"s": 2.47
+},
+{
+"p": 0,
+"t": "In America, people give cards, chocolates, and red roses to the people they love.",
+"s": 6.96
+},
+{
+"p": 0,
+"t": "Children give small cards to all their classmates.",
+"s": 12.86
+},
+{
+"p": 1,
+"t": "For weeks, I wanted to ask Lily from Maple Café on a date, but I was too shy.",
+"s": 16.57
+},
+{
+"p": 1,
+"t": "Every morning, I only said, “Thanks, Lily!”",
+"s": 22.13
+},
+{
+"p": 2,
+"t": "“Just ask her!” Emma told me.",
+"s": 25.52
+},
+{
+"p": 2,
+"t": "“I’m sure she’ll say yes.”",
+"s": 27.62
+},
+{
+"p": 3,
+"t": "On February 13th, I finally did it.",
+"s": 29.74
+},
+{
+"p": 3,
+"t": "“Lily, are you free tomorrow evening? Would you like to have dinner with me?”",
+"s": 32.73
+},
+{
+"p": 4,
+"t": "Lily smiled.",
+"s": 37.63
+},
+{
+"p": 4,
+"t": "“I’d love to! I’ll meet you at seven.”",
+"s": 38.94
+},
+{
+"p": 5,
+"t": "I bought a small box of chocolates and one red rose, and I made a reservation at a little Thai restaurant, because Lily loves spicy food.",
+"s": 41.69
+},
+{
+"p": 6,
+"t": "At dinner, we talked for three hours.",
+"s": 51.03
+},
+{
+"p": 6,
+"t": "Lily told me about her family in Seattle and her dream: “One day, I’m going to open my own bakery.”",
+"s": 53.74
+},
+{
+"p": 7,
+"t": "When I walked her home, she said, “This was perfect. Will you call me tomorrow?”",
+"s": 60.69
+},
+{
+"p": 8,
+"t": "“I will,” I said.",
+"s": 65.88
+},
+{
+"p": 8,
+"t": "“I promise.”",
+"s": 67.11
+}
+],
+"comp": [
+{
+"q": "What do people give on Valentine’s Day?",
+"o": [
+"cards, chocolates, and roses",
+"pumpkins and candy",
+"turkeys",
+"fireworks"
+],
+"a": 0,
+"fa": "مردم در روز ولنتاین چه هدیه می‌دهند؟"
+},
+{
+"q": "Why didn’t Sam ask Lily on a date before?",
+"o": [
+"He was too busy.",
+"He didn’t like her.",
+"Lily was away.",
+"He was too shy."
+],
+"a": 3,
+"fa": "چرا سام زودتر از لیلی درخواست قرار نکرد؟"
+},
+{
+"q": "Who told Sam to ask Lily?",
+"o": [
+"Rosa",
+"Carlos",
+"Emma",
+"Mr. Lee"
+],
+"a": 2,
+"fa": "چه کسی به سام گفت از لیلی درخواست کند؟"
+},
+{
+"q": "Why did Sam choose a Thai restaurant?",
+"o": [
+"It was cheap.",
+"It was near the café.",
+"Emma works there.",
+"Lily loves spicy food."
+],
+"a": 3,
+"fa": "چرا سام یک رستوران تایلندی انتخاب کرد؟"
+},
+{
+"q": "What is Lily going to open one day?",
+"o": [
+"a bakery",
+"a café",
+"a bookstore",
+"a restaurant"
+],
+"a": 0,
+"fa": "لیلی قرار است یک روز چه چیزی باز کند؟"
+},
+{
+"q": "What did Sam promise?",
+"o": [
+"to cook dinner",
+"to call Lily tomorrow",
+"to buy a car",
+"to visit Seattle"
+],
+"a": 1,
+"fa": "سام چه قولی داد؟"
+}
+],
+"words": [
+{
+"w": "rose",
+"ipa": "/roʊz/",
+"fa": "گل رز",
+"ex": "In America, people give cards, chocolates, and red roses to the people they love.",
+"book": 1,
+"id": "rose",
+"m": [
+51,
+56
+]
+},
+{
+"w": "chocolate",
+"ipa": "/ˈtʃɔklət/",
+"fa": "شکلات",
+"ex": "In America, people give cards, chocolates, and red roses to the people they love.",
+"book": 1,
+"id": "chocolate",
+"m": [
+31,
+41
+]
+},
+{
+"w": "classmate",
+"ipa": "/ˈklæsˌmeɪt/",
+"fa": "هم‌کلاسی",
+"ex": "Children give small cards to all their classmates.",
+"book": 1,
+"id": "classmate",
+"m": [
+39,
+49
+]
+},
+{
+"w": "date",
+"ipa": "/deɪt/",
+"fa": "قرار عاشقانه",
+"ex": "They went on a date to the movies.",
+"book": 1,
+"id": "date",
+"m": [
+15,
+19
+]
+},
+{
+"w": "shy",
+"ipa": "/ʃaɪ/",
+"fa": "خجالتی",
+"ex": "The new student is a little shy.",
+"book": 1,
+"id": "shy",
+"m": [
+28,
+31
+]
+},
+{
+"w": "sure",
+"ipa": "/ʃʊr/",
+"fa": "مطمئن",
+"ex": "I’m sure she’ll say yes.",
+"book": 1,
+"id": "sure",
+"m": [
+4,
+8
+]
+},
+{
+"w": "dream",
+"ipa": "/drim/",
+"fa": "رؤیا، آرزو",
+"ex": "Lily told me about her family in Seattle and her dream.",
+"book": 1,
+"id": "dream",
+"m": [
+49,
+54
+]
+},
+{
+"w": "bakery",
+"ipa": "/ˈbeɪkəri/",
+"fa": "نانوایی، شیرینی‌فروشی",
+"ex": "One day, I’m going to open my own bakery.",
+"book": 1,
+"id": "bakery",
+"m": [
+34,
+40
+]
+},
+{
+"w": "own",
+"ipa": "/oʊn/",
+"fa": "خودِ (مالِ خود)",
+"ex": "One day, I’m going to open my own bakery.",
+"book": 1,
+"id": "own",
+"m": [
+30,
+33
+]
+},
+{
+"w": "promise",
+"ipa": "/ˈprɑmɪs/",
+"fa": "قول دادن",
+"ex": "I promise I’ll be on time.",
+"book": 1,
+"id": "promise",
+"m": [
+2,
+9
+]
+},
+{
+"w": "love",
+"ipa": "/lʌv/",
+"fa": "دوست داشتن، عاشق بودن",
+"ex": "I’d love to!",
+"id": "love",
+"m": [
+4,
+8
+]
+},
+{
+"w": "ask",
+"ipa": "/æsk/",
+"fa": "درخواست کردن، پرسیدن",
+"ex": "Just ask her!",
+"id": "ask",
+"m": [
+5,
+8
+]
+},
+{
+"w": "would you like",
+"ipa": "/wʊd ju laɪk/",
+"fa": "دوست داری...؟ (مؤدبانه)",
+"ex": "Would you like to have dinner with me?",
+"id": "would-you-like",
+"m": [
+0,
+14
+]
+},
+{
+"w": "Thai",
+"ipa": "/taɪ/",
+"fa": "تایلندی",
+"ex": "I made a reservation at a little Thai restaurant, because Lily loves spicy food.",
+"id": "thai",
+"m": [
+33,
+37
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "Would you like to have dinner with me?",
+"fa": "دوست داری با من شام بخوری؟"
+},
+{
+"id": "s2",
+"en": "I’d love to!",
+"fa": "خیلی دوست دارم!"
+},
+{
+"id": "s3",
+"en": "I’m sure she’ll say yes.",
+"fa": "مطمئنم قبول می‌کند."
+},
+{
+"id": "s4",
+"en": "I was too shy.",
+"fa": "خیلی خجالتی بودم."
+},
+{
+"id": "s5",
+"en": "Will you call me tomorrow?",
+"fa": "فردا به من زنگ می‌زنی؟"
+}
+]
+}

@@ -1,0 +1,405 @@
+{
+"day": 36,
+"level": "A2",
+"title": "At the DMV",
+"fa_title": "در اداره‌ی صدور گواهینامه (DMV)",
+"audio": "audio/day36.mp3",
+"img": "img/day36.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Tuesday, I took a day off work and went to the DMV, the Department of Motor Vehicles.",
+"s": 3.66
+},
+{
+"p": 0,
+"t": "The line was very long.",
+"s": 10.35
+},
+{
+"p": 0,
+"t": "I waited for forty-five minutes before a woman called my number.",
+"s": 12.54
+},
+{
+"p": 1,
+"t": "“Please fill out this form,” she said.",
+"s": 16.75
+},
+{
+"p": 1,
+"t": "“You have to show your passport and two documents with your address. Do you have them?”",
+"s": 19.35
+},
+{
+"p": 2,
+"t": "Luckily, I had my passport, a bank statement, and my lease.",
+"s": 24.48
+},
+{
+"p": 2,
+"t": "Then she said, “Read the letters on the wall, please.” That was the eye test.",
+"s": 28.26
+},
+{
+"p": 3,
+"t": "Next, I took the written test on a computer.",
+"s": 33.8
+},
+{
+"p": 3,
+"t": "I studied for two weeks, so I passed!",
+"s": 36.76
+},
+{
+"p": 3,
+"t": "I got twenty-three questions right.",
+"s": 39.42
+},
+{
+"p": 4,
+"t": "The road test was a week later.",
+"s": 41.95
+},
+{
+"p": 4,
+"t": "A serious examiner sat next to me.",
+"s": 44.4
+},
+{
+"p": 4,
+"t": "I didn’t have to drive on the highway, but I had to parallel park.",
+"s": 47.02
+},
+{
+"p": 4,
+"t": "That was the hardest part.",
+"s": 50.97
+},
+{
+"p": 4,
+"t": "My hands were sweating, but I did it.",
+"s": 52.87
+},
+{
+"p": 5,
+"t": "“Congratulations. You passed,” the examiner said, and finally she smiled.",
+"s": 55.63
+},
+{
+"p": 6,
+"t": "Then a man took my photo.",
+"s": 61.37
+},
+{
+"p": 6,
+"t": "My new driver’s license came in the mail ten days later!",
+"s": 63.35
+}
+],
+"comp": [
+{
+"q": "What does DMV stand for?",
+"o": [
+"Department of Motor Vehicles",
+"Driving and Money Visit",
+"Drivers Must Visit",
+"Department of Moving Vans"
+],
+"a": 0,
+"fa": "DMV مخفف چیست؟"
+},
+{
+"q": "How long did Sam wait in line?",
+"o": [
+"ten minutes",
+"two hours",
+"forty-five minutes",
+"all day"
+],
+"a": 2,
+"fa": "سام چقدر در صف منتظر ماند؟"
+},
+{
+"q": "What documents did Sam show?",
+"o": [
+"his phone and email",
+"his passport, a bank statement, and his lease",
+"only his passport",
+"his photo and a letter"
+],
+"a": 1,
+"fa": "سام چه مدارکی نشان داد؟"
+},
+{
+"q": "How many questions did Sam get right on the written test?",
+"o": [
+"twenty-five",
+"twenty",
+"fifteen",
+"twenty-three"
+],
+"a": 3,
+"fa": "سام در آزمون کتبی به چند سؤال درست جواب داد؟"
+},
+{
+"q": "What was the hardest part of the road test?",
+"o": [
+"driving on the highway",
+"parallel parking",
+"the eye test",
+"stopping at a red light"
+],
+"a": 1,
+"fa": "سخت‌ترین بخش آزمون رانندگی چه بود؟"
+},
+{
+"q": "When did the license arrive?",
+"o": [
+"the same day",
+"a month later",
+"the next morning",
+"ten days later"
+],
+"a": 3,
+"fa": "گواهینامه کی رسید؟"
+}
+],
+"words": [
+{
+"w": "day off",
+"ipa": "/ˌdeɪ ˈɔf/",
+"fa": "روز مرخصی",
+"ex": "I have a day off on Friday.",
+"book": 1,
+"id": "day-off",
+"m": [
+9,
+16
+]
+},
+{
+"w": "fill out",
+"ipa": "/ˌfɪl ˈaʊt/",
+"fa": "پر کردن (فرم)",
+"ex": "Please fill out this form.",
+"book": 1,
+"id": "fill-out",
+"m": [
+7,
+15
+]
+},
+{
+"w": "document",
+"ipa": "/ˈdɑkjəmənt/",
+"fa": "مدرک، سند",
+"ex": "You have to show your passport and two documents with your address.",
+"book": 1,
+"id": "document",
+"m": [
+39,
+48
+]
+},
+{
+"w": "bank statement",
+"ipa": "/ˈbæŋk ˌsteɪtmənt/",
+"fa": "صورت‌حساب بانکی",
+"ex": "Luckily, I had my passport, a bank statement, and my lease.",
+"book": 1,
+"id": "bank-statement",
+"m": [
+30,
+44
+]
+},
+{
+"w": "pass",
+"ipa": "/pæs/",
+"fa": "قبول شدن",
+"ex": "I studied for two weeks, so I passed!",
+"book": 1,
+"id": "pass",
+"m": [
+30,
+36
+]
+},
+{
+"w": "examiner",
+"ipa": "/ɪɡˈzæmənɚ/",
+"fa": "ممتحن، افسر آزمون",
+"ex": "A serious examiner sat next to me.",
+"book": 1,
+"id": "examiner",
+"m": [
+10,
+18
+]
+},
+{
+"w": "highway",
+"ipa": "/ˈhaɪˌweɪ/",
+"fa": "بزرگراه",
+"ex": "I didn’t have to drive on the highway, but I had to parallel park.",
+"book": 1,
+"id": "highway",
+"m": [
+30,
+37
+]
+},
+{
+"w": "parallel park",
+"ipa": "/ˌpærəlɛl ˈpɑrk/",
+"fa": "پارک دوبل",
+"ex": "I didn’t have to drive on the highway, but I had to parallel park.",
+"book": 1,
+"id": "parallel-park",
+"m": [
+52,
+65
+]
+},
+{
+"w": "sweat",
+"ipa": "/swɛt/",
+"fa": "عرق کردن",
+"ex": "My hands were sweating, but I did it.",
+"book": 1,
+"id": "sweat",
+"m": [
+14,
+22
+]
+},
+{
+"w": "congratulations",
+"ipa": "/kənˌɡrætʃəˈleɪʃənz/",
+"fa": "تبریک می‌گویم",
+"ex": "Congratulations on your new job!",
+"book": 1,
+"id": "congratulations",
+"m": [
+0,
+15
+]
+},
+{
+"w": "department",
+"ipa": "/dɪˈpɑrtmənt/",
+"fa": "اداره، بخش",
+"ex": "On Tuesday, I took a day off work and went to the DMV, the Department of Motor Vehicles.",
+"id": "department",
+"m": [
+59,
+69
+]
+},
+{
+"w": "vehicle",
+"ipa": "/ˈvihɪkəl/",
+"fa": "وسیله‌ی نقلیه",
+"ex": "On Tuesday, I took a day off work and went to the DMV, the Department of Motor Vehicles.",
+"id": "vehicle",
+"m": [
+79,
+87
+]
+},
+{
+"w": "luckily",
+"ipa": "/ˈlʌkəli/",
+"fa": "خوشبختانه",
+"ex": "Luckily, I had my passport, a bank statement, and my lease.",
+"id": "luckily",
+"m": [
+0,
+7
+]
+},
+{
+"w": "letter",
+"ipa": "/ˈlɛtɚ/",
+"fa": "حرف (الفبا)، نامه",
+"ex": "Read the letters on the wall, please.",
+"id": "letter",
+"m": [
+9,
+16
+]
+},
+{
+"w": "eye test",
+"ipa": "/aɪ tɛst/",
+"fa": "آزمون بینایی",
+"ex": "That was the eye test.",
+"id": "eye-test",
+"m": [
+13,
+21
+]
+},
+{
+"w": "written test",
+"ipa": "/ˈrɪtən tɛst/",
+"fa": "آزمون کتبی",
+"ex": "Next, I took the written test on a computer.",
+"id": "written-test",
+"m": [
+17,
+29
+]
+},
+{
+"w": "serious",
+"ipa": "/ˈsɪriəs/",
+"fa": "جدی",
+"ex": "A serious examiner sat next to me.",
+"id": "serious",
+"m": [
+2,
+9
+]
+},
+{
+"w": "finally",
+"ipa": "/ˈfaɪnəli/",
+"fa": "بالاخره، سرانجام",
+"ex": "“You passed,” the examiner said, and finally she smiled.",
+"id": "finally",
+"m": [
+37,
+44
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I took a day off work.",
+"fa": "یک روز از کار مرخصی گرفتم."
+},
+{
+"id": "s2",
+"en": "You have to show your passport.",
+"fa": "باید گذرنامه‌تان را نشان دهید."
+},
+{
+"id": "s3",
+"en": "I studied for two weeks.",
+"fa": "دو هفته درس خواندم."
+},
+{
+"id": "s4",
+"en": "That was the hardest part.",
+"fa": "آن سخت‌ترین بخش بود."
+},
+{
+"id": "s5",
+"en": "Congratulations, you passed.",
+"fa": "تبریک می‌گویم، قبول شدید."
+}
+]
+}

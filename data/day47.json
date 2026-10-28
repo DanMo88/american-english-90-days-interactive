@@ -1,0 +1,394 @@
+{
+"day": 47,
+"level": "A2",
+"title": "The Easter Egg Hunt",
+"fa_title": "تخم‌مرغ‌بازیِ عید پاک",
+"audio": "audio/day47.mp3",
+"img": "img/day47.webp",
+"sents": [
+{
+"p": 0,
+"t": "On Easter Sunday, Danny invited me to his family’s house for lunch.",
+"s": 3.97
+},
+{
+"p": 0,
+"t": "But first, we went to the Easter egg hunt in Oakville Park.",
+"s": 8.73
+},
+{
+"p": 0,
+"t": "I had never seen one before.",
+"s": 12.74
+},
+{
+"p": 1,
+"t": "Danny’s daughter, Mia, is eight, and his son, Leo, is five.",
+"s": 15.34
+},
+{
+"p": 1,
+"t": "They were wearing bunny ears and carrying little baskets.",
+"s": 19.88
+},
+{
+"p": 1,
+"t": "Early that morning, volunteers hid hundreds of colorful plastic eggs all over the park.",
+"s": 23.33
+},
+{
+"p": 1,
+"t": "There was candy or a small toy inside every egg.",
+"s": 29.22
+},
+{
+"p": 2,
+"t": "“Ready, set, go!” a man shouted, and fifty children ran across the grass.",
+"s": 33.27
+},
+{
+"p": 2,
+"t": "Leo found three eggs under a bush right away.",
+"s": 38.21
+},
+{
+"p": 2,
+"t": "Mia filled her basket.",
+"s": 41.31
+},
+{
+"p": 3,
+"t": "Suddenly, a man in a big white rabbit costume appeared.",
+"s": 43.41
+},
+{
+"p": 3,
+"t": "It was the Easter Bunny!",
+"s": 47.35
+},
+{
+"p": 3,
+"t": "The older children ran to take photos with him.",
+"s": 49.13
+},
+{
+"p": 4,
+"t": "After the hunt, we went to Danny’s house.",
+"s": 52.57
+},
+{
+"p": 4,
+"t": "His wife, Sarah, cooked ham, and we ate deviled eggs and carrot cake.",
+"s": 55.12
+},
+{
+"p": 4,
+"t": "Rosa’s wrist was almost better, so she could finally cut the cake herself.",
+"s": 60.5
+},
+{
+"p": 5,
+"t": "In the afternoon, we dyed real eggs with the kids.",
+"s": 65.68
+},
+{
+"p": 5,
+"t": "My hands were blue and pink for two days!",
+"s": 69.23
+}
+],
+"comp": [
+{
+"q": "Where was the Easter egg hunt?",
+"o": [
+"in Danny’s backyard",
+"at the mall",
+"at the school",
+"in Oakville Park"
+],
+"a": 3,
+"fa": "تخم‌مرغ‌بازیِ عید پاک کجا بود؟"
+},
+{
+"q": "How old is Leo?",
+"o": [
+"eight",
+"three",
+"five",
+"ten"
+],
+"a": 2,
+"fa": "لئو چند سال دارد؟"
+},
+{
+"q": "What was inside the eggs?",
+"o": [
+"money",
+"flowers",
+"notes",
+"candy or a small toy"
+],
+"a": 3,
+"fa": "داخل تخم‌مرغ‌ها چه بود؟"
+},
+{
+"q": "Who appeared in a costume?",
+"o": [
+"the Easter Bunny",
+"Santa Claus",
+"a pirate",
+"a witch"
+],
+"a": 0,
+"fa": "چه کسی با لباس مبدل ظاهر شد؟"
+},
+{
+"q": "What did Sarah cook?",
+"o": [
+"turkey",
+"ham",
+"lasagna",
+"pizza"
+],
+"a": 1,
+"fa": "سارا چه پخت؟"
+},
+{
+"q": "Why were Sam’s hands blue and pink?",
+"o": [
+"He painted a wall.",
+"He ate too much candy.",
+"He dyed eggs with the kids.",
+"He was cold."
+],
+"a": 2,
+"fa": "چرا دست‌های سام آبی و صورتی بود؟"
+}
+],
+"words": [
+{
+"w": "Easter",
+"ipa": "/ˈistɚ/",
+"fa": "عید پاک",
+"ex": "First, we went to the Easter egg hunt in Oakville Park.",
+"book": 1,
+"id": "easter",
+"m": [
+22,
+28
+]
+},
+{
+"w": "hunt",
+"ipa": "/hʌnt/",
+"fa": "جست‌وجو، شکار",
+"ex": "After the hunt, we went to Danny’s house.",
+"book": 1,
+"id": "hunt",
+"m": [
+10,
+14
+]
+},
+{
+"w": "bunny",
+"ipa": "/ˈbʌni/",
+"fa": "خرگوش کوچولو",
+"ex": "They were wearing bunny ears and carrying little baskets.",
+"book": 1,
+"id": "bunny",
+"m": [
+18,
+23
+]
+},
+{
+"w": "basket",
+"ipa": "/ˈbæskɪt/",
+"fa": "سبد",
+"ex": "They were wearing bunny ears and carrying little baskets.",
+"book": 1,
+"id": "basket",
+"m": [
+49,
+56
+]
+},
+{
+"w": "hide",
+"ipa": "/haɪd/",
+"fa": "پنهان کردن",
+"ex": "Early that morning, volunteers hid hundreds of colorful plastic eggs all over the park.",
+"book": 1,
+"id": "hide",
+"m": [
+31,
+34
+]
+},
+{
+"w": "plastic",
+"ipa": "/ˈplæstɪk/",
+"fa": "پلاستیکی",
+"ex": "Early that morning, volunteers hid hundreds of colorful plastic eggs all over the park.",
+"book": 1,
+"id": "plastic",
+"m": [
+56,
+63
+]
+},
+{
+"w": "toy",
+"ipa": "/tɔɪ/",
+"fa": "اسباب‌بازی",
+"ex": "There was candy or a small toy inside every egg.",
+"book": 1,
+"id": "toy",
+"m": [
+27,
+30
+]
+},
+{
+"w": "bush",
+"ipa": "/bʊʃ/",
+"fa": "بوته",
+"ex": "Leo found three eggs under a bush right away.",
+"book": 1,
+"id": "bush",
+"m": [
+29,
+33
+]
+},
+{
+"w": "appear",
+"ipa": "/əˈpɪr/",
+"fa": "ظاهر شدن",
+"ex": "Suddenly, a man in a big white rabbit costume appeared.",
+"book": 1,
+"id": "appear",
+"m": [
+46,
+54
+]
+},
+{
+"w": "dye",
+"ipa": "/daɪ/",
+"fa": "رنگ کردن (با رنگ مخصوص)",
+"ex": "In the afternoon, we dyed real eggs with the kids.",
+"book": 1,
+"id": "dye",
+"m": [
+21,
+25
+]
+},
+{
+"w": "colorful",
+"ipa": "/ˈkʌlɚfəl/",
+"fa": "رنگارنگ",
+"ex": "Early that morning, volunteers hid hundreds of colorful plastic eggs all over the park.",
+"id": "colorful",
+"m": [
+47,
+55
+]
+},
+{
+"w": "right away",
+"ipa": "/raɪt əˈweɪ/",
+"fa": "فوراً، بلافاصله",
+"ex": "Leo found three eggs under a bush right away.",
+"id": "right-away",
+"m": [
+34,
+44
+]
+},
+{
+"w": "rabbit",
+"ipa": "/ˈræbət/",
+"fa": "خرگوش",
+"ex": "Suddenly, a man in a big white rabbit costume appeared.",
+"id": "rabbit",
+"m": [
+31,
+37
+]
+},
+{
+"w": "ham",
+"ipa": "/hæm/",
+"fa": "ژامبون",
+"ex": "His wife, Sarah, cooked ham, and we ate deviled eggs and carrot cake.",
+"id": "ham",
+"m": [
+24,
+27
+]
+},
+{
+"w": "pink",
+"ipa": "/pɪŋk/",
+"fa": "صورتی",
+"ex": "My hands were blue and pink for two days!",
+"id": "pink",
+"m": [
+23,
+27
+]
+},
+{
+"w": "herself",
+"ipa": "/hɚˈsɛlf/",
+"fa": "خودش",
+"ex": "Rosa’s wrist was almost better, so she could finally cut the cake herself.",
+"id": "herself",
+"m": [
+66,
+73
+]
+},
+{
+"w": "older",
+"ipa": "/ˈoʊldɚ/",
+"fa": "بزرگ‌تر (از نظر سن)",
+"ex": "The older children ran to take photos with him.",
+"id": "older",
+"m": [
+4,
+9
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I had never seen one before.",
+"fa": "قبلاً هیچ‌وقت چنین چیزی ندیده بودم."
+},
+{
+"id": "s2",
+"en": "There was candy or a small toy inside every egg.",
+"fa": "داخل هر تخم‌مرغ آبنبات یا یک اسباب‌بازی کوچک بود."
+},
+{
+"id": "s3",
+"en": "Ready, set, go!",
+"fa": "آماده، حاضر، برو!"
+},
+{
+"id": "s4",
+"en": "Mia filled her basket.",
+"fa": "میا سبدش را پر کرد."
+},
+{
+"id": "s5",
+"en": "My hands were blue and pink for two days!",
+"fa": "دست‌هایم دو روز آبی و صورتی بود!"
+}
+]
+}

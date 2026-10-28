@@ -1,0 +1,384 @@
+{
+"day": 45,
+"level": "A2",
+"title": "Volunteer Day",
+"fa_title": "روز داوطلبی",
+"audio": "audio/day45.mp3",
+"img": "img/day45.webp",
+"sents": [
+{
+"p": 0,
+"t": "Every spring, Oakville has a Volunteer Day.",
+"s": 2.41
+},
+{
+"p": 0,
+"t": "People help at schools, parks, and the food bank.",
+"s": 7.03
+},
+{
+"p": 0,
+"t": "This year, Lily and I signed up to work at the Oakville Food Bank.",
+"s": 10.48
+},
+{
+"p": 1,
+"t": "On Saturday morning, a volunteer leader named Mrs. Johnson gave us bright orange T-shirts.",
+"s": 14.98
+},
+{
+"p": 1,
+"t": "“The food bank gives free food to families who need help,” she explained.",
+"s": 21.26
+},
+{
+"p": 1,
+"t": "“Today, we have to sort and pack two thousand cans and boxes.”",
+"s": 25.91
+},
+{
+"p": 2,
+"t": "“I’ll carry the heavy boxes,” I said.",
+"s": 30.84
+},
+{
+"p": 2,
+"t": "“And I’ll sort the cans,” said Lily.",
+"s": 33.46
+},
+{
+"p": 3,
+"t": "We worked in a big warehouse with about fifty other volunteers.",
+"s": 36.22
+},
+{
+"p": 3,
+"t": "Some were high school students, and some were retired people.",
+"s": 40.17
+},
+{
+"p": 3,
+"t": "An old man named Walter told me, “I’ve volunteered here every month for ten years. It’s the best part of my month.”",
+"s": 44.46
+},
+{
+"p": 4,
+"t": "In the afternoon, families came to pick up food.",
+"s": 52.19
+},
+{
+"p": 4,
+"t": "A little girl said “Thank you!” and gave Lily a drawing of a sun.",
+"s": 55.42
+},
+{
+"p": 4,
+"t": "Lily almost cried.",
+"s": 59.46
+},
+{
+"p": 5,
+"t": "“Will you come again next month?” Mrs. Johnson asked.",
+"s": 61.65
+},
+{
+"p": 6,
+"t": "“Yes, we will,” we said together.",
+"s": 65.63
+}
+],
+"comp": [
+{
+"q": "Where did Sam and Lily volunteer?",
+"o": [
+"at a school",
+"at the hospital",
+"in the park",
+"at the food bank"
+],
+"a": 3,
+"fa": "سام و لیلی کجا داوطلبانه کار کردند؟"
+},
+{
+"q": "What color were the T-shirts?",
+"o": [
+"orange",
+"green",
+"blue",
+"yellow"
+],
+"a": 0,
+"fa": "تی‌شرت‌ها چه رنگی بودند؟"
+},
+{
+"q": "What did Sam offer to do?",
+"o": [
+"sort the cans",
+"cook lunch",
+"drive the truck",
+"carry the heavy boxes"
+],
+"a": 3,
+"fa": "سام پیشنهاد داد چه کاری بکند؟"
+},
+{
+"q": "How long has Walter volunteered there?",
+"o": [
+"one year",
+"five years",
+"ten years",
+"since last month"
+],
+"a": 2,
+"fa": "والتر چه مدت است آنجا داوطلب است؟"
+},
+{
+"q": "What did the little girl give Lily?",
+"o": [
+"a flower",
+"a drawing of a sun",
+"a cookie",
+"a letter"
+],
+"a": 1,
+"fa": "دختر کوچک به لیلی چه داد؟"
+},
+{
+"q": "What did Sam and Lily say at the end?",
+"o": [
+"They will come again.",
+"They are tired.",
+"They won’t come back.",
+"They want money."
+],
+"a": 0,
+"fa": "سام و لیلی آخر کار چه گفتند؟"
+}
+],
+"words": [
+{
+"w": "volunteer",
+"ipa": "/ˌvɑlənˈtɪr/",
+"fa": "داوطلب شدن؛ داوطلب",
+"ex": "I’ve volunteered here every month for ten years.",
+"book": 1,
+"id": "volunteer",
+"m": [
+5,
+16
+]
+},
+{
+"w": "food bank",
+"ipa": "/ˈfud ˌbæŋk/",
+"fa": "بانک غذا",
+"ex": "People help at schools, parks, and the food bank.",
+"book": 1,
+"id": "food-bank",
+"m": [
+39,
+48
+]
+},
+{
+"w": "sign up",
+"ipa": "/ˌsaɪn ˈʌp/",
+"fa": "ثبت‌نام کردن",
+"ex": "This year, Lily and I signed up to work at the Oakville Food Bank.",
+"book": 1,
+"id": "sign-up",
+"m": [
+22,
+31
+]
+},
+{
+"w": "leader",
+"ipa": "/ˈlidɚ/",
+"fa": "سرپرست، رهبر",
+"ex": "On Saturday morning, a volunteer leader named Mrs. Johnson gave us bright orange T-shirts.",
+"book": 1,
+"id": "leader",
+"m": [
+33,
+39
+]
+},
+{
+"w": "explain",
+"ipa": "/ɪkˈspleɪn/",
+"fa": "توضیح دادن",
+"ex": "Can you explain this word?",
+"book": 1,
+"id": "explain",
+"m": [
+8,
+15
+]
+},
+{
+"w": "sort",
+"ipa": "/sɔrt/",
+"fa": "دسته‌بندی کردن، جدا کردن",
+"ex": "Today, we have to sort and pack two thousand cans and boxes.",
+"book": 1,
+"id": "sort",
+"m": [
+18,
+22
+]
+},
+{
+"w": "warehouse",
+"ipa": "/ˈwɛrˌhaʊs/",
+"fa": "انبار",
+"ex": "We worked in a big warehouse with about fifty other volunteers.",
+"book": 1,
+"id": "warehouse",
+"m": [
+19,
+28
+]
+},
+{
+"w": "retired",
+"ipa": "/rɪˈtaɪɚd/",
+"fa": "بازنشسته",
+"ex": "Some were high school students, and some were retired people.",
+"book": 1,
+"id": "retired",
+"m": [
+46,
+53
+]
+},
+{
+"w": "drawing",
+"ipa": "/ˈdrɔɪŋ/",
+"fa": "نقاشی، طرح",
+"ex": "Gave Lily a drawing of a sun.",
+"book": 1,
+"id": "drawing",
+"m": [
+12,
+19
+]
+},
+{
+"w": "thousand",
+"ipa": "/ˈθaʊzənd/",
+"fa": "هزار",
+"ex": "Today, we have to sort and pack two thousand cans and boxes.",
+"book": 1,
+"id": "thousand",
+"m": [
+36,
+44
+]
+},
+{
+"w": "spring",
+"ipa": "/sprɪŋ/",
+"fa": "بهار",
+"ex": "Every spring, Oakville has a Volunteer Day.",
+"id": "spring",
+"m": [
+6,
+12
+]
+},
+{
+"w": "pack",
+"ipa": "/pæk/",
+"fa": "بسته‌بندی کردن",
+"ex": "Today, we have to sort and pack two thousand cans and boxes.",
+"id": "pack",
+"m": [
+27,
+31
+]
+},
+{
+"w": "T-shirt",
+"ipa": "/ti ʃɝt/",
+"fa": "تی‌شرت",
+"ex": "On Saturday morning, a volunteer leader named Mrs. Johnson gave us bright orange T-shirts.",
+"id": "t-shirt",
+"m": [
+81,
+89
+]
+},
+{
+"w": "pick up",
+"ipa": "/pɪk ʌp/",
+"fa": "تحویل گرفتن، برداشتن",
+"ex": "In the afternoon, families came to pick up food.",
+"id": "pick-up",
+"m": [
+35,
+42
+]
+},
+{
+"w": "sun",
+"ipa": "/sʌn/",
+"fa": "خورشید",
+"ex": "Gave Lily a drawing of a sun.",
+"id": "sun",
+"m": [
+25,
+28
+]
+},
+{
+"w": "again",
+"ipa": "/əˈɡɛn/",
+"fa": "دوباره",
+"ex": "Will you come again next month?",
+"id": "again",
+"m": [
+14,
+19
+]
+},
+{
+"w": "next month",
+"ipa": "/nɛkst mʌnθ/",
+"fa": "ماه بعد",
+"ex": "Will you come again next month?",
+"id": "next-month",
+"m": [
+20,
+30
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "We signed up to work at the food bank.",
+"fa": "ثبت‌نام کردیم تا در بانک غذا کار کنیم."
+},
+{
+"id": "s2",
+"en": "I’ll carry the heavy boxes.",
+"fa": "من جعبه‌های سنگین را می‌برم."
+},
+{
+"id": "s3",
+"en": "It’s the best part of my month.",
+"fa": "بهترین بخش ماهِ من است."
+},
+{
+"id": "s4",
+"en": "Lily almost cried.",
+"fa": "لیلی نزدیک بود گریه کند."
+},
+{
+"id": "s5",
+"en": "Will you come again next month?",
+"fa": "ماه بعد دوباره می‌آیید؟"
+}
+]
+}

@@ -1,0 +1,395 @@
+{
+"day": 34,
+"level": "A2",
+"title": "At the Gym",
+"fa_title": "در باشگاه ورزشی",
+"audio": "audio/day34.mp3",
+"img": "img/day34.webp",
+"sents": [
+{
+"p": 0,
+"t": "My New Year’s resolution was to exercise more, so in January I joined Oakville Fitness.",
+"s": 3.37
+},
+{
+"p": 0,
+"t": "It costs twenty-five dollars a month.",
+"s": 9.87
+},
+{
+"p": 0,
+"t": "On my first day, a trainer named Jasmine showed me around.",
+"s": 12.61
+},
+{
+"p": 1,
+"t": "“How often do you exercise?” she asked.",
+"s": 17.23
+},
+{
+"p": 2,
+"t": "“Honestly, I hardly ever exercise,” I said.",
+"s": 20.44
+},
+{
+"p": 2,
+"t": "“I sometimes play soccer with Carlos, but only in summer.”",
+"s": 24.1
+},
+{
+"p": 3,
+"t": "Jasmine made a plan for me.",
+"s": 28.25
+},
+{
+"p": 3,
+"t": "“You should come three times a week. Always warm up for ten minutes first, and never forget to drink water.”",
+"s": 30.3
+},
+{
+"p": 4,
+"t": "Now I usually go to the gym on Monday, Wednesday, and Friday before work.",
+"s": 37.02
+},
+{
+"p": 4,
+"t": "I always start on the treadmill.",
+"s": 42.37
+},
+{
+"p": 4,
+"t": "Then I lift weights, and sometimes I take a yoga class.",
+"s": 44.28
+},
+{
+"p": 4,
+"t": "Yoga is hard for me, because I’m not very flexible!",
+"s": 48.47
+},
+{
+"p": 5,
+"t": "The gym is always crowded in January.",
+"s": 52.29
+},
+{
+"p": 5,
+"t": "Jasmine says, “Every January, lots of new people come. By March, most of them stop.”",
+"s": 55.23
+},
+{
+"p": 6,
+"t": "After three weeks, I feel stronger, and I sleep better.",
+"s": 61.9
+},
+{
+"p": 6,
+"t": "My legs often hurt, but I’m happy.",
+"s": 65.29
+}
+],
+"comp": [
+{
+"q": "Why did Sam join a gym?",
+"o": [
+"It was his New Year’s resolution.",
+"His doctor told him.",
+"Carlos asked him.",
+"It was free."
+],
+"a": 0,
+"fa": "چرا سام عضو باشگاه شد؟"
+},
+{
+"q": "How much does the gym cost?",
+"o": [
+"ten dollars a month",
+"twenty-five dollars a week",
+"fifty dollars a month",
+"twenty-five dollars a month"
+],
+"a": 3,
+"fa": "هزینه‌ی باشگاه چقدر است؟"
+},
+{
+"q": "How often should Sam go to the gym?",
+"o": [
+"every day",
+"once a week",
+"three times a week",
+"twice a month"
+],
+"a": 2,
+"fa": "سام هر چند وقت یک بار باید به باشگاه برود؟"
+},
+{
+"q": "What does Sam always do first?",
+"o": [
+"lift weights",
+"take a yoga class",
+"swim",
+"use the treadmill"
+],
+"a": 3,
+"fa": "سام همیشه اول چه کار می‌کند؟"
+},
+{
+"q": "Why is yoga hard for Sam?",
+"o": [
+"He isn’t very flexible.",
+"The class is too early.",
+"The teacher is angry.",
+"He doesn’t like music."
+],
+"a": 0,
+"fa": "چرا یوگا برای سام سخت است؟"
+},
+{
+"q": "What happens by March, says Jasmine?",
+"o": [
+"The gym closes.",
+"Many new people stop coming.",
+"It gets more crowded.",
+"Prices go up."
+],
+"a": 1,
+"fa": "به گفته‌ی جاسمین، تا ماه مارس چه اتفاقی می‌افتد؟"
+}
+],
+"words": [
+{
+"w": "exercise",
+"ipa": "/ˈɛksɚˌsaɪz/",
+"fa": "ورزش کردن",
+"ex": "How often do you exercise?",
+"book": 1,
+"id": "exercise",
+"m": [
+17,
+25
+]
+},
+{
+"w": "trainer",
+"ipa": "/ˈtreɪnɚ/",
+"fa": "مربی",
+"ex": "On my first day, a trainer named Jasmine showed me around.",
+"book": 1,
+"id": "trainer",
+"m": [
+19,
+26
+]
+},
+{
+"w": "honestly",
+"ipa": "/ˈɑnɪstli/",
+"fa": "راستش، صادقانه",
+"ex": "Honestly, I hardly ever exercise.",
+"book": 1,
+"id": "honestly",
+"m": [
+0,
+8
+]
+},
+{
+"w": "hardly ever",
+"ipa": "/ˌhɑrdli ˈɛvɚ/",
+"fa": "به‌ندرت",
+"ex": "Honestly, I hardly ever exercise.",
+"book": 1,
+"id": "hardly-ever",
+"m": [
+12,
+23
+]
+},
+{
+"w": "warm up",
+"ipa": "/ˌwɔrm ˈʌp/",
+"fa": "گرم کردن (بدن)",
+"ex": "Always warm up for ten minutes first, and never forget to drink water.",
+"book": 1,
+"id": "warm-up",
+"m": [
+7,
+14
+]
+},
+{
+"w": "treadmill",
+"ipa": "/ˈtrɛdˌmɪl/",
+"fa": "تردمیل",
+"ex": "I always start on the treadmill.",
+"book": 1,
+"id": "treadmill",
+"m": [
+22,
+31
+]
+},
+{
+"w": "weight",
+"ipa": "/weɪt/",
+"fa": "وزنه",
+"ex": "Then I lift weights, and sometimes I take a yoga class.",
+"book": 1,
+"id": "weight",
+"m": [
+12,
+19
+]
+},
+{
+"w": "yoga",
+"ipa": "/ˈjoʊɡə/",
+"fa": "یوگا",
+"ex": "Yoga is hard for me, because I’m not very flexible!",
+"book": 1,
+"id": "yoga",
+"m": [
+0,
+4
+]
+},
+{
+"w": "flexible",
+"ipa": "/ˈflɛksəbəl/",
+"fa": "انعطاف‌پذیر",
+"ex": "Yoga is hard for me, because I’m not very flexible!",
+"book": 1,
+"id": "flexible",
+"m": [
+42,
+50
+]
+},
+{
+"w": "crowded",
+"ipa": "/ˈkraʊdɪd/",
+"fa": "شلوغ",
+"ex": "The gym is always crowded in January.",
+"book": 1,
+"id": "crowded",
+"m": [
+18,
+25
+]
+},
+{
+"w": "cost",
+"ipa": "/kɑst/",
+"fa": "قیمت داشتن، هزینه داشتن",
+"ex": "It costs twenty-five dollars a month.",
+"id": "cost",
+"m": [
+3,
+8
+]
+},
+{
+"w": "sometimes",
+"ipa": "/səmˈtaɪmz/",
+"fa": "گاهی",
+"ex": "I sometimes play soccer with Carlos, but only in summer.",
+"id": "sometimes",
+"m": [
+2,
+11
+]
+},
+{
+"w": "always",
+"ipa": "/ˈɔlˌweɪz/",
+"fa": "همیشه",
+"ex": "The gym is always crowded in January.",
+"id": "always",
+"m": [
+11,
+17
+]
+},
+{
+"w": "never",
+"ipa": "/ˈnɛvɚ/",
+"fa": "هرگز، هیچ‌وقت",
+"ex": "Always warm up for ten minutes first, and never forget to drink water.",
+"id": "never",
+"m": [
+42,
+47
+]
+},
+{
+"w": "forget",
+"ipa": "/fɚˈɡɛt/",
+"fa": "فراموش کردن",
+"ex": "Always warm up for ten minutes first, and never forget to drink water.",
+"id": "forget",
+"m": [
+48,
+54
+]
+},
+{
+"w": "before",
+"ipa": "/bɪˈfɔr/",
+"fa": "قبل از",
+"ex": "Now I usually go to the gym on Monday, Wednesday, and Friday before work.",
+"id": "before",
+"m": [
+61,
+67
+]
+},
+{
+"w": "lift",
+"ipa": "/lɪft/",
+"fa": "بلند کردن",
+"ex": "Then I lift weights, and sometimes I take a yoga class.",
+"id": "lift",
+"m": [
+7,
+11
+]
+},
+{
+"w": "leg",
+"ipa": "/lɛɡ/",
+"fa": "پا",
+"ex": "My legs often hurt, but I’m happy.",
+"id": "leg",
+"m": [
+3,
+7
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "How often do you exercise?",
+"fa": "هر چند وقت یک بار ورزش می‌کنی؟"
+},
+{
+"id": "s2",
+"en": "I hardly ever exercise.",
+"fa": "به‌ندرت ورزش می‌کنم."
+},
+{
+"id": "s3",
+"en": "Never forget to drink water.",
+"fa": "هیچ‌وقت آب خوردن را فراموش نکن."
+},
+{
+"id": "s4",
+"en": "The gym is always crowded.",
+"fa": "باشگاه همیشه شلوغ است."
+},
+{
+"id": "s5",
+"en": "I feel stronger, and I sleep better.",
+"fa": "احساس می‌کنم قوی‌تر شده‌ام و بهتر می‌خوابم."
+}
+]
+}

@@ -1,0 +1,399 @@
+{
+"day": 48,
+"level": "A2",
+"title": "A Flat Tire",
+"fa_title": "لاستیک پنچر",
+"audio": "audio/day48.mp3",
+"img": "img/day48.webp",
+"sents": [
+{
+"p": 0,
+"t": "One rainy Monday in April, I was driving to work when I heard a loud noise: bump, bump, bump.",
+"s": 3.47
+},
+{
+"p": 0,
+"t": "The car started to shake.",
+"s": 10.51
+},
+{
+"p": 0,
+"t": "I pulled over to the side of the road and got out.",
+"s": 12.45
+},
+{
+"p": 0,
+"t": "My front tire was completely flat!",
+"s": 15.26
+},
+{
+"p": 1,
+"t": "I had a spare tire in the trunk, but I didn’t know how to change it.",
+"s": 18.19
+},
+{
+"p": 1,
+"t": "I called Carlos.",
+"s": 21.81
+},
+{
+"p": 1,
+"t": "“Don’t worry,” he said.",
+"s": 23.38
+},
+{
+"p": 1,
+"t": "“I’ll be there in fifteen minutes.”",
+"s": 25.09
+},
+{
+"p": 2,
+"t": "While I was waiting in the rain, a police officer stopped.",
+"s": 27.59
+},
+{
+"p": 2,
+"t": "“Are you OK? You should turn on your hazard lights,” she said.",
+"s": 31.04
+},
+{
+"p": 3,
+"t": "When Carlos arrived, he showed me how to use the jack.",
+"s": 35.28
+},
+{
+"p": 3,
+"t": "We changed the tire together, and my jeans got very muddy.",
+"s": 39.06
+},
+{
+"p": 3,
+"t": "“The spare is only for emergencies,” Carlos said.",
+"s": 43.22
+},
+{
+"p": 3,
+"t": "“Take the car to Gus’s Garage after work.”",
+"s": 46.8
+},
+{
+"p": 4,
+"t": "That evening, the mechanic, Gus, found a nail in the old tire.",
+"s": 50.09
+},
+{
+"p": 4,
+"t": "“I can’t fix this one. You’ll need a new tire,” he said.",
+"s": 54.39
+},
+{
+"p": 4,
+"t": "“And your brakes are a little old. You should replace them soon.”",
+"s": 58.2
+},
+{
+"p": 5,
+"t": "The new tire cost a hundred and twenty dollars.",
+"s": 62.44
+},
+{
+"p": 5,
+"t": "Owning a car is more expensive than I thought!",
+"s": 65.52
+}
+],
+"comp": [
+{
+"q": "What was the weather like?",
+"o": [
+"sunny",
+"snowy",
+"rainy",
+"windy"
+],
+"a": 2,
+"fa": "هوا چطور بود؟"
+},
+{
+"q": "What was wrong with the car?",
+"o": [
+"It had no gas.",
+"The tire was flat.",
+"The window was broken.",
+"The lights didn’t work."
+],
+"a": 1,
+"fa": "ماشین چه مشکلی داشت؟"
+},
+{
+"q": "What did the police officer tell Sam?",
+"o": [
+"to turn on his hazard lights",
+"to call a taxi",
+"to go home",
+"to drive slowly"
+],
+"a": 0,
+"fa": "افسر پلیس به سام چه گفت؟"
+},
+{
+"q": "What was in the old tire?",
+"o": [
+"a stone",
+"glass",
+"a piece of wood",
+"a nail"
+],
+"a": 3,
+"fa": "داخل لاستیک قدیمی چه بود؟"
+},
+{
+"q": "What else did the mechanic say?",
+"o": [
+"The car is too old.",
+"Sam should replace the brakes soon.",
+"The engine is broken.",
+"Sam needs new windows."
+],
+"a": 1,
+"fa": "مکانیک دیگر چه گفت؟"
+},
+{
+"q": "How much did Sam pay?",
+"o": [
+"twenty dollars",
+"fifty dollars",
+"a hundred and twenty dollars",
+"two hundred dollars"
+],
+"a": 2,
+"fa": "سام چقدر پرداخت کرد؟"
+}
+],
+"words": [
+{
+"w": "flat",
+"ipa": "/flæt/",
+"fa": "پنچر",
+"ex": "My front tire was completely flat!",
+"book": 1,
+"id": "flat",
+"m": [
+29,
+33
+]
+},
+{
+"w": "pull over",
+"ipa": "/ˌpʊl ˈoʊvɚ/",
+"fa": "کنار زدن (ماشین)",
+"ex": "I pulled over to the side of the road and got out.",
+"book": 1,
+"id": "pull-over",
+"m": [
+2,
+13
+]
+},
+{
+"w": "spare",
+"ipa": "/spɛr/",
+"fa": "زاپاس",
+"ex": "The spare is only for emergencies.",
+"book": 1,
+"id": "spare",
+"m": [
+4,
+9
+]
+},
+{
+"w": "trunk",
+"ipa": "/trʌŋk/",
+"fa": "صندوق عقب",
+"ex": "I had a spare tire in the trunk, but I didn’t know how to change it.",
+"book": 1,
+"id": "trunk",
+"m": [
+26,
+31
+]
+},
+{
+"w": "hazard lights",
+"ipa": "/ˈhæzɚd ˌlaɪts/",
+"fa": "چراغ‌های فلاشر",
+"ex": "You should turn on your hazard lights.",
+"book": 1,
+"id": "hazard-lights",
+"m": [
+24,
+37
+]
+},
+{
+"w": "jack",
+"ipa": "/dʒæk/",
+"fa": "جک (ماشین)",
+"ex": "When Carlos arrived, he showed me how to use the jack.",
+"book": 1,
+"id": "jack",
+"m": [
+49,
+53
+]
+},
+{
+"w": "muddy",
+"ipa": "/ˈmʌdi/",
+"fa": "گِلی",
+"ex": "We changed the tire together, and my jeans got very muddy.",
+"book": 1,
+"id": "muddy",
+"m": [
+52,
+57
+]
+},
+{
+"w": "mechanic",
+"ipa": "/məˈkænɪk/",
+"fa": "مکانیک",
+"ex": "That evening, the mechanic, Gus, found a nail in the old tire.",
+"book": 1,
+"id": "mechanic",
+"m": [
+18,
+26
+]
+},
+{
+"w": "nail",
+"ipa": "/neɪl/",
+"fa": "میخ",
+"ex": "That evening, the mechanic, Gus, found a nail in the old tire.",
+"book": 1,
+"id": "nail",
+"m": [
+41,
+45
+]
+},
+{
+"w": "replace",
+"ipa": "/rɪˈpleɪs/",
+"fa": "تعویض کردن",
+"ex": "You should replace them soon.",
+"book": 1,
+"id": "replace",
+"m": [
+11,
+18
+]
+},
+{
+"w": "loud",
+"ipa": "/laʊd/",
+"fa": "بلند (صدا)",
+"ex": "One rainy Monday in April, I was driving to work when I heard a loud noise: bump, bump, bump.",
+"id": "loud",
+"m": [
+64,
+68
+]
+},
+{
+"w": "get out",
+"ipa": "/ɡɛt aʊt/",
+"fa": "پیاده شدن (از ماشین)",
+"ex": "I pulled over to the side of the road and got out.",
+"id": "get-out",
+"m": [
+42,
+49
+]
+},
+{
+"w": "front",
+"ipa": "/frʌnt/",
+"fa": "جلو، جلویی",
+"ex": "My front tire was completely flat!",
+"id": "front",
+"m": [
+3,
+8
+]
+},
+{
+"w": "officer",
+"ipa": "/ˈɔfəsɚ/",
+"fa": "افسر",
+"ex": "While I was waiting in the rain, a police officer stopped.",
+"id": "officer",
+"m": [
+42,
+49
+]
+},
+{
+"w": "turn on",
+"ipa": "/tɝn ɑn/",
+"fa": "روشن کردن",
+"ex": "You should turn on your hazard lights.",
+"id": "turn-on",
+"m": [
+11,
+18
+]
+},
+{
+"w": "emergency",
+"ipa": "/ɪˈmɝdʒənsi/",
+"fa": "موقعیت اضطراری",
+"ex": "The spare is only for emergencies.",
+"id": "emergency",
+"m": [
+22,
+33
+]
+},
+{
+"w": "soon",
+"ipa": "/sun/",
+"fa": "به‌زودی",
+"ex": "You should replace them soon.",
+"id": "soon",
+"m": [
+24,
+28
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "My front tire was completely flat!",
+"fa": "لاستیک جلوی ماشینم کاملاً پنچر بود!"
+},
+{
+"id": "s2",
+"en": "I’ll be there in fifteen minutes.",
+"fa": "پانزده دقیقه‌ی دیگر آنجام."
+},
+{
+"id": "s3",
+"en": "You should turn on your hazard lights.",
+"fa": "بهتر است فلاشرهایت را روشن کنی."
+},
+{
+"id": "s4",
+"en": "You’ll need a new tire.",
+"fa": "یک لاستیک نو لازم داری."
+},
+{
+"id": "s5",
+"en": "Owning a car is more expensive than I thought!",
+"fa": "داشتن ماشین از آنچه فکر می‌کردم گران‌تر است!"
+}
+]
+}

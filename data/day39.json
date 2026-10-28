@@ -1,0 +1,421 @@
+{
+"day": 39,
+"level": "A2",
+"title": "A Terrible Toothache",
+"fa_title": "دندان‌درد شدید",
+"audio": "audio/day39.mp3",
+"img": "img/day39.webp",
+"sents": [
+{
+"p": 0,
+"t": "Last Thursday, I woke up at three in the morning with a terrible toothache.",
+"s": 2.59
+},
+{
+"p": 0,
+"t": "The left side of my face was swollen.",
+"s": 8.54
+},
+{
+"p": 1,
+"t": "In the morning, I called Dr. Kim’s dental office.",
+"s": 11.47
+},
+{
+"p": 1,
+"t": "“We have a cancellation. Can you come at eleven?” the receptionist asked.",
+"s": 14.82
+},
+{
+"p": 1,
+"t": "“Yes, please!”",
+"s": 19.56
+},
+{
+"p": 2,
+"t": "Before the appointment, I filled out a form about my health and my dental insurance.",
+"s": 21.31
+},
+{
+"p": 2,
+"t": "Luckily, my job at the bookstore gives me insurance.",
+"s": 26.65
+},
+{
+"p": 3,
+"t": "Dr. Kim was a calm, kind woman.",
+"s": 30.67
+},
+{
+"p": 3,
+"t": "She took an X-ray of my teeth.",
+"s": 33.62
+},
+{
+"p": 3,
+"t": "“You have a cavity, and it’s very deep,” she said.",
+"s": 35.79
+},
+{
+"p": 3,
+"t": "“I’m going to fill it today. You won’t feel any pain.”",
+"s": 39.11
+},
+{
+"p": 4,
+"t": "She gave me a shot, and my mouth was numb for three hours.",
+"s": 42.5
+},
+{
+"p": 5,
+"t": "Then she gave me some advice.",
+"s": 46.76
+},
+{
+"p": 5,
+"t": "“You should brush twice a day and floss every night. You shouldn’t drink so much soda, and you should come for a cleaning every six months.”",
+"s": 48.88
+},
+{
+"p": 6,
+"t": "“How many lattes do you drink a day?” she asked.",
+"s": 57.55
+},
+{
+"p": 6,
+"t": "“Three,” I said.",
+"s": 60.62
+},
+{
+"p": 6,
+"t": "She laughed.",
+"s": 61.67
+},
+{
+"p": 6,
+"t": "“Maybe one is enough.”",
+"s": 62.64
+},
+{
+"p": 7,
+"t": "At home, I tried to eat soup, but half of it went on my shirt!",
+"s": 64.55
+}
+],
+"comp": [
+{
+"q": "When did Sam’s toothache start?",
+"o": [
+"at three in the morning",
+"at lunch",
+"after dinner",
+"at eleven"
+],
+"a": 0,
+"fa": "دندان‌درد سام کی شروع شد؟"
+},
+{
+"q": "Why could Sam see Dr. Kim the same day?",
+"o": [
+"She was his friend.",
+"There was a cancellation.",
+"He paid more.",
+"The office was empty."
+],
+"a": 1,
+"fa": "چرا سام توانست همان روز دکتر کیم را ببیند؟"
+},
+{
+"q": "Who pays for Sam’s dental care?",
+"o": [
+"Rosa",
+"Sam’s family",
+"his insurance from work",
+"nobody"
+],
+"a": 2,
+"fa": "هزینه‌ی دندانپزشکی سام را چه کسی می‌پردازد؟"
+},
+{
+"q": "What did the X-ray show?",
+"o": [
+"a broken tooth",
+"nothing",
+"a new tooth",
+"a deep cavity"
+],
+"a": 3,
+"fa": "عکس رادیولوژی چه چیزی نشان داد؟"
+},
+{
+"q": "What should Sam drink less of?",
+"o": [
+"water",
+"soda",
+"milk",
+"tea"
+],
+"a": 1,
+"fa": "سام باید کمتر چه چیزی بنوشد؟"
+},
+{
+"q": "Why did soup go on Sam’s shirt?",
+"o": [
+"His mouth was numb.",
+"Max jumped on him.",
+"The bowl was broken.",
+"He was laughing."
+],
+"a": 0,
+"fa": "چرا سوپ روی پیراهن سام ریخت؟"
+}
+],
+"words": [
+{
+"w": "toothache",
+"ipa": "/ˈtuθˌeɪk/",
+"fa": "دندان‌درد",
+"ex": "Last Thursday, I woke up at three in the morning with a terrible toothache.",
+"book": 1,
+"id": "toothache",
+"m": [
+65,
+74
+]
+},
+{
+"w": "swollen",
+"ipa": "/ˈswoʊlən/",
+"fa": "ورم‌کرده، متورم",
+"ex": "The left side of my face was swollen.",
+"book": 1,
+"id": "swollen",
+"m": [
+29,
+36
+]
+},
+{
+"w": "dental",
+"ipa": "/ˈdɛntəl/",
+"fa": "دندانپزشکی",
+"ex": "In the morning, I called Dr. Kim’s dental office.",
+"book": 1,
+"id": "dental",
+"m": [
+35,
+41
+]
+},
+{
+"w": "appointment",
+"ipa": "/əˈpɔɪntmənt/",
+"fa": "وقت قبلی، نوبت",
+"ex": "Before the appointment, I filled out a form about my health and my dental insurance.",
+"book": 1,
+"id": "appointment",
+"m": [
+11,
+22
+]
+},
+{
+"w": "insurance",
+"ipa": "/ɪnˈʃʊrəns/",
+"fa": "بیمه",
+"ex": "Luckily, my job at the bookstore gives me insurance.",
+"book": 1,
+"id": "insurance",
+"m": [
+42,
+51
+]
+},
+{
+"w": "cavity",
+"ipa": "/ˈkævəti/",
+"fa": "پوسیدگی دندان",
+"ex": "You have a cavity, and it’s very deep.",
+"book": 1,
+"id": "cavity",
+"m": [
+11,
+17
+]
+},
+{
+"w": "pain",
+"ipa": "/peɪn/",
+"fa": "درد",
+"ex": "You won’t feel any pain.",
+"book": 1,
+"id": "pain",
+"m": [
+19,
+23
+]
+},
+{
+"w": "numb",
+"ipa": "/nʌm/",
+"fa": "بی‌حس",
+"ex": "She gave me a shot, and my mouth was numb for three hours.",
+"book": 1,
+"id": "numb",
+"m": [
+37,
+41
+]
+},
+{
+"w": "advice",
+"ipa": "/ədˈvaɪs/",
+"fa": "توصیه، نصیحت",
+"ex": "Then she gave me some advice.",
+"book": 1,
+"id": "advice",
+"m": [
+22,
+28
+]
+},
+{
+"w": "floss",
+"ipa": "/flɑs/",
+"fa": "نخ دندان کشیدن",
+"ex": "You should brush twice a day and floss every night.",
+"book": 1,
+"id": "floss",
+"m": [
+33,
+38
+]
+},
+{
+"w": "cancellation",
+"ipa": "/ˌkænsəˈleɪʃən/",
+"fa": "لغو (نوبت)",
+"ex": "We have a cancellation.",
+"id": "cancellation",
+"m": [
+10,
+22
+]
+},
+{
+"w": "receptionist",
+"ipa": "/rɪˈsɛpʃənɪst/",
+"fa": "منشی، مسئول پذیرش",
+"ex": "The receptionist asked.",
+"id": "receptionist",
+"m": [
+4,
+16
+]
+},
+{
+"w": "health",
+"ipa": "/hɛlθ/",
+"fa": "سلامتی",
+"ex": "Before the appointment, I filled out a form about my health and my dental insurance.",
+"id": "health",
+"m": [
+53,
+59
+]
+},
+{
+"w": "calm",
+"ipa": "/kɑm/",
+"fa": "آرام",
+"ex": "Dr. Kim was a calm, kind woman.",
+"id": "calm",
+"m": [
+14,
+18
+]
+},
+{
+"w": "X-ray",
+"ipa": "/ɛks reɪ/",
+"fa": "عکس رادیولوژی",
+"ex": "She took an X-ray of my teeth.",
+"id": "x-ray",
+"m": [
+12,
+17
+]
+},
+{
+"w": "tooth",
+"ipa": "/tuθ/",
+"fa": "دندان",
+"ex": "She took an X-ray of my teeth.",
+"id": "tooth",
+"m": [
+24,
+29
+]
+},
+{
+"w": "deep",
+"ipa": "/dip/",
+"fa": "عمیق",
+"ex": "You have a cavity, and it’s very deep.",
+"id": "deep",
+"m": [
+33,
+37
+]
+},
+{
+"w": "shot",
+"ipa": "/ʃɑt/",
+"fa": "آمپول، تزریق",
+"ex": "She gave me a shot, and my mouth was numb for three hours.",
+"id": "shot",
+"m": [
+14,
+18
+]
+},
+{
+"w": "brush",
+"ipa": "/brʌʃ/",
+"fa": "مسواک زدن",
+"ex": "You should brush twice a day and floss every night.",
+"id": "brush",
+"m": [
+11,
+16
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I woke up with a terrible toothache.",
+"fa": "با دندان‌درد شدیدی از خواب بیدار شدم."
+},
+{
+"id": "s2",
+"en": "Can you come at eleven?",
+"fa": "می‌توانید ساعت یازده بیایید؟"
+},
+{
+"id": "s3",
+"en": "You won’t feel any pain.",
+"fa": "هیچ دردی حس نمی‌کنی."
+},
+{
+"id": "s4",
+"en": "You should brush twice a day.",
+"fa": "باید روزی دو بار مسواک بزنی."
+},
+{
+"id": "s5",
+"en": "Maybe one is enough.",
+"fa": "شاید یکی کافی باشد."
+}
+]
+}

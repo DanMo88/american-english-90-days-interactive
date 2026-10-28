@@ -1,0 +1,395 @@
+{
+"day": 44,
+"level": "A2",
+"title": "A Fall on the Ice",
+"fa_title": "زمین خوردن روی یخ",
+"audio": "audio/day44.mp3",
+"img": "img/day44.webp",
+"sents": [
+{
+"p": 0,
+"t": "On a cold morning in March, Rosa was walking Max when she slipped on some ice in front of our building.",
+"s": 2.39
+},
+{
+"p": 0,
+"t": "I was leaving for work when I heard her shout.",
+"s": 10.2
+},
+{
+"p": 0,
+"t": "She was sitting on the ground and holding her wrist.",
+"s": 13.03
+},
+{
+"p": 1,
+"t": "“I think it’s broken,” she said.",
+"s": 16.28
+},
+{
+"p": 2,
+"t": "I called Danny, but he was at work, so I called a taxi.",
+"s": 18.94
+},
+{
+"p": 2,
+"t": "At the emergency room at Oakville Hospital, a nurse asked Rosa for her name, her date of birth, and her insurance card.",
+"s": 23.17
+},
+{
+"p": 3,
+"t": "Finally, a doctor saw her, and Ana was working that day!",
+"s": 31.08
+},
+{
+"p": 3,
+"t": "She smiled and held Rosa’s hand while the doctor looked at the X-ray.",
+"s": 35.28
+},
+{
+"p": 4,
+"t": "“Your wrist is broken,” the doctor said.",
+"s": 40.14
+},
+{
+"p": 4,
+"t": "“You’ll need a cast for six weeks.”",
+"s": 42.96
+},
+{
+"p": 5,
+"t": "Rosa chose a purple cast.",
+"s": 45.58
+},
+{
+"p": 5,
+"t": "“If I have to wear it, it should be pretty,” she joked.",
+"s": 47.91
+},
+{
+"p": 6,
+"t": "For the next six weeks, Rosa couldn’t cook or carry heavy things, so we all helped her.",
+"s": 51.3
+},
+{
+"p": 6,
+"t": "I walked Max every morning and every evening, and Emma did her grocery shopping.",
+"s": 57.34
+},
+{
+"p": 7,
+"t": "“I’m lucky,” Rosa said.",
+"s": 62.94
+},
+{
+"p": 7,
+"t": "“I have the best neighbors in the world.”",
+"s": 64.89
+}
+],
+"comp": [
+{
+"q": "What was Rosa doing when she slipped?",
+"o": [
+"walking Max",
+"shoveling snow",
+"going to the store",
+"getting the mail"
+],
+"a": 0,
+"fa": "وقتی رزا لیز خورد چه کار می‌کرد؟"
+},
+{
+"q": "What was Sam doing when he heard her?",
+"o": [
+"sleeping",
+"leaving for work",
+"cooking breakfast",
+"watching TV"
+],
+"a": 1,
+"fa": "وقتی سام صدای او را شنید چه کار می‌کرد؟"
+},
+{
+"q": "How did they get to the hospital?",
+"o": [
+"in Sam’s car",
+"in Danny’s car",
+"by bus",
+"by taxi"
+],
+"a": 3,
+"fa": "چطور به بیمارستان رفتند؟"
+},
+{
+"q": "Who was working at the hospital that day?",
+"o": [
+"Emma",
+"Lily",
+"Ana",
+"Dr. Kim"
+],
+"a": 2,
+"fa": "آن روز چه کسی در بیمارستان سر کار بود؟"
+},
+{
+"q": "How long does Rosa need a cast?",
+"o": [
+"two weeks",
+"six weeks",
+"three months",
+"ten days"
+],
+"a": 1,
+"fa": "رزا چه مدت به گچ نیاز دارد؟"
+},
+{
+"q": "What color is Rosa’s cast?",
+"o": [
+"purple",
+"white",
+"pink",
+"blue"
+],
+"a": 0,
+"fa": "گچ رزا چه رنگی است؟"
+}
+],
+"words": [
+{
+"w": "slip",
+"ipa": "/slɪp/",
+"fa": "لیز خوردن",
+"ex": "Be careful, don’t slip on the wet floor.",
+"book": 1,
+"id": "slip",
+"m": [
+18,
+22
+]
+},
+{
+"w": "ice",
+"ipa": "/aɪs/",
+"fa": "یخ",
+"ex": "There is ice on the road this morning.",
+"book": 1,
+"id": "ice",
+"m": [
+9,
+12
+]
+},
+{
+"w": "wrist",
+"ipa": "/rɪst/",
+"fa": "مچ دست",
+"ex": "She was sitting on the ground and holding her wrist.",
+"book": 1,
+"id": "wrist",
+"m": [
+46,
+51
+]
+},
+{
+"w": "emergency room",
+"ipa": "/ɪˈmɝdʒənsi ˌrum/",
+"fa": "اورژانس",
+"ex": "We went to the emergency room at night.",
+"book": 1,
+"id": "emergency-room",
+"m": [
+15,
+29
+]
+},
+{
+"w": "taxi",
+"ipa": "/ˈtæksi/",
+"fa": "تاکسی",
+"ex": "I called Danny, but he was at work, so I called a taxi.",
+"book": 1,
+"id": "taxi",
+"m": [
+50,
+54
+]
+},
+{
+"w": "date of birth",
+"ipa": "/ˌdeɪt əv ˈbɝθ/",
+"fa": "تاریخ تولد",
+"ex": "Write your date of birth here.",
+"book": 1,
+"id": "date-of-birth",
+"m": [
+11,
+24
+]
+},
+{
+"w": "cast",
+"ipa": "/kæst/",
+"fa": "گچ (شکستگی)",
+"ex": "You’ll need a cast for six weeks.",
+"book": 1,
+"id": "cast",
+"m": [
+14,
+18
+]
+},
+{
+"w": "purple",
+"ipa": "/ˈpɝpəl/",
+"fa": "بنفش",
+"ex": "Rosa chose a purple cast.",
+"book": 1,
+"id": "purple",
+"m": [
+13,
+19
+]
+},
+{
+"w": "carry",
+"ipa": "/ˈkæri/",
+"fa": "حمل کردن، بردن",
+"ex": "Can you carry this bag for me?",
+"book": 1,
+"id": "carry",
+"m": [
+8,
+13
+]
+},
+{
+"w": "hold",
+"ipa": "/hoʊld/",
+"fa": "گرفتن، نگه داشتن",
+"ex": "She was sitting on the ground and holding her wrist.",
+"book": 1,
+"id": "hold",
+"m": [
+34,
+41
+]
+},
+{
+"w": "walk",
+"ipa": "/wɔk/",
+"fa": "بیرون بردن (سگ)",
+"ex": "I walked Max every morning and every evening, and Emma did her grocery shopping.",
+"id": "walk",
+"m": [
+2,
+8
+]
+},
+{
+"w": "hear",
+"ipa": "/hir/",
+"fa": "شنیدن",
+"ex": "I was leaving for work when I heard her shout.",
+"id": "hear",
+"m": [
+30,
+35
+]
+},
+{
+"w": "ground",
+"ipa": "/ɡraʊnd/",
+"fa": "زمین",
+"ex": "She was sitting on the ground and holding her wrist.",
+"id": "ground",
+"m": [
+23,
+29
+]
+},
+{
+"w": "while",
+"ipa": "/waɪl/",
+"fa": "در حالی که",
+"ex": "She smiled and held Rosa’s hand while the doctor looked at the X-ray.",
+"id": "while",
+"m": [
+32,
+37
+]
+},
+{
+"w": "pretty",
+"ipa": "/ˈprɪti/",
+"fa": "قشنگ",
+"ex": "If I have to wear it, it should be pretty.",
+"id": "pretty",
+"m": [
+35,
+41
+]
+},
+{
+"w": "grocery shopping",
+"ipa": "/ˈɡroʊsɚi ˈʃɑpɪŋ/",
+"fa": "خرید مواد غذایی",
+"ex": "I walked Max every morning and every evening, and Emma did her grocery shopping.",
+"id": "grocery-shopping",
+"m": [
+63,
+79
+]
+},
+{
+"w": "lucky",
+"ipa": "/ˈlʌki/",
+"fa": "خوش‌شانس",
+"ex": "I’m lucky.",
+"id": "lucky",
+"m": [
+4,
+9
+]
+},
+{
+"w": "world",
+"ipa": "/wɝld/",
+"fa": "دنیا",
+"ex": "I have the best neighbors in the world.",
+"id": "world",
+"m": [
+33,
+38
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "I think it’s broken.",
+"fa": "فکر کنم شکسته."
+},
+{
+"id": "s2",
+"en": "Your wrist is broken.",
+"fa": "مچ دستت شکسته."
+},
+{
+"id": "s3",
+"en": "You’ll need a cast for six weeks.",
+"fa": "شش هفته گچ لازم داری."
+},
+{
+"id": "s4",
+"en": "I walked Max every morning.",
+"fa": "هر روز صبح مکس را بیرون می‌بردم."
+},
+{
+"id": "s5",
+"en": "I have the best neighbors in the world.",
+"fa": "بهترین همسایه‌های دنیا را دارم."
+}
+]
+}

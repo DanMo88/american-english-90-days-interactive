@@ -1,0 +1,400 @@
+{
+"day": 41,
+"level": "A2",
+"title": "Rosa's Famous Lasagna",
+"fa_title": "لازانیای معروف رزا",
+"audio": "audio/day41.mp3",
+"img": "img/day41.webp",
+"sents": [
+{
+"p": 0,
+"t": "In March, Rosa finally taught me her famous lasagna recipe.",
+"s": 4.25
+},
+{
+"p": 0,
+"t": "Her grandmother brought it from Italy many years ago.",
+"s": 9.01
+},
+{
+"p": 1,
+"t": "“How much cheese do we have?” Rosa asked.",
+"s": 12.38
+},
+{
+"p": 2,
+"t": "“Not much. There’s only a little mozzarella,” I said.",
+"s": 15.7
+},
+{
+"p": 3,
+"t": "“And how many tomatoes?”",
+"s": 19.58
+},
+{
+"p": 4,
+"t": "“We don’t have any tomatoes.” So we went to the store and bought a lot of things: two pounds of ground beef, onions, garlic, three cans of tomatoes, noodles, and plenty of cheese.",
+"s": 21.75
+},
+{
+"p": 5,
+"t": "Rosa gave me an apron.",
+"s": 33.58
+},
+{
+"p": 5,
+"t": "I chopped the onions and cried like a baby.",
+"s": 35.38
+},
+{
+"p": 5,
+"t": "Rosa cooked the meat with the onions, garlic, tomatoes, salt, and a little sugar.",
+"s": 38.3
+},
+{
+"p": 5,
+"t": "“The secret is time,” she said.",
+"s": 43.94
+},
+{
+"p": 5,
+"t": "“The sauce has to cook slowly for an hour.”",
+"s": 46.27
+},
+{
+"p": 6,
+"t": "Then we made layers: sauce, noodles, cheese, and again: sauce, noodles, cheese.",
+"s": 49.44
+},
+{
+"p": 6,
+"t": "We baked it for forty-five minutes.",
+"s": 55.01
+},
+{
+"p": 6,
+"t": "The whole building smelled wonderful.",
+"s": 57.62
+},
+{
+"p": 6,
+"t": "Even Max was waiting at the kitchen door!",
+"s": 59.91
+},
+{
+"p": 7,
+"t": "The lasagna was delicious.",
+"s": 62.91
+},
+{
+"p": 7,
+"t": "“Now it’s your recipe too,” Rosa said.",
+"s": 64.94
+}
+],
+"comp": [
+{
+"q": "Where is Rosa’s recipe from?",
+"o": [
+"Mexico",
+"France",
+"Italy",
+"Greece"
+],
+"a": 2,
+"fa": "دستور پخت رزا از کجا آمده است؟"
+},
+{
+"q": "How much cheese did they have?",
+"o": [
+"a lot",
+"three pounds",
+"none",
+"only a little"
+],
+"a": 3,
+"fa": "چقدر پنیر داشتند؟"
+},
+{
+"q": "Why did Sam cry?",
+"o": [
+"He was chopping onions.",
+"He cut his finger.",
+"Rosa was angry.",
+"The sauce was too hot."
+],
+"a": 0,
+"fa": "چرا سام گریه کرد؟"
+},
+{
+"q": "What is the secret of the sauce?",
+"o": [
+"sugar",
+"time",
+"a lot of salt",
+"special cheese"
+],
+"a": 1,
+"fa": "راز سس چیست؟"
+},
+{
+"q": "How long did they bake the lasagna?",
+"o": [
+"twenty minutes",
+"an hour",
+"two hours",
+"forty-five minutes"
+],
+"a": 3,
+"fa": "لازانیا را چقدر در فر پختند؟"
+},
+{
+"q": "Who was waiting at the kitchen door?",
+"o": [
+"Danny",
+"Emma",
+"Max",
+"Mr. Brooks"
+],
+"a": 2,
+"fa": "چه کسی دمِ در آشپزخانه منتظر بود؟"
+}
+],
+"words": [
+{
+"w": "famous",
+"ipa": "/ˈfeɪməs/",
+"fa": "معروف، مشهور",
+"ex": "In March, Rosa finally taught me her famous lasagna recipe.",
+"book": 1,
+"id": "famous",
+"m": [
+37,
+43
+]
+},
+{
+"w": "recipe",
+"ipa": "/ˈrɛsəpi/",
+"fa": "دستور پخت",
+"ex": "In March, Rosa finally taught me her famous lasagna recipe.",
+"book": 1,
+"id": "recipe",
+"m": [
+52,
+58
+]
+},
+{
+"w": "onion",
+"ipa": "/ˈʌnjən/",
+"fa": "پیاز",
+"ex": "I chopped the onions and cried like a baby.",
+"book": 1,
+"id": "onion",
+"m": [
+14,
+20
+]
+},
+{
+"w": "garlic",
+"ipa": "/ˈɡɑrlɪk/",
+"fa": "سیر",
+"ex": "Rosa cooked the meat with the onions, garlic, tomatoes, salt, and a little sugar.",
+"book": 1,
+"id": "garlic",
+"m": [
+38,
+44
+]
+},
+{
+"w": "noodle",
+"ipa": "/ˈnudəl/",
+"fa": "رشته، نودل",
+"ex": "Then we made layers: sauce, noodles, cheese, and again: sauce, noodles, cheese.",
+"book": 1,
+"id": "noodle",
+"m": [
+28,
+35
+]
+},
+{
+"w": "plenty",
+"ipa": "/ˈplɛnti/",
+"fa": "فراوان، کلی",
+"ex": "Don’t worry, we have plenty of time.",
+"book": 1,
+"id": "plenty",
+"m": [
+21,
+27
+]
+},
+{
+"w": "apron",
+"ipa": "/ˈeɪprən/",
+"fa": "پیش‌بند",
+"ex": "Rosa gave me an apron.",
+"book": 1,
+"id": "apron",
+"m": [
+16,
+21
+]
+},
+{
+"w": "chop",
+"ipa": "/tʃɑp/",
+"fa": "خرد کردن",
+"ex": "I chopped the onions and cried like a baby.",
+"book": 1,
+"id": "chop",
+"m": [
+2,
+9
+]
+},
+{
+"w": "layer",
+"ipa": "/ˈleɪɚ/",
+"fa": "لایه",
+"ex": "Then we made layers: sauce, noodles, cheese, and again: sauce, noodles, cheese.",
+"book": 1,
+"id": "layer",
+"m": [
+13,
+19
+]
+},
+{
+"w": "smell",
+"ipa": "/smɛl/",
+"fa": "بو دادن، بوی (چیزی) آمدن",
+"ex": "The whole building smelled wonderful.",
+"book": 1,
+"id": "smell",
+"m": [
+19,
+26
+]
+},
+{
+"w": "ground beef",
+"ipa": "/ɡraʊnd bif/",
+"fa": "گوشت چرخ‌کرده",
+"ex": "We went to the store and bought a lot of things: two pounds of ground beef, onions, garlic, three cans of tomatoes, noodles.",
+"id": "ground-beef",
+"m": [
+63,
+74
+]
+},
+{
+"w": "can",
+"ipa": "/kæn/",
+"fa": "قوطی، کنسرو",
+"ex": "We went to the store and bought a lot of things: two pounds of ground beef, onions, garlic, three cans of tomatoes, noodles.",
+"id": "can",
+"m": [
+98,
+102
+]
+},
+{
+"w": "salt",
+"ipa": "/sɔlt/",
+"fa": "نمک",
+"ex": "Rosa cooked the meat with the onions, garlic, tomatoes, salt, and a little sugar.",
+"id": "salt",
+"m": [
+56,
+60
+]
+},
+{
+"w": "sugar",
+"ipa": "/ˈʃʊɡɚ/",
+"fa": "شکر",
+"ex": "Rosa cooked the meat with the onions, garlic, tomatoes, salt, and a little sugar.",
+"id": "sugar",
+"m": [
+75,
+80
+]
+},
+{
+"w": "sauce",
+"ipa": "/sɔs/",
+"fa": "سس",
+"ex": "The sauce has to cook slowly for an hour.",
+"id": "sauce",
+"m": [
+4,
+9
+]
+},
+{
+"w": "even",
+"ipa": "/ˈivɪn/",
+"fa": "حتی",
+"ex": "Even Max was waiting at the kitchen door!",
+"id": "even",
+"m": [
+0,
+4
+]
+},
+{
+"w": "much",
+"ipa": "/mʌtʃ/",
+"fa": "زیاد (برای غیرقابل‌شمارش)",
+"ex": "How much cheese do we have?",
+"id": "much",
+"m": [
+4,
+8
+]
+},
+{
+"w": "like",
+"ipa": "/laɪk/",
+"fa": "مثلِ",
+"ex": "I chopped the onions and cried like a baby.",
+"id": "like",
+"m": [
+31,
+35
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "How much cheese do we have?",
+"fa": "چقدر پنیر داریم؟"
+},
+{
+"id": "s2",
+"en": "We don’t have any tomatoes.",
+"fa": "هیچ گوجه‌ای نداریم."
+},
+{
+"id": "s3",
+"en": "The secret is time.",
+"fa": "رازش زمان است."
+},
+{
+"id": "s4",
+"en": "The sauce has to cook slowly.",
+"fa": "سس باید آرام بپزد."
+},
+{
+"id": "s5",
+"en": "Now it’s your recipe too.",
+"fa": "حالا این دستور پخت مال تو هم هست."
+}
+]
+}

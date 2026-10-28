@@ -1,0 +1,351 @@
+{
+"day": 60,
+"level": "A2",
+"title": "One Year in Oakville",
+"fa_title": "یک سال در اوک‌ویل",
+"audio": "audio/day60.mp3",
+"img": "img/day60.webp",
+"sents": [
+{
+"p": 0,
+"t": "Exactly one year ago, I arrived in Oakville with one suitcase and very little English.",
+"s": 2.33
+},
+{
+"p": 0,
+"t": "Today, I’m writing this in English!",
+"s": 9.6
+},
+{
+"p": 1,
+"t": "So much has changed this year.",
+"s": 12.44
+},
+{
+"p": 1,
+"t": "I have survived my first winter storm and my first trip to the dentist.",
+"s": 14.54
+},
+{
+"p": 1,
+"t": "I have passed my driving test and bought a car.",
+"s": 19.26
+},
+{
+"p": 1,
+"t": "I’ve learned to make Rosa’s lasagna, and I’ve hiked in the Rocky Mountains.",
+"s": 22.62
+},
+{
+"p": 2,
+"t": "My English is much better than it was.",
+"s": 27.47
+},
+{
+"p": 2,
+"t": "Last June, I was afraid to answer the phone.",
+"s": 30.3
+},
+{
+"p": 2,
+"t": "I still make mistakes, but I’m not afraid of them anymore.",
+"s": 33.32
+},
+{
+"p": 3,
+"t": "Most importantly, I’ve found a second family: Rosa and Max, Lily, Emma, Carlos and Ana, Danny’s family, and Mr. Lee.",
+"s": 37.14
+},
+{
+"p": 4,
+"t": "Next week, I’m going to start my new job as assistant manager.",
+"s": 46.22
+},
+{
+"p": 4,
+"t": "In July, Lily and I are going to visit Emma in Chicago.",
+"s": 50.51
+},
+{
+"p": 4,
+"t": "And I’m going to keep studying, because I want to reach the next level by the end of the year.",
+"s": 54.91
+},
+{
+"p": 5,
+"t": "Tonight, we’re going to have a barbecue in Rosa’s backyard to celebrate my anniversary in Oakville.",
+"s": 61.31
+},
+{
+"p": 5,
+"t": "Lily is baking a cake.",
+"s": 64.73
+},
+{
+"p": 5,
+"t": "It will say, “Happy 1st Year, Sam!”",
+"s": 68.3
+}
+],
+"comp": [
+{
+"q": "How long has Sam lived in Oakville?",
+"o": [
+"six months",
+"exactly one year",
+"two years",
+"three months"
+],
+"a": 1,
+"fa": "سام چه مدت است در اوک‌ویل زندگی می‌کند؟"
+},
+{
+"q": "What did Sam bring when he arrived?",
+"o": [
+"one suitcase",
+"two dogs",
+"a car",
+"a lot of furniture"
+],
+"a": 0,
+"fa": "سام وقتی رسید چه چیزی با خود آورد؟"
+},
+{
+"q": "What was Sam afraid of last June?",
+"o": [
+"driving",
+"dogs",
+"answering the phone",
+"the snow"
+],
+"a": 2,
+"fa": "سام ژوئن گذشته از چه چیزی می‌ترسید؟"
+},
+{
+"q": "What is Sam going to start next week?",
+"o": [
+"a college class",
+"a new job as assistant manager",
+"a road trip",
+"a garden"
+],
+"a": 1,
+"fa": "سام هفته‌ی بعد قرار است چه چیزی را شروع کند؟"
+},
+{
+"q": "Where are Sam and Lily going in July?",
+"o": [
+"to Colorado",
+"to Mexico",
+"to Seattle",
+"to Chicago"
+],
+"a": 3,
+"fa": "سام و لیلی در ژوئیه کجا می‌روند؟"
+},
+{
+"q": "What will Lily’s cake say?",
+"o": [
+"“Happy Birthday, Rosa!”",
+"“Congratulations, Emma!”",
+"“Happy 1st Year, Sam!”",
+"“Welcome to Oakville!”"
+],
+"a": 2,
+"fa": "روی کیک لیلی چه نوشته خواهد شد؟"
+}
+],
+"words": [
+{
+"w": "exactly",
+"ipa": "/ɪɡˈzæktli/",
+"fa": "دقیقاً",
+"ex": "Exactly one year ago, I arrived in Oakville with one suitcase and very little English.",
+"book": 1,
+"id": "exactly",
+"m": [
+0,
+7
+]
+},
+{
+"w": "suitcase",
+"ipa": "/ˈsutˌkeɪs/",
+"fa": "چمدان",
+"ex": "Exactly one year ago, I arrived in Oakville with one suitcase and very little English.",
+"book": 1,
+"id": "suitcase",
+"m": [
+53,
+61
+]
+},
+{
+"w": "survive",
+"ipa": "/sɚˈvaɪv/",
+"fa": "پشت سر گذاشتن، جان سالم به در بردن",
+"ex": "I have survived my first winter storm and my first trip to the dentist.",
+"book": 1,
+"id": "survive",
+"m": [
+7,
+15
+]
+},
+{
+"w": "afraid",
+"ipa": "/əˈfreɪd/",
+"fa": "ترسیده",
+"ex": "Last June, I was afraid to answer the phone.",
+"book": 1,
+"id": "afraid",
+"m": [
+17,
+23
+]
+},
+{
+"w": "anymore",
+"ipa": "/ˌɛniˈmɔr/",
+"fa": "دیگر (نه دیگر)",
+"ex": "I still make mistakes, but I’m not afraid of them anymore.",
+"book": 1,
+"id": "anymore",
+"m": [
+50,
+57
+]
+},
+{
+"w": "importantly",
+"ipa": "/ɪmˈpɔrtəntli/",
+"fa": "مهم‌تر از همه",
+"ex": "Most importantly, be kind.",
+"book": 1,
+"id": "importantly",
+"m": [
+5,
+16
+]
+},
+{
+"w": "second",
+"ipa": "/ˈsɛkənd/",
+"fa": "دوم",
+"ex": "This is my second visit to Chicago.",
+"book": 1,
+"id": "second",
+"m": [
+11,
+17
+]
+},
+{
+"w": "reach",
+"ipa": "/ritʃ/",
+"fa": "رسیدن به",
+"ex": "I can’t reach the top shelf.",
+"book": 1,
+"id": "reach",
+"m": [
+8,
+13
+]
+},
+{
+"w": "level",
+"ipa": "/ˈlɛvəl/",
+"fa": "سطح",
+"ex": "She speaks English at a high level.",
+"book": 1,
+"id": "level",
+"m": [
+29,
+34
+]
+},
+{
+"w": "anniversary",
+"ipa": "/ˌænəˈvɝsəri/",
+"fa": "سالگرد",
+"ex": "Tonight, we’re going to have a barbecue in Rosa’s backyard to celebrate my anniversary in Oakville.",
+"book": 1,
+"id": "anniversary",
+"m": [
+75,
+86
+]
+},
+{
+"w": "dentist",
+"ipa": "/ˈdɛntəst/",
+"fa": "دندانپزشک",
+"ex": "I have survived my first winter storm and my first trip to the dentist.",
+"id": "dentist",
+"m": [
+63,
+70
+]
+},
+{
+"w": "driving test",
+"ipa": "/ˈdraɪvɪŋ tɛst/",
+"fa": "آزمون رانندگی",
+"ex": "I have passed my driving test and bought a car.",
+"id": "driving-test",
+"m": [
+17,
+29
+]
+},
+{
+"w": "write",
+"ipa": "/raɪt/",
+"fa": "نوشتن",
+"ex": "Today, I’m writing this in English!",
+"id": "write",
+"m": [
+11,
+18
+]
+},
+{
+"w": "much better",
+"ipa": "/mʌtʃ ˈbɛtɚ/",
+"fa": "خیلی بهتر",
+"ex": "My English is much better than it was.",
+"id": "much-better",
+"m": [
+14,
+25
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "So much has changed this year.",
+"fa": "امسال خیلی چیزها تغییر کرده است."
+},
+{
+"id": "s2",
+"en": "I have passed my driving test.",
+"fa": "در آزمون رانندگی قبول شده‌ام."
+},
+{
+"id": "s3",
+"en": "My English is much better than it was.",
+"fa": "انگلیسی‌ام خیلی بهتر از قبل شده."
+},
+{
+"id": "s4",
+"en": "I’m not afraid of them anymore.",
+"fa": "دیگر از آن‌ها نمی‌ترسم."
+},
+{
+"id": "s5",
+"en": "I’m going to keep studying.",
+"fa": "قرار است به درس خواندن ادامه بدهم."
+}
+]
+}

@@ -1,0 +1,380 @@
+{
+"day": 43,
+"level": "A2",
+"title": "The Interview",
+"fa_title": "مصاحبه",
+"audio": "audio/day43.mp3",
+"img": "img/day43.webp",
+"sents": [
+{
+"p": 0,
+"t": "Mr. Lee is opening a second bookstore in Riverside this summer, and he needs an assistant manager for Oakville Books.",
+"s": 1.59
+},
+{
+"p": 0,
+"t": "Emma said, “You should apply, Sam! You’ve worked here for almost nine months.”",
+"s": 10.93
+},
+{
+"p": 1,
+"t": "So I updated my résumé and applied.",
+"s": 16.47
+},
+{
+"p": 1,
+"t": "Mr. Lee knows me well, but he said, “We still have to do a real interview.”",
+"s": 19.49
+},
+{
+"p": 2,
+"t": "On Wednesday, I wore my light blue shirt and sat across from Mr. Lee and his business partner, Ms. Rivera.",
+"s": 24.83
+},
+{
+"p": 3,
+"t": "“Have you ever managed a team?” Ms. Rivera asked.",
+"s": 32.44
+},
+{
+"p": 4,
+"t": "“No, I haven’t, but I have trained two new employees since January, and I’ve organized the children’s story hour every Saturday.”",
+"s": 36.26
+},
+{
+"p": 5,
+"t": "“What is your biggest weakness?”",
+"s": 45.19
+},
+{
+"p": 6,
+"t": "“My English isn’t perfect yet,” I said honestly.",
+"s": 47.53
+},
+{
+"p": 6,
+"t": "“But I’ve improved a lot, and I study every day.”",
+"s": 51.12
+},
+{
+"p": 7,
+"t": "At the end, she asked, “Do you have any questions for us?” I asked about the schedule and the salary.",
+"s": 54.61
+},
+{
+"p": 8,
+"t": "Two days later, Mr. Lee called me.",
+"s": 61.0
+},
+{
+"p": 8,
+"t": "“Sam, you’ve got the job! Congratulations!”",
+"s": 63.21
+}
+],
+"comp": [
+{
+"q": "Why does Mr. Lee need an assistant manager?",
+"o": [
+"He is retiring.",
+"He is opening a second store.",
+"Emma is leaving.",
+"The store is closing."
+],
+"a": 1,
+"fa": "چرا آقای لی به یک معاون مدیر نیاز دارد؟"
+},
+{
+"q": "How long has Sam worked at the bookstore?",
+"o": [
+"almost nine months",
+"two years",
+"three weeks",
+"one year"
+],
+"a": 0,
+"fa": "سام چه مدت در کتاب‌فروشی کار کرده است؟"
+},
+{
+"q": "Who is Ms. Rivera?",
+"o": [
+"a customer",
+"Emma’s mother",
+"Mr. Lee’s business partner",
+"a teacher"
+],
+"a": 2,
+"fa": "خانم ریورا کیست؟"
+},
+{
+"q": "What has Sam done since January?",
+"o": [
+"managed a big team",
+"moved to Riverside",
+"opened a store",
+"trained two new employees"
+],
+"a": 3,
+"fa": "سام از ژانویه تا حالا چه کارهایی کرده است؟"
+},
+{
+"q": "What is Sam’s biggest weakness?",
+"o": [
+"He is often late.",
+"He is shy.",
+"He doesn’t like children.",
+"His English isn’t perfect yet."
+],
+"a": 3,
+"fa": "بزرگ‌ترین ضعف سام چیست؟"
+},
+{
+"q": "What did Sam ask about?",
+"o": [
+"the schedule and the salary",
+"the new store’s address",
+"his vacation",
+"the coffee machine"
+],
+"a": 0,
+"fa": "سام درباره‌ی چه چیزهایی پرسید؟"
+}
+],
+"words": [
+{
+"w": "assistant",
+"ipa": "/əˈsɪstənt/",
+"fa": "دستیار، معاون",
+"ex": "She is the assistant to the manager.",
+"book": 1,
+"id": "assistant",
+"m": [
+11,
+20
+]
+},
+{
+"w": "apply",
+"ipa": "/əˈplaɪ/",
+"fa": "درخواست دادن (برای کار)",
+"ex": "I updated my résumé and applied.",
+"book": 1,
+"id": "apply",
+"m": [
+24,
+31
+]
+},
+{
+"w": "résumé",
+"ipa": "/ˈrɛzəˌmeɪ/",
+"fa": "رزومه",
+"ex": "I updated my résumé and applied.",
+"book": 1,
+"id": "r-sum",
+"m": [
+13,
+19
+]
+},
+{
+"w": "employee",
+"ipa": "/ɛmˈplɔɪi/",
+"fa": "کارمند",
+"ex": "The store has twenty employees.",
+"book": 1,
+"id": "employee",
+"m": [
+21,
+30
+]
+},
+{
+"w": "train",
+"ipa": "/treɪn/",
+"fa": "آموزش دادن",
+"ex": "I train new workers at the café.",
+"book": 1,
+"id": "train",
+"m": [
+2,
+7
+]
+},
+{
+"w": "organize",
+"ipa": "/ˈɔrɡəˌnaɪz/",
+"fa": "سازماندهی کردن، ترتیب دادن",
+"ex": "Can you organize the party?",
+"book": 1,
+"id": "organize",
+"m": [
+8,
+16
+]
+},
+{
+"w": "weakness",
+"ipa": "/ˈwiknəs/",
+"fa": "نقطه‌ضعف",
+"ex": "What is your biggest weakness?",
+"book": 1,
+"id": "weakness",
+"m": [
+21,
+29
+]
+},
+{
+"w": "improve",
+"ipa": "/ɪmˈpruv/",
+"fa": "بهتر کردن، پیشرفت کردن",
+"ex": "I’ve improved a lot, and I study every day.",
+"book": 1,
+"id": "improve",
+"m": [
+5,
+13
+]
+},
+{
+"w": "schedule",
+"ipa": "/ˈskɛdʒul/",
+"fa": "برنامه‌ی زمانی",
+"ex": "I asked about the schedule and the salary.",
+"book": 1,
+"id": "schedule",
+"m": [
+18,
+26
+]
+},
+{
+"w": "salary",
+"ipa": "/ˈsæləri/",
+"fa": "حقوق",
+"ex": "I asked about the schedule and the salary.",
+"book": 1,
+"id": "salary",
+"m": [
+35,
+41
+]
+},
+{
+"w": "second",
+"ipa": "/ˈsɛkənd/",
+"fa": "دوم",
+"ex": "Mr. Lee is opening a second bookstore in Riverside this summer.",
+"id": "second",
+"m": [
+21,
+27
+]
+},
+{
+"w": "update",
+"ipa": "/əpˈdeɪt/",
+"fa": "به‌روز کردن",
+"ex": "I updated my résumé and applied.",
+"id": "update",
+"m": [
+2,
+9
+]
+},
+{
+"w": "business partner",
+"ipa": "/ˈbɪznəs ˈpɑrtnɚ/",
+"fa": "شریک تجاری",
+"ex": "On Wednesday, I wore my light blue shirt and sat across from Mr. Lee and his business partner, Ms. Rivera.",
+"id": "business-partner",
+"m": [
+77,
+93
+]
+},
+{
+"w": "manage",
+"ipa": "/ˈmænədʒ/",
+"fa": "مدیریت کردن",
+"ex": "Have you ever managed a team?",
+"id": "manage",
+"m": [
+14,
+21
+]
+},
+{
+"w": "since",
+"ipa": "/sɪns/",
+"fa": "از (زمانی)، از وقتی که",
+"ex": "I have trained two new employees since January.",
+"id": "since",
+"m": [
+33,
+38
+]
+},
+{
+"w": "story hour",
+"ipa": "/ˈstɔri ˈaʊɚ/",
+"fa": "ساعت قصه‌گویی",
+"ex": "I’ve organized the children’s story hour every Saturday.",
+"id": "story-hour",
+"m": [
+30,
+40
+]
+},
+{
+"w": "well",
+"ipa": "/wɛl/",
+"fa": "به‌خوبی",
+"ex": "Mr. Lee knows me well, but he said, “We still have to do a real interview.”",
+"id": "well",
+"m": [
+17,
+21
+]
+},
+{
+"w": "end",
+"ipa": "/ɛnd/",
+"fa": "پایان، آخر",
+"ex": "At the end, she asked, “Do you have any questions for us?”",
+"id": "end",
+"m": [
+7,
+10
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "You should apply, Sam!",
+"fa": "باید درخواست بدهی، سام!"
+},
+{
+"id": "s2",
+"en": "Have you ever managed a team?",
+"fa": "تا حالا تیمی را مدیریت کرده‌اید؟"
+},
+{
+"id": "s3",
+"en": "My English isn’t perfect yet.",
+"fa": "انگلیسی‌ام هنوز کامل نیست."
+},
+{
+"id": "s4",
+"en": "Do you have any questions for us?",
+"fa": "سؤالی از ما دارید؟"
+},
+{
+"id": "s5",
+"en": "You’ve got the job!",
+"fa": "استخدام شدی!"
+}
+]
+}

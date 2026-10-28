@@ -1,0 +1,357 @@
+{
+"day": 59,
+"level": "A2",
+"title": "Memorial Day",
+"fa_title": "روز یادبود",
+"audio": "audio/day59.mp3",
+"img": "img/day59.webp",
+"sents": [
+{
+"p": 0,
+"t": "The last Monday in May is Memorial Day.",
+"s": 3.52
+},
+{
+"p": 0,
+"t": "On this day, Americans remember the soldiers who died for their country.",
+"s": 6.92
+},
+{
+"p": 0,
+"t": "It’s also the unofficial start of summer.",
+"s": 11.8
+},
+{
+"p": 1,
+"t": "In the morning, Rosa, Lily, and I went to the Memorial Day parade on Main Street.",
+"s": 14.82
+},
+{
+"p": 1,
+"t": "Old veterans were marching in their uniforms, and the high school band was playing.",
+"s": 20.71
+},
+{
+"p": 1,
+"t": "People were holding small flags and clapping.",
+"s": 25.98
+},
+{
+"p": 2,
+"t": "“My father was a soldier,” Rosa told me.",
+"s": 29.29
+},
+{
+"p": 2,
+"t": "“He served in Vietnam. Every year, I put flowers at the memorial in the park for them.”",
+"s": 32.43
+},
+{
+"p": 3,
+"t": "At eleven o’clock, everyone stood in silence for one minute.",
+"s": 38.27
+},
+{
+"p": 4,
+"t": "In the afternoon, the mood changed.",
+"s": 42.5
+},
+{
+"p": 4,
+"t": "The town pool opened for the summer, and families had picnics in the park.",
+"s": 45.42
+},
+{
+"p": 4,
+"t": "Danny grilled burgers in Rosa’s backyard, and Carlos and Ana came back from their honeymoon in Mexico with sunburns.",
+"s": 50.38
+},
+{
+"p": 5,
+"t": "“It’s almost one year since you came to Oakville,” Rosa said.",
+"s": 58.6
+},
+{
+"p": 5,
+"t": "“What are you going to do this summer?”",
+"s": 62.45
+},
+{
+"p": 6,
+"t": "“I’m going to start my new job as assistant manager, visit Emma in Chicago, and keep studying English!”",
+"s": 64.68
+}
+],
+"comp": [
+{
+"q": "When is Memorial Day?",
+"o": [
+"the first Monday in June",
+"the last Monday in May",
+"May 1st",
+"July 4th"
+],
+"a": 1,
+"fa": "روز یادبود کی است؟"
+},
+{
+"q": "Who do Americans remember on Memorial Day?",
+"o": [
+"presidents",
+"teachers",
+"soldiers who died for their country",
+"doctors"
+],
+"a": 2,
+"fa": "آمریکایی‌ها در روز یادبود چه کسانی را به یاد می‌آورند؟"
+},
+{
+"q": "What did Rosa’s father do?",
+"o": [
+"He was a soldier.",
+"He was a teacher.",
+"He played the trumpet.",
+"He owned a bakery."
+],
+"a": 0,
+"fa": "پدر رزا چه کاره بود؟"
+},
+{
+"q": "What happened at eleven o’clock?",
+"o": [
+"The pool opened.",
+"Fireworks started.",
+"The parade ended.",
+"Everyone stood in silence for one minute."
+],
+"a": 3,
+"fa": "ساعت یازده چه اتفاقی افتاد؟"
+},
+{
+"q": "Where did Carlos and Ana go for their honeymoon?",
+"o": [
+"Chicago",
+"Mexico",
+"Italy",
+"Colorado"
+],
+"a": 1,
+"fa": "کارلوس و آنا برای ماه عسل کجا رفتند؟"
+},
+{
+"q": "What is Sam going to do this summer?",
+"o": [
+"move to Chicago",
+"go back to his country",
+"start his new job",
+"buy a house"
+],
+"a": 2,
+"fa": "سام این تابستان قرار است چه کار کند؟"
+}
+],
+"words": [
+{
+"w": "soldier",
+"ipa": "/ˈsoʊldʒɚ/",
+"fa": "سرباز",
+"ex": "My father was a soldier.",
+"book": 1,
+"id": "soldier",
+"m": [
+16,
+23
+]
+},
+{
+"w": "remember",
+"ipa": "/rɪˈmɛmbɚ/",
+"fa": "به یاد آوردن، یاد کردن",
+"ex": "On this day, Americans remember the soldiers who died for their country.",
+"book": 1,
+"id": "remember",
+"m": [
+23,
+31
+]
+},
+{
+"w": "unofficial",
+"ipa": "/ˌʌnəˈfɪʃəl/",
+"fa": "غیررسمی",
+"ex": "It’s also the unofficial start of summer.",
+"book": 1,
+"id": "unofficial",
+"m": [
+14,
+24
+]
+},
+{
+"w": "veteran",
+"ipa": "/ˈvɛtərən/",
+"fa": "کهنه‌سرباز",
+"ex": "Old veterans were marching in their uniforms, and the high school band was playing.",
+"book": 1,
+"id": "veteran",
+"m": [
+4,
+12
+]
+},
+{
+"w": "march",
+"ipa": "/mɑrtʃ/",
+"fa": "رژه رفتن",
+"ex": "Old veterans were marching in their uniforms, and the high school band was playing.",
+"book": 1,
+"id": "march",
+"m": [
+18,
+26
+]
+},
+{
+"w": "uniform",
+"ipa": "/ˈjunəˌfɔrm/",
+"fa": "لباس فرم، یونیفرم",
+"ex": "Old veterans were marching in their uniforms, and the high school band was playing.",
+"book": 1,
+"id": "uniform",
+"m": [
+36,
+44
+]
+},
+{
+"w": "serve",
+"ipa": "/sɝv/",
+"fa": "خدمت کردن",
+"ex": "He served in Vietnam.",
+"book": 1,
+"id": "serve",
+"m": [
+3,
+9
+]
+},
+{
+"w": "silence",
+"ipa": "/ˈsaɪləns/",
+"fa": "سکوت",
+"ex": "At eleven o’clock, everyone stood in silence for one minute.",
+"book": 1,
+"id": "silence",
+"m": [
+37,
+44
+]
+},
+{
+"w": "mood",
+"ipa": "/mud/",
+"fa": "حال‌وهوا، روحیه",
+"ex": "In the afternoon, the mood changed.",
+"book": 1,
+"id": "mood",
+"m": [
+22,
+26
+]
+},
+{
+"w": "honeymoon",
+"ipa": "/ˈhʌniˌmun/",
+"fa": "ماه عسل",
+"ex": "They went to Hawaii for their honeymoon.",
+"book": 1,
+"id": "honeymoon",
+"m": [
+30,
+39
+]
+},
+{
+"w": "die",
+"ipa": "/daɪ/",
+"fa": "مردن، جان دادن",
+"ex": "On this day, Americans remember the soldiers who died for their country.",
+"id": "die",
+"m": [
+49,
+53
+]
+},
+{
+"w": "memorial",
+"ipa": "/məˈmɔriəl/",
+"fa": "بنای یادبود",
+"ex": "The last Monday in May is Memorial Day.",
+"id": "memorial",
+"m": [
+26,
+34
+]
+},
+{
+"w": "stand",
+"ipa": "/stænd/",
+"fa": "ایستادن",
+"ex": "At eleven o’clock, everyone stood in silence for one minute.",
+"id": "stand",
+"m": [
+28,
+33
+]
+},
+{
+"w": "pool",
+"ipa": "/pul/",
+"fa": "استخر",
+"ex": "The town pool opened for the summer, and families had picnics in the park.",
+"id": "pool",
+"m": [
+9,
+13
+]
+},
+{
+"w": "sunburn",
+"ipa": "/ˈsʌnˌbɝn/",
+"fa": "آفتاب‌سوختگی",
+"ex": "Carlos and Ana came back from their honeymoon in Mexico with sunburns.",
+"id": "sunburn",
+"m": [
+61,
+69
+]
+}
+],
+"build": [
+{
+"id": "s1",
+"en": "My father was a soldier.",
+"fa": "پدرم سرباز بود."
+},
+{
+"id": "s2",
+"en": "He served in Vietnam.",
+"fa": "او در ویتنام خدمت کرد."
+},
+{
+"id": "s3",
+"en": "Everyone stood in silence for one minute.",
+"fa": "همه یک دقیقه در سکوت ایستادند."
+},
+{
+"id": "s4",
+"en": "The town pool opened for the summer.",
+"fa": "استخر شهر برای تابستان باز شد."
+},
+{
+"id": "s5",
+"en": "What are you going to do this summer?",
+"fa": "این تابستان قرار است چه کار کنی؟"
+}
+]
+}
