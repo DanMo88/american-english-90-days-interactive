@@ -94,7 +94,7 @@ function home() {
   screen(`
     <div class="home-head"><div class="logo">انگلیسی آمریکایی در ۹۰ روز<small>دوره‌ی تعاملی · نسخه‌ی نمونه</small></div>
       <button class="inst" data-install>📲 نصب اپ</button></div>
-    <div class="hero"><div class="num">${FA(done)}</div><div><b>روز از ${FA(90)} روز کامل شده</b><span>داستان · درک مطلب · لغات · جمله‌سازی · تصحیح</span></div></div>
+    <div class="hero"><div class="num">🎯</div><div><b>${FA(done)} از ${FA(90)} روز کامل شده</b><span>داستان · درک مطلب · لغات · جمله‌سازی · تصحیح</span></div></div>
     <div class="days" id="days">${list}</div>`);
   document.getElementById('d1').onclick = () => {
     if (!inRun) S.run = newRun('full');
